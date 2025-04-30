@@ -1,0 +1,68 @@
+
+fastfetch -h
+hx .zshrc
+fastfetch
+lsd -h
+lsd --help
+lsd --total-size
+cd dotfiles
+lsd -l --total-size
+ls
+lsd -la --total-size
+touch dotfiles/.config/zsh/zsh-syntax-highlighting.zsh
+git clone https://github.com/Aloxaf/fzf-tab ~/.config/zsh/fzf-tab
+eza
+eza -la
+eza --long --tree
+eza --long --grid
+lsd
+lsd -la
+zoxide
+nix-shell default.nix
+hx .config/starship.toml
+kitten theme
+yazi
+cd onedrive
+cd onedrive master
+cd onedrive/master
+cd onedrive/master/m41_dms
+ll
+cd
+cd /usr/share/foot
+reboot
+hxfzf
+xit
+nixconfig
+nixrebuild
+zshconfig
+tmux
+exit
+: 1746045886:0;yazi
+: 1746046464:0;cd .dotfiles
+: 1746046490:0;cd
+: 1746046601:0;mv .dotfiles dotfiles
+: 1746046603:0;ll
+: 1746046608:0;cd dotfiles
+: 1746046610:0;ll
+: 1746046614:0;yazi
+: 1746046635:0;ll
+: 1746046637:0;stow .
+: 1746046640:0;cd
+: 1746046704:0;sudo ln -s dotfiles/.config/nix/configuration.nix /etc/nixos/configuration.nix
+: 1746046709:0;yazi
+: 1746046752:0;cd /etc/nixos
+: 1746046754:0;ll
+: 1746046763:0;cd
+: 1746046771:0;cd dotfiles .config nixos
+: 1746046775:0;cd dotfiles .config nix
+: 1746046778:0;cd dotfiles .config
+: 1746046787:0;cd dotfiles/.config
+: 1746046793:0;cd ..
+: 1746046794:0;ll
+: 1746046798:0;git status
+: 1746046922:0;git add --all
+: 1746046948:0;hxfzf
+: 1746047016:0;git status
+: 1746047032:0;git add --all
+: 1746047036:0;git status
+: 1746047099:0;git add -A

@@ -1,0 +1,1 @@
+2025-04-30 15:00:48.045 [warning] Shell integration cannot be enabled for executable "/nix/store/hk393gqm9az2fhscki3y8cjkkfyn27h2-R-4.4.2/bin/R" and args ["--no-save","--no-restore"]

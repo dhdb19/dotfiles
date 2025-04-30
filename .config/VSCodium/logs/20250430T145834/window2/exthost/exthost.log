@@ -1,0 +1,31 @@
+2025-04-30 14:59:26.698 [info] Extension host with pid 32166 started
+2025-04-30 14:59:26.698 [info] Skipping acquiring lock for /home/jordi/.config/VSCodium/User/workspaceStorage/e723760bd62d6c90507ab1e039c5355f.
+2025-04-30 14:59:26.779 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*'
+2025-04-30 14:59:26.789 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-04-30 14:59:26.812 [info] Eager extensions activated
+2025-04-30 14:59:26.831 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-04-30 14:59:26.833 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-04-30 14:59:30.388 [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: 'api', root cause: vscode.github
+2025-04-30 14:59:30.500 [info] ExtensionService#_doActivateExtension REditorSupport.r, startup: false, activationEvent: 'workspaceContains:**/*.{rproj,Rproj,r,R,rd,Rd,rmd,Rmd}'
+2025-04-30 14:59:31.787 [error] Error: Client is not running and can't be stopped. It's current state is: starting
+	at v.shutdown (/home/jordi/.vscode-oss/extensions/reditorsupport.r-2.8.5-universal/dist/extension.js:2:538273)
+	at v.stop (/home/jordi/.vscode-oss/extensions/reditorsupport.r-2.8.5-universal/dist/extension.js:2:537854)
+	at v.stop (/home/jordi/.vscode-oss/extensions/reditorsupport.r-2.8.5-universal/dist/extension.js:2:704241)
+	at ChildProcess.<anonymous> (/home/jordi/.vscode-oss/extensions/reditorsupport.r-2.8.5-universal/dist/extension.js:2:345288)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-04-30 14:59:34.226 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onTerminalQuickFixRequest:ms-vscode.npm-command'
+2025-04-30 15:00:03.426 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-04-30 15:01:40.857 [info] Extension host terminating: renderer closed the MessagePort
+2025-04-30 15:01:40.862 [error] Canceled: Canceled
+	at Hl (file:///nix/store/cgwbx8sh5zcry6pbj52y7y09f28wb0yd-vscodium-1.97.2.25045/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:7:1368)
+	at file:///nix/store/cgwbx8sh5zcry6pbj52y7y09f28wb0yd-vscodium-1.97.2.25045/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:119927
+	at Array.forEach (<anonymous>)
+	at $y.dispose (file:///nix/store/cgwbx8sh5zcry6pbj52y7y09f28wb0yd-vscodium-1.97.2.25045/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:119833)
+	at Iz.terminate (file:///nix/store/cgwbx8sh5zcry6pbj52y7y09f28wb0yd-vscodium-1.97.2.25045/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:116:12331)
+	at _7.terminate (file:///nix/store/cgwbx8sh5zcry6pbj52y7y09f28wb0yd-vscodium-1.97.2.25045/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:117:1602)
+	at rs (file:///nix/store/cgwbx8sh5zcry6pbj52y7y09f28wb0yd-vscodium-1.97.2.25045/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:190:16313)
+	at MessagePortMain.<anonymous> (file:///nix/store/cgwbx8sh5zcry6pbj52y7y09f28wb0yd-vscodium-1.97.2.25045/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:190:12769)
+	at MessagePortMain.emit (node:events:518:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2949) setContext undefined
+2025-04-30 15:01:40.862 [info] Extension host with pid 32166 exiting with code 0

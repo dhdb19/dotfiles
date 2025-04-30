@@ -1,0 +1,9 @@
+[manager]
+show_hidden = true
+show_symlink = false
+sort_dir_first = true
+
+[opener]
+edit = [
+  { run = '${EDITOR:-hx} "$@"', desc = "$EDITOR", block = true }
+] 

@@ -1,0 +1,6 @@
+[user]
+	email = jordi.pagr@gmailcom
+	name = dhdb19
+[credential]
+	helper = store
+	credentialStore = gpg

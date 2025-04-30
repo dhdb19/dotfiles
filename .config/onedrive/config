@@ -1,0 +1,5 @@
+# Mount point
+sync_dir = "~/onedrive"
+
+# Skip files tha matcht his pattern
+skip_file = "~*|.~*|.tmp"

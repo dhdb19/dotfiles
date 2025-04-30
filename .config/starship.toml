@@ -1,0 +1,27 @@
+"$schema" = 'https://starship.rs/config-shema.json'
+
+command_timeout = 10000
+
+add_newline = true
+
+format = """
+[░▒▓](#55ff22)\
+[ ❆ ](bg:#55ff22 fg:#000000)\
+$directory\
+$git_status\
+$fill\
+$rlang\
+$typst\
+$python
+$nix_shell
+$character"""
+
+[character]
+success_symbol = '[→](bold green)'
+error_symbol = '[→](bold red)'
+
+[directory]
+style = "fg:#000000 bg:#97ff78"
+format = "[ $path ]($style)"
+truncation_length = 4
+truncation_symbol = ".../"

@@ -1,0 +1,10 @@
+2025-04-30 14:59:26.060 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-vscode.vscode-selfhost-test-provider' wants API proposal 'attributableCoverage' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-04-30 14:59:26.060 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.python' wants API proposal 'contribIssueReporter' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-04-30 14:59:26.060 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.debugpy' wants API proposal 'contribIssueReporter' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-04-30 14:59:26.061 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'redhat.java' wants API proposal 'documentPaste' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-04-30 14:59:26.263 [info] Started local extension host with pid 32166.
+2025-04-30 14:59:28.891 [info] [perf] Render performance baseline is 19ms
+2025-04-30 14:59:31.787 [error] An unknown error occurred. Please consult the log for more details.
+2025-04-30 15:01:40.811 [warning] [backup tracker] suspended, ignoring content change event untitled:Untitled-1 
+2025-04-30 15:01:40.811 [warning] [backup tracker] suspended, ignoring dirty change event untitled:Untitled-1 
+2025-04-30 15:01:40.821 [warning] [backup tracker] suspended, ignoring unregister event untitled:Untitled-1 

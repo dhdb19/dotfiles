@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xbel version="1.0"
+      xmlns:bookmark="http://www.freedesktop.org/standards/desktop-bookmarks"
+      xmlns:mime="http://www.freedesktop.org/standards/shared-mime-info"
+>
+  <bookmark href="file:///home/jordi/downloads" added="2025-04-24T13:48:38.044641Z" modified="2025-04-24T13:48:38.044644Z" visited="2025-04-24T13:48:38.044642Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2025-04-24T13:48:38.044642Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/jordi/downloads/apple1.svg" added="2025-04-25T12:15:36.598748Z" modified="2025-04-25T12:15:36.598753Z" visited="2025-04-25T12:15:36.598749Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/svg+xml"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2025-04-25T12:15:36.598750Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/jordi/downloads/OSX10Icons.zip" added="2025-04-25T15:29:03.597581Z" modified="2025-04-25T15:29:03.597583Z" visited="2025-04-25T15:29:03.597581Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/zip"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2025-04-25T15:29:03.597582Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/jordi/downloads/MacCheetahX.zip" added="2025-04-25T15:32:22.689209Z" modified="2025-04-25T15:32:22.689212Z" visited="2025-04-25T15:32:22.689210Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/zip"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2025-04-25T15:32:22.689210Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/jordi/downloads/0xProto.zip" added="2025-04-28T00:23:22.610748Z" modified="2025-04-28T00:23:22.610752Z" visited="2025-04-28T00:23:22.610749Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/zip"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2025-04-28T00:23:22.610750Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/jordi/downloads/3270.zip" added="2025-04-28T00:24:26.486963Z" modified="2025-04-28T00:24:26.486966Z" visited="2025-04-28T00:24:26.486963Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/zip"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2025-04-28T00:24:26.486964Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+</xbel>
