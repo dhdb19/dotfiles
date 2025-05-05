@@ -5,7 +5,6 @@ fastfetch
 lsd -h
 lsd --help
 lsd --total-size
-cd dotfiles
 lsd -l --total-size
 ls
 lsd -la --total-size
@@ -21,48 +20,107 @@ zoxide
 nix-shell default.nix
 hx .config/starship.toml
 kitten theme
-yazi
 cd onedrive
 cd onedrive master
 cd onedrive/master
 cd onedrive/master/m41_dms
-ll
-cd
 cd /usr/share/foot
-reboot
-hxfzf
+cd .dotfiles
+mv .dotfiles dotfiles
+stow .
+sudo ln -s dotfiles/.config/nix/configuration.nix /etc/nixos/configuration.nix
+cd /etc/nixos
+cd dotfiles .config nixos
+cd dotfiles .config nix
+cd dotfiles .config
+cd dotfiles/.config
+cd ..
+git add --all
+git commit -m "First commit of all config giles"
+git remote add origin https://github.com/dhdb19/dotfiles.git
+git add -A
+git status
+git brnach -M main
+git branch -M main
+pass find github
+pass show -c github
+git push -u origin main
+ln -h
+ln --help
+sudo rm /etc/nixos/configuration.nix
+hx .config/nix/configuration.nix
+sudo ln .config/nix/configuration.nix /etc/nixos/configuration.nix
+nixconf
 xit
+sudo chmod u+w ~/.config/nix
+cd nix
+setxkbmap -print > layout.xkb
+sudo setxkbmap -print > layout.xkb
+xkbcomp $DISPLAY output.xkb
+mkdir dotfiles/.config/symbols
+touch dotfiles/.config/symbols/de-fkeys
+hx dotfiles/.config/symbols/de-fkeys
+hx output.xkb
+nano output.xkb
+xev
+man -P bat xkeybaord-config
+man -P bat xkeyboard-config
+localectl status
+cd dotfiles
+cd .config
+mv --help
+mkdir xkb/symbols
+mkdir xkb
+cd xkb
+mkdir symbols
+mv dotfiles/.config/symbols/* dotfiles/.config/xkb/symbols
+hx .config/xkb/symbols/de-fkeys
+hx  /home/jordi/.config/xkb/symbols/de-fkeys
+sudo nixos-rebuild switch --show-trace
+nix-shell -p xorg.xkbcomp
+xenv
+wenv
+wev
+labenv
+bat layout.xkb
+hx layout.xkb
+tmux -h
+tmux --help
+tmux -t attach test
+tmux attach test
+tmux attach
+tmux
+tmux ls
+zshconfig
+nixupdate
+cd dotfiles/.config/xkb/symbols
+ll
+bat de-fkeys
+cd /usr/include
+yazi
+cd
+rebooz
+cd /
+fzf
+which keyd
+keyd
+sudo keyd reaload
+reboot
+keyd monitor
+sudo keyd monitor
 nixconfig
 nixrebuild
-zshconfig
-tmux
+sudo keyd reload
+poweroff
+fastfetch --list-logos
+fastfetch --print-logos
+hxfzf
 exit
-: 1746045886:0;yazi
-: 1746046464:0;cd .dotfiles
-: 1746046490:0;cd
-: 1746046601:0;mv .dotfiles dotfiles
-: 1746046603:0;ll
-: 1746046608:0;cd dotfiles
-: 1746046610:0;ll
-: 1746046614:0;yazi
-: 1746046635:0;ll
-: 1746046637:0;stow .
-: 1746046640:0;cd
-: 1746046704:0;sudo ln -s dotfiles/.config/nix/configuration.nix /etc/nixos/configuration.nix
-: 1746046709:0;yazi
-: 1746046752:0;cd /etc/nixos
-: 1746046754:0;ll
-: 1746046763:0;cd
-: 1746046771:0;cd dotfiles .config nixos
-: 1746046775:0;cd dotfiles .config nix
-: 1746046778:0;cd dotfiles .config
-: 1746046787:0;cd dotfiles/.config
-: 1746046793:0;cd ..
-: 1746046794:0;ll
-: 1746046798:0;git status
-: 1746046922:0;git add --all
-: 1746046948:0;hxfzf
-: 1746047016:0;git status
-: 1746047032:0;git add --all
-: 1746047036:0;git status
-: 1746047099:0;git add -A
+: 1746442840:0;fastfetch --print-logos
+: 1746443001:0;clear
+: 1746443003:0;fastfetch --print-logos
+: 1746443286:0;dotfiles
+: 1746443289:0;cd dotfiles
+: 1746443296:0;git status
+: 1746443311:0;git add
+: 1746443316:0;git add -A

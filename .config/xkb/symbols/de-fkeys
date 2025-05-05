@@ -1,0 +1,7 @@
+xkb_symbols "de-fkeys"
+{
+	include "de"
+	include "level3(ralt_switch)"
+
+	key <AE03> { [ 3, §, XK_F3] };
+};

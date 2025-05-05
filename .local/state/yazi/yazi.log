@@ -1500,3 +1500,695 @@
 /etc/sudoers
     at yazi-scheduler/src/prework/prework.rs:49
 
+  2025-04-30T23:25:26.076979Z  WARN yazi_adapter::emulator: [Adapter] No special environment variables detected
+    at yazi-adapter/src/emulator.rs:73
+
+  2025-04-30T23:25:26.077346Z  WARN yazi_adapter::emulator: [Adapter] Unknown TERM_PROGRAM: 
+    at yazi-adapter/src/emulator.rs:87
+
+  2025-04-30T23:25:26.077350Z  WARN yazi_adapter::emulator: [Adapter] Unknown TERM: xterm-256color
+    at yazi-adapter/src/emulator.rs:95
+
+  2025-04-30T23:25:26.129338Z ERROR yazi_scheduler::prework::prework: Returned 2 when running fetcher `mime` with:
+/home/jordi/.bash_history
+/home/jordi/.git-credentials
+/home/jordi/.gitconfig
+/home/jordi/.histfile
+/home/jordi/.lesshst
+/home/jordi/.nix-profile
+/home/jordi/.p10k.zsh
+/home/jordi/.viminfo
+/home/jordi/.wget-hsts
+/home/jordi/.zcompdump
+/home/jordi/.zshhist
+/home/jordi/.zshrc
+/home/jordi/.zsh_history
+    at yazi-scheduler/src/prework/prework.rs:49
+
+  2025-04-30T23:25:28.622881Z ERROR yazi_scheduler::prework::prework: Returned 2 when running fetcher `mime` with:
+/home/jordi/.nix-profile
+    at yazi-scheduler/src/prework/prework.rs:49
+
+  2025-04-30T23:25:28.641063Z ERROR yazi_scheduler::prework::prework: Returned 2 when running fetcher `mime` with:
+/home/jordi/.nix-profile
+    at yazi-scheduler/src/prework/prework.rs:49
+
+  2025-04-30T23:25:28.656578Z ERROR yazi_scheduler::prework::prework: Returned 2 when running fetcher `mime` with:
+/home/jordi/.nix-profile
+    at yazi-scheduler/src/prework/prework.rs:49
+
+  2025-04-30T23:25:28.670150Z ERROR yazi_scheduler::prework::prework: Returned 2 when running fetcher `mime` with:
+/home/jordi/.nix-profile
+    at yazi-scheduler/src/prework/prework.rs:49
+
+  2025-04-30T23:25:28.687070Z ERROR yazi_scheduler::prework::prework: Returned 2 when running fetcher `mime` with:
+/home/jordi/.nix-profile
+    at yazi-scheduler/src/prework/prework.rs:49
+
+  2025-04-30T23:25:28.702371Z ERROR yazi_scheduler::prework::prework: Returned 2 when running fetcher `mime` with:
+/home/jordi/.nix-profile
+    at yazi-scheduler/src/prework/prework.rs:49
+
+  2025-04-30T23:25:28.718392Z ERROR yazi_scheduler::prework::prework: Returned 2 when running fetcher `mime` with:
+/home/jordi/.nix-profile
+    at yazi-scheduler/src/prework/prework.rs:49
+
+  2025-04-30T23:25:28.734313Z ERROR yazi_scheduler::prework::prework: Returned 2 when running fetcher `mime` with:
+/home/jordi/.nix-profile
+    at yazi-scheduler/src/prework/prework.rs:49
+
+  2025-04-30T23:25:28.750297Z ERROR yazi_scheduler::prework::prework: Returned 2 when running fetcher `mime` with:
+/home/jordi/.nix-profile
+    at yazi-scheduler/src/prework/prework.rs:49
+
+  2025-04-30T23:25:28.766691Z ERROR yazi_scheduler::prework::prework: Returned 2 when running fetcher `mime` with:
+/home/jordi/.nix-profile
+    at yazi-scheduler/src/prework/prework.rs:49
+
+  2025-04-30T23:25:28.782224Z ERROR yazi_scheduler::prework::prework: Returned 2 when running fetcher `mime` with:
+/home/jordi/.nix-profile
+    at yazi-scheduler/src/prework/prework.rs:49
+
+  2025-04-30T23:25:28.798346Z ERROR yazi_scheduler::prework::prework: Returned 2 when running fetcher `mime` with:
+/home/jordi/.nix-profile
+    at yazi-scheduler/src/prework/prework.rs:49
+
+  2025-04-30T23:25:28.814665Z ERROR yazi_scheduler::prework::prework: Returned 2 when running fetcher `mime` with:
+/home/jordi/.nix-profile
+    at yazi-scheduler/src/prework/prework.rs:49
+
+  2025-04-30T23:25:28.830301Z ERROR yazi_scheduler::prework::prework: Returned 2 when running fetcher `mime` with:
+/home/jordi/.nix-profile
+    at yazi-scheduler/src/prework/prework.rs:49
+
+  2025-04-30T23:25:28.846764Z ERROR yazi_scheduler::prework::prework: Returned 2 when running fetcher `mime` with:
+/home/jordi/.nix-profile
+    at yazi-scheduler/src/prework/prework.rs:49
+
+  2025-04-30T23:25:28.862881Z ERROR yazi_scheduler::prework::prework: Returned 2 when running fetcher `mime` with:
+/home/jordi/.nix-profile
+    at yazi-scheduler/src/prework/prework.rs:49
+
+  2025-04-30T23:25:28.878157Z ERROR yazi_scheduler::prework::prework: Returned 2 when running fetcher `mime` with:
+/home/jordi/.nix-profile
+    at yazi-scheduler/src/prework/prework.rs:49
+
+  2025-04-30T23:25:28.894928Z ERROR yazi_scheduler::prework::prework: Returned 2 when running fetcher `mime` with:
+/home/jordi/.nix-profile
+    at yazi-scheduler/src/prework/prework.rs:49
+
+  2025-04-30T23:25:28.911167Z ERROR yazi_scheduler::prework::prework: Returned 2 when running fetcher `mime` with:
+/home/jordi/.nix-profile
+    at yazi-scheduler/src/prework/prework.rs:49
+
+  2025-04-30T23:25:28.928714Z ERROR yazi_scheduler::prework::prework: Returned 2 when running fetcher `mime` with:
+/home/jordi/.nix-profile
+    at yazi-scheduler/src/prework/prework.rs:49
+
+  2025-04-30T23:25:28.944317Z ERROR yazi_scheduler::prework::prework: Returned 2 when running fetcher `mime` with:
+/home/jordi/.nix-profile
+    at yazi-scheduler/src/prework/prework.rs:49
+
+  2025-04-30T23:25:28.979532Z ERROR yazi_scheduler::prework::prework: Returned 2 when running fetcher `mime` with:
+/home/jordi/.nix-profile
+    at yazi-scheduler/src/prework/prework.rs:49
+
+  2025-04-30T23:25:29.013274Z ERROR yazi_scheduler::prework::prework: Returned 2 when running fetcher `mime` with:
+/home/jordi/.nix-profile
+    at yazi-scheduler/src/prework/prework.rs:49
+
+  2025-04-30T23:25:29.044567Z ERROR yazi_scheduler::prework::prework: Returned 2 when running fetcher `mime` with:
+/home/jordi/.nix-profile
+    at yazi-scheduler/src/prework/prework.rs:49
+
+  2025-04-30T23:25:29.076570Z ERROR yazi_scheduler::prework::prework: Returned 2 when running fetcher `mime` with:
+/home/jordi/.nix-profile
+    at yazi-scheduler/src/prework/prework.rs:49
+
+  2025-04-30T23:25:29.148860Z ERROR yazi_scheduler::prework::prework: Returned 2 when running fetcher `mime` with:
+/home/jordi/.nix-profile
+    at yazi-scheduler/src/prework/prework.rs:49
+
+  2025-04-30T23:25:29.183543Z ERROR yazi_scheduler::prework::prework: Returned 2 when running fetcher `mime` with:
+/home/jordi/.nix-profile
+    at yazi-scheduler/src/prework/prework.rs:49
+
+  2025-04-30T23:25:29.215717Z ERROR yazi_scheduler::prework::prework: Returned 2 when running fetcher `mime` with:
+/home/jordi/.nix-profile
+    at yazi-scheduler/src/prework/prework.rs:49
+
+  2025-04-30T23:25:29.248859Z ERROR yazi_scheduler::prework::prework: Returned 2 when running fetcher `mime` with:
+/home/jordi/.nix-profile
+    at yazi-scheduler/src/prework/prework.rs:49
+
+  2025-04-30T23:25:29.283815Z ERROR yazi_scheduler::prework::prework: Returned 2 when running fetcher `mime` with:
+/home/jordi/.nix-profile
+    at yazi-scheduler/src/prework/prework.rs:49
+
+  2025-04-30T23:25:42.456624Z ERROR yazi_scheduler::prework::prework: Returned 2 when running fetcher `mime` with:
+/home/jordi/.nix-profile
+    at yazi-scheduler/src/prework/prework.rs:49
+
+  2025-04-30T23:26:03.628765Z ERROR yazi_scheduler::prework::prework: Returned 2 when running fetcher `mime` with:
+/home/jordi/.nix-profile
+    at yazi-scheduler/src/prework/prework.rs:49
+
+  2025-04-30T23:26:58.572446Z  WARN yazi_adapter::emulator: [Adapter] No special environment variables detected
+    at yazi-adapter/src/emulator.rs:73
+
+  2025-04-30T23:26:58.572460Z  WARN yazi_adapter::emulator: [Adapter] Unknown TERM_PROGRAM: 
+    at yazi-adapter/src/emulator.rs:87
+
+  2025-04-30T23:26:58.572464Z  WARN yazi_adapter::emulator: [Adapter] Unknown TERM: xterm-256color
+    at yazi-adapter/src/emulator.rs:95
+
+  2025-04-30T23:26:58.599941Z ERROR yazi_scheduler::prework::prework: Returned 2 when running fetcher `mime` with:
+/home/jordi/.bash_history
+/home/jordi/.git-credentials
+/home/jordi/.gitconfig
+/home/jordi/.histfile
+/home/jordi/.lesshst
+/home/jordi/.nix-profile
+/home/jordi/.p10k.zsh
+/home/jordi/.viminfo
+/home/jordi/.wget-hsts
+/home/jordi/.zcompdump
+/home/jordi/.zshhist
+/home/jordi/.zshrc
+/home/jordi/.zsh_history
+    at yazi-scheduler/src/prework/prework.rs:49
+
+  2025-04-30T23:27:04.467401Z ERROR yazi_scheduler::prework::prework: Returned 2 when running fetcher `mime` with:
+/etc/nixos/cachix.nix
+/etc/nixos/configuration.nix
+/etc/nixos/configuration.nix.bak
+/etc/nixos/hardware-configuration.nix
+    at yazi-scheduler/src/prework/prework.rs:49
+
+  2025-04-30T23:29:33.461883Z ERROR yazi_scheduler::prework::prework: Returned 2 when running fetcher `mime` with:
+/etc/nixos/configuration.nix
+    at yazi-scheduler/src/prework/prework.rs:49
+
+  2025-04-30T23:29:38.842509Z ERROR yazi_scheduler::prework::prework: Returned 2 when running fetcher `mime` with:
+/etc/rpc
+/etc/services
+/etc/set-environment
+/etc/shadow
+/etc/shells
+/etc/subgid
+/etc/subuid
+/etc/sudoers
+/etc/tmux.conf
+/etc/vconsole.conf
+/etc/zinputrc
+/etc/zprofile
+/etc/zshenv
+/etc/zshrc
+    at yazi-scheduler/src/prework/prework.rs:49
+
+  2025-04-30T23:29:43.982274Z ERROR yazi_scheduler::prework::prework: Returned 2 when running fetcher `mime` with:
+/etc/shadow
+/etc/sudoers
+    at yazi-scheduler/src/prework/prework.rs:49
+
+  2025-04-30T23:29:47.865077Z ERROR yazi_scheduler::prework::prework: Returned 2 when running fetcher `mime` with:
+/etc/nixos/configuration.nix
+    at yazi-scheduler/src/prework/prework.rs:49
+
+  2025-04-30T23:29:59.890379Z ERROR yazi_scheduler::prework::prework: Returned 2 when running fetcher `mime` with:
+/etc/shadow
+/etc/sudoers
+    at yazi-scheduler/src/prework/prework.rs:49
+
+  2025-04-30T23:30:04.464342Z ERROR yazi_scheduler::prework::prework: Returned 2 when running fetcher `mime` with:
+/home/jordi/.nix-profile
+    at yazi-scheduler/src/prework/prework.rs:49
+
+  2025-04-30T23:30:11.016487Z ERROR yazi_scheduler::prework::prework: Returned 2 when running fetcher `mime` with:
+/home/jordi/.nix-profile
+    at yazi-scheduler/src/prework/prework.rs:49
+
+  2025-04-30T23:30:17.478450Z ERROR yazi_scheduler::prework::prework: Returned 2 when running fetcher `mime` with:
+/etc/shadow
+/etc/sudoers
+    at yazi-scheduler/src/prework/prework.rs:49
+
+  2025-04-30T23:30:19.315569Z ERROR yazi_scheduler::prework::prework: Returned 2 when running fetcher `mime` with:
+/etc/nixos/configuration.nix
+    at yazi-scheduler/src/prework/prework.rs:49
+
+  2025-04-30T23:36:53.924996Z  WARN yazi_adapter::emulator: [Adapter] No special environment variables detected
+    at yazi-adapter/src/emulator.rs:73
+
+  2025-04-30T23:36:53.925007Z  WARN yazi_adapter::emulator: [Adapter] Unknown TERM_PROGRAM: 
+    at yazi-adapter/src/emulator.rs:87
+
+  2025-04-30T23:36:53.925009Z  WARN yazi_adapter::emulator: [Adapter] Unknown TERM: xterm-256color
+    at yazi-adapter/src/emulator.rs:95
+
+  2025-04-30T23:36:53.947201Z ERROR yazi_scheduler::prework::prework: Returned 2 when running fetcher `mime` with:
+/home/jordi/.bash_history
+/home/jordi/.git-credentials
+/home/jordi/.gitconfig
+/home/jordi/.histfile
+/home/jordi/.lesshst
+/home/jordi/.nix-profile
+/home/jordi/.p10k.zsh
+/home/jordi/.viminfo
+/home/jordi/.wget-hsts
+/home/jordi/.zcompdump
+/home/jordi/.zshhist
+/home/jordi/.zshrc
+/home/jordi/.zsh_history
+    at yazi-scheduler/src/prework/prework.rs:49
+
+  2025-04-30T23:48:05.538599Z  WARN yazi_adapter::emulator: [Adapter] No special environment variables detected
+    at yazi-adapter/src/emulator.rs:73
+
+  2025-04-30T23:48:05.538611Z  WARN yazi_adapter::emulator: [Adapter] Unknown TERM_PROGRAM: 
+    at yazi-adapter/src/emulator.rs:87
+
+  2025-04-30T23:48:05.538612Z  WARN yazi_adapter::emulator: [Adapter] Unknown TERM: xterm-256color
+    at yazi-adapter/src/emulator.rs:95
+
+  2025-04-30T23:48:05.561586Z ERROR yazi_scheduler::prework::prework: Returned 2 when running fetcher `mime` with:
+/home/jordi/.bash_history
+/home/jordi/.git-credentials
+/home/jordi/.gitconfig
+/home/jordi/.histfile
+/home/jordi/.lesshst
+/home/jordi/.nix-profile
+/home/jordi/.p10k.zsh
+/home/jordi/.viminfo
+/home/jordi/.wget-hsts
+/home/jordi/.zcompdump
+/home/jordi/.zshhist
+/home/jordi/.zshrc
+/home/jordi/.zsh_history
+    at yazi-scheduler/src/prework/prework.rs:49
+
+  2025-04-30T23:48:09.479567Z ERROR yazi_scheduler::prework::prework: Returned 2 when running fetcher `mime` with:
+/etc/.clean
+/etc/.pwd.lock
+/etc/.updated
+/etc/adjtime
+/etc/bashrc
+/etc/fstab
+/etc/fuse.conf
+/etc/gitconfig
+/etc/group
+/etc/host.conf
+/etc/hostname
+/etc/hosts
+/etc/inputrc
+/etc/ipsec.secrets
+/etc/issue
+/etc/locale.conf
+/etc/localtime
+/etc/login.defs
+/etc/lsb-release
+/etc/machine-id
+/etc/man_db.conf
+/etc/mtab
+/etc/nanorc
+/etc/netgroup
+/etc/NIXOS
+/etc/nscd.conf
+/etc/nsswitch.conf
+/etc/os-release
+/etc/passwd
+/etc/profile
+/etc/protocols
+/etc/reader.conf
+/etc/resolv.conf
+/etc/resolv.conf.bak
+/etc/resolvconf.conf
+/etc/rpc
+/etc/services
+/etc/set-environment
+/etc/shadow
+/etc/shells
+/etc/subgid
+/etc/subuid
+/etc/sudoers
+/etc/tmux.conf
+/etc/vconsole.conf
+/etc/zinputrc
+/etc/zprofile
+/etc/zshenv
+/etc/zshrc
+    at yazi-scheduler/src/prework/prework.rs:49
+
+  2025-04-30T23:48:17.471395Z ERROR yazi_scheduler::prework::prework: Returned 2 when running fetcher `mime` with:
+/etc/nixos/cachix.nix
+/etc/nixos/configuration.nix
+/etc/nixos/configuration.nix.bak
+/etc/nixos/hardware-configuration.nix
+    at yazi-scheduler/src/prework/prework.rs:49
+
+  2025-04-30T23:52:03.319544Z  WARN yazi_adapter::emulator: [Adapter] No special environment variables detected
+    at yazi-adapter/src/emulator.rs:73
+
+  2025-04-30T23:52:03.319557Z  WARN yazi_adapter::emulator: [Adapter] Unknown TERM_PROGRAM: 
+    at yazi-adapter/src/emulator.rs:87
+
+  2025-04-30T23:52:03.319561Z  WARN yazi_adapter::emulator: [Adapter] Unknown TERM: xterm-256color
+    at yazi-adapter/src/emulator.rs:95
+
+  2025-04-30T23:52:03.341771Z ERROR yazi_scheduler::prework::prework: Returned 2 when running fetcher `mime` with:
+/home/jordi/.bash_history
+/home/jordi/.git-credentials
+/home/jordi/.gitconfig
+/home/jordi/.histfile
+/home/jordi/.lesshst
+/home/jordi/.nix-profile
+/home/jordi/.p10k.zsh
+/home/jordi/.viminfo
+/home/jordi/.wget-hsts
+/home/jordi/.zcompdump
+/home/jordi/.zshhist
+/home/jordi/.zshrc
+/home/jordi/.zsh_history
+    at yazi-scheduler/src/prework/prework.rs:49
+
+  2025-04-30T23:52:05.719053Z ERROR yazi_scheduler::prework::prework: Returned 2 when running fetcher `mime` with:
+/etc/.clean
+/etc/.pwd.lock
+/etc/.updated
+/etc/adjtime
+/etc/bashrc
+/etc/fstab
+/etc/fuse.conf
+/etc/gitconfig
+/etc/group
+/etc/host.conf
+/etc/hostname
+/etc/hosts
+/etc/inputrc
+/etc/ipsec.secrets
+/etc/issue
+/etc/locale.conf
+/etc/localtime
+/etc/login.defs
+/etc/lsb-release
+/etc/machine-id
+/etc/man_db.conf
+/etc/mtab
+/etc/nanorc
+/etc/netgroup
+/etc/NIXOS
+/etc/nscd.conf
+/etc/nsswitch.conf
+/etc/os-release
+/etc/passwd
+/etc/profile
+/etc/protocols
+/etc/reader.conf
+/etc/resolv.conf
+/etc/resolv.conf.bak
+/etc/resolvconf.conf
+/etc/rpc
+/etc/services
+/etc/set-environment
+/etc/shadow
+/etc/shells
+/etc/subgid
+/etc/subuid
+/etc/sudoers
+/etc/tmux.conf
+/etc/vconsole.conf
+/etc/zinputrc
+/etc/zprofile
+/etc/zshenv
+/etc/zshrc
+    at yazi-scheduler/src/prework/prework.rs:49
+
+  2025-04-30T23:53:36.218038Z  WARN yazi_adapter::emulator: [Adapter] No special environment variables detected
+    at yazi-adapter/src/emulator.rs:73
+
+  2025-04-30T23:53:36.218399Z  WARN yazi_adapter::emulator: [Adapter] Unknown TERM_PROGRAM: 
+    at yazi-adapter/src/emulator.rs:87
+
+  2025-04-30T23:53:36.218400Z  WARN yazi_adapter::emulator: [Adapter] Unknown TERM: xterm-256color
+    at yazi-adapter/src/emulator.rs:95
+
+  2025-04-30T23:53:36.271985Z ERROR yazi_scheduler::prework::prework: Returned 2 when running fetcher `mime` with:
+/home/jordi/.bash_history
+/home/jordi/.git-credentials
+/home/jordi/.gitconfig
+/home/jordi/.histfile
+/home/jordi/.lesshst
+/home/jordi/.nix-profile
+/home/jordi/.p10k.zsh
+/home/jordi/.viminfo
+/home/jordi/.wget-hsts
+/home/jordi/.zcompdump
+/home/jordi/.zshhist
+/home/jordi/.zshrc
+/home/jordi/.zsh_history
+    at yazi-scheduler/src/prework/prework.rs:49
+
+  2025-04-30T23:53:39.373004Z ERROR yazi_scheduler::prework::prework: Returned 2 when running fetcher `mime` with:
+/home/jordi/.nix-profile
+    at yazi-scheduler/src/prework/prework.rs:49
+
+  2025-04-30T23:53:39.388537Z ERROR yazi_scheduler::prework::prework: Returned 2 when running fetcher `mime` with:
+/home/jordi/.nix-profile
+    at yazi-scheduler/src/prework/prework.rs:49
+
+  2025-04-30T23:53:39.404504Z ERROR yazi_scheduler::prework::prework: Returned 2 when running fetcher `mime` with:
+/home/jordi/.nix-profile
+    at yazi-scheduler/src/prework/prework.rs:49
+
+  2025-04-30T23:53:39.420400Z ERROR yazi_scheduler::prework::prework: Returned 2 when running fetcher `mime` with:
+/home/jordi/.nix-profile
+    at yazi-scheduler/src/prework/prework.rs:49
+
+  2025-04-30T23:53:39.436384Z ERROR yazi_scheduler::prework::prework: Returned 2 when running fetcher `mime` with:
+/home/jordi/.nix-profile
+    at yazi-scheduler/src/prework/prework.rs:49
+
+  2025-04-30T23:53:39.452227Z ERROR yazi_scheduler::prework::prework: Returned 2 when running fetcher `mime` with:
+/home/jordi/.nix-profile
+    at yazi-scheduler/src/prework/prework.rs:49
+
+  2025-04-30T23:53:39.468300Z ERROR yazi_scheduler::prework::prework: Returned 2 when running fetcher `mime` with:
+/home/jordi/.nix-profile
+    at yazi-scheduler/src/prework/prework.rs:49
+
+  2025-04-30T23:53:39.484296Z ERROR yazi_scheduler::prework::prework: Returned 2 when running fetcher `mime` with:
+/home/jordi/.nix-profile
+    at yazi-scheduler/src/prework/prework.rs:49
+
+  2025-04-30T23:53:39.501341Z ERROR yazi_scheduler::prework::prework: Returned 2 when running fetcher `mime` with:
+/home/jordi/.nix-profile
+    at yazi-scheduler/src/prework/prework.rs:49
+
+  2025-04-30T23:53:39.519240Z ERROR yazi_scheduler::prework::prework: Returned 2 when running fetcher `mime` with:
+/home/jordi/.nix-profile
+    at yazi-scheduler/src/prework/prework.rs:49
+
+  2025-04-30T23:53:39.535866Z ERROR yazi_scheduler::prework::prework: Returned 2 when running fetcher `mime` with:
+/home/jordi/.nix-profile
+    at yazi-scheduler/src/prework/prework.rs:49
+
+  2025-04-30T23:53:39.553573Z ERROR yazi_scheduler::prework::prework: Returned 2 when running fetcher `mime` with:
+/home/jordi/.nix-profile
+    at yazi-scheduler/src/prework/prework.rs:49
+
+  2025-04-30T23:53:39.570133Z ERROR yazi_scheduler::prework::prework: Returned 2 when running fetcher `mime` with:
+/home/jordi/.nix-profile
+    at yazi-scheduler/src/prework/prework.rs:49
+
+  2025-04-30T23:53:39.580463Z ERROR yazi_scheduler::prework::prework: Returned 2 when running fetcher `mime` with:
+/home/jordi/.nix-profile
+    at yazi-scheduler/src/prework/prework.rs:49
+
+  2025-04-30T23:53:39.597470Z ERROR yazi_scheduler::prework::prework: Returned 2 when running fetcher `mime` with:
+/home/jordi/.nix-profile
+    at yazi-scheduler/src/prework/prework.rs:49
+
+  2025-04-30T23:53:39.612455Z ERROR yazi_scheduler::prework::prework: Returned 2 when running fetcher `mime` with:
+/home/jordi/.nix-profile
+    at yazi-scheduler/src/prework/prework.rs:49
+
+  2025-04-30T23:53:39.628676Z ERROR yazi_scheduler::prework::prework: Returned 2 when running fetcher `mime` with:
+/home/jordi/.nix-profile
+    at yazi-scheduler/src/prework/prework.rs:49
+
+  2025-04-30T23:53:39.645091Z ERROR yazi_scheduler::prework::prework: Returned 2 when running fetcher `mime` with:
+/home/jordi/.nix-profile
+    at yazi-scheduler/src/prework/prework.rs:49
+
+  2025-04-30T23:53:39.660841Z ERROR yazi_scheduler::prework::prework: Returned 2 when running fetcher `mime` with:
+/home/jordi/.nix-profile
+    at yazi-scheduler/src/prework/prework.rs:49
+
+  2025-04-30T23:53:39.676455Z ERROR yazi_scheduler::prework::prework: Returned 2 when running fetcher `mime` with:
+/home/jordi/.nix-profile
+    at yazi-scheduler/src/prework/prework.rs:49
+
+  2025-04-30T23:53:39.692464Z ERROR yazi_scheduler::prework::prework: Returned 2 when running fetcher `mime` with:
+/home/jordi/.nix-profile
+    at yazi-scheduler/src/prework/prework.rs:49
+
+  2025-04-30T23:53:39.708362Z ERROR yazi_scheduler::prework::prework: Returned 2 when running fetcher `mime` with:
+/home/jordi/.nix-profile
+    at yazi-scheduler/src/prework/prework.rs:49
+
+  2025-04-30T23:53:39.725923Z ERROR yazi_scheduler::prework::prework: Returned 2 when running fetcher `mime` with:
+/home/jordi/.nix-profile
+    at yazi-scheduler/src/prework/prework.rs:49
+
+  2025-04-30T23:53:39.741473Z ERROR yazi_scheduler::prework::prework: Returned 2 when running fetcher `mime` with:
+/home/jordi/.nix-profile
+    at yazi-scheduler/src/prework/prework.rs:49
+
+  2025-04-30T23:53:39.757536Z ERROR yazi_scheduler::prework::prework: Returned 2 when running fetcher `mime` with:
+/home/jordi/.nix-profile
+    at yazi-scheduler/src/prework/prework.rs:49
+
+  2025-04-30T23:53:39.773844Z ERROR yazi_scheduler::prework::prework: Returned 2 when running fetcher `mime` with:
+/home/jordi/.nix-profile
+    at yazi-scheduler/src/prework/prework.rs:49
+
+  2025-04-30T23:53:39.789657Z ERROR yazi_scheduler::prework::prework: Returned 2 when running fetcher `mime` with:
+/home/jordi/.nix-profile
+    at yazi-scheduler/src/prework/prework.rs:49
+
+  2025-04-30T23:53:39.822300Z ERROR yazi_scheduler::prework::prework: Returned 2 when running fetcher `mime` with:
+/home/jordi/.nix-profile
+    at yazi-scheduler/src/prework/prework.rs:49
+
+  2025-04-30T23:53:39.854885Z ERROR yazi_scheduler::prework::prework: Returned 2 when running fetcher `mime` with:
+/home/jordi/.nix-profile
+    at yazi-scheduler/src/prework/prework.rs:49
+
+  2025-04-30T23:53:39.888659Z ERROR yazi_scheduler::prework::prework: Returned 2 when running fetcher `mime` with:
+/home/jordi/.nix-profile
+    at yazi-scheduler/src/prework/prework.rs:49
+
+  2025-05-01T01:59:55.325134Z  WARN yazi_adapter::emulator: [Adapter] No special environment variables detected
+    at yazi-adapter/src/emulator.rs:73
+
+  2025-05-01T01:59:55.325490Z  WARN yazi_adapter::emulator: [Adapter] Unknown TERM_PROGRAM: 
+    at yazi-adapter/src/emulator.rs:87
+
+  2025-05-01T01:59:55.325491Z  WARN yazi_adapter::emulator: [Adapter] Unknown TERM: xterm-256color
+    at yazi-adapter/src/emulator.rs:95
+
+  2025-05-01T01:59:55.380533Z ERROR yazi_scheduler::prework::prework: Returned 2 when running fetcher `mime` with:
+/home/jordi/.bash_history
+/home/jordi/.git-credentials
+/home/jordi/.gitconfig
+/home/jordi/.histfile
+/home/jordi/.lesshst
+/home/jordi/.nix-profile
+/home/jordi/.p10k.zsh
+/home/jordi/.viminfo
+/home/jordi/.wget-hsts
+/home/jordi/.zcompdump
+/home/jordi/.zshhist
+/home/jordi/.zshrc
+/home/jordi/.zsh_history
+/home/jordi/layout.xkb
+/home/jordi/output.xkb
+    at yazi-scheduler/src/prework/prework.rs:49
+
+  2025-05-01T01:59:59.145340Z ERROR yazi_scheduler::prework::prework: Returned 2 when running fetcher `mime` with:
+/home/jordi/.nix-profile
+    at yazi-scheduler/src/prework/prework.rs:49
+
+  2025-05-01T02:00:10.832931Z ERROR yazi_scheduler::prework::prework: Returned 2 when running fetcher `mime` with:
+/home/jordi/.nix-profile
+    at yazi-scheduler/src/prework/prework.rs:49
+
+  2025-05-02T15:06:10.197912Z  WARN yazi_adapter::emulator: [Adapter] No special environment variables detected
+    at yazi-adapter/src/emulator.rs:73
+
+  2025-05-02T15:06:10.198274Z  WARN yazi_adapter::emulator: [Adapter] Unknown TERM_PROGRAM: 
+    at yazi-adapter/src/emulator.rs:87
+
+  2025-05-02T15:06:10.198276Z  WARN yazi_adapter::emulator: [Adapter] Unknown TERM: xterm-256color
+    at yazi-adapter/src/emulator.rs:95
+
+  2025-05-02T15:06:10.254395Z ERROR yazi_scheduler::prework::prework: Returned 2 when running fetcher `mime` with:
+/home/jordi/.bash_history
+/home/jordi/.git-credentials
+/home/jordi/.gitconfig
+/home/jordi/.histfile
+/home/jordi/.lesshst
+/home/jordi/.nix-profile
+/home/jordi/.p10k.zsh
+/home/jordi/.viminfo
+/home/jordi/.wget-hsts
+/home/jordi/.zcompdump
+/home/jordi/.zshhist
+/home/jordi/.zshrc
+/home/jordi/.zsh_history
+/home/jordi/layout.xkb
+/home/jordi/output.xkb
+    at yazi-scheduler/src/prework/prework.rs:49
+
+  2025-05-04T22:42:48.269626Z  WARN yazi_adapter::emulator: [Adapter] No special environment variables detected
+    at yazi-adapter/src/emulator.rs:73
+
+  2025-05-04T22:42:48.275469Z  WARN yazi_adapter::emulator: [Adapter] Unknown TERM_PROGRAM: tmux
+    at yazi-adapter/src/emulator.rs:87
+
+  2025-05-04T22:42:48.275475Z  WARN yazi_adapter::emulator: [Adapter] Unknown TERM: screen
+    at yazi-adapter/src/emulator.rs:95
+
+  2025-05-04T22:42:48.329909Z ERROR yazi_scheduler::prework::prework: Returned 2 when running fetcher `mime` with:
+/home/jordi/.bash_history
+/home/jordi/.git-credentials
+/home/jordi/.gitconfig
+/home/jordi/.histfile
+/home/jordi/.lesshst
+/home/jordi/.nix-profile
+/home/jordi/.p10k.zsh
+/home/jordi/.viminfo
+/home/jordi/.wget-hsts
+/home/jordi/.zcompdump
+/home/jordi/.zshhist
+/home/jordi/.zshrc
+/home/jordi/.zsh_history
+/home/jordi/layout.xkb
+/home/jordi/output.xkb
+    at yazi-scheduler/src/prework/prework.rs:49
+
+  2025-05-04T22:43:03.487790Z ERROR yazi_scheduler::prework::prework: Returned 2 when running fetcher `mime` with:
+/home/jordi/.nix-profile
+    at yazi-scheduler/src/prework/prework.rs:49
+
+  2025-05-04T22:43:08.797890Z ERROR yazi_scheduler::prework::prework: Returned 2 when running fetcher `mime` with:
+/home/jordi/.nix-profile
+    at yazi-scheduler/src/prework/prework.rs:49
+
+  2025-05-04T23:07:15.534479Z  WARN yazi_adapter::emulator: [Adapter] No special environment variables detected
+    at yazi-adapter/src/emulator.rs:73
+
+  2025-05-04T23:07:15.540571Z  WARN yazi_adapter::emulator: [Adapter] Unknown TERM_PROGRAM: tmux
+    at yazi-adapter/src/emulator.rs:87
+
+  2025-05-04T23:07:15.540582Z  WARN yazi_adapter::emulator: [Adapter] Unknown TERM: screen
+    at yazi-adapter/src/emulator.rs:95
+
+  2025-05-04T23:07:19.613338Z ERROR yazi_scheduler::prework::prework: Returned 2 when running fetcher `mime` with:
+/home/jordi/.bash_history
+/home/jordi/.git-credentials
+/home/jordi/.gitconfig
+/home/jordi/.histfile
+/home/jordi/.lesshst
+/home/jordi/.nix-profile
+/home/jordi/.p10k.zsh
+/home/jordi/.viminfo
+/home/jordi/.wget-hsts
+/home/jordi/.zcompdump
+/home/jordi/.zshhist
+/home/jordi/.zshrc
+/home/jordi/.zsh_history
+/home/jordi/layout.xkb
+/home/jordi/output.xkb
+    at yazi-scheduler/src/prework/prework.rs:49
+

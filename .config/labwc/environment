@@ -1,4 +1,4 @@
-##
+
 ## Example ~/.config/labwc/environment file.
 ## Uncomment lines starting with one '#' to suit your needs.
 ##
@@ -17,6 +17,7 @@
 ## For further details, see xkeyboard-config(7)
 ##
 
+# XKB_DEFAULT_LAYOUT=de-fkeys
 XKB_DEFAULT_LAYOUT=de
 # XKB_DEFAULT_LAYOUT=se,us(intl)
 # XKB_DEFAULT_OPTIONS=grp:alt_shift_toggle

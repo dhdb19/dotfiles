@@ -23,12 +23,13 @@ autoload -U add-zsh-hook
 # zinit snippet OMZP::git
 
 #Shell integrations
-tmux has-session -t development
-if [ $? != 0 ]
-then
-  tmux new-session -s development
-fi
-tmux attach -t development
+# tmux has-session -t development
+# if [ $? != 0 ]
+# then
+#   tmux new-session -s development
+# fi
+# tmux attach -t development
+tmux attach
 fastfetch
 eval "$(fzf --zsh)"
 eval "$(zoxide init --cmd cd zsh)"
@@ -37,7 +38,7 @@ eval "$(starship init zsh)"
 #Aliases
 alias ls='ls --color'
 alias ll='ls -la'
-alias nixconfig='sudo hx /etc/nixos/configuration.nix'
+alias nixconfig='sudo hx ~/.config/nix/configuration.nix'
 alias nixrebuild='sudo nixos-rebuild switch'
 alias swayconfig='hx ~/.config/sway/config'
 alias labenv='hx ~/.config/labwc/environment'

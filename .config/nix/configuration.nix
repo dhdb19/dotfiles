@@ -87,7 +87,15 @@
     package = config.boot.kernelPackages.nvidiaPackages.latest;
   };
   # Configure keymap in X11
-  services.xserver.xkb.layout = "de";
+  services.xserver.xkb = {
+    layout = "de";
+    extraLayouts.de-fkeys = {
+      description = "German layout with working F-keys for 60% layout keyboards";
+      languages = [ "deu" ];
+      symbolsFile = /home/jordi/dotfiles/.config/xkb/symbols/de-fkeys;
+    };
+  };
+  
   # services.xserver.xkb.options = "eurosign:e,caps:escape";
 
   # Enable CUPS to print documents.
@@ -231,7 +239,55 @@
     lsd
     git-credential-keepassxc
     sioyek
+    xorg.xkbcomp
+    xorg.xev
+    wev
+    keyd
   ];
+
+  services.keyd = {
+    enable = true;
+    # keyboards = {
+    #   default = {
+    #     ids = [ "*" ];
+    #     settings = {
+    #       main = {
+    #       capslock = "overload(control, esc)";            
+    #       };
+    #       control:C = {
+    #         "f3" = "3";
+    #       };
+    #     };
+    #   };
+    # };    
+  };
+
+  
+  environment.etc."keyd/default.conf".text = ''
+  [ids]
+  *
+
+  [main]
+  capslock = overload(control, esc)
+
+  [control:C]
+
+  1 = f1
+  2 = f2
+  3 = f3
+  4 = f4
+  5 = f5
+  6 = f6
+  7 = f7
+  8 = f8
+  9 = f9
+  0 = f10
+  -  = f11
+  = = f12
+  
+  '';
+ 
+  users.defaultUserShell = pkgs.zsh;
 
   programs.tmux = {
     enable = true;
@@ -310,7 +366,7 @@
 
   programs.foot = {
     enable = true;
-    # enableZshIntegration = true;
+    enableZshIntegration = true;
     theme = "catpuccin-mocha";
   };
 
