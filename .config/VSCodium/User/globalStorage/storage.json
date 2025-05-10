@@ -3,31 +3,36 @@
     "telemetry.machineId": "ad6c950817eafada69892834235d5b5427da19d603f4af9daf9f06c01c715a08",
     "telemetry.devDeviceId": "2a75568c-ab91-40ea-870a-9c34d2349fc5",
     "backupWorkspaces": {
-        "workspaces": [],
-        "folders": [],
-        "emptyWindows": [
+        "workspaces": [
             {
-                "backupFolder": "1745532013367"
+                "id": "d7d389b45f6924c0fc310b6f662f561e",
+                "configURIPath": "file:///home/jordi/onedrive/master/m41_dss/m41.code-workspace"
             }
-        ]
+        ],
+        "folders": [],
+        "emptyWindows": []
     },
     "profileAssociations": {
         "workspaces": {
-            "file:///home/jordi/onedrive/master/m41_dms": "__default__profile__"
+            "file:///home/jordi/onedrive/master/m41_dms": "__default__profile__",
+            "file:///home/jordi/onedrive/master/m41_dss": "__default__profile__",
+            "file:///home/jordi/onedrive/master/m41_dss/m41.code-workspace": "__default__profile__"
         },
-        "emptyWindows": {
-            "1745532013367": "__default__profile__"
-        }
+        "emptyWindows": {}
     },
     "windowsState": {
         "lastActiveWindow": {
-            "backupPath": "/home/jordi/.config/VSCodium/Backups/1745532013367",
+            "workspaceIdentifier": {
+                "id": "d7d389b45f6924c0fc310b6f662f561e",
+                "configURIPath": "file:///home/jordi/onedrive/master/m41_dss/m41.code-workspace"
+            },
+            "backupPath": "/home/jordi/.config/VSCodium/Backups/d7d389b45f6924c0fc310b6f662f561e",
             "uiState": {
                 "mode": 1,
-                "x": 396,
-                "y": 221,
-                "width": 2708,
-                "height": 1078
+                "x": 0,
+                "y": 0,
+                "width": 1705,
+                "height": 1380
             }
         },
         "openedWindows": []
@@ -82,8 +87,7 @@
                             "items": [
                                 {
                                     "id": "workbench.action.reopenClosedEditor",
-                                    "label": "&&Reopen Closed Editor",
-                                    "enabled": false
+                                    "label": "&&Reopen Closed Editor"
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
@@ -144,7 +148,8 @@
                     },
                     {
                         "id": "saveAll",
-                        "label": "Save A&&ll"
+                        "label": "Save A&&ll",
+                        "enabled": false
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -232,8 +237,7 @@
                     },
                     {
                         "id": "workbench.action.files.revert",
-                        "label": "Re&&vert File",
-                        "enabled": false
+                        "label": "Re&&vert File"
                     },
                     {
                         "id": "workbench.action.closeActiveEditor",
@@ -433,8 +437,7 @@
                                 },
                                 {
                                     "id": "workbench.action.toggleSidebarVisibility",
-                                    "label": "&&Primary Side Bar",
-                                    "checked": true
+                                    "label": "&&Primary Side Bar"
                                 },
                                 {
                                     "id": "workbench.action.toggleAuxiliaryBar",
@@ -448,10 +451,6 @@
                                 {
                                     "id": "workbench.action.togglePanel",
                                     "label": "&&Panel"
-                                },
-                                {
-                                    "id": "toggle.toggleCustomTitleBar",
-                                    "label": "Custom Title Bar"
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
@@ -582,13 +581,11 @@
                                 },
                                 {
                                     "id": "editor.action.toggleMinimap",
-                                    "label": "&&Minimap",
-                                    "checked": true
+                                    "label": "&&Minimap"
                                 },
                                 {
                                     "id": "breadcrumbs.toggle",
-                                    "label": "Toggle &&Breadcrumbs",
-                                    "checked": true
+                                    "label": "Toggle &&Breadcrumbs"
                                 },
                                 {
                                     "id": "editor.action.toggleStickyScroll",
@@ -765,7 +762,8 @@
                     },
                     {
                         "id": "editor.action.toggleWordWrap",
-                        "label": "&&Word Wrap"
+                        "label": "&&Word Wrap",
+                        "checked": true
                     }
                 ]
             },
@@ -1666,7 +1664,7 @@
     "theme": "vs-dark",
     "themeBackground": "#1f1f1f",
     "windowSplash": {
-        "zoomLevel": 0,
+        "zoomLevel": 1.5,
         "baseTheme": "vs-dark",
         "colorInfo": {
             "foreground": "#cccccc",
@@ -1685,12 +1683,13 @@
         "layoutInfo": {
             "sideBarSide": "left",
             "editorPartMinWidth": 220,
-            "titleBarHeight": 0,
+            "titleBarHeight": 35,
             "activityBarWidth": 48,
-            "sideBarWidth": 300,
+            "sideBarWidth": 268,
             "auxiliarySideBarWidth": 0,
             "statusBarHeight": 22,
             "windowBorder": false
         }
-    }
+    },
+    "windowControlHeight": 46
 }

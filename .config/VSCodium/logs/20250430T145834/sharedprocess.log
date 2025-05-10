@@ -1,6 +1,0 @@
-2025-04-30 14:58:39.954 [info] Getting Manifest... myriad-dreamin.tinymist
-2025-04-30 14:58:40.645 [info] Installing extension: myriad-dreamin.tinymist {"productVersion":{"version":"1.97.2","date":"2025-02-14T18:21:12.766Z"},"pinned":false,"operation":3,"isApplicationScoped":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/jordi/.vscode-oss/extensions/extensions.json","path":"/home/jordi/.vscode-oss/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true}
-2025-04-30 14:58:42.797 [info] Extracted extension to file:///home/jordi/.vscode-oss/extensions/myriad-dreamin.tinymist-0.13.12-linux-x64: myriad-dreamin.tinymist
-2025-04-30 14:58:42.803 [info] Renamed to /home/jordi/.vscode-oss/extensions/myriad-dreamin.tinymist-0.13.12-linux-x64
-2025-04-30 14:58:42.819 [info] Marked extension as removed myriad-dreamin.tinymist-0.13.10
-2025-04-30 14:58:42.823 [info] Extension installed successfully: myriad-dreamin.tinymist vscode-userdata:/home/jordi/.vscode-oss/extensions/extensions.json

@@ -2977,3 +2977,26 @@
 /home/jordi/output.xkb
     at yazi-scheduler/src/prework/prework.rs:49
 
+  2025-05-10T13:17:43.272506Z ERROR yazi_scheduler::prework::prework: Returned 2 when running fetcher `mime` with:
+/home/jordi/.bash_history
+/home/jordi/.git-credentials
+/home/jordi/.gitconfig
+/home/jordi/.gtkrc-2.0
+/home/jordi/.histfile
+/home/jordi/.lesshst
+/home/jordi/.nix-profile
+/home/jordi/.p10k.zsh
+/home/jordi/.viminfo
+/home/jordi/.wget-hsts
+/home/jordi/.zcompdump
+/home/jordi/.zshhist
+/home/jordi/.zshrc
+/home/jordi/.zsh_history
+/home/jordi/layout.xkb
+/home/jordi/output.xkb
+    at yazi-scheduler/src/prework/prework.rs:49
+
+  2025-05-10T13:18:07.858767Z ERROR yazi_scheduler::prework::prework: Returned 2 when running fetcher `mime` with:
+/home/jordi/.nix-profile
+    at yazi-scheduler/src/prework/prework.rs:49
+

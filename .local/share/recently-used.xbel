@@ -233,4 +233,14 @@
       </metadata>
     </info>
   </bookmark>
+  <bookmark href="file:///home/jordi/onedrive/master/m41_dss" added="2025-05-10T13:47:46.064310Z" modified="2025-05-10T13:47:46.064312Z" visited="2025-05-10T13:47:46.064310Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="codium" exec="&apos;codium %u&apos;" modified="2025-05-10T13:47:46.064311Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
 </xbel>

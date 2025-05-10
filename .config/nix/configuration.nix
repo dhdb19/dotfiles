@@ -229,10 +229,9 @@
     resvg
     ripgrep
     imagemagick
-    vscodium
+    # vscodium
     zed-editor
     keepassxc
-    onedriver
     unstable.onedrive
     pydf
     libgcc
@@ -279,26 +278,50 @@
     bluez
     bluez-tools
     alsa-utils
+    unstable.texliveFull
+    unstable.typst
+    unstable.typstyle
+    unstable.typstfmt
+    unstable.tinymist
+    libxml2
+    (vscode-with-extensions.override {
+      vscode = vscodium;
+      vscodeExtensions = with vscode-extensions; [
+        myriad-dreamin.tinymist
+        reditorsupport.r
+      ];
+    })
   ];
+
+
+
+
+  environment.extraOutputsToInstall = [
+    "dev"
+  ];
+
+
+  # programs.libxml2 = {
+  #   enable = true;
+  #   meta.outputsToInstall = [ "dev"];
+  # };
+
+  # programs.vscode = {
+  #   enable = true;
+  #   package = pkgs.vscodium;
+  #   extensions = with pkgs.vscode-extensions; [
+  #     myriad-dreamin.tinymist
+  #     reditorsupport.r
+  #   ];
+  # };
+
+  environment.sessionVariables.NIXOS_OZONE_WL ="1";
 
   services.keyd = {
     enable = true;
-    # keyboards = {
-    #   default = {
-    #     ids = [ "*" ];
-    #     settings = {
-    #       main = {
-    #       capslock = "overload(control, esc)";            
-    #       };
-    #       control:C = {
-    #         "f3" = "3";
-    #       };
-    #     };
-    #   };
-    # };    
   };
 
-  
+    
   environment.etc."keyd/default.conf".text = ''
   [ids]
   *

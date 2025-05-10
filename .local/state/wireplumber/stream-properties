@@ -2,7 +2,7 @@
 Audio/Sink:node.name:auto_null={"channelVolumes":[1.000000, 1.000000], "mute":false, "volume":1.000000, "channelMap":["FL", "FR"]}
 Input/Audio:application.id:org.PulseAudio.pavucontrol={"channelMap":["MONO"], "mute":false, "channelVolumes":[1.000000], "volume":1.000000}
 Output/Audio:application.name:Chromium={"mute":false, "channelMap":["FL", "FR"], "target":"alsa_output.pci-0000_2d_00.4.analog-stereo", "channelVolumes":[1.000000, 1.000000], "volume":1.000000}
-Output/Audio:application.name:Firefox={"volume":1.000000, "channelMap":["FL", "FR"], "target":"alsa_output.pci-0000_2d_00.4.analog-stereo", "channelVolumes":[1.000000, 1.000000], "mute":false}
-Output/Audio:application.name:eSpeak={"channelMap":["MONO"], "mute":false, "channelVolumes":[1.000000], "volume":1.000000}
-Output/Audio:application.name:libao\osd_dummy\c={"channelMap":["FL", "FR"], "volume":1.000000, "channelVolumes":[1.000000, 1.000000], "mute":false}
+Output/Audio:application.name:Firefox={"channelVolumes":[1.000000, 1.000000], "channelMap":["FL", "FR"], "volume":1.000000, "mute":false, "target":"alsa_output.pci-0000_2d_00.4.analog-stereo"}
+Output/Audio:application.name:eSpeak={"channelVolumes":[1.000000], "mute":false, "channelMap":["MONO"], "volume":1.000000}
+Output/Audio:application.name:libao\osd_dummy\c={"channelVolumes":[1.000000, 1.000000], "channelMap":["FL", "FR"], "mute":false, "volume":1.000000}
 Output/Audio:media.role:Notification={"volume":1.000000, "channelMap":["FL", "FR"], "channelVolumes":[1.000000, 1.000000], "mute":false}

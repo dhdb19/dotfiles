@@ -32,7 +32,6 @@ cd dotfiles .config nixos
 cd dotfiles .config nix
 cd dotfiles .config
 cd dotfiles/.config
-cd ..
 git add --all
 git commit -m "First commit of all config giles"
 git remote add origin https://github.com/dhdb19/dotfiles.git
@@ -98,7 +97,6 @@ dotfiles
 git add
 git add -A
 git commit -m "Second commit"
-git push -u origin main
 tmux has-session -t 0
 git clone https://github.com/ohmyzsh/ohmyzsh/tree/51d0e0aa1de9c7f96012b9a0feda6509ed2a025b/plugins/tmux ~/.config/zsh/tmux
 mkdir ~/.config/zsh/tmux
@@ -174,11 +172,8 @@ hx .config/waybar/style.css
 hx .config/waybar/config.jsonc
 tmux detach
 tmux detach main
-cd dotfiles
-git status
 cd .cache
 cd .local
-cd .config
 keepassxc
 hx .config/hypr/hyprpaper.conf
 logut
@@ -188,10 +183,8 @@ git clone https://github.com/addy-dclxvi/openbox-theme-collections ~/.themes
 cd .themes
 git clone https://github.com/addy-dclxvi/openbox-theme-collections ~/.local/sahre/themes
 cd ~/.local/sahre/themes
-labrc
 git clone https://github.com/addy-dclxvi/openbox-theme-collections ~/.local/share/themes
 cd ~/.local/share/themes
-cd
 which zed
 which zed-editor
 zeditor
@@ -200,168 +193,140 @@ nvtop -i
 lsblk
 lspci
 fastfetch
-nixrebuild
 nvtop
 logout
 fzf
 zshconfig
-wayconfig
-waybarconfig
-pkill waybar
 hyprctl submap
-nixconfig
-waybar
-hyprconf
-reboot
 xfzf
 hx
 cat .zshrc
 bat .zshrc
 hxfzf
-ll
-hyprctl dispatch exit
-yazi
 exi
+cp ~/.themes ~/dotfiles/.themes
+cp -r ~/.themes ~/dotfiles/.themes
+cd dotfiles/.themes
+unzip Hackneyed-0.9.3-right-handed.tar.bz2 cursor_hackeyed_light
+tar -h
+man tar
+tar -xf Hackneyed-0.9.3-right-handed.tar.bz2 -C cursor_hackneyed_dark
+mkdir ~/.icons/cursor_hackneyed_light
+tar -xf Hackneyed-0.9.3-right-handed.tar.bz2 -C ~/.icons/cursor_hackneyed_light
+tar -xf Hackneyed-0.9.3-right-handed.tar.bz2 -C ~/.icons
+tar -xf Hackneyed-Dark-0.9.3-right-handed.tar.bz2 -C ~/.icons
+hyprctl setcursor Hackneyed
+hyprctl setcursor
+hyprctl -h
+hyprctl setcursor Hackneyed 28
+hyprctl setcursor Hackneyed 30
+hyprctl setcursor Hackneyed 32
+hyprctl setcursor Hackneyed 20
+hyprctl setcursor Hackneyed 24
+mkdir .gtkrc-2.0
+cd .config
+mkdir gtk-3.0
+cd gtk-3.0
+hx settings.ini
+mkdir ~/.config/gtk-4.0
+hx ~/.config/gtk-4.0/settings.ini
+cd gtktheme_cheetah
+cd gtk-4.0
+bat README.md
+cd downloads
+cp gtktheme_cheetah ~/.themes
+cp -r gtktheme_cheetah ~/.themes
+cd icons_cheetah
+cd ..
+cp -r icons_cheetah ~/.icons
+cd
+hyprconf
+reboot
+wayconfig
+waybar 
+pamixer
+pamixer -h
+pamixer -v
+pamixer --get-colume
+pamixer --get-volume
+pw-mon
+alsamixer
+pw-cli
+hyprctl dispatch exit
+waybarconfig
+pkill waybar
+waybarcss
+waybar
+labrc
+nixconfig
+nixrebuild
+fc-query
+fc-query -i
+fc-query --index
+fc-query --index geist.ttf
+fc-scan
+fc-scan -h
+fc-list -b
+fc-list -h
+fc-list
+c-list | grep geist
+fc-list | grep Geist
+yazi
+cd dotfiles
+ll
+git status
+git add *
+git add 
+git add -
+git add .
+git commit -m "third commit"
+git push -u origin main
 exit
-: 1746822977:0;yazi
-: 1746823028:0;cp ~/.themes ~/dotfiles/.themes
-: 1746823034:0;cp -r ~/.themes ~/dotfiles/.themes
-: 1746823047:0;cd dotfiles/.themes
-: 1746823048:0;ll
-: 1746823049:0;cd
-: 1746823056:0;yazi
-: 1746823167:0;cd downloads
-: 1746823168:0;ll
-: 1746823212:0;unzip Hackneyed-0.9.3-right-handed.tar.bz2 cursor_hackeyed_light
-: 1746823290:0;tar -h
-: 1746823293:0;man tar
-: 1746823496:0;tar -xf Hackneyed-0.9.3-right-handed.tar.bz2 -C cursor_hackneyed_dark
-: 1746823544:0;mkdir ~/.icons/cursor_hackneyed_light
-: 1746823561:0;tar -xf Hackneyed-0.9.3-right-handed.tar.bz2 -C ~/.icons/cursor_hackneyed_light
-: 1746823564:0;yazi
-: 1746823644:0;tar -xf Hackneyed-0.9.3-right-handed.tar.bz2 -C ~/.icons
-: 1746823647:0;yazi
-: 1746823692:0;tar -xf Hackneyed-Dark-0.9.3-right-handed.tar.bz2 -C ~/.icons
-: 1746823695:0;yazi
-: 1746823753:0;hyprconf
-: 1746823871:0;hyprctl setcursor Hackneyed
-: 1746823884:0;hyprctl setcursor
-: 1746823892:0;hyprctl -h
-: 1746823908:0;hyprctl setcursor Hackneyed 20
-: 1746823918:0;hyprctl setcursor Hackneyed 24
-: 1746823922:0;hyprctl setcursor Hackneyed 32
-: 1746823934:0;hyprctl setcursor Hackneyed 28
-: 1746823944:0;hyprctl setcursor Hackneyed 30
-: 1746823948:0;hyprctl setcursor Hackneyed 32
-: 1746823955:0;hyprctl setcursor Hackneyed 20
-: 1746823959:0;hyprctl setcursor Hackneyed 24
-: 1746823966:0;yazi
-: 1746824068:0;hyprconf
-: 1746824406:0;hyprctl dispatch exit
-: 1746824535:0;cd dotfiles
-: 1746824551:0;mkdir .gtkrc-2.0
-: 1746824555:0;cd .config
-: 1746824570:0;mkdir gtk-3.0
-: 1746824575:0;ll
-: 1746824582:0;cd gtk-3.0
-: 1746824583:0;ll
-: 1746824595:0;hx settings.ini
-: 1746824633:0;ll
-: 1746824636:0;cd
-: 1746824640:0;yazi
-: 1746824827:0;mkdir ~/.config/gtk-4.0
-: 1746824848:0;hx ~/.config/gtk-4.0/settings.ini
-: 1746824881:0;reboot
-: 1746825021:0;hyprconf
-: 1746825082:0;cd downloads
-: 1746825083:0;ll
-: 1746825124:0;cd gtktheme_cheetah
-: 1746825125:0;ll
-: 1746825139:0;cd gtk-4.0
-: 1746825140:0;ll
-: 1746825155:0;cd ..
-: 1746825159:0;bat README.md
-: 1746825177:0;cd
-: 1746825179:0;cd downloads
-: 1746825184:0;ll
-: 1746825220:0;cp gtktheme_cheetah ~/.themes
-: 1746825226:0;cp -r gtktheme_cheetah ~/.themes
-: 1746825237:0;cd icons_cheetah
-: 1746825239:0;ll
-: 1746825244:0;cd ..
-: 1746825256:0;cp -r icons_cheetah ~/.icons
-: 1746825258:0;cd
-: 1746825261:0;yazi
-: 1746825315:0;hyprconf
-: 1746825406:0;reboot
-: 1746825465:0;wayconfig
-: 1746825470:0;waybarconfig
-: 1746825601:0;waybarcss
-: 1746825625:0;waybarconfig
-: 1746825650:0;waybarcss
-: 1746825702:0;yazi
-: 1746825956:0;pkill waybar
-: 1746825958:0;waybar
-: 1746825969:0;waybarcss
-: 1746825979:0;waybarconfig
-: 1746826000:0;waybar 
-: 1746826255:0;waybarconfig
-: 1746827017:0;nixconfig
-: 1746827181:0;nixrebuild
-: 1746827196:0;nixconfig
-: 1746827213:0;nixrebuild
-: 1746827264:0;pamixer
-: 1746827300:0;pamixer -h
-: 1746827306:0;pamixer -v
-: 1746827322:0;pamixer --get-colume
-: 1746827331:0;pamixer --get-volume
-: 1746827392:0;pw-cli
-: 1746827406:0;pw-mon
-: 1746827502:0;nixconfig
-: 1746827517:0;nixrebuild
-: 1746827538:0;nixconfig
-: 1746827555:0;nixrebuild
-: 1746827581:0;alsamixer
-: 1746827850:0;pw-cli
-: 1746828642:0;hyprctl dispatch exit
-: 1746826548:0;waybar
-: 1746828906:0;nixconfig
-: 1746828928:0;nixrebuild
-: 1746828965:0;nixconfig
-: 1746829021:0;nixrebuild
-: 1746829163:0;nixconfig
-: 1746829322:0;nixrebuild
-: 1746830071:0;waybarconfig
-: 1746830447:0;pkill waybar
-: 1746830455:0;waybar
-: 1746830482:0;waybarcss
-: 1746830488:0;waybar
-: 1746830956:0;labrc
-: 1746832603:0;nixconfig
-: 1746832619:0;nixrebuild
-: 1746832704:0;nixconfig
-: 1746832935:0;nixrebuild
-: 1746832955:0;nixconfig
-: 1746833005:0;nixrebuild
-: 1746833215:0;fc-query
-: 1746833267:0;fc-query -i
-: 1746833281:0;fc-query --index
-: 1746833296:0;fc-query --index geist.ttf
-: 1746833314:0;fc-scan
-: 1746833329:0;fc-scan -h
-: 1746833342:0;fc-list
-: 1746833347:0;fc-list -h
-: 1746833354:0;fc-list -b
-: 1746833428:0;fc-list -h
-: 1746833463:0;fc-list
-: 1746833793:0;yazi
-: 1746834055:0;c-list | grep geist
-: 1746834065:0;fc-list | grep Geist
-: 1746841729:0;yazi
-: 1746841750:0;cd dotfiles
-: 1746841752:0;ll
-: 1746841755:0;git status
-: 1746841779:0;git add *
-: 1746841787:0;git add 
-: 1746841793:0;git add -
-: 1746841798:0;git add .
+: 1746842095:0;clear
+: 1746842103:0;fastfetch
+: 1746881860:0;hyprconf
+: 1746882407:0;nixconfig
+: 1746882519:0;nixrebuild
+: 1746882674:0;nixconfig
+: 1746882739:0;nixrebuild
+: 1746882868:0;hx ~/.config/electron-flags.conf
+: 1746882918:0;codium
+: 1746883063:0;yazi
+: 1746883199:0;nixconfig
+: 1746883597:0;nixrebuild
+: 1746883620:0;nixconfig
+: 1746883868:0;nixrebuild
+: 1746883884:0;nixconfig
+: 1746884014:0;nixrebuild
+: 1746884032:0;nixconfig
+: 1746884050:0;nixrebuild
+: 1746884066:0;nixconfig
+: 1746884080:0;nixrebuild
+: 1746884089:0;nixconfig
+: 1746884108:0;nixrebuild
+: 1746884140:0;nixconfig
+: 1746884165:0;nixrebuild
+: 1746884351:0;nixconfig
+: 1746884521:0;nixrebuild
+: 1746884566:0;codium
+: 1746884699:0;waybar
+: 1746884791:0;hyprctl dispatch exit
+: 1746884824:0;nvidia-smi
+: 1746884828:0;nvtop
+: 1746884836:0;codium
+: 1746884990:0;cd onedrive/master/m41_dms
+: 1746884993:0;ll
+: 1746885011:0;nix-shell default.nix
+: 1746885185:0;nixconfig
+: 1746885230:0;nixrebuild
+: 1746885264:0;nix-shell default.nix
+: 1746885541:0;nixconfig
+: 1746885601:0;nixrebuild
+: 1746885636:0;nix-shell default.nix
+: 1746885825:0;nixconfig
+: 1746885988:0;nixrebuild
+: 1746886039:0;nixconfig
+: 1746886101:0;nixrebuild
+: 1746886139:0;nix-shell default.nix
+: 1746886961:0;cd dotfiles
+: 1746886967:0;git add .
