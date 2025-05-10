@@ -6,9 +6,11 @@ add_newline = true
 
 format = """
 [░▒▓](#55ff22)\
-[ ❆ ](bg:#55ff22 fg:#000000)\
+[ ❆ ](bg:#000000 fg:#000000)\ 
+$username(bg:#55ff22)\
+$hostname(bg:#55ff22)\
+[  ](bg:#000000)\
 $directory\
-$git_status\
 $fill\
 $rlang\
 $typst\
@@ -17,11 +19,28 @@ $nix_shell
 $character"""
 
 [character]
-success_symbol = '[→](bold green)'
-error_symbol = '[→](bold red)'
+# success_symbol = '[→](bold green)'
+success_symbol = '[\$](bold green)'
+error_symbol = '[\$](bold red)'
 
 [directory]
-style = "fg:#000000 bg:#97ff78"
+style = "fg:#000000 bg:#55ff22"
 format = "[ $path ]($style)"
 truncation_length = 4
 truncation_symbol = ".../"
+
+[fill]
+symbol = ""
+
+[username]
+style_user = "bg:#55ff22 fg:#000000"
+style_root = "bg:#55ff22 fg:#000000"
+format = "[ $user@]($style)"
+aliases = { "jordi" = "JORDI"}
+show_always = true
+
+[hostname]
+format = "[$hostname ]($style)"
+style = "fg:#000000 bg:#55ff22"
+ssh_only = false
+aliases = { "nixos" = "NIXOS"}

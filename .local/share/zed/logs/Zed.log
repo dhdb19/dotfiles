@@ -1,0 +1,154 @@
+2025-05-09T17:52:21.767594287+02:00 [INFO] ========== starting zed ==========
+2025-05-09T17:52:22.064131656+02:00 [WARN] failed to load font 'SymbolsNFM'
+2025-05-09T17:52:22.394183138+02:00 [WARN] failed to load font 'SymbolsNFM'
+2025-05-09T17:52:22.404110536+02:00 [INFO] perform;
+2025-05-09T17:52:22.404136926+02:00 [INFO] authenticate;
+2025-05-09T17:52:22.404578556+02:00 [INFO] read_command;
+2025-05-09T17:52:22.409379516+02:00 [INFO] socket reader;
+2025-05-09T17:52:22.409951305+02:00 [INFO] new;
+2025-05-09T17:52:22.410673425+02:00 [INFO] keep_updated;
+2025-05-09T17:52:22.424755852+02:00 [INFO] Opening main db
+2025-05-09T17:52:22.440098769+02:00 [INFO] Opening main db
+2025-05-09T17:52:22.445330048+02:00 [INFO] Using git binary path: None
+2025-05-09T17:52:22.475232862+02:00 [INFO] no tokio runtime found, creating one for Reqwest...
+2025-05-09T17:52:22.53450845+02:00 [ERROR] No such file or directory (os error 2) about ["/home/jordi/.config/github-copilot"]
+2025-05-09T17:52:22.549295777+02:00 [INFO] initializing context server client
+2025-05-09T17:52:22.551707476+02:00 [INFO] Registering built-in prompt template: content_prompt
+2025-05-09T17:52:22.557435345+02:00 [INFO] Registering built-in prompt template: project_slash_command
+2025-05-09T17:52:22.557492465+02:00 [INFO] Registering built-in prompt template: suggest_edits
+2025-05-09T17:52:22.557654865+02:00 [INFO] Registering built-in prompt template: terminal_assistant_prompt
+2025-05-09T17:52:22.557838965+02:00 [INFO] No prompt template overrides directory found at /home/jordi/.local/share/zed/prompt_overrides. Using built-in prompts.
+2025-05-09T17:52:22.607766185+02:00 [INFO] activate is not implemented on Linux, ignoring the call
+2025-05-09T17:52:22.613946724+02:00 [INFO] Opening main db
+2025-05-09T17:52:22.617120793+02:00 [INFO] perform;
+2025-05-09T17:52:22.617159953+02:00 [INFO] authenticate;
+2025-05-09T17:52:22.617204493+02:00 [INFO] read_command;
+2025-05-09T17:52:22.617506313+02:00 [INFO] socket reader;
+2025-05-09T17:52:22.692305938+02:00 [INFO] Enabling Vulkan Portability
+2025-05-09T17:52:22.692347808+02:00 [INFO] Enabling color space support
+2025-05-09T17:52:22.743264548+02:00 [INFO] Adapter: "llvmpipe (LLVM 18.1.8, 256 bits)"
+2025-05-09T17:52:22.743320897+02:00 [INFO] Ray tracing is supported
+2025-05-09T17:52:22.77959707+02:00 [INFO] set environment variables from shell:/run/current-system/sw/bin/zsh, path:/run/wrappers/bin:/home/jordi/.nix-profile/bin:/nix/profile/bin:/home/jordi/.local/state/nix/profile/bin:/etc/profiles/per-user/jordi/bin:/nix/var/nix/profiles/default/bin:/run/current-system/sw/bin:/nix/store/p8k8hpsprd2r554vncl828228clc3gh5-nodejs-22.14.0/bin
+2025-05-09T17:52:22.855277715+02:00 [INFO] Using surface present mode MAILBOX
+2025-05-09T17:52:22.855457565+02:00 [WARN] Unable to forbid exclusive full screen
+2025-05-09T17:52:22.855602425+02:00 [INFO] Creating a descriptor pool for at most 16 sets
+2025-05-09T17:52:22.855632435+02:00 [INFO] Creating a descriptor pool for at most 16 sets
+2025-05-09T17:52:22.855654925+02:00 [INFO] Initializing Blade pipelines for surface SurfaceInfo { format: Bgra8UnormSrgb, alpha: PreMultiplied }
+2025-05-09T17:52:22.903694125+02:00 [INFO] Using GPU: GPUSpecs { is_software_emulated: true, device_name: "llvmpipe (LLVM 18.1.8, 256 bits)", driver_name: "llvmpipe", driver_info: "Mesa 24.2.8 (LLVM 18.1.8)" }
+2025-05-09T17:52:22.911016903+02:00 [INFO] rebuilt extension index in 1.277389ms
+2025-05-09T17:52:23.385899808+02:00 [INFO] Opening main db
+2025-05-09T17:52:23.390023647+02:00 [ERROR] missing field `name` at line 17 column 1
+2025-05-09T17:52:23.394768667+02:00 [INFO] Using surface present mode MAILBOX
+2025-05-09T17:52:23.394995267+02:00 [WARN] Unable to forbid exclusive full screen
+2025-05-09T17:52:23.417286762+02:00 [ERROR] Is a directory (os error 21)
+2025-05-09T17:52:23.517764672+02:00 [ERROR] missing field `name` at line 17 column 1
+2025-05-09T17:52:24.568077894+02:00 [INFO] starting language server process. binary path: "/nix/store/p8k8hpsprd2r554vncl828228clc3gh5-nodejs-22.14.0/bin/node", working directory: "/", args: ["/home/jordi/.local/share/zed/copilot/copilot-v0.5.0/dist/agent.js", "--stdio"]
+2025-05-09T17:52:24.872579245+02:00 [INFO] Language server with id 0 sent unhandled notification LogMessage:
+{
+  "level": 0,
+  "message": "[DEBUG] [agent] [2025-05-09T15:52:24.869Z] Agent service starting",
+  "metadataStr": "[DEBUG] [agent] [2025-05-09T15:52:24.869Z]",
+  "extra": [
+    "Agent service starting"
+  ]
+}
+2025-05-09T17:52:24.874214304+02:00 [INFO] Language server with id 0 sent unhandled notification client/registerCapability:
+{
+  "registrations": [
+    {
+      "id": "49e81e47-7b23-4028-9613-a1ec9915a567",
+      "method": "workspace/didChangeWorkspaceFolders",
+      "registerOptions": {}
+    }
+  ]
+}
+2025-05-09T17:52:24.89887117+02:00 [INFO] Language server with id 0 sent unhandled notification LogMessage:
+{
+  "level": 0,
+  "message": "[DEBUG] [agent] [2025-05-09T15:52:24.878Z] Telemetry initialized",
+  "metadataStr": "[DEBUG] [agent] [2025-05-09T15:52:24.878Z]",
+  "extra": [
+    "Telemetry initialized"
+  ]
+}
+2025-05-09T17:53:02.074704272+02:00 [ERROR] window not found
+2025-05-09T17:53:02.074767272+02:00 [ERROR] window not found
+2025-05-09T17:53:06.043197745+02:00 [INFO] ========== starting zed ==========
+2025-05-09T17:53:06.233559377+02:00 [WARN] failed to load font 'SymbolsNFM'
+2025-05-09T17:53:06.243828696+02:00 [WARN] failed to load font 'SymbolsNFM'
+2025-05-09T17:53:06.245083786+02:00 [INFO] perform;
+2025-05-09T17:53:06.245135746+02:00 [INFO] authenticate;
+2025-05-09T17:53:06.245206766+02:00 [INFO] read_command;
+2025-05-09T17:53:06.245257656+02:00 [INFO] Opening main db
+2025-05-09T17:53:06.245529596+02:00 [INFO] new;
+2025-05-09T17:53:06.245585026+02:00 [INFO] socket reader;
+2025-05-09T17:53:06.246073336+02:00 [INFO] Opening main db
+2025-05-09T17:53:06.246143216+02:00 [INFO] keep_updated;
+2025-05-09T17:53:06.247171616+02:00 [INFO] Using git binary path: None
+2025-05-09T17:53:06.249255396+02:00 [INFO] no tokio runtime found, creating one for Reqwest...
+2025-05-09T17:53:06.273320505+02:00 [ERROR] No such file or directory (os error 2) about ["/home/jordi/.config/github-copilot"]
+2025-05-09T17:53:06.273500855+02:00 [INFO] initializing context server client
+2025-05-09T17:53:06.273592515+02:00 [INFO] Registering built-in prompt template: content_prompt
+2025-05-09T17:53:06.273937995+02:00 [INFO] Registering built-in prompt template: project_slash_command
+2025-05-09T17:53:06.274005935+02:00 [INFO] Registering built-in prompt template: suggest_edits
+2025-05-09T17:53:06.274161175+02:00 [INFO] Registering built-in prompt template: terminal_assistant_prompt
+2025-05-09T17:53:06.274329905+02:00 [INFO] No prompt template overrides directory found at /home/jordi/.local/share/zed/prompt_overrides. Using built-in prompts.
+2025-05-09T17:53:06.275893465+02:00 [INFO] activate is not implemented on Linux, ignoring the call
+2025-05-09T17:53:06.276925615+02:00 [INFO] Opening main db
+2025-05-09T17:53:06.277142335+02:00 [INFO] perform;
+2025-05-09T17:53:06.277218905+02:00 [INFO] authenticate;
+2025-05-09T17:53:06.277275825+02:00 [INFO] read_command;
+2025-05-09T17:53:06.277564045+02:00 [INFO] socket reader;
+2025-05-09T17:53:06.279510905+02:00 [INFO] installing extension html latest version
+2025-05-09T17:53:06.302175414+02:00 [INFO] Enabling Vulkan Portability
+2025-05-09T17:53:06.302232164+02:00 [INFO] Enabling color space support
+2025-05-09T17:53:06.325093233+02:00 [INFO] Adapter: "llvmpipe (LLVM 18.1.8, 256 bits)"
+2025-05-09T17:53:06.325166183+02:00 [INFO] Ray tracing is supported
+2025-05-09T17:53:06.334719262+02:00 [INFO] Using surface present mode MAILBOX
+2025-05-09T17:53:06.334938822+02:00 [WARN] Unable to forbid exclusive full screen
+2025-05-09T17:53:06.335119482+02:00 [INFO] Creating a descriptor pool for at most 16 sets
+2025-05-09T17:53:06.335168992+02:00 [INFO] Creating a descriptor pool for at most 16 sets
+2025-05-09T17:53:06.335216112+02:00 [INFO] Initializing Blade pipelines for surface SurfaceInfo { format: Bgra8UnormSrgb, alpha: PreMultiplied }
+2025-05-09T17:53:06.352290352+02:00 [INFO] Using GPU: GPUSpecs { is_software_emulated: true, device_name: "llvmpipe (LLVM 18.1.8, 256 bits)", driver_name: "llvmpipe", driver_info: "Mesa 24.2.8 (LLVM 18.1.8)" }
+2025-05-09T17:53:06.38457656+02:00 [INFO] Opening main db
+2025-05-09T17:53:06.413947789+02:00 [INFO] set environment variables from shell:/run/current-system/sw/bin/zsh, path:/run/wrappers/bin:/home/jordi/.nix-profile/bin:/nix/profile/bin:/home/jordi/.local/state/nix/profile/bin:/etc/profiles/per-user/jordi/bin:/nix/var/nix/profiles/default/bin:/run/current-system/sw/bin:/nix/store/xhg020fc8p329vrqb72m7bgc22wlvxs8-ghostty-1.1.3/bin:/nix/store/p8k8hpsprd2r554vncl828228clc3gh5-nodejs-22.14.0/bin
+2025-05-09T17:53:06.426006499+02:00 [INFO] Using surface present mode MAILBOX
+2025-05-09T17:53:06.426191839+02:00 [WARN] Unable to forbid exclusive full screen
+2025-05-09T17:53:06.429297809+02:00 [INFO] Opening main db
+2025-05-09T17:53:06.476519347+02:00 [ERROR] missing field `name` at line 17 column 1
+2025-05-09T17:53:06.808011763+02:00 [INFO] starting language server process. binary path: "/nix/store/p8k8hpsprd2r554vncl828228clc3gh5-nodejs-22.14.0/bin/node", working directory: "/", args: ["/home/jordi/.local/share/zed/copilot/copilot-v0.5.0/dist/agent.js", "--stdio"]
+2025-05-09T17:53:07.12448088+02:00 [INFO] Language server with id 0 sent unhandled notification LogMessage:
+{
+  "level": 0,
+  "message": "[DEBUG] [agent] [2025-05-09T15:53:07.120Z] Agent service starting",
+  "metadataStr": "[DEBUG] [agent] [2025-05-09T15:53:07.120Z]",
+  "extra": [
+    "Agent service starting"
+  ]
+}
+2025-05-09T17:53:07.12620986+02:00 [INFO] Language server with id 0 sent unhandled notification client/registerCapability:
+{
+  "registrations": [
+    {
+      "id": "0c2e4978-798c-454e-a91a-6f6abbfdb51f",
+      "method": "workspace/didChangeWorkspaceFolders",
+      "registerOptions": {}
+    }
+  ]
+}
+2025-05-09T17:53:07.170873439+02:00 [INFO] Language server with id 0 sent unhandled notification LogMessage:
+{
+  "level": 0,
+  "message": "[DEBUG] [agent] [2025-05-09T15:53:07.131Z] Telemetry initialized",
+  "metadataStr": "[DEBUG] [agent] [2025-05-09T15:53:07.131Z]",
+  "extra": [
+    "Telemetry initialized"
+  ]
+}
+2025-05-09T17:53:07.453792958+02:00 [INFO] rebuilt extension index in 3.54255ms
+2025-05-09T17:53:07.453845948+02:00 [INFO] extensions updated. loading 1, reloading 0, unloading 0
+2025-05-09T17:53:14.694297986+02:00 [INFO] new;
+2025-05-09T17:53:14.694841046+02:00 [INFO] keep_updated;
+2025-05-09T17:53:14.694874886+02:00 [INFO] new;
+2025-05-09T17:53:52.353971734+02:00 [ERROR] window not found
+2025-05-09T17:53:52.354054564+02:00 [ERROR] window not found

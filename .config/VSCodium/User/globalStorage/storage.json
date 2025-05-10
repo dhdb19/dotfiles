@@ -4,11 +4,7 @@
     "telemetry.devDeviceId": "2a75568c-ab91-40ea-870a-9c34d2349fc5",
     "backupWorkspaces": {
         "workspaces": [],
-        "folders": [
-            {
-                "folderUri": "file:///home/jordi/onedrive/master/m41_dms"
-            }
-        ],
+        "folders": [],
         "emptyWindows": [
             {
                 "backupFolder": "1745532013367"
@@ -28,10 +24,10 @@
             "backupPath": "/home/jordi/.config/VSCodium/Backups/1745532013367",
             "uiState": {
                 "mode": 1,
-                "x": 491,
-                "y": 407,
-                "width": 1200,
-                "height": 800
+                "x": 396,
+                "y": 221,
+                "width": 2708,
+                "height": 1078
             }
         },
         "openedWindows": []
@@ -148,8 +144,7 @@
                     },
                     {
                         "id": "saveAll",
-                        "label": "Save A&&ll",
-                        "enabled": false
+                        "label": "Save A&&ll"
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -237,7 +232,8 @@
                     },
                     {
                         "id": "workbench.action.files.revert",
-                        "label": "Re&&vert File"
+                        "label": "Re&&vert File",
+                        "enabled": false
                     },
                     {
                         "id": "workbench.action.closeActiveEditor",
@@ -652,6 +648,13 @@
                                     "id": "vscode.menubar.separator"
                                 },
                                 {
+                                    "id": "workbench.action.splitEditorInGroup",
+                                    "label": "Split in &&Group"
+                                },
+                                {
+                                    "id": "vscode.menubar.separator"
+                                },
+                                {
                                     "id": "workbench.action.moveEditorToNewWindow",
                                     "label": "&&Move Editor into New Window"
                                 },
@@ -762,8 +765,7 @@
                     },
                     {
                         "id": "editor.action.toggleWordWrap",
-                        "label": "&&Word Wrap",
-                        "enabled": false
+                        "label": "&&Word Wrap"
                     }
                 ]
             },
@@ -771,8 +773,7 @@
                 "items": [
                     {
                         "id": "workbench.action.navigateBack",
-                        "label": "&&Back",
-                        "enabled": false
+                        "label": "&&Back"
                     },
                     {
                         "id": "workbench.action.navigateForward",
@@ -781,8 +782,7 @@
                     },
                     {
                         "id": "workbench.action.navigateToLastEditLocation",
-                        "label": "&&Last Edit Location",
-                        "enabled": false
+                        "label": "&&Last Edit Location"
                     },
                     {
                         "id": "vscode.menubar.separator"

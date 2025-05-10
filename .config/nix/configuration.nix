@@ -56,6 +56,7 @@
   # services.xserver.enable = true;
   services.xserver = {
     enable = false;
+    videoDrivers = ["nvidia"];
   };
 
   # enable qmk
@@ -84,8 +85,15 @@
     #enable nvidia settings
     nvidiaSettings = true;
     # choose driver package
-    package = config.boot.kernelPackages.nvidiaPackages.latest;
+    package = config.boot.kernelPackages.nvidiaPackages.mkDriver{
+      version = "575.51.02";
+      sha256_64bit = "sha256-XZ0N8ISmoAC8p28DrGHk/YN1rJsInJ2dZNL8O+Tuaa0=";
+      openSha256 = "sha256-NQg+QDm9Gt+5bapbUO96UFsPnz1hG1dtEwT/g/vKHkw=";
+      settingsSha256 = "sha256-6n9mVkEL39wJj5FB1HBml7TTJhNAhS/j5hqpNGFQE4w=";
+      usePersistenced = false;
+    };
   };
+
   # Configure keymap in X11
   services.xserver.xkb = {
     layout = "de";
@@ -104,8 +112,13 @@
   # Enable sound.
   # hardware.pulseaudio.enable = true;
   # OR
+
+  security.rtkit.enable = true;
+  
   services.pipewire = {
      enable = true;
+     alsa.enable = true;
+     alsa.support32Bit = true;
      pulse.enable = true;
    };
 
@@ -115,7 +128,7 @@
   # Define a user account. Don't forget to set a password with ‘passwd’.
   users.users.jordi = {
     isNormalUser = true;
-    extraGroups = [ "wheel" ]; # Enable ‘sudo’ for the user.
+    extraGroups = [ "wheel" "input" ]; # Enable ‘sudo’ for the user.
     packages = with pkgs; [
       tree
     ];
@@ -127,9 +140,13 @@
   # $ nix search wget
   nixpkgs = {
     config = {
+    allowUnfreePredicate = pkg: builtins.elem (lib.getName pkg) [
+             "cuda-merged"
+             "castlabs-electron-35.1."
+            ];
       allowUnfree = true;
       packageOverrides = pkgs: {
-       unstable = import (fetchTarball "https://github.com/NixOS/nixpkgs/archive/nixos-unstable.tar.gz") {};
+       unstable = import (fetchTarball "https://github.com/NixOS/nixpkgs/archive/nixos-unstable.tar.gz") {config.allowUnfree = true;};
       };
     };
   };
@@ -243,6 +260,25 @@
     xorg.xev
     wev
     keyd
+    unstable.hyprpolkitagent
+    unstable.hyprpaper
+    unstable.hyprpicker
+    unstable.hypridle
+    unstable.hyprland-qt-support
+    unstable.hyprcursor
+    unstable.hyprlock
+    ghostty
+    unstable.tidal-hifi
+    unstable.high-tide
+    unstable.zed-editor
+    unstable.zed-editor-fhs
+    nvtopPackages.full
+    dysk
+    pavucontrol
+    pamixer
+    bluez
+    bluez-tools
+    alsa-utils
   ];
 
   services.keyd = {
@@ -269,6 +305,7 @@
 
   [main]
   capslock = overload(control, esc)
+  # capsock = esc
 
   [control:C]
 
@@ -317,10 +354,6 @@
     portalPackage = pkgs.xdg-desktop-portal-hyprland;
   };
 
-  programs.hyprlock = {
-    enable = true;
-  };
-
   programs.uwsm = {
     enable = true;
   };
@@ -338,7 +371,7 @@
 
   programs.git = {
     enable = true;
-    lfs.enable = true;
+    # lfs.enable = true;
   };
 
   programs.zsh = {
@@ -375,6 +408,10 @@
     enableDefaultPackages = true;
     packages = with pkgs; [
       nerdfonts
+      geist-font
+      font-awesome
+      helvetica-neue-lt-std
+      liberation_ttf
     ];
 
     fontconfig = {
@@ -418,12 +455,12 @@ services.syncthing = {
       devices = {
         "oneplus" = { id = "QNHUVLY-D5GTXSA-BBC3XTZ-CQTPY2Y-UK3HXWK-N62NOJC-4PJJTFH-WDE3DQ6"; };
       };
-      # folders = {
-      # "sync" = {
-      #   path = "~/sync";
-      #   devices = [ "oneplus" ];
-      #   };
-      # };
+      folders = {
+       "passkeys" = {
+        path = "/home/jordi/sync";
+        devices = [ "oneplus" ];
+         };
+       };
     };
   };
 

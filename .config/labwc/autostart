@@ -1,7 +1,8 @@
 # Example autostart file
 
 # Set background color.
-swaybg -c '#008080' >/dev/null 2>&1 &
+# swaybg -c '#008080' >/dev/null 2>&1 &
+hyprpaper >/dev/null 2>&1 &
 
 # Configure output directives such as mode, position, scale and transform.
 # Use wlr-randr to get your output names

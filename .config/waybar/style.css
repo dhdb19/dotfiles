@@ -1,1 +1,128 @@
+* {
+    border: none;
+    border-radius: 8;
+    font-family: FontAwesome, GeistMono Nerdfont Propo;
+    font-size: 20px;
+    min-height: 0;
+}
 
+window#waybar {
+    background: rgba(255, 255, 255, 1);
+    /* border-bottom: 3px solid rgba(100, 114, 125, 0.5); */
+    color: black;
+}
+
+tooltip {
+  background: rgba(43, 48, 59, 0.5);
+  border: 1px solid rgba(100, 114, 125, 0.5);
+}
+tooltip label {
+  color: white;
+}
+
+#workspaces button {
+    padding: 0 5px;
+    background: transparent;
+    color: black;
+    border-bottom: 3px solid transparent;
+}
+
+#workspaces button.focused {
+    background: #64727D;
+    border-bottom: 3px solid white;
+}
+
+
+#custom-logo {
+    font-size: 22px;
+    background-image: url('/home/jordi/.icons/misc/NixOS.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 55%;
+}
+
+
+
+#hyprland-language {
+    color: black;
+}
+
+#hyprland-submap {
+    color: black;
+}
+
+#mode, #clock, #battery {
+    padding: 0 10px;
+}
+
+#mode {
+    background: #64727D;
+    border-bottom: 3px solid white;
+}
+
+#clock {
+    /* background-color: #64727D; */
+    color: black;
+}
+
+#cpu {
+    color: black;
+}
+
+
+#idle_inhibitor {
+    color: black;
+}
+
+#pulseaudio {
+    color: black;
+}
+
+#memory {
+    color: black;
+}
+
+#temperature {
+    color: black;
+}
+
+
+#backlight {
+    color: black;
+}
+
+/* #keyboard-state { */
+    /* color: black; */
+/* } */
+
+
+#custom-power {
+    color: black;
+}
+
+#battery {
+    background-color: #ffffff;
+    color: black;
+}
+
+#battery.charging {
+    color: white;
+    background-color: #26A65B;
+}
+
+@keyframes blink {
+    to {
+        background-color: #ffffff;
+        color: black;
+    }
+}
+
+#battery.warning:not(.charging) {
+    background: #f53c3c;
+    color: white;
+    animation-name: blink;
+    animation-duration: 0.5s;
+    animation-timing-function: steps(12);
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}

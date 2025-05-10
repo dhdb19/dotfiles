@@ -1,0 +1,8 @@
+2025-05-08 03:46:39.995 [info] Deleted marked for removal extension from disk myriad-dreamin.tinymist /home/jordi/.vscode-oss/extensions/myriad-dreamin.tinymist-0.13.10-linux-x64
+2025-05-08 03:46:39.996 [info] Marked extension as removed myriad-dreamin.tinymist-0.13.10
+2025-05-08 03:46:43.923 [info] Getting Manifest... james-yu.latex-workshop
+2025-05-08 03:46:44.698 [info] Installing extension: james-yu.latex-workshop {"productVersion":{"version":"1.97.2","date":"2025-02-14T18:21:12.766Z"},"pinned":false,"operation":3,"isApplicationScoped":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/jordi/.vscode-oss/extensions/extensions.json","path":"/home/jordi/.vscode-oss/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true}
+2025-05-08 03:46:46.159 [info] Extracted extension to file:///home/jordi/.vscode-oss/extensions/james-yu.latex-workshop-10.9.1-universal: james-yu.latex-workshop
+2025-05-08 03:46:46.206 [info] Renamed to /home/jordi/.vscode-oss/extensions/james-yu.latex-workshop-10.9.1-universal
+2025-05-08 03:46:46.221 [info] Marked extension as removed james-yu.latex-workshop-10.9.0
+2025-05-08 03:46:46.228 [info] Extension installed successfully: james-yu.latex-workshop vscode-userdata:/home/jordi/.vscode-oss/extensions/extensions.json

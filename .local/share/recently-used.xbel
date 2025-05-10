@@ -63,4 +63,174 @@
       </metadata>
     </info>
   </bookmark>
+  <bookmark href="file:///home/jordi/downloads/tmux.extra.conf" added="2025-05-05T11:21:01.791477Z" modified="2025-05-05T11:21:01.791480Z" visited="2025-05-05T11:21:01.791477Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2025-05-05T11:21:01.791478Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/jordi/downloads/tmux.only.conf" added="2025-05-05T11:21:08.850506Z" modified="2025-05-05T11:21:08.850511Z" visited="2025-05-05T11:21:08.850507Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2025-05-05T11:21:08.850508Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/jordi/downloads/tmux.plugin.zsh" added="2025-05-05T11:21:14.520314Z" modified="2025-05-05T11:21:14.520318Z" visited="2025-05-05T11:21:14.520314Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2025-05-05T11:21:14.520316Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/jordi/downloads/Win2k-HiDPI.tar.bz2" added="2025-05-09T01:22:44.401493Z" modified="2025-05-09T01:22:44.401497Z" visited="2025-05-09T01:22:44.401493Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-bzip2-compressed-tar"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2025-05-09T01:22:44.401495Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/jordi/downloads/Retro%204%20(Wrap).obt" added="2025-05-09T01:23:12.002390Z" modified="2025-05-09T01:23:12.002393Z" visited="2025-05-09T01:23:12.002390Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2025-05-09T01:23:12.002391Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/jordi/downloads/JetBrainsMono.zip" added="2025-05-09T15:42:30.681310Z" modified="2025-05-09T15:42:30.681313Z" visited="2025-05-09T15:42:30.681311Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/zip"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2025-05-09T15:42:30.681312Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/jordi/downloads/NixOS.svg" added="2025-05-09T17:10:38.941416Z" modified="2025-05-09T17:10:38.941419Z" visited="2025-05-09T17:10:38.941417Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/svg+xml"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2025-05-09T17:10:38.941417Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/jordi/downloads/apple1(1).svg" added="2025-05-09T17:12:30.004713Z" modified="2025-05-09T17:12:30.004716Z" visited="2025-05-09T17:12:30.004713Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/svg+xml"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2025-05-09T17:12:30.004714Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/jordi/downloads/apple-1.svg" added="2025-05-09T17:12:34.661211Z" modified="2025-05-09T17:12:34.661215Z" visited="2025-05-09T17:12:34.661212Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/svg+xml"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2025-05-09T17:12:34.661213Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/jordi/downloads/next-logo-A60AB.zip" added="2025-05-09T17:21:50.125340Z" modified="2025-05-09T17:21:50.125343Z" visited="2025-05-09T17:21:50.125340Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/zip"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2025-05-09T17:21:50.125341Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/jordi/downloads/Mac-OS-X-Cheetah-1.2.zip" added="2025-05-09T20:21:55.202869Z" modified="2025-05-09T20:21:55.202872Z" visited="2025-05-09T20:21:55.202869Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/zip"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2025-05-09T20:21:55.202870Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/jordi/downloads/Hackneyed-Dark-0.9.3-right-handed.tar.bz2" added="2025-05-09T20:34:23.830885Z" modified="2025-05-09T20:34:23.830888Z" visited="2025-05-09T20:34:23.830886Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-bzip2-compressed-tar"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2025-05-09T20:34:23.830887Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/jordi/downloads/Hackneyed-0.9.3-right-handed.tar.bz2" added="2025-05-09T20:34:48.082010Z" modified="2025-05-09T20:34:48.082014Z" visited="2025-05-09T20:34:48.082011Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-bzip2-compressed-tar"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2025-05-09T20:34:48.082012Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/jordi/downloads/Hackneyed-24px-0.9.3-right-handed.tar.bz2" added="2025-05-09T20:35:00.240413Z" modified="2025-05-09T20:35:00.240416Z" visited="2025-05-09T20:35:00.240413Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-bzip2-compressed-tar"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2025-05-09T20:35:00.240414Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/jordi/downloads/Hackneyed-Dark-24px-0.9.3-right-handed.tar.bz2" added="2025-05-09T20:35:14.856913Z" modified="2025-05-09T20:35:14.856917Z" visited="2025-05-09T20:35:14.856913Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-bzip2-compressed-tar"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2025-05-09T20:35:14.856914Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/jordi/downloads/f2ff6b73-da7e-4de2-b720-0214f5f9b7e1.zip" added="2025-05-09T22:13:36.876880Z" modified="2025-05-09T22:13:36.876883Z" visited="2025-05-09T22:13:36.876881Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/zip"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2025-05-09T22:13:36.876882Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/jordi/downloads/Geist.zip" added="2025-05-09T23:33:41.814081Z" modified="2025-05-09T23:33:41.814083Z" visited="2025-05-09T23:33:41.814081Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/zip"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2025-05-09T23:33:41.814082Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
 </xbel>

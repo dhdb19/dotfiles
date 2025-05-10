@@ -1,0 +1,96 @@
+{
+  "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
+  "modules": [
+    "title",
+    "separator",
+    {
+      "type": "os",
+      "key": "OS",
+      "format": "{pretty-name}"
+    },
+    // "host",
+    {
+    "type": "kernel",
+    "key": "KERNEL"
+    },
+{   "type": "uptime",
+    "key": "UPTIME"
+},
+{    "type": "packages",
+      "key": "PACKGS",
+      "format": "{all}"
+},
+{    "type": "shell",
+      "key": "SHELL"
+},
+{    "type": "display",
+      "key": "DSPLAY",
+      "format": "{width}x{height}@{refresh-rate}"
+},
+{    "type": "de",
+      "key": "DESKTP",
+      "format": "{pretty-name}"
+},
+{    "type": "wm",
+      "key": "WINDWM",
+      "format": "{pretty-name}@{protocol-name}"
+},
+    // "wmtheme",
+    // "theme",
+    // "icons",
+    // "font",
+    // "cursor",
+{   "type": "terminal",
+    "key" : "TERMIN"
+},    // "terminalfont",
+{   "type": "cpu",
+    "key" : "PROCES",
+    "format": "{name} {cores-physical}@{freq-base}"
+},
+{    "type": "gpu",
+      "key": "GRAPHX",
+      "format": "{vendor} {name} ({driver})"
+},
+{    "type" : "memory",
+    "key" : "MEMORY"
+},
+    // "swap",
+{    "type": "disk",
+      "key": "DISKDR",
+      "format": "{size-used}/{size-total} ({size-percentage})"
+},
+{    "type": "localip",
+      "key": "LOCLIP",
+      "format": "{ipv4}"
+},
+{    "type": "battery",
+      "key": "BATTRY",
+      "format": "{capacity} ({status})"
+},
+{   "type": "poweradapter",
+    "key": "PWRADP",
+    "format": "{watts}"
+},
+    // "locale",
+    // "break",
+    // "colors"
+  ],
+  "display" : {
+    "separator": "",
+    "color" : {
+      "keys": "green",
+      "title": "green"
+    },
+    "key": {
+      "width": 12,
+      "type": "string"
+    },
+  },
+  "logo": {
+    "type": "auto",
+    "color": {
+      "1": "green",
+      "2": "green"
+    }
+  }
+}

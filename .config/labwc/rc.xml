@@ -7,17 +7,24 @@
 
 <labwc_config>
 
+  <core>
+    <gap>10</gap>
+    <decoration>server</decoration>
+    <windowSwitcher show="yes" preview="yes" outlines="no" />
+  </core>
+  
   <theme>
-    <name></name>
+    <name>Vent</name>
     <cornerRadius>8</cornerRadius>
-    <font name="sans" size="10" />
+    <font name="sans" size="16" />
+    <dropShadows>yes</dropShadows>
   </theme>
 
   <keyboard>
     <default />
     <!-- Use a different terminal emulator -->
     <keybind key="W-Return">
-      <action name="Execute" command="foot" />
+      <action name="Execute" command="ghostty" />
     </keybind>
     <!--
       Remove a previously defined keybind
@@ -57,4 +64,14 @@
     <notifyClient>always</notifyClient>
   </snapping>
 
+  <placement policy="automatic">
+    <cascadeOffset x="10" y="10" />
+  </placement>
+
+  <!-- <regions> -->
+    <!-- <region name="snap1" x="10%" y="10%" width="80%" height="80%" /> -->
+  <!-- <regions/> -->
+
+  <focus followMouse="yes" followMouseRequiresMovement="no" raiseOnFocus="yes" />
+    
 </labwc_config>

@@ -23,13 +23,13 @@ autoload -U add-zsh-hook
 # zinit snippet OMZP::git
 
 #Shell integrations
-# tmux has-session -t development
-# if [ $? != 0 ]
-# then
-#   tmux new-session -s development
-# fi
-# tmux attach -t development
-tmux attach
+tmux has-session -t main
+if [ $? != 0 ]
+then
+  tmux new-session -s main
+fi
+tmux attach -t main
+# tmux attach
 fastfetch
 eval "$(fzf --zsh)"
 eval "$(zoxide init --cmd cd zsh)"
@@ -38,18 +38,19 @@ eval "$(starship init zsh)"
 #Aliases
 alias ls='ls --color'
 alias ll='ls -la'
-alias nixconfig='sudo hx ~/.config/nix/configuration.nix'
+alias nixconfig='sudo hx -c /home/jordi/.config/helix/config.toml ~/.config/nix/configuration.nix'
 alias nixrebuild='sudo nixos-rebuild switch'
 alias swayconfig='hx ~/.config/sway/config'
 alias labenv='hx ~/.config/labwc/environment'
 alias labmenu='hx ~/.config/labwc/menu.xml'
 alias labrc='hx ~/.config/labwc/rc.xml'
-alias waybarconfig='hx ~/.config/waybar/config'
+alias waybarconfig='hx ~/.config/waybar/config.jsonc'
 alias waybarcss='hx ~/.config/waybar/style.css'
 alias zshconfig='hx ~/.zshrc'
 alias fzf='fzf -m --preview="bat --color=always {} "'
 alias hxfzf='hx $(fzf)'
 alias nixupdate='sudo nixos-rebuild switch --upgrade'
+alias hyprconf='hx ~/.config/hypr/hyprland.conf'
 
 # Load completions
 autoload -Uz compinit && compinit
@@ -57,6 +58,7 @@ autoload -Uz compinit && compinit
 
 # fzf-tab
 source ~/.config/zsh/fzf-tab/fzf-tab.plugin.zsh
+# wget https://raw.githubusercontent.com/Equationzhao/g/master/completions/zsh/_g
 
 #Completion styling
 zstyle ':completion:*' matcher-list 'm:{a-z}={A-Za-z}'
