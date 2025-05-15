@@ -647,3 +647,12 @@ exit
 : 1747325615:0;cd dotfiles
 : 1747325619:0;git status
 : 1747325628:0;git add .
+: 1747325634:0;git commit -m "commit 6"
+: 1747325638:0;git push -u origin main
+: 1747325649:0;cd .config nix
+: 1747325672:0;cp configuration.nix configuration.nix.bak
+: 1747325673:0;ll
+: 1747325681:0;cd .. ..
+: 1747325684:0;cd ..
+: 1747325687:0;ll
+: 1747325695:0;git add .
