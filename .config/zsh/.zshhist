@@ -507,3 +507,143 @@ exit
 : 1747268019:0;ll
 : 1747268021:0;git status
 : 1747268067:0;git add .
+: 1747268090:0;git commit -m "commit 5"
+: 1747268098:0;git push -u origin main
+: 1747268434:0;clear
+: 1747268436:0;fastfetch
+: 1747268584:0;nixconfig
+: 1747269097:0;nix flake show templates
+: 1747269149:0;cd /etc/nixos
+: 1747269166:0;sudo nix flake init -t templates#full
+: 1747269175:0;ll
+: 1747269185:0;bat flake.nix
+: 1747269219:0;hx flake.nix
+: 1747269275:0;nix flake show templates
+: 1747269307:0;sudo nix flake init -t templates#trivial
+: 1747269318:0;sudo nix flake --help
+: 1747269387:0;man nix.conf
+: 1747269469:0;ll
+: 1747269476:0;sudo rm flake.nix
+: 1747269478:0;ll
+: 1747269486:0;sudo nix flake init -t templates#trivial
+: 1747269488:0;ll
+: 1747269494:0;bat flake.nix
+: 1747269534:0;hx flake.nix
+: 1747269825:0;sudo hx flake.nix
+: 1747270145:0;ll
+: 1747270151:0;rm flake.nix
+: 1747270160:0;ll
+: 1747270177:0;sudo rm flake.nix
+: 1747270182:0;ll
+: 1747270191:0;cd
+: 1747270202:0;cd dotfiles/.config/nix
+: 1747270204:0;ll
+: 1747270214:0;sudo nix flake init -t templates#trivial
+: 1747270237:0;hx flake.nix
+: 1747270449:0;ll
+: 1747270502:0;sudo chown jordi configuration.nix
+: 1747270504:0;ll
+: 1747270511:0;sudo chown jordi flake.nix
+: 1747270512:0;ll
+: 1747270521:0;cd /etc/nixos
+: 1747270522:0;ll
+: 1747270546:0;cd nix
+: 1747270549:0;ll
+: 1747270599:0;ln --help
+: 1747270628:0;create hard link
+: 1747270689:0;hx /etc/nixos/configuration.nix
+: 1747271061:0;sudo ln flake.nix /etc/nixos 
+: 1747271066:0;ll
+: 1747271076:0;ll /etc/nixos
+: 1747271085:0;cd /etc/nixos
+: 1747271088:0;yazi
+: 1747271101:0;cd
+: 1747271111:0;hxfzf
+: 1747271281:0;cd nix
+: 1747271285:0;bat flake.nix
+: 1747271292:0;cd /etc/nixos
+: 1747271294:0;bat flake.nix
+: 1747271298:0;cd
+: 1747271304:0;nixrebuild
+: 1747271362:0;nixconfig
+: 1747271443:0;nixrebuild
+: 1747271497:0;nixconfig
+: 1747271559:0;nixrebuild
+: 1747271586:0;nixconfig
+: 1747271802:0;nixrebuild
+: 1747271820:0;nixconfig
+: 1747271840:0;nixrebuild
+: 1747272026:0;sudo nixos-rebuild switch --show-trace
+: 1747272153:0;fastfetch
+: 1747272207:0;bat .config/nix/flake.nix
+: 1747272727:0;hxfzf
+: 1747272847:0;nixrebuild
+: 1747272878:0;hxfzf
+: 1747272934:0;nixrebuild
+: 1747272952:0;hxfzf
+: 1747272962:0;nixrebuild
+: 1747273156:0;hxfzf
+: 1747273772:0;nixrebuild
+: 1747274002:0;hxfzf
+: 1747274181:0;nixrebuild
+: 1747274190:0;hxfzf
+: 1747274227:0;nixrebuild
+: 1747274262:0;hxfzf
+: 1747274352:0;nixrebuild
+: 1747274380:0;hxfzf
+: 1747274472:0;bat .config/nix/flake.nix
+: 1747274620:0;hxfzf
+: 1747274636:0;nixrebuild
+: 1747274651:0;hxfzf
+: 1747274666:0;nixrebuild
+: 1747274722:0;hxfzf
+: 1747274733:0;nixrebuild
+: 1747274788:0;ll
+: 1747274794:0;cd ni
+: 1747274795:0;ll
+: 1747274806:0;rm flake.lock
+: 1747274818:0;sudo rm flake.lock
+: 1747274820:0;ll
+: 1747274827:0;nixrebuild
+: 1747274841:0;ll
+: 1747274848:0;nix --version
+: 1747274923:0;hxfzf
+: 1747274967:0;sudo rm flake.lock
+: 1747274973:0;nixrebuild
+: 1747275135:0;nix --version
+: 1747275166:0;nixconfig
+: 1747275225:0;nixrebuild
+: 1747275295:0;hxfzf
+: 1747275551:0;nixrebuild
+: 1747275645:0;hxfzf
+: 1747275738:0;nixrebuild
+: 1747275778:0;poweroff
+: 1747305321:0;hx ~/.config/nix/flake.nix
+: 1747305411:0;nixrebuild
+: 1747305442:0;nixconfig
+: 1747305571:0;hx ~/.config/nix/flake.nix
+: 1747305605:0;nixrebuild
+: 1747305709:0;hx ~/.config/nix/flake.nix
+: 1747305755:0;nixrebuild
+: 1747305768:0;hx ~/.config/nix/flake.nix
+: 1747305775:0;nixrebuild
+: 1747306048:0;hx ~/.config/nix/flake.nix
+: 1747306179:0;nixrebuild
+: 1747306191:0;hx ~/.config/nix/flake.nix
+: 1747306204:0;nixrebuild
+: 1747306233:0;nixconfig
+: 1747306421:0;hx ~/.config/nix/flake.nix
+: 1747306770:0;nixconfig
+: 1747306938:0;bat .config/nix/configuration.nix
+: 1747306976:0;bat .config/nix/flake.nix
+: 1747307060:0;hx ~/.config/nix/flake.nix
+: 1747307069:0;nixrebuild
+: 1747307152:0;nixconfig
+: 1747325574:0;cd dotfiles
+: 1747325589:0;ll
+: 1747325595:0;cd .config nix
+: 1747325598:0;ll
+: 1747325613:0;cd
+: 1747325615:0;cd dotfiles
+: 1747325619:0;git status
+: 1747325628:0;git add .

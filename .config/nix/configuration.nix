@@ -100,7 +100,7 @@
     extraLayouts.de-fkeys = {
       description = "German layout with working F-keys for 60% layout keyboards";
       languages = [ "deu" ];
-      symbolsFile = /home/jordi/dotfiles/.config/xkb/symbols/de-fkeys;
+      symbolsFile = "${config.users.users.jordi.home}/dotfiles/.config/xkb/symbols/de-fkeys";
     };
   };
   
@@ -138,23 +138,26 @@
 
   # List packages installed in system profile. To search, run:
   # $ nix search wget
-  nixpkgs = {
-    config = {
-    allowUnfreePredicate = pkg: builtins.elem (lib.getName pkg) [
-             "cuda-merged"
-             "castlabs-electron-35.1."
-            ];
-      allowUnfree = true;
-      packageOverrides = pkgs: {
-       unstable = import (fetchTarball "https://github.com/NixOS/nixpkgs/archive/nixos-unstable.tar.gz") {config.allowUnfree = true;};
-       inputs = {
-         zen-browser.url = "github:youwen5/zen-browser-flake";
-        zen-browser.inputs.nixpkgs.follows = "nixpkgs";
+  # nixpkgs = {
+  #   config = {
+  #   allowUnfreePredicate = pkg: builtins.elem (lib.getName pkg) [
+  #            "cuda-merged"
+  #            "castlabs-electron-35.1."
+  #           ];
+  #     allowUnfree = true;
+  #     packageOverrides = pkgs: {
+  #      unstable = import (fetchTarball {
+  #       url = "https://github.com/NixOS/nixpkgs/archive/nixos-unstable.tar.gz";
+  #       sha256 = "sha256:1i3sj7bapriaanmnlrr6p3khr20j1k59il12fkww78ik2xa81vyx";
+  #       }) {config.allowUnfree = true;};
+  #      inputs = {
+  #        zen-browser.url = "github:youwen5/zen-browser-flake";
+  #       zen-browser.inputs.nixpkgs.follows = "nixpkgs";
         
-      };
-      };
-    };
-  };
+  #     };
+  #     };
+  #   };
+  # };
 
 
   nix.settings.experimental-features = [ "nix-command" "flakes" ];  

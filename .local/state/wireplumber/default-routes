@@ -1,8 +1,8 @@
 [default-routes]
-alsa_card.pci-0000_06_00.0:input:analog-input-linein={"latencyOffsetNsec":0, "mute":false, "channelVolumes":[1.000000, 1.000000], "channelMap":["FL", "FR"]}
-alsa_card.pci-0000_06_00.0:output:analog-output-headphones;output-speaker={"latencyOffsetNsec":0, "mute":false, "channelVolumes":[0.998353, 0.998353], "channelMap":["FL", "FR"]}
+alsa_card.pci-0000_06_00.0:input:analog-input-linein={"channelMap":["FL", "FR"], "latencyOffsetNsec":0, "channelVolumes":[1.000000, 1.000000], "mute":false}
+alsa_card.pci-0000_06_00.0:output:analog-output-headphones;output-speaker={"channelMap":["FL", "FR"], "latencyOffsetNsec":0, "channelVolumes":[0.998353, 0.998353], "mute":false}
 alsa_card.pci-0000_06_00.0:profile:output:analog-stereo+input:analog-stereo=["analog-input-linein", "analog-output-headphones;output-speaker"]
-alsa_card.pci-0000_2b_00.1:output:hdmi-output-0={"latencyOffsetNsec":0, "mute":false, "channelVolumes":[0.063997, 0.063997], "iec958Codecs":[], "channelMap":["FL", "FR"]}
+alsa_card.pci-0000_2b_00.1:output:hdmi-output-0={"channelMap":["FL", "FR"], "latencyOffsetNsec":0, "channelVolumes":[0.063997, 0.063997], "mute":false, "iec958Codecs":[]}
 alsa_card.pci-0000_2b_00.1:profile:output:hdmi-stereo=["hdmi-output-0"]
 alsa_card.pci-0000_2d_00.4:output:analog-output-lineout={"channelVolumes":[0.998993, 0.998993], "mute":false, "channelMap":["FL", "FR"], "latencyOffsetNsec":0}
 alsa_card.pci-0000_2d_00.4:profile:output:analog-stereo+input:analog-stereo=["analog-output-lineout"]

@@ -1177,3 +1177,21 @@
 02:09:30.255161 db@janitor F·5 G·1
 02:09:30.255169 db@janitor removing table-238
 02:09:30.255198 db@open done T·11.781398ms
+04:22:59.085682 db@close closing
+04:22:59.085748 db@close done T·66.309µs
+=============== May 15, 2025 (CEST) ===============
+12:25:23.210451 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+12:25:23.210982 version@stat F·[1 1] S·8KiB[161B 7KiB] Sc·[0.25 0.00]
+12:25:23.210995 db@open opening
+12:25:23.211183 journal@recovery F·1
+12:25:23.211307 journal@recovery recovering @243
+12:25:23.213263 memdb@flush created L0@245 N·10 S·359B "\x03QN..ion,v1110":"\nla..ime,v1104"
+12:25:23.213610 version@stat F·[2 1] S·8KiB[520B 7KiB] Sc·[0.50 0.00]
+12:25:23.221007 db@janitor F·5 G·0
+12:25:23.221028 db@open done T·10.027833ms
+12:36:49.836035 table@compaction L0·2 -> L1·1 S·8KiB Q·1114
+12:36:49.840885 table@build created L1@248 N·127 S·7KiB "\x00\x00\x00..dbx,v1032":"\x0e\x00\x00..dbx,v656"
+12:36:49.840911 version@stat F·[0 1] S·7KiB[0B 7KiB] Sc·[0.00 0.00]
+12:36:49.842021 table@compaction committed F-2 S-517B Ke·0 D·12 T·5.955419ms
+12:36:49.842087 table@remove removed @242
+12:36:49.842123 table@remove removed @241
