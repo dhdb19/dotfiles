@@ -1,9 +1,9 @@
 {
-    "window.zoomLevel": 1.5,
-    "workbench.editor.wrapTabs": true,
+  "window.zoomLevel": 1.5,
+  "workbench.editor.wrapTabs": true,
   "breadcrumbs.enabled": false,
   "cSpell.language": "en",
-  "editor.fontSize": 13,
+  "editor.fontSize": 14,
   "editor.fontFamily": "JetBrainsMono Nerdfont",
   "editor.fontLigatures": true,
   "workbench.settings.editor": "json",
@@ -12,4 +12,5 @@
   "editor.minimap.enabled": false,
   "editor.renderWhitespace": "all",
   "window.titleBarStyle": "custom",
+  "workbench.colorTheme": "Default High Contrast",
 }

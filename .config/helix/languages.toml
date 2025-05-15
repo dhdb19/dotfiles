@@ -2,8 +2,67 @@
 command = "tinymist"
 
 
-[[languages]]
+[[language]]
 name = "typst"
 auto-format = true
 formatter.command = "typstyle"
-language-server = ["tinymist"]
+language-servers = ["tinymist"]
+
+
+[language-server.nix]
+command = "nil"
+
+[[language]]
+name = "nix"
+auto-format = true
+formatter.command = "nixfmt"
+language-servers = ["nil"]
+
+[language-server.typescript]
+command = "typescript-language-server"
+
+[[language]]
+name = "typescript"
+language-servers = ["typescript-language-server"]
+auto-format = true
+
+[language-server.javascript]
+command = "typescript-language-server"
+
+[[language]]
+name = "javascript"
+language-servers = ["typescript-language-server"]
+
+[language-server.toml]
+command = "taplo"
+
+[[language]]
+name = "toml"
+language-servers = ["taplo"]
+auto-format = true
+
+[language-server.jsonc]
+command = "vscode-json-language-server"
+
+[[language]]
+name = "jsonc"
+language-servers = ["vscode-json-language-server"]
+auto-format = true
+
+
+[language-server.json]
+command = "vscode-json-language-server"
+
+[[language]]
+name = "json"
+language-servers = ["vscode-json-language-server"]
+auto-format = true
+
+
+[language-server.css]
+command = "vscode-css-language-server"
+
+[[language]]
+name = "css"
+language-servers = ["vscode-css-language-server"]
+auto-format = true

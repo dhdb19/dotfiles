@@ -1,0 +1,3 @@
+[stream-properties]
+Output/Audio:application.name:eSpeak={"volume":1.000000, "mute":false, "channelMap":["MONO"], "channelVolumes":[1.000000]}
+Output/Audio:application.name:libao\osd_dummy\c={"volume":1.000000, "mute":false, "channelMap":["FL", "FR"], "channelVolumes":[1.000000, 1.000000]}

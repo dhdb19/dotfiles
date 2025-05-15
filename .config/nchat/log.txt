@@ -1,0 +1,6 @@
+2025-05-15 01:12:15.969 | INFO  | nchat 5.4.2  (main.cpp:249)
+2025-05-15 01:12:15.969 | INFO  | NixOS 24.11 (Vicuna) x86_64  (main.cpp:251)
+2025-05-15 01:12:15.969 | INFO  | GCC 14.2.1 20250322 glibc 2.40  (main.cpp:253)
+2025-05-15 01:12:15.969 | INFO  | Go N/A  (main.cpp:255)
+2025-05-15 01:12:15.969 | INFO  | Telegram ON, WhatsApp ON  (main.cpp:257)
+2025-05-15 01:12:45.524 | INFO  | user abort  (apputil.cpp:110)

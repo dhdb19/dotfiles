@@ -147,14 +147,24 @@
       allowUnfree = true;
       packageOverrides = pkgs: {
        unstable = import (fetchTarball "https://github.com/NixOS/nixpkgs/archive/nixos-unstable.tar.gz") {config.allowUnfree = true;};
+       inputs = {
+         zen-browser.url = "github:youwen5/zen-browser-flake";
+        zen-browser.inputs.nixpkgs.follows = "nixpkgs";
+        
+      };
       };
     };
   };
 
 
+  nix.settings.experimental-features = [ "nix-command" "flakes" ];  
 
   environment.systemPackages = with pkgs; 
   let
+    # inputs = {
+    #   zen-browser.url = "github:youwen5/zen-browser-flake";
+    #   zen-browser.inputs.nixpkgs.follows = "nixpkgs";
+    # };
     swayConfig = pkgs.writeText "greetd-sway-config" ''
     # -l activates layer-shell mode. Notice that swaymsg will run ater gtkgreet
     exec "${pkgs.greetd.tuigreet}/bin/tuigreet -l; swaymsg exit"
@@ -185,7 +195,7 @@
         tinytable
         viridis
         vroom
-        parallel
+        # parallel
         rix    
       ];
     };
@@ -213,7 +223,7 @@
     btop
     zenith
     pciutils
-    waybar
+    unstable.waybar
     wofi
     zinit
     git-credential-manager
@@ -236,7 +246,7 @@
     pydf
     libgcc
     libgccjit
-    postgresql
+    # postgresql
     cachix
     unzip
     syncthing
@@ -266,6 +276,9 @@
     unstable.hyprland-qt-support
     unstable.hyprcursor
     unstable.hyprlock
+    unstable.hyprsysteminfo
+    unstable.hyprgraphics
+    unstable.hyprutils
     ghostty
     unstable.tidal-hifi
     unstable.high-tide
@@ -284,6 +297,46 @@
     unstable.typstfmt
     unstable.tinymist
     libxml2
+    nix-init
+    unstable.go
+    unstable.superfile
+    # inputs.zen-browser.packages.${pkgs.system}.default
+    unstable.libpqxx
+    unstable.libpq
+    unstable.postgresql
+    unstable.g-ls
+    unstable.fontpreview
+    unstable.impression
+    unstable.typescript-language-server
+    unstable.nil
+    unstable.hyprls
+    unstable.nixfmt-rfc-style
+    unstable.ags
+    unstable.astal.io
+    unstable.astal.gjs
+    # unstable.astal.tray
+    unstable.astal.cava
+    unstable.astal.auth
+    unstable.astal.apps
+    unstable.astal.river
+    unstable.astal.mpris
+    unstable.astal.greet
+    unstable.astal.source
+    unstable.astal.notifd
+    unstable.astal.astal4
+    unstable.astal.astal3
+    unstable.astal.wireplumber
+    unstable.astal.powerprofiles
+    unstable.astal.network
+    unstable.astal.hyprland
+    unstable.astal.bluetooth
+    unstable.astal.battery
+    unstable.vscode-langservers-extracted
+    unstable.taplo
+    unstable.nodejs
+    unstable.whatsie
+    unstable.zapzap
+    unstable.nchat
     (vscode-with-extensions.override {
       vscode = vscodium;
       vscodeExtensions = with vscode-extensions; [
@@ -292,8 +345,6 @@
       ];
     })
   ];
-
-
 
 
   environment.extraOutputsToInstall = [
@@ -316,6 +367,11 @@
   # };
 
   environment.sessionVariables.NIXOS_OZONE_WL ="1";
+
+  environment.variables = {
+    NIXOS_OZONE_WL="1";
+    MOZ_ENABLE_WAYLAND="1";
+  };
 
   services.keyd = {
     enable = true;
@@ -359,6 +415,8 @@
     wlr.enable = true;
     extraPortals = with pkgs; [
       xdg-desktop-portal-wlr
+      xdg-desktop-portal-gtk
+      xdg-desktop-portal-hyprland
     ];
   };
 
@@ -435,13 +493,16 @@
       font-awesome
       helvetica-neue-lt-std
       liberation_ttf
+      inter
+      aileron
+      helvetica-neue-lt-std
     ];
 
     fontconfig = {
       defaultFonts = {
         serif = [ "Liberation Serif" ];
-	sansSerif = [ "BitStromWerat" ];
-	monospace = [ "JetBrainsMono" ];
+      	sansSerif = [ "Geist" ];
+      	monospace = [ "JetBrainsMono" ];
       };
     };
   };
@@ -454,6 +515,19 @@
   # };
 
   # List services that you want to enable:
+
+  services.flatpak= {
+    enable = true;
+  };
+
+   systemd.services.flatpak-repo = {
+    wantedBy = [ "multi-user.target" ];
+    path = [ pkgs.flatpak ];
+    script = ''
+      flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
+    '';
+  };
+
 
   services.gnome.gnome-keyring.enable = true;
 

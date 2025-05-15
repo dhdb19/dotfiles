@@ -1,82 +1,220 @@
 {
   "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
   "modules": [
-    "title",
-    "separator",
+    {
+      "type" : "title",
+      "format": ">USER {user-name-colored} >HOST {host-name-colored}"
+    },
+    // "separator",
+    {
+      "type": "custom",
+      "format": "──────────────────────────────────────────────────"
+    },
     {
       "type": "os",
-      "key": "OS",
-      "format": "{pretty-name}"
+      "key": ">OPSYS",
+      "format": "{name} {version}"
     },
+
+    
+    {
+      "type": "custom",
+      "format": "──────────────────────────────────────────────────"
+    },
+
     // "host",
+    
     {
     "type": "kernel",
-    "key": "KERNEL"
+    "key": ">KERNL"
     },
-{   "type": "uptime",
-    "key": "UPTIME"
-},
-{    "type": "packages",
-      "key": "PACKGS",
+
+    {
+      "type": "custom",
+      "format": "──────────────────────────────────────────────────"
+    },
+
+//     {   "type": "uptime",
+//     "key": ">UPTME"
+// },
+
+//     {
+//       "type": "custom",
+//       "format": "──────────────────────────────────────────────────"
+//     },
+
+    {    "type": "packages",
+      "key": ">PCKGS",
       "format": "{all}"
 },
-{    "type": "shell",
-      "key": "SHELL"
+
+    {
+      "type": "custom",
+      "format": "──────────────────────────────────────────────────"
+    },
+
+    {    "type": "shell",
+      "key": ">SHELL"
 },
-{    "type": "display",
-      "key": "DSPLAY",
+
+    {
+      "type": "custom",
+      "format": "──────────────────────────────────────────────────"
+    },
+
+    {    "type": "display",
+      "key": ">DSPLY",
       "format": "{width}x{height}@{refresh-rate}"
 },
-{    "type": "de",
-      "key": "DESKTP",
-      "format": "{pretty-name}"
-},
-{    "type": "wm",
-      "key": "WINDWM",
+
+    {
+      "type": "custom",
+      "format": "──────────────────────────────────────────────────"
+    },
+
+//     {    "type": "de",
+//       "key": ">DSKTP",
+//       "format": "{pretty-name}"
+// },
+
+//     {
+//       "type": "custom",
+//       "format": "──────────────────────────────────────────────────"
+//     },
+
+    {    "type": "wm",
+      "key": ">WMNGR",
       "format": "{pretty-name}@{protocol-name}"
 },
+
+    {
+      "type": "custom",
+      "format": "──────────────────────────────────────────────────"
+    },
+
+
     // "wmtheme",
     // "theme",
     // "icons",
     // "font",
     // "cursor",
-{   "type": "terminal",
-    "key" : "TERMIN"
-},    // "terminalfont",
+
+    
+    
+    // {
+    //   "type": "custom",
+    //   "format": "──────────────────────────────────────────────────"
+    // },
+    
+// {   "type": "terminal",
+//     "key" : ">TRMNL"
+// },
+
+//     {
+//       "type": "custom",
+//       "format": "──────────────────────────────────────────────────"
+//     },
+    // "terminalfont",
+
+    
+    // {
+    //   "type": "custom",
+    //   "format": "──────────────────────────────────────────────────"
+    // },
+        
 {   "type": "cpu",
-    "key" : "PROCES",
+    "key" : ">PROCS",
     "format": "{name} {cores-physical}@{freq-base}"
 },
-{    "type": "gpu",
-      "key": "GRAPHX",
-      "format": "{vendor} {name} ({driver})"
+
+    {
+      "type": "custom",
+      "format": "──────────────────────────────────────────────────"
+    },
+
+    {    "type": "gpu",
+      "key": ">GRPHX",
+      "format": "{vendor} {name}"
 },
-{    "type" : "memory",
-    "key" : "MEMORY"
+
+    {
+      "type": "custom",
+      "format": "──────────────────────────────────────────────────"
+    },
+
+    {    "type" : "memory",
+    "key" : ">MEMRY",
+    "format": "{total}"
 },
+
+    {
+      "type": "custom",
+      "format": "──────────────────────────────────────────────────"
+    },
+
     // "swap",
+
+
+    // {
+    //   "type": "custom",
+    //   "format": "──────────────────────────────────────────────────"
+    // },
+        
 {    "type": "disk",
-      "key": "DISKDR",
-      "format": "{size-used}/{size-total} ({size-percentage})"
+      "key": ">DSKDR",
+      "format": "{size-total}"
 },
-{    "type": "localip",
-      "key": "LOCLIP",
-      "format": "{ipv4}"
-},
-{    "type": "battery",
-      "key": "BATTRY",
+
+    {
+      "type": "custom",
+      "format": "──────────────────────────────────────────────────"
+    },
+
+//     {    "type": "localip",
+//       "key": ">LOCIP",
+//       "format": "{ipv4}"
+// },
+
+//     {
+//       "type": "custom",
+//       "format": "──────────────────────────────────────────────────"
+//     },
+
+    {    "type": "battery",
+      "key": ">BTTRY",
       "format": "{capacity} ({status})"
 },
-{   "type": "poweradapter",
-    "key": "PWRADP",
+
+    // {
+    //   "type": "custom",
+    //   "format": "──────────────────────────────────────────────────"
+    // },
+
+    {   "type": "poweradapter",
+    "key": ">PWRAD",
     "format": "{watts}"
 },
+
+   // {
+   //    "type": "custom",
+   //    "format": "──────────────────────────────────────────────────"
+   //  },
+
     // "locale",
     // "break",
     // "colors"
+
+    
+    // {
+    //   "type": "custom",
+    //   "format": "──────────────────────────────────────────────────"
+    // },    
   ],
   "display" : {
     "separator": "",
+    "constants": [
+      ""
+    ],
     "color" : {
       "keys": "green",
       "title": "green"

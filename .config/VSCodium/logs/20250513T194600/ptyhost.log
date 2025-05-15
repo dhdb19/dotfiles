@@ -1,0 +1,12 @@
+2025-05-13 19:46:01.530 [info] Revived process, old id d7d389b45f6924c0fc310b6f662f561e-1 -> new id 1
+2025-05-13 19:46:01.530 [info] Revived process, old id d7d389b45f6924c0fc310b6f662f561e-2 -> new id 2
+2025-05-13 19:46:01.570 [info] Expanding terminal instance, old id d7d389b45f6924c0fc310b6f662f561e-1 -> new id 1
+2025-05-13 19:46:01.570 [info] Expanding terminal instance, old id d7d389b45f6924c0fc310b6f662f561e-2 -> new id 2
+2025-05-13 19:46:02.146 [warning] Persistent process "2": Process had no disconnect runners but was an orphan
+2025-05-13 19:46:02.146 [info] Persistent process reconnection "2"
+2025-05-13 19:46:02.156 [warning] Shell integration cannot be enabled for executable "/nix/store/0pp9l5js12vkjka3zqanal1wd3wzq9q8-python3.11-radian-0.6.13/bin/radian" and args ["--no-save","--no-restore"]
+2025-05-13 19:46:02.170 [info] Persistent process "2": Replaying 8481 chars and 1 size events
+2025-05-13 19:46:02.196 [warning] Persistent process "1": Process had no disconnect runners but was an orphan
+2025-05-13 19:46:02.196 [info] Persistent process reconnection "1"
+2025-05-13 19:46:02.256 [info] Persistent process "1": Replaying 93 chars and 1 size events
+2025-05-13 19:46:16.309 [warning] Shell integration cannot be enabled for executable "/nix/store/0pp9l5js12vkjka3zqanal1wd3wzq9q8-python3.11-radian-0.6.13/bin/radian" and args ["--no-save","--no-restore"]

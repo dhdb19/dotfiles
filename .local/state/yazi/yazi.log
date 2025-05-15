@@ -3000,3 +3000,184 @@
 /home/jordi/.nix-profile
     at yazi-scheduler/src/prework/prework.rs:49
 
+  2025-05-12T18:15:29.199882Z ERROR yazi_scheduler::prework::prework: Returned 2 when running fetcher `mime` with:
+/home/jordi/.bash_history
+/home/jordi/.git-credentials
+/home/jordi/.gitconfig
+/home/jordi/.gtkrc-2.0
+/home/jordi/.histfile
+/home/jordi/.lesshst
+/home/jordi/.nix-profile
+/home/jordi/.p10k.zsh
+/home/jordi/.viminfo
+/home/jordi/.wget-hsts
+/home/jordi/.zcompdump
+/home/jordi/.zshhist
+/home/jordi/.zshrc
+/home/jordi/.zsh_history
+/home/jordi/layout.xkb
+/home/jordi/output.xkb
+    at yazi-scheduler/src/prework/prework.rs:49
+
+  2025-05-12T18:16:54.293141Z ERROR yazi_scheduler::prework::prework: Returned 2 when running fetcher `mime` with:
+/home/jordi/.bash_history
+/home/jordi/.git-credentials
+/home/jordi/.gitconfig
+/home/jordi/.gtkrc-2.0
+/home/jordi/.histfile
+/home/jordi/.lesshst
+/home/jordi/.nix-profile
+/home/jordi/.p10k.zsh
+/home/jordi/.viminfo
+/home/jordi/.wget-hsts
+/home/jordi/.zcompdump
+/home/jordi/.zshhist
+/home/jordi/.zshrc
+/home/jordi/.zsh_history
+/home/jordi/layout.xkb
+/home/jordi/output.xkb
+    at yazi-scheduler/src/prework/prework.rs:49
+
+  2025-05-12T18:22:03.297809Z ERROR yazi_scheduler::prework::prework: Returned 2 when running fetcher `mime` with:
+/home/jordi/.bash_history
+/home/jordi/.git-credentials
+/home/jordi/.gitconfig
+/home/jordi/.gtkrc-2.0
+/home/jordi/.histfile
+/home/jordi/.lesshst
+/home/jordi/.nix-profile
+/home/jordi/.p10k.zsh
+/home/jordi/.viminfo
+/home/jordi/.wget-hsts
+/home/jordi/.zcompdump
+/home/jordi/.zshhist
+/home/jordi/.zshrc
+/home/jordi/.zsh_history
+/home/jordi/layout.xkb
+/home/jordi/output.xkb
+    at yazi-scheduler/src/prework/prework.rs:49
+
+  2025-05-12T20:22:20.379531Z ERROR yazi_scheduler::prework::prework: Returned 2 when running fetcher `mime` with:
+/home/jordi/.bash_history
+/home/jordi/.git-credentials
+/home/jordi/.gitconfig
+/home/jordi/.gtkrc-2.0
+/home/jordi/.histfile
+/home/jordi/.lesshst
+/home/jordi/.nix-profile
+/home/jordi/.p10k.zsh
+/home/jordi/.viminfo
+/home/jordi/.wget-hsts
+/home/jordi/.zcompdump
+/home/jordi/.zshhist
+/home/jordi/.zshrc
+/home/jordi/.zsh_history
+/home/jordi/layout.xkb
+/home/jordi/output.xkb
+    at yazi-scheduler/src/prework/prework.rs:49
+
+  2025-05-12T20:22:35.217773Z ERROR yazi_scheduler::prework::prework: Returned 2 when running fetcher `mime` with:
+/home/jordi/.nix-profile
+    at yazi-scheduler/src/prework/prework.rs:49
+
+  2025-05-13T22:03:55.789201Z ERROR yazi_scheduler::prework::prework: Returned 2 when running fetcher `mime` with:
+/home/jordi/.local/share/themes/.themes
+    at yazi-scheduler/src/prework/prework.rs:49
+
+  2025-05-14T16:43:24.893247Z ERROR yazi_scheduler::prework::prework: Returned 2 when running fetcher `mime` with:
+/dev/autofs
+/dev/btrfs-control
+/dev/console
+/dev/core
+/dev/cpu_dma_latency
+/dev/cuse
+/dev/fb0
+/dev/full
+/dev/fuse
+/dev/gpiochip0
+/dev/gpiochip1
+/dev/hidraw0
+/dev/hidraw1
+/dev/hidraw10
+/dev/hidraw2
+/dev/hidraw3
+/dev/hidraw4
+/dev/hidraw5
+/dev/hidraw6
+/dev/hidraw7
+/dev/hidraw8
+/dev/hidraw9
+/dev/hpet
+/dev/hwrng
+/dev/kmsg
+/dev/kvm
+/dev/log
+/dev/loop-control
+/dev/loop0
+/dev/loop1
+/dev/loop2
+/dev/loop3
+/dev/loop4
+/dev/loop5
+/dev/loop6
+/dev/loop7
+/dev/mem
+/dev/ng0n1
+/dev/ng1n1
+/dev/null
+/dev/nvidia-modeset
+/dev/nvidia-uvm
+/dev/nvidia-uvm-tools
+/dev/nvidia0
+/dev/nvidiactl
+/dev/nvme0
+/dev/nvme0n1
+/dev/nvme0n1p1
+/dev/nvme0n1p2
+/dev/nvme1
+/dev/nvme1n1
+/dev/nvme1n1p1
+/dev/nvme1n1p2
+/dev/nvme1n1p3
+/dev/nvme1n1p4
+/dev/nvram
+/dev/port
+/dev/ppp
+/dev/ptmx
+/dev/random
+/dev/rfkill
+/dev/root
+/dev/rtc
+/dev/rtc0
+/dev/sda
+/dev/sda1
+/dev/sda2
+/dev/sda3
+/dev/sdb
+/dev/sdb1
+/dev/sdb2
+/dev/snapshot
+/dev/stderr
+/dev/stdin
+/dev/stdout
+/dev/tpm0
+/dev/tpmrm0
+/dev/tty
+/dev/tty0
+/dev/tty1
+/dev/tty10
+/dev/tty11
+/dev/tty12
+/dev/tty13
+/dev/tty14
+/dev/tty15
+/dev/tty16
+/dev/tty17
+/dev/tty18
+/dev/tty19
+    at yazi-scheduler/src/prework/prework.rs:49
+
+  2025-05-14T16:43:34.293627Z ERROR yazi_scheduler::prework::prework: Returned 2 when running fetcher `mime` with:
+/dev/core
+    at yazi-scheduler/src/prework/prework.rs:49
+

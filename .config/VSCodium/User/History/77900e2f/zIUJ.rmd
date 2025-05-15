@@ -1,0 +1,77 @@
+# Task 1
+## Load datasets 
+
+```{r}
+library("doBy")
+federal_elections <- read.csv("data/federal_elections.csv")
+
+unemployment <- read.csv("data/unemployment.csv")
+
+
+
+```
+
+## Set column lowercase
+
+
+```{r}
+names(federal_elections)[names(federal_elections) == "turnout"] <- "election_turnout"
+colnames(unemplyoment) <- tolower(colnames(unemployme)nt)
+
+names(federal_elections)[names(federal_elections) == "election_turnout"] <- "turnout"
+colnames(unemployment) <- tolower(colnames(unemployment))
+
+unemployment <- subset(
+    unemployment,
+    select = c(state,
+    year,
+    rate_unemployed)
+)
+
+
+bl <- c(
+    "Baden-Württemberg",
+    "Bayern",
+    "Bremen",
+    "Berlin",
+    "Hamburg",
+    "Hessen",
+    "Thüringen",
+    "Rheinland-Pfalz",
+    "Saarland",
+    "Sachsen",
+    "Nordrhein-Westfalen",
+    "Sachsen-Anhalt",
+    "Brandenburg",
+    "Mecklenburg-Vorpommern",
+    "Schleswig-Holstein",
+    "Niedersachsen",
+    NA
+)
+
+```
+
+
+## Problematic rows
+
+
+# Task 2
+
+```{r}
+
+
+
+```
+
+
+# Task 3
+
+
+
+unemployment_high <- subsetBy(
+     ~ rate_unemployed,
+     rate_unemployed >10,
+    data = unemployment
+)
+
+

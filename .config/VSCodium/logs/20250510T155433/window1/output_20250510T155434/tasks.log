@@ -1,7 +1,0 @@
-Error: the task 'R: Install Package' neither specifies a command nor a dependsOn property. The task will be ignored. Its definition is:
-{
-    "type": "process",
-    "id": "process,/nix/store/7aqd9zws4ia20kddr815rh0dmaid7qng-R-4.4.1/bin/R,--silent,--no-echo,--no-save,--no-restore,-e,install.packages('languageserver',, repos='https://cloud.r-project.org/'),",
-    "problemMatcher": [],
-    "label": "R: Install Package"
-}

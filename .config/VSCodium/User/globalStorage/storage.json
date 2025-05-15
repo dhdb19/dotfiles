@@ -3,13 +3,12 @@
     "telemetry.machineId": "ad6c950817eafada69892834235d5b5427da19d603f4af9daf9f06c01c715a08",
     "telemetry.devDeviceId": "2a75568c-ab91-40ea-870a-9c34d2349fc5",
     "backupWorkspaces": {
-        "workspaces": [
+        "workspaces": [],
+        "folders": [
             {
-                "id": "d7d389b45f6924c0fc310b6f662f561e",
-                "configURIPath": "file:///home/jordi/onedrive/master/m41_dss/m41.code-workspace"
+                "folderUri": "file:///home/jordi/onedrive/master/m41_dms"
             }
         ],
-        "folders": [],
         "emptyWindows": []
     },
     "profileAssociations": {
@@ -22,17 +21,14 @@
     },
     "windowsState": {
         "lastActiveWindow": {
-            "workspaceIdentifier": {
-                "id": "d7d389b45f6924c0fc310b6f662f561e",
-                "configURIPath": "file:///home/jordi/onedrive/master/m41_dss/m41.code-workspace"
-            },
-            "backupPath": "/home/jordi/.config/VSCodium/Backups/d7d389b45f6924c0fc310b6f662f561e",
+            "folder": "file:///home/jordi/onedrive/master/m41_dms",
+            "backupPath": "/home/jordi/.config/VSCodium/Backups/c0088ecca0484284bea3c1f921259b00",
             "uiState": {
-                "mode": 1,
+                "mode": 0,
                 "x": 0,
                 "y": 0,
-                "width": 1705,
-                "height": 1380
+                "width": 860,
+                "height": 1382
             }
         },
         "openedWindows": []
@@ -1661,31 +1657,30 @@
             }
         }
     },
-    "theme": "vs-dark",
-    "themeBackground": "#1f1f1f",
+    "theme": "hc-black",
+    "themeBackground": "#000000",
     "windowSplash": {
         "zoomLevel": 1.5,
-        "baseTheme": "vs-dark",
+        "baseTheme": "hc-black",
         "colorInfo": {
-            "foreground": "#cccccc",
-            "background": "#1f1f1f",
-            "editorBackground": "#1f1f1f",
-            "titleBarBackground": "#181818",
-            "titleBarBorder": "#2b2b2b",
-            "activityBarBackground": "#181818",
-            "activityBarBorder": "#2b2b2b",
-            "sideBarBackground": "#181818",
-            "sideBarBorder": "#2b2b2b",
-            "statusBarBackground": "#181818",
-            "statusBarBorder": "#2b2b2b",
-            "statusBarNoFolderBackground": "#1f1f1f"
+            "foreground": "#ffffff",
+            "background": "#000000",
+            "editorBackground": "#000000",
+            "titleBarBackground": "#000000",
+            "titleBarBorder": "#6fc3df",
+            "activityBarBackground": "#000000",
+            "activityBarBorder": "#6fc3df",
+            "sideBarBackground": "#000000",
+            "sideBarBorder": "#6fc3df",
+            "statusBarBorder": "#6fc3df",
+            "windowBorder": "#6fc3df"
         },
         "layoutInfo": {
             "sideBarSide": "left",
             "editorPartMinWidth": 220,
             "titleBarHeight": 35,
             "activityBarWidth": 48,
-            "sideBarWidth": 268,
+            "sideBarWidth": 198,
             "auxiliarySideBarWidth": 0,
             "statusBarHeight": 22,
             "windowBorder": false

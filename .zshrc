@@ -23,21 +23,21 @@ autoload -U add-zsh-hook
 # zinit snippet OMZP::git
 
 #Shell integrations
-tmux has-session -t main
-if [ $? != 0 ]
-then
-  tmux new-session -s main
-fi
-tmux attach -t main
+# tmux has-session -t main
+# if [ $? != 0 ]
+# then
+#   tmux new-session -s main
+# fi
+# tmux attach -t main
 # tmux attach
 fastfetch
 eval "$(fzf --zsh)"
-eval "$(zoxide init --cmd cd zsh)"
+# eval "$(zoxide init --cmd cd zsh)"
 eval "$(starship init zsh)"
 
 #Aliases
 alias ls='ls --color'
-alias ll='ls -la'
+alias ll='g --table --table-style=unicode --icon --long -G -a --dereference'
 alias nixconfig='sudo hx -c /home/jordi/.config/helix/config.toml ~/.config/nix/configuration.nix'
 alias nixrebuild='sudo nixos-rebuild switch'
 alias swayconfig='hx ~/.config/sway/config'
@@ -89,3 +89,9 @@ zstyle :compinstall filename '/home/jordi/.zshrc'
 
 
 # End of lines added by compinstall
+source ~/.config/zsh/zoxide/zoxide.plugin.zsh
+source ~/.config/zsh/tmux/tmux.plugin.zsh
+
+if command -v tmux &>/dev/null && [ -z "$TMUX" ]; then
+  tmux attach-session -t main || tmux new-session -s main
+fi

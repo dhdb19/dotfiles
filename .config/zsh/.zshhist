@@ -1,5 +1,4 @@
 
-fastfetch -h
 lsd -h
 lsd --help
 lsd --total-size
@@ -14,14 +13,9 @@ eza --long --tree
 eza --long --grid
 lsd
 lsd -la
-zoxide
-nix-shell default.nix
 hx .config/starship.toml
 kitten theme
-cd onedrive
-cd onedrive master
 cd onedrive/master
-cd onedrive/master/m41_dms
 cd /usr/share/foot
 cd .dotfiles
 mv .dotfiles dotfiles
@@ -83,7 +77,6 @@ cd dotfiles/.config/xkb/symbols
 bat de-fkeys
 cd /usr/include
 rebooz
-cd /
 which keyd
 keyd
 sudo keyd reaload
@@ -91,7 +84,6 @@ keyd monitor
 sudo keyd monitor
 sudo keyd reload
 fastfetch --list-logos
-clear
 fastfetch --print-logos
 dotfiles
 git add
@@ -116,7 +108,6 @@ tmux
 hx .zshrc
 hxfyf
 Hyprland exit
-nixupdate
 ghostty +list-fonts
 hx autostart
 hx menu.xml
@@ -136,14 +127,12 @@ onedrive --resync --sync
 ghostty --help
 ghostty +list-themes
 hyprctl monitors all
-poweroff
 cd .config/fastfetch
 mkdir ~/.config/fastfetch
 fastfetch --gen-config
 hx /home/jordi/.config/fastfetch/config.json
 fg
 fastfetch -h display-format
-fastfetch -h cpu-format
 fastfetch -h gpu-format
 fastfetch -h de-format
 fastfetch -h wm-format
@@ -153,7 +142,6 @@ fastfetch -h battery-format
 fastfetch -h poweradapter-format
 t
 hx /home/jordi/.config/fastfetch/config.jsonc
-fastfetch -h os-format
 fastfetch -h packages-format
 labenv
 labrv
@@ -184,25 +172,17 @@ cd .themes
 git clone https://github.com/addy-dclxvi/openbox-theme-collections ~/.local/sahre/themes
 cd ~/.local/sahre/themes
 git clone https://github.com/addy-dclxvi/openbox-theme-collections ~/.local/share/themes
-cd ~/.local/share/themes
 which zed
 which zed-editor
 zeditor
 nvtop --help
 nvtop -i
-lsblk
-lspci
-fastfetch
-nvtop
 logout
 fzf
-zshconfig
 hyprctl submap
 xfzf
-hx
 cat .zshrc
 bat .zshrc
-hxfzf
 exi
 cp ~/.themes ~/dotfiles/.themes
 cp -r ~/.themes ~/dotfiles/.themes
@@ -224,7 +204,6 @@ hyprctl setcursor Hackneyed 32
 hyprctl setcursor Hackneyed 20
 hyprctl setcursor Hackneyed 24
 mkdir .gtkrc-2.0
-cd .config
 mkdir gtk-3.0
 cd gtk-3.0
 hx settings.ini
@@ -233,18 +212,12 @@ hx ~/.config/gtk-4.0/settings.ini
 cd gtktheme_cheetah
 cd gtk-4.0
 bat README.md
-cd downloads
 cp gtktheme_cheetah ~/.themes
 cp -r gtktheme_cheetah ~/.themes
 cd icons_cheetah
-cd ..
 cp -r icons_cheetah ~/.icons
-cd
-hyprconf
-reboot
 wayconfig
 waybar 
-pamixer
 pamixer -h
 pamixer -v
 pamixer --get-colume
@@ -252,14 +225,7 @@ pamixer --get-volume
 pw-mon
 alsamixer
 pw-cli
-hyprctl dispatch exit
-waybarconfig
-pkill waybar
-waybarcss
-waybar
 labrc
-nixconfig
-nixrebuild
 fc-query
 fc-query -i
 fc-query --index
@@ -268,65 +234,276 @@ fc-scan
 fc-scan -h
 fc-list -b
 fc-list -h
-fc-list
 c-list | grep geist
-fc-list | grep Geist
-yazi
-cd dotfiles
-ll
 git status
 git add *
 git add 
 git add -
-git add .
 git commit -m "third commit"
+hx ~/.config/electron-flags.conf
+nvidia-smi
+nvtop
+git add .
+git commit -m "commit 4"
 git push -u origin main
+cp -r ~/.icons/* ~/.local/share/icons
+hx ~/.config/nix/configuration.nix
+hyprpicker -a -f hex
+mkdir test
+nix-build '<nixpkgs>' default.nix
+nix-build --help
+nix-store -l /nix/store/4i94x7n067cz1ciaa8vji13fq4sqwmpv-g-0.30.0-go-modules.dr
+go
+go version
+touch g.nix
+nix-build -E 'with import <nixpkgs> {}; callPackage ./g.nix'
+nix-build '<nixpkgs>' g.nix
+hx g.nix
+nix-build -f g.nix
+nix-build -E 'with import <nixpkgs> {}; callPackage ./g.nix {}
+nix-build -E 'with import <nixpkgs> {}; callPackage ./g.nix {}'
+nix-build -E 'with import <nixpkgs> {}; callPackage ./g.nix {}' --show-trace
+mv default.nix default.nix.bak
+mv g.nix default.nix
+mkdir g
+git clone https://github.com/Equationzhao/g.git g
+cd g
+go mod vendort
+go mod vendor
+cd vendor
+bat modules.txt
+nix-build -E 'import ./default.nix'
+nix-store -l /nix/store/9cfz7cnh6jlq12ff2fazkfp2f3ic9vzw-g-0.30.0.dr
+nix-store -l /nix/store/9cfz7cnh6jlq12ff2fazkfp2f3ic9vzw-g-0.30.0.drv
+cd..
+mkdir zen
+cd zen
+nix-build -E 'with import <nixpkgs> {}; with pkgs.python3Packages; callPackage ./default.nix {}'
+nix-init .
+nix-build -E 'with import <nixpkgs> {}; callPackage ./default.nix {}'
+xlear
+fastfetch -h memory-format
+hyprpicker
+fstfetch
+fastfetch -l
+fastfetch -l small
+flatpak install zen-browser.app
+flatpak install flathub app.zen_browser.zen
+flatpak run app.zen_browser.zen
+flatpak
+flatpak --help
+flatpak --list
+flatpak uninstall app.zen_browser.ze
+flatpak uninstall app.zen_browser.zen
+flatpak uninstall org.freedesktop.Platform
+flatpak uninstall org.freedesktop.Platform.GL.nvidia-575-51-02
+flatpak uninstall org.freedesktop.Platform.GL.default
+flatpak uninstall org.freedesktop.Platform.ffmpeg-full
+flatpak list
+cd test
+sudo nix-build default.nix
+nix-build default.nix
+echo "$(pwd)"
+nixrebuild --showtrace
+nix profile install github:youwen5/zen-browser-flake --extra-experimental-features nix-command
+nix --help
+nix profile
+nix profile list
+nix prefile remove zen-browser-flak
+nix profile remove zen-browser-flak
+zen
+nix profile remove zen-browser-flake
+nix-collect-garbage -d
+nix profile install github:youwen5/zen-browser-flake
+cd onedrve master
+cd ondedrive master
+cd onedrive/master/m41_d
+cd onedrive
+cd master
+cd onedrive master dms_41
+zoxide
+zoxide onedrive
+zoxide --help
+bat default.nix
+hx default.nix
+nix-shell default.nix
+zi
+z
+mkdir zoxide
+cd fzf-tab
+cd ..
+cd zoxide
+touch zoxide.zsh
+mv zoxide.zsh zoxide.plugin.zsh
+hx zoxide.zsh
+hx zoxide.plugin.zsh
+cd onedrive/master/m41_dms
+cd onedrive master
+echo $TERM
+echo $TMUX
+cd .config/zsh
+cd tmux
+bat tmux.only.conf
+bat tmux.plugin.zsh
+hx tmux.plugin.zsh
+g
+g --table --table-style=unicode --icon
+g --table --table-style=unicode --icon --file
+g --table --table-style=unicode --icon --file -o
+g --table --table-style=unicode --icon --long
+g --table --table-style=unicode --icon --long -G -a
+g --table --table-style=unicode --icon --long -G -a -C
+g --table --table-style=unicode --icon --long -G -a -x
+g --table --table-style=unicode --icon --long -G -a -col
+g --table --table-style=unicode --icon --long -G -a -cross
+g --table --table-style=unicode --icon --long -G -a -across
+g --table --table-style=unicode --icon --long -G
+g --table --table-style=unicode --icon --long -G --deference
+g --table --table-style=unicode --icon --long -G --dereference
+g --table --table-style=unicode --icon --long -G -a --dereference
+mkdir ~/.local/share/themes
+cd  ~/.local/share/themes
+cp ~/.themes ~/.local/share/themes
+cp -r  ~/.themes ~/.local/share/themes
+cp -r  ~/.themes/* ~/.local/share/themes
+zshconfig
+fastfetch -l --format-title
+fastfetch -h
+fastfetch -h title-format
+fastfetch -h os-format
+fastfetch
+fastfetch -h cpu-format
+clear
+hyprctl dispatch exit
+superfile
+poweroff
+fc-list
+fc-list | grep Inter
+fc-list | grep FontAwesome
+fc-list | grep awesome
+wabar
+hyprconf
+waybar --help
+fc-list | grep Geist
+cd .local/share
+cd icons
+tar -xvjf Win98SE-main.tar.bz2 ~./icons
+tar -xvjf Win98SE-main.tar.bz2 ~/.icons
+tar -xvjf Win98SE-main.tar.bz2 -C ~./icons
+tar -xvjf Win98SE-main.tar.bz2 -C  ~/.icons
+cd 
+cd .icons
+cd
+tar -xvjf Win98SE-main.tar.bz2
+cd Win98SE-main
+zsh install_icons.sh
+cd ~/.local/sahre/icons
+cd ~/.local/share/icons
+cp -r SE98 ~/.icons
+cd ~/.icons
+ll SE98
+fc-list | grep aileron
+fontpreview -i Aileron-Regular.otf -o preview.png
+pamixer --list-sinks
+pamixer
+amixer
+cd /
+cd usr
+hx -g health
+nixupdate
+touch .config/waybar/power_menu.xml
+hx .config/waybar/power_menu.xml
+cd .config waybar
+lspci
+cd downloads
+dysk
+cp nixos-minimal-24.11.717837.a39ed32a651f-x86_64-linux.iso /dev/disk/by-id/usb-Intenso_Alu_Line_321BDA97-0:0
+sudo cp nixos-minimal-24.11.717837.a39ed32a651f-x86_64-linux.iso /dev/disk/by-id/usb-Intenso_Alu_Line_321BDA97-0:0
+lsblk
+ls -l /dev/disk/by-id/usb-
+ls -l /dev/disk/by-id/usb-*
+yazi
+codium
+waybarcss
+hx power_menu.xml
+hx -g fetch
+hx -g build
+hx
+hx --health
+reboot
+hxfzf
+pkill waybar
+waybarconfig
+waybar
+ags --help
+nixconfig
+nixrebuild
+ags init
+ags types
+cd .config/ags
+cd dotfiles
+cd .config
+ll
 exit
-: 1746842095:0;clear
-: 1746842103:0;fastfetch
-: 1746881860:0;hyprconf
-: 1746882407:0;nixconfig
-: 1746882519:0;nixrebuild
-: 1746882674:0;nixconfig
-: 1746882739:0;nixrebuild
-: 1746882868:0;hx ~/.config/electron-flags.conf
-: 1746882918:0;codium
-: 1746883063:0;yazi
-: 1746883199:0;nixconfig
-: 1746883597:0;nixrebuild
-: 1746883620:0;nixconfig
-: 1746883868:0;nixrebuild
-: 1746883884:0;nixconfig
-: 1746884014:0;nixrebuild
-: 1746884032:0;nixconfig
-: 1746884050:0;nixrebuild
-: 1746884066:0;nixconfig
-: 1746884080:0;nixrebuild
-: 1746884089:0;nixconfig
-: 1746884108:0;nixrebuild
-: 1746884140:0;nixconfig
-: 1746884165:0;nixrebuild
-: 1746884351:0;nixconfig
-: 1746884521:0;nixrebuild
-: 1746884566:0;codium
-: 1746884699:0;waybar
-: 1746884791:0;hyprctl dispatch exit
-: 1746884824:0;nvidia-smi
-: 1746884828:0;nvtop
-: 1746884836:0;codium
-: 1746884990:0;cd onedrive/master/m41_dms
-: 1746884993:0;ll
-: 1746885011:0;nix-shell default.nix
-: 1746885185:0;nixconfig
-: 1746885230:0;nixrebuild
-: 1746885264:0;nix-shell default.nix
-: 1746885541:0;nixconfig
-: 1746885601:0;nixrebuild
-: 1746885636:0;nix-shell default.nix
-: 1746885825:0;nixconfig
-: 1746885988:0;nixrebuild
-: 1746886039:0;nixconfig
-: 1746886101:0;nixrebuild
-: 1746886139:0;nix-shell default.nix
-: 1746886961:0;cd dotfiles
-: 1746886967:0;git add .
+: 1747263198:0;hx app.ts
+: 1747263264:0;ags types
+: 1747263325:0;cd widgets
+: 1747263326:0;ll
+: 1747263332:0;cd widget
+: 1747263334:0;ll
+: 1747263339:0;bat Bar.tsx
+: 1747264000:0;nixconfig
+: 1747264029:0;nixrebuild
+: 1747264064:0;whatsie
+: 1747264109:0;nixconfig
+: 1747264191:0;nixrebuild
+: 1747264220:0;nixconfig
+: 1747264251:0;nixrebuild
+: 1747264290:0;nchat
+: 1747264307:0;nchat --help
+: 1747264335:0;nchat -s
+: 1747264370:0;zapzap
+: 1747264639:0;ags --help
+: 1747264672:0;ags run dotfiles/.config/ags/app.ts
+: 1747264770:0;hxfzf
+: 1747264816:0;ags run dotfiles/.config/ags/app.ts
+: 1747264842:0;hxfzf
+: 1747264853:0;hx
+: 1747264866:0;hxfzf
+: 1747265054:0;cd widget
+: 1747265059:0;bat Bar.tsx
+: 1747265085:0;cd ..
+: 1747265086:0;ll
+: 1747265092:0;cd @girs
+: 1747265094:0;öö
+: 1747265096:0;ll
+: 1747265099:0;cd..
+: 1747265101:0;cd ..
+: 1747265103:0;ll
+: 1747265191:0;bat package.json
+: 1747265205:0;ags --help
+: 1747265221:0;astal list
+: 1747265228:0;ags list
+: 1747265253:0;bat Bar.tsx
+: 1747265263:0;hx Bar.tsx
+: 1747265890:0;nixconfig
+: 1747266277:0;hyprconf
+: 1747266380:0;nixconfig
+: 1747266545:0;nixrebuild
+: 1747266581:0;hyprsysteminfo
+: 1747266611:0;waybar --help
+: 1747266627:0;waybar .l off
+: 1747266635:0;waybar -l off
+: 1747266893:0;hyprconf
+: 1747267738:0;reboot
+: 1747267997:0;cd dotfiles
+: 1747267998:0;ll
+: 1747268003:0;cd .config
+: 1747268004:0;ll
+: 1747268007:0;cd ags
+: 1747268009:0;ll
+: 1747268015:0;cd
+: 1747268017:0;cd dotfiles
+: 1747268019:0;ll
+: 1747268021:0;git status
+: 1747268067:0;git add .

@@ -1,0 +1,15 @@
+2025-05-13 20:09:40.980 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-vscode.vscode-selfhost-test-provider' wants API proposal 'attributableCoverage' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-05-13 20:09:40.980 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.python' wants API proposal 'contribIssueReporter' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-05-13 20:09:40.980 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.debugpy' wants API proposal 'contribIssueReporter' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-05-13 20:09:40.981 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'redhat.java' wants API proposal 'documentPaste' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-05-13 20:09:41.301 [info] Started local extension host with pid 9851.
+2025-05-13 20:09:43.962 [info] [perf] Render performance baseline is 19ms
+2025-05-13 20:11:01.470 [warning] [lifecycle] onBeforeShutdown is taking a long time, pending operations: veto.backups
+2025-05-13 20:11:06.564 [warning] [backup tracker] suspended, ignoring dirty change event file:///home/jordi/onedrive/master/m41_dms/renv.r 
+2025-05-13 20:11:06.836 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-vscode.vscode-selfhost-test-provider' wants API proposal 'attributableCoverage' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-05-13 20:11:06.837 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.python' wants API proposal 'contribIssueReporter' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-05-13 20:11:06.837 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.debugpy' wants API proposal 'contribIssueReporter' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-05-13 20:11:06.837 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'redhat.java' wants API proposal 'documentPaste' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-05-13 20:11:07.299 [info] Started local extension host with pid 10395.
+2025-05-13 20:11:08.983 [error] An unknown error occurred. Please consult the log for more details.
+2025-05-13 20:11:09.667 [info] [perf] Render performance baseline is 18ms

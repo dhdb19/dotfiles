@@ -1,8 +1,0 @@
-2025-05-10 00:33:41.265 [info] Deleted marked for removal extension from disk james-yu.latex-workshop /home/jordi/.vscode-oss/extensions/james-yu.latex-workshop-10.9.0-universal
-2025-05-10 00:33:41.265 [info] Marked extension as removed james-yu.latex-workshop-10.9.0
-2025-05-10 00:33:45.194 [info] Getting Manifest... redhat.vscode-xml
-2025-05-10 00:33:45.918 [info] Installing extension: redhat.vscode-xml {"productVersion":{"version":"1.97.2","date":"2025-02-14T18:21:12.766Z"},"pinned":false,"operation":3,"isApplicationScoped":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/jordi/.vscode-oss/extensions/extensions.json","path":"/home/jordi/.vscode-oss/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true}
-2025-05-10 00:33:48.985 [info] Extracted extension to file:///home/jordi/.vscode-oss/extensions/redhat.vscode-xml-0.29.0-linux-x64: redhat.vscode-xml
-2025-05-10 00:33:48.993 [info] Renamed to /home/jordi/.vscode-oss/extensions/redhat.vscode-xml-0.29.0-linux-x64
-2025-05-10 00:33:49.005 [info] Marked extension as removed redhat.vscode-xml-0.28.1
-2025-05-10 00:33:49.011 [info] Extension installed successfully: redhat.vscode-xml vscode-userdata:/home/jordi/.vscode-oss/extensions/extensions.json
