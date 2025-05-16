@@ -2,13 +2,14 @@
 {
   "layer": "top", // Waybar at top layer
   "position": "top", // Waybar position (top|bottom|left|right)
-  "height": 65, // Waybar height (to be removed for auto height)
+  "height": 45, // Waybar height (to be removed for auto height)
   // "width": 1280, // Waybar width
   "spacing": 20, // Gaps between modules (4px)
   "reload_style_on_change": true,
   // Choose the order of the modules
   "modules-left": [
     "custom/logo",
+    "clock",
     "wlr/workspaces",
     "hyprland/workspaces",
     "wlr/taskbar",
@@ -79,18 +80,18 @@
     "keybaord-name": "at-translated-set-2-keyboard"
   },
   "hyprland/workspaces": {
-    "format": " {name} {icon}",
+    "format": "{icon}",
     "format-icons": {
-      // "1": "",
-      // "2": "",
-      // "3": "",
-      // "4": "",
+      "1": "Main",
+      "2": "Browser",
+      "3": "Documents",
+      "4": "Wildcard",
       // "5": "",
-      "active": "",
-      "default": ""
+      // "active": "",
+      // "default": ""
     },
     "persistent-workspaces": {
-      "*": 5 // 5 workspaces by default on every monitor
+      "*": 4 // 5 workspaces by default on every monitor
     }
   },
   "wlr/workspaces": {

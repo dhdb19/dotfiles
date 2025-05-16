@@ -1,1 +1,0 @@
-2025-05-13 19:55:27.143 [warning] Shell integration cannot be enabled for executable "/nix/store/0pp9l5js12vkjka3zqanal1wd3wzq9q8-python3.11-radian-0.6.13/bin/radian" and args ["--no-save","--no-restore"]

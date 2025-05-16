@@ -1,5 +1,28 @@
 {
   "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
+  "display": {
+    "pipe": true,
+    "separator": " │",
+    "constants": [
+      "\u001b[28C"
+    ],
+    "color": {
+      "keys": "green",
+      "title": "green"
+    },
+    "key": {
+      "width": 12,
+      // "type": "string"
+    }
+  },
+  "logo": {
+    "type": "auto",
+    "source": "~/.config/fastfetch/ibm_final",
+    "color": {
+      "1": "green",
+      "2": "green"
+    }
+  },
   "modules": [
     // {
     //   "type": "title",
@@ -8,75 +31,75 @@
     // "separator",
     {
       "type": "custom",
-      "format": "╭──────────────────────────────────────╮"
+      "format": "╭────────┬─────────────────────────────╮"
     },
     {
       "type": "os",
-      "key": "│ >OPSYS",
-      "format": "{name} {version}"
+      "key": "│ >OPSYS │{$1}",
+      "format": "{name}"
     },
     // {
     //   "type": "custom",
-    //   "format": "├──────────────────────────────────────┤"
+    //   "format": "├────────┼─────────────────────────────┤"
     // },
     // "host",
     {
       "type": "kernel",
-      "key": "│ >KERNL"
+      "key": "│ >KERNL │{$1}"
     },
     {
       "type": "custom",
-      "format": "├──────────────────────────────────────┤"
+      "format": "├────────┼─────────────────────────────┤"
     },
     //     {   "type": "uptime",
-    //     "key": "│ >UPTME"
+    //     "key": "│ >UPTIM │{$1}"
     // },
     //     {
     //       "type": "custom",
-    //       "format": "├──────────────────────────────────────┤"
+    //       "format": "├────────┼─────────────────────────────┤"
     //     },
     {
       "type": "packages",
-      "key": "│ >PCKGS",
+      "key": "│ >PCKGS │{$1}",
       "format": "{all}"
     },
     // {
     //   "type": "custom",
-    //   "format": "├──────────────────────────────────────┤"
+    //   "format": "├────────┼─────────────────────────────┤"
     // },
     {
       "type": "shell",
-      "key": "│ >SHELL"
+      "key": "│ >SHELL │{$1}"
     },
     {
       "type": "custom",
-      "format": "├──────────────────────────────────────┤"
+      "format": "├────────┼─────────────────────────────┤"
     },
     {
       "type": "display",
-      "key": "│ >DSPLY",
+      "key": "│ >DSPLY │{$1}",
       "format": "{width}x{height}@{refresh-rate}"
     },
     // {
     //   "type": "custom",
-    //   "format": "├──────────────────────────────────────┤"
+    //   "format": "├────────┼─────────────────────────────┤"
     // },
     //     {    "type": "de",
-    //       "key": "│ >DSKTP",
+    //       "key": "│ >DSKTP │{$1}",
     //       "format": "{pretty-name}"
     // },
     //     {
     //       "type": "custom",
-    //       "format": "├──────────────────────────────────────┤"
+    //       "format": "├────────┼─────────────────────────────┤"
     //     },
     {
       "type": "wm",
-      "key": "│ >WMNGR",
+      "key": "│ >WMNGR │{$1}",
       "format": "{pretty-name}@{protocol-name}"
     },
     {
       "type": "custom",
-      "format": "├──────────────────────────────────────┤"
+      "format": "├────────┼─────────────────────────────┤"
     },
     // "wmtheme",
     // "theme",
@@ -85,115 +108,93 @@
     // "cursor",
     // {
     //   "type": "custom",
-    //   "format": "├──────────────────────────────────────┤"
+    //   "format": "├─────────┼─────────────────────────────┤"
     // },
     // {   "type": "terminal",
-    //     "key" : "│ >TRMNL"
+    //     "key" : "│ >TRMNL │{$1}"
     // },
     //     {
     //       "type": "custom",
-    //       "format": "├──────────────────────────────────────┤"
+    //       "format": "├────────┼─────────────────────────────┤"
     //     },
     // "terminalfont",
     // {
     //   "type": "custom",
-    //   "format": "├──────────────────────────────────────┤"
+    //   "format": "├────────┼─────────────────────────────┤"
     // },
     {
       "type": "cpu",
-      "key": "│ >PROCS",
+      "key": "│ >PROCS │{$1}",
       "format": "{name}"
     },
     // {
     //   "type": "custom",
-    //   "format": "├──────────────────────────────────────┤"
+    //   "format": "├────────┼─────────────────────────────┤"
     // },
     {
       "type": "gpu",
-      "key": "│ >GRPHX",
+      "key": "│ >GRPHX │{$1}",
       "format": "{vendor} {name}"
     },
     // {
     //   "type": "custom",
-    //   "format": "├──────────────────────────────────────┤"
+    //   "format": "├────────┼─────────────────────────────┤"
     // },
     {
       "type": "memory",
-      "key": "│ >MEMRY",
+      "key": "│ >MEMRY │{$1}",
       "format": "{total}"
     },
     // {
     //   "type": "custom",
-    //   "format": "├──────────────────────────────────────┤"
+    //   "format": "├────────┼─────────────────────────────┤"
     // },
     // "swap",
     // {
     //   "type": "custom",
-    //   "format": "├──────────────────────────────────────┤"
+    //   "format": "├────────┼─────────────────────────────┤"
     // },
     {
       "type": "disk",
-      "key": "│ >DSKDR",
+      "key": "│ >DSKDR │{$1}",
       "format": "{size-total}"
     },
     {
       "type": "custom",
-      "format": "╰──────────────────────────────────────╯"
+      "format": "╰────────┴─────────────────────────────╯"
     },
     //     {    "type": "localip",
-    //       "key": "│ >LOCIP",
+    //       "key": "│ >LOCIP │{$1}",
     //       "format": "{ipv4}"
     // },
     //     {
     //       "type": "custom",
-    //       "format": "├──────────────────────────────────────┤"
+    //       "format": "├────────┼─────────────────────────────┤"
     //     },
     {
       "type": "battery",
-      "key": "│ >BTTRY",
+      "key": "│ >BTTRY │{$1}",
       "format": "{capacity} ({status})"
     },
     // {
     //   "type": "custom",
-    //   "format": "├──────────────────────────────────────┤"
+    //   "format": "├────────┼─────────────────────────────┤"
     // },
     {
       "type": "poweradapter",
-      "key": "│ >PWRAD",
+      "key": "│ >PWRAD │{$1}",
       "format": "{watts}"
-    },
+    }
     // {
     //    "type": "custom",
-    //    "format": "├──────────────────────────────────────┤"
+    //    "format": "├────────┼─────────────────────────────┤"
     //  },
     // "locale",
     // "break",
     // "colors"
     // {
     //   "type": "custom",
-    //   "format": "├──────────────────────────────────────┤"
+    //   "format": "├────────┼─────────────────────────────┤"
     // },
-  ],
-  "display": {
-    "separator": "",
-    "constants": [
-      ""
-    ],
-    "color": {
-      "keys": "green",
-      "title": "green"
-    },
-    "key": {
-      "width": 12,
-      "type": "string"
-    },
-  },
-  "logo": {
-    "type": "auto",
-    "source": "~/.config/fastfetch/ibm_skinny",
-    "color": {
-      "1": "green",
-      "2": "green"
-    }
-  }
+  ]
 }

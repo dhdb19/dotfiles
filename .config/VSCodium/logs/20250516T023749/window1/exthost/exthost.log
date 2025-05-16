@@ -18,3 +18,5 @@
 	at ChildProcess.<anonymous> (/nix/store/x77i4vl2ny33h7719z90m1awf283mmiy-vscode-extension-reditorsupport-r-2.8.5/share/vscode/extensions/reditorsupport.r/dist/extension.js:2:345288)
 	at ChildProcess.emit (node:events:530:35)
 	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-05-16 04:52:48.516 [info] Extension host terminating: renderer closed the MessagePort
+2025-05-16 04:52:48.523 [info] Extension host with pid 16811 exiting with code 0

@@ -270,7 +270,6 @@ mkdir zen
 nix-build -E 'with import <nixpkgs> {}; with pkgs.python3Packages; callPackage ./default.nix {}'
 nix-init .
 nix-build -E 'with import <nixpkgs> {}; callPackage ./default.nix {}'
-xlear
 fastfetch -h memory-format
 fastfetch -l
 fastfetch -l small
@@ -387,10 +386,8 @@ amixer
 cd /
 cd usr
 hx -g health
-nixupdate
 touch .config/waybar/power_menu.xml
 hx .config/waybar/power_menu.xml
-cd .config waybar
 lspci
 cd downloads
 cp nixos-minimal-24.11.717837.a39ed32a651f-x86_64-linux.iso /dev/disk/by-id/usb-Intenso_Alu_Line_321BDA97-0:0
@@ -399,14 +396,10 @@ lsblk
 ls -l /dev/disk/by-id/usb-
 ls -l /dev/disk/by-id/usb-*
 codium
-waybarcss
 hx power_menu.xml
 hx -g fetch
 hx -g build
 hx --health
-pkill waybar
-waybarconfig
-waybar
 ags init
 hx app.ts
 ags types
@@ -429,7 +422,6 @@ hyprsysteminfo
 waybar --help
 waybar .l off
 waybar -l off
-hyprconf
 cd ags
 git commit -m "commit 5"
 sudo nix flake init -t templates#full
@@ -449,7 +441,6 @@ create hard link
 hx /etc/nixos/configuration.nix
 sudo ln flake.nix /etc/nixos 
 ll /etc/nixos
-yazi
 cd nix
 cd /etc/nixos
 bat flake.nix
@@ -458,18 +449,13 @@ cd ni
 rm flake.lock
 sudo rm flake.lock
 nix --version
-poweroff
 bat .config/nix/flake.nix
 hx ~/.config/nix/flake.nix
-cd dotfiles
-git status
 git commit -m "commit 6"
 cd .config nix
 cp configuration.nix configuration.nix.bak
 cd .. ..
-git add .
 git commit -m "commit 7"
-git push -u origin main
 sudo ncdu /nix/store
 cd zen
 bat default.nix
@@ -507,7 +493,6 @@ flakebat
 ags run
 dysk
 ncdu ~
-superfile
 hx .config/superfile/config.toml
 awk 'BEGIN{\
     s="/\\/|_\\|";\
@@ -525,7 +510,6 @@ cd .config/ghostty
 öö
 bat config
 hyprpicker
-reboot
 ibm logo ascii art
 \
 \
@@ -547,7 +531,6 @@ bash
 bat .zsh_history
 cd .config zsh
 bat  .zshhist
-cd
 rm .zshhist
 rm .zsh_history
 bat .histfile
@@ -571,7 +554,6 @@ flake
 nixrebuild
 cd .config fastfetch
 touch ibm_logo
-hxfzf
 hx ibm_logo
 hx ibm_logo_xl
 bat ibm_logo_xl
@@ -580,20 +562,73 @@ hx ibm_logo_utf
 bat ibm_logo
 touch ibm_small
 hx ibm_small
-bat config.jsonc
-cat config.jsonc
-mv config.jsonc config.jsonc.bak
 hx ibm_tiny
 cd .config/fastfetch
 hx ibm_skinny
 mv ibm_skinny ~/.config/fastfetch
-cd fastfetch
+cd dotfiles
+git status
+git add .
+git commit -m "commit 8"
+git push -u origin main
+hx .config/fastfetch/ibm
+hx .config/fastfetch/ibm_final
+poweroff
+nixupdate
+hxfzf
+waybarconf
+cd .config waybar
+cp styles.css styles.css.bak
+cp style.css style.css.bak
+cp config.jsonc config.jsonc.bak
+waybarcss
+pkill waybar
+waybarconfig
+hyprctl devices
+hyprconf
+cd
+bat .config/fastfetch/ibm
+mv config.jsonc config.jsonc.bak
+mv config.jsonc config.jsonc.bak.bak
+mv config.jsonc.bak  config.json
+mv config.json config.jsonc
 ll
-hx config.jsonc
+bat config.jsonc
+bat config.jsonc.bak.bak
+bat --help
+cat .config/fastfetch/ibm
+cd fastfetch
+cat con
+cat config.jsonc
+hx .config/fastfetch/config.jsonc
+xlear
 clear
+hx ibm
+hx ibm_final
+hx config.jsonc
 fastfetch
 exit
-: 1747361576:0;nixupdate
-: 1747361611:0;cd dotfiles
-: 1747361614:0;git status
-: 1747361622:0;git add .
+waybar
+reboot
+superfile
+yazi
+superfile --help
+: 1747405532:0;cd dotfiles
+: 1747405533:0;ll
+: 1747405536:0;cd
+: 1747405540:0;cd .config
+: 1747405541:0;ll
+: 1747405551:0;mkdir fabric
+: 1747411159:0;lear
+: 1747411161:0;clear
+: 1747411164:0;fastfetch
+: 1747411564:0;cd ags
+: 1747411565:0;ll
+: 1747411578:0;yazi
+: 1747411598:0;nix flake init --template github:aylur/ags
+: 1747411611:0;ll
+: 1747411619:0;nix develop
+: 1747411667:0;cd
+: 1747411670:0;cd dotfiles
+: 1747411675:0;git status
+: 1747411680:0;git add .
