@@ -638,3 +638,32 @@ exit
 : 1747414775:0;cd dotfile
 : 1747414779:0;cd dotfiles
 : 1747414789:0;git add .
+: 1747414797:0;git commit -m "commit 10"
+: 1747414800:0;git push -u origin main
+: 1747414809:0;cd fabric
+: 1747414813:0;nixdevelop
+: 1747414880:0;hx default,nix
+: 1747414896:0;nixdevelop
+: 1747414912:0;ll
+: 1747414924:0;mv default,nix default.nix
+: 1747414927:0;ll
+: 1747414931:0;nixdevelop
+: 1747414953:0;ll
+: 1747415014:0;rm flake.lock
+: 1747415014:0;ll
+: 1747415017:0;nixdevelop
+: 1747415033:0;cat flake,nix
+: 1747415037:0;cat flake.nix
+: 1747415078:0;cat default.nix
+: 1747415173:0;ll
+: 1747415180:0;bat flake.nix
+: 1747415216:0;hx flake.nix
+: 1747415295:0;nixdevelop
+: 1747415395:0;hx flake.nix
+: 1747415494:0;hx run-widget.nix
+: 1747415508:0;nixdevelop
+: 1747415525:0;ll
+: 1747415584:0;nix develop
+: 1747415648:0;cd
+: 1747415651:0;cd dotfiles
+: 1747415655:0;git add .

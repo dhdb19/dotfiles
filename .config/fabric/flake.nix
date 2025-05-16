@@ -13,6 +13,7 @@
     {
       nixpkgs,
       utils,
+      self,
       ...
     }:
     utils.lib.eachDefaultSystem (
