@@ -50,6 +50,7 @@ alias nixupdate='sudo nixos-rebuild switch --upgrade'
 alias hyprconf='hx ~/.config/hypr/hyprland.conf'
 alias flake='hx ~/.config/nix/flake.nix'
 alias flakebat='bat ~/.config/nix/flake.nix'
+alias nixdevelop='nix develop --command zsh -i'
 
 # Load completions
 autoload -Uz compinit && compinit

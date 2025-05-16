@@ -11,10 +11,12 @@ $hostname(bg:#000000)\
 [  ](bg:#000000)\
 $directory\
 $fill\
+[  ](bg:#000000)\
 $rlang\
 $typst\
-$python
+$python\
 $nix_shell
+
 $character"""
 
 [character]
@@ -44,3 +46,13 @@ format = "[>HOST](bg:#000000 fg:#45EB45) [ $hostname ](bg:#45EB45 fg:#000000)"
 style = "fg:#45EB45 bg:#000000"
 ssh_only = false
 aliases = { "nixos" = "NIXOS"}
+
+[nix_shell]
+disabled = false
+impure_msg = ""
+symbol = ""
+format = "[>NIXSHELL](bg:#000000 fg:#45EB45) [ $symbol  ](bg:#45Eb45 fg:#000000)"
+
+[shlvl]
+disabled = false
+symbol = "λ "
