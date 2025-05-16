@@ -21,7 +21,6 @@ cd .dotfiles
 mv .dotfiles dotfiles
 stow .
 sudo ln -s dotfiles/.config/nix/configuration.nix /etc/nixos/configuration.nix
-cd /etc/nixos
 cd dotfiles .config nixos
 cd dotfiles .config nix
 cd dotfiles .config
@@ -34,14 +33,12 @@ git branch -M main
 pass find github
 pass show -c github
 ln -h
-ln --help
 sudo rm /etc/nixos/configuration.nix
 hx .config/nix/configuration.nix
 sudo ln .config/nix/configuration.nix /etc/nixos/configuration.nix
 nixconf
 xit
 sudo chmod u+w ~/.config/nix
-cd nix
 setxkbmap -print > layout.xkb
 sudo setxkbmap -print > layout.xkb
 xkbcomp $DISPLAY output.xkb
@@ -62,7 +59,6 @@ mkdir symbols
 mv dotfiles/.config/symbols/* dotfiles/.config/xkb/symbols
 hx .config/xkb/symbols/de-fkeys
 hx  /home/jordi/.config/xkb/symbols/de-fkeys
-sudo nixos-rebuild switch --show-trace
 nix-shell -p xorg.xkbcomp
 xenv
 wenv
@@ -127,7 +123,6 @@ onedrive --resync --sync
 ghostty --help
 ghostty +list-themes
 hyprctl monitors all
-cd .config/fastfetch
 mkdir ~/.config/fastfetch
 fastfetch --gen-config
 hx /home/jordi/.config/fastfetch/config.json
@@ -178,7 +173,6 @@ zeditor
 nvtop --help
 nvtop -i
 logout
-fzf
 hyprctl submap
 xfzf
 cat .zshrc
@@ -235,7 +229,6 @@ fc-scan -h
 fc-list -b
 fc-list -h
 c-list | grep geist
-git status
 git add *
 git add 
 git add -
@@ -243,9 +236,7 @@ git commit -m "third commit"
 hx ~/.config/electron-flags.conf
 nvidia-smi
 nvtop
-git add .
 git commit -m "commit 4"
-git push -u origin main
 cp -r ~/.icons/* ~/.local/share/icons
 hx ~/.config/nix/configuration.nix
 hyprpicker -a -f hex
@@ -275,16 +266,12 @@ bat modules.txt
 nix-build -E 'import ./default.nix'
 nix-store -l /nix/store/9cfz7cnh6jlq12ff2fazkfp2f3ic9vzw-g-0.30.0.dr
 nix-store -l /nix/store/9cfz7cnh6jlq12ff2fazkfp2f3ic9vzw-g-0.30.0.drv
-cd..
 mkdir zen
-cd zen
 nix-build -E 'with import <nixpkgs> {}; with pkgs.python3Packages; callPackage ./default.nix {}'
 nix-init .
 nix-build -E 'with import <nixpkgs> {}; callPackage ./default.nix {}'
 xlear
 fastfetch -h memory-format
-hyprpicker
-fstfetch
 fastfetch -l
 fastfetch -l small
 flatpak install zen-browser.app
@@ -324,14 +311,12 @@ cd onedrive master dms_41
 zoxide
 zoxide onedrive
 zoxide --help
-bat default.nix
 hx default.nix
 nix-shell default.nix
 zi
 z
 mkdir zoxide
 cd fzf-tab
-cd ..
 cd zoxide
 touch zoxide.zsh
 mv zoxide.zsh zoxide.plugin.zsh
@@ -366,24 +351,17 @@ cd  ~/.local/share/themes
 cp ~/.themes ~/.local/share/themes
 cp -r  ~/.themes ~/.local/share/themes
 cp -r  ~/.themes/* ~/.local/share/themes
-zshconfig
 fastfetch -l --format-title
 fastfetch -h
 fastfetch -h title-format
 fastfetch -h os-format
-fastfetch
 fastfetch -h cpu-format
-clear
 hyprctl dispatch exit
-superfile
-poweroff
 fc-list
 fc-list | grep Inter
 fc-list | grep FontAwesome
 fc-list | grep awesome
 wabar
-hyprconf
-waybar --help
 fc-list | grep Geist
 cd .local/share
 cd icons
@@ -393,7 +371,6 @@ tar -xvjf Win98SE-main.tar.bz2 -C ~./icons
 tar -xvjf Win98SE-main.tar.bz2 -C  ~/.icons
 cd 
 cd .icons
-cd
 tar -xvjf Win98SE-main.tar.bz2
 cd Win98SE-main
 zsh install_icons.sh
@@ -416,243 +393,207 @@ hx .config/waybar/power_menu.xml
 cd .config waybar
 lspci
 cd downloads
-dysk
 cp nixos-minimal-24.11.717837.a39ed32a651f-x86_64-linux.iso /dev/disk/by-id/usb-Intenso_Alu_Line_321BDA97-0:0
 sudo cp nixos-minimal-24.11.717837.a39ed32a651f-x86_64-linux.iso /dev/disk/by-id/usb-Intenso_Alu_Line_321BDA97-0:0
 lsblk
 ls -l /dev/disk/by-id/usb-
 ls -l /dev/disk/by-id/usb-*
-yazi
 codium
 waybarcss
 hx power_menu.xml
 hx -g fetch
 hx -g build
-hx
 hx --health
-reboot
-hxfzf
 pkill waybar
 waybarconfig
 waybar
-ags --help
-nixconfig
-nixrebuild
 ags init
+hx app.ts
 ags types
-cd .config/ags
+cd widgets
+whatsie
+nchat
+nchat --help
+nchat -s
+zapzap
+ags run dotfiles/.config/ags/app.ts
+hx
+cd @girs
+cd..
+bat package.json
+ags --help
+astal list
+ags list
+hx Bar.tsx
+hyprsysteminfo
+waybar --help
+waybar .l off
+waybar -l off
+hyprconf
+cd ags
+git commit -m "commit 5"
+sudo nix flake init -t templates#full
+nix flake show templates
+sudo nix flake --help
+man nix.conf
+sudo hx flake.nix
+rm flake.nix
+sudo rm flake.nix
+cd dotfiles/.config/nix
+sudo nix flake init -t templates#trivial
+hx flake.nix
+sudo chown jordi configuration.nix
+sudo chown jordi flake.nix
+ln --help
+create hard link
+hx /etc/nixos/configuration.nix
+sudo ln flake.nix /etc/nixos 
+ll /etc/nixos
+yazi
+cd nix
+cd /etc/nixos
+bat flake.nix
+sudo nixos-rebuild switch --show-trace
+cd ni
+rm flake.lock
+sudo rm flake.lock
+nix --version
+poweroff
+bat .config/nix/flake.nix
+hx ~/.config/nix/flake.nix
 cd dotfiles
+git status
+git commit -m "commit 6"
+cd .config nix
+cp configuration.nix configuration.nix.bak
+cd .. ..
+git add .
+git commit -m "commit 7"
+git push -u origin main
+sudo ncdu /nix/store
+cd zen
+bat default.nix
 cd .config
+cd superfile
+nixre
+bat theme
+cd theme
+cp catpuccin.toml mytheme.toml
+cp catppuccin.toml mytheme.toml
+hx mytheme.toml
+hx config.toml
+hx themes/mytheme.toml
+hx ./themes/mytheme.toml
+hx theme/mytheme.toml
+nix-tree  --derivation
+nix-tree --impute
+nix-tree --impure
+nix-env --delete-generations 21d
+fd trash
+fd Trash
+fd .trash
+ncdu .local/share/Trash
+nix-store --gc
+ncdu /etc/store
+ncdu /nix/store
+nix-tree
+nixconfig
+bat .config/nix/configuration.nix
+cd .config/ags
+cd widget
+bat Bar.tsx
+cd ..
+flakebat
+ags run
+dysk
+ncdu ~
+superfile
+hx .config/superfile/config.toml
+awk 'BEGIN{\
+    s="/\\/|_\\|";\
+    for (colnum = 0; colnum<77; colnum++) {\
+        r = 255-(colnum*255/76);\
+        g = (colnum*510/76);\
+        b = (colnum*255/76);\
+        if (g>255) g = 510 - g;\
+        printf "\033[48;2;%d;%d;%dm", r,g,b;\
+        printf "%s\033[0m", substr(s,(colnum%4)+1,1);\
+    }\
+    printf "\n";\
+}'
+cd .config/ghostty
+Ã¶Ã¶
+bat config
+hyprpicker
+reboot
+ibm logo ascii art
+\
+\
+echo  "*****************************************************" && echo  "*****************************************************" && echo  "*****************************************************" && echo  "âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨  âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨      âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨      âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨" && echo  "âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨  âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨   âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨    âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨" && echo  "   âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨        âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨   âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨     âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨  âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨" && echo  "   âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨        âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨      âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨  âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨ âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨ âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨" &&echo  "   âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨        âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨      âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨  âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨ âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨" && echo  "   âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨        âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨   âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨     âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨   âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨  âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨" && echo  "âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨  âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨   âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨    âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨   âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨" && echo  "âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨  âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨      âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨     âƒ¶ƒ¨    âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨" && echo  "*****************************************************" && echo  "*  This system is for the use of authorized users   *" && echo  "*  only. Usage of  this system may be monitored     *" && echo  "*  and recorded                                     *" && echo  "*****************************************************"
+${c1}âƒ¶€âƒ¶€âƒ¶€âƒ¶€âƒ¶€âƒ¶€âƒ¶€ ${c2}âƒ¶€âƒ¶€âƒ¶€âƒ¶€âƒ¶€âƒ¶€âƒ¶€âƒ¶€âƒ¶€âƒ¶€   ${c3}âƒ¶€âƒ¶€âƒ¶€âƒ¶€âƒ¶€       âƒ¶€âƒ¶€âƒ¶€âƒ¶€âƒ¶€\
+${c1}âƒ¶€âƒ¶€âƒ¶€âƒ¶€âƒ¶€âƒ¶€âƒ¶€ ${c2}âƒ¶€âƒ¶€âƒ¶€âƒ¶€âƒ¶€âƒ¶€âƒ¶€âƒ¶€âƒ¶€âƒ¶€âƒ¶€âƒ¶€ ${c3}âƒ¶€âƒ¶€âƒ¶€âƒ¶€âƒ¶€âƒ¶€     âƒ¶€âƒ¶€âƒ¶€âƒ¶€âƒ¶€âƒ¶€\
+${c1}  âƒ¶€âƒ¶€âƒ¶€   ${c2}  âƒ¶€âƒ¶€âƒ¶€    âƒ¶€âƒ¶€âƒ¶€ ${c3}  âƒ¶€âƒ¶€âƒ¶€âƒ¶€âƒ¶€   âƒ¶€âƒ¶€âƒ¶€âƒ¶€âƒ¶€\
+${c1}  âƒ¶€âƒ¶€âƒ¶€   ${c2}  âƒ¶€âƒ¶€âƒ¶€âƒ¶€âƒ¶€âƒ¶€âƒ¶€âƒ¶€   ${c3}  âƒ¶€âƒ¶€âƒ¶€âƒ¶€âƒ¶€âƒ¶€ âƒ¶€âƒ¶€âƒ¶€âƒ¶€âƒ¶€âƒ¶€\
+${c1}  âƒ¶€âƒ¶€âƒ¶€   ${c2}  âƒ¶€âƒ¶€âƒ¶€âƒ¶€âƒ¶€âƒ¶€âƒ¶€âƒ¶€   ${c3}  âƒ¶€âƒ¶€âƒ¶€ âƒ¶€âƒ¶€âƒ¶€âƒ¶€âƒ¶€ âƒ¶€âƒ¶€âƒ¶€\
+${c1}  âƒ¶€âƒ¶€âƒ¶€   ${c2}  âƒ¶€âƒ¶€âƒ¶€    âƒ¶€âƒ¶€âƒ¶€ ${c3}  âƒ¶€âƒ¶€âƒ¶€  âƒ¶€âƒ¶€âƒ¶€  âƒ¶€âƒ¶€âƒ¶€\
+${c1}âƒ¶€âƒ¶€âƒ¶€âƒ¶€âƒ¶€âƒ¶€âƒ¶€ ${c2}âƒ¶€âƒ¶€âƒ¶€âƒ¶€âƒ¶€âƒ¶€âƒ¶€âƒ¶€âƒ¶€âƒ¶€âƒ¶€âƒ¶€ ${c3}âƒ¶€âƒ¶€âƒ¶€âƒ¶€âƒ¶€   âƒ¶€   âƒ¶€âƒ¶€âƒ¶€âƒ¶€âƒ¶€\
+${c1}âƒ¶€âƒ¶€âƒ¶€âƒ¶€âƒ¶€âƒ¶€âƒ¶€ ${c2}âƒ¶€âƒ¶€âƒ¶€âƒ¶€âƒ¶€âƒ¶€âƒ¶€âƒ¶€âƒ¶€âƒ¶€   ${c3}âƒ¶€âƒ¶€âƒ¶€âƒ¶€âƒ¶€       âƒ¶€âƒ¶€âƒ¶€âƒ¶€âƒ¶€\
+${c4}               âƒ¶ƒ¤âƒ¶ƒ¤âƒ¶ƒ¤ âƒ¶ƒ¤   âƒ¶ƒ¤     âƒ¶ƒ¤   âƒ¶ƒ¤âƒ¶ƒ¤       âƒ¶ƒ¤\
+${c4}                âƒ¶ƒ¨  âƒ¶ƒ¨âƒ¶ƒ¤  âƒ¶ƒ¤  âƒ¶ƒ¤  âƒ¶ƒ¨ âƒ¶ƒ¤ âƒ¶ƒ¨ âƒ¶ƒ¨ âƒ¶ƒ¤   âƒ¶ƒ¤âƒ¶ƒ¨\
+${c4}                âƒ¶ƒ¨  âƒ¶ƒ¨ âƒ¶ƒ¨ âƒ¶ƒ¨ âƒ¶ƒ¨ âƒ¶ƒ¨ âƒ¶ƒ¨âƒ¶ƒ¤âƒ¶€ âƒ¶ƒ¨âƒ¶€  âƒ¶ƒ¤âƒ¶ƒ¨ âƒ¶ƒ¨ âƒ¶ƒ¨\
+${c4}                âƒ¶ƒ¨  âƒ¶ƒ¨ âƒ¶ƒ¨ âƒ¶ƒ¨ âƒ¶ƒ¨ âƒ¶ƒ¨ âƒ¶ƒ¨ âƒ¶ƒ¨ âƒ¶ƒ¨  âƒ¶€âƒ¶ƒ¤âƒ¶ƒ¨ âƒ¶€âƒ¶ƒ¤âƒ¶ƒ¨
+echo  "*****************************************************" && echo  "*****************************************************" && echo  "*****************************************************" && echo  "âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨  âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨      âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨      âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨" && echo  "âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨  âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨   âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨    âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨" && echo  "   âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨        âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨   âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨     âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨  âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨" && echo  "   âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨        âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨      âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨  âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨ âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨ âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨" && echo  "   âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨        âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨     âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨  âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨ âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨" && echo  "   âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨        âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨   âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨     âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨   âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨  âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨" && echo  "âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨  âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨    âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨    âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨   âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨" && echo  "âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨  âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨      âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨     âƒ¶ƒ¨    âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨" && echo  "*****************************************************" && echo  "*  This system is for the use of authorized users   *" && echo  "*  only. Usage of  this system may be monitored     *" && echo  "*  and recorded                                     *" && echo  "*****************************************************"
+bash
+bat .zsh_history
+cd .config zsh
+bat  .zshhist
+cd
+rm .zshhist
+rm .zsh_history
+bat .histfile
+bat .lesshst
+less
+bat .bash_history
+bat .wget-hsts
+bat .zcompdump
+fzf --height 30%
+fzf --height 30% --layout reverse
+fzf --height 30% --layout reverse --border
+fzf --height -3
+fzf --height -20
+fzf --tmux center
+fzf --tmux left 40%
+fzf --tmux left,40%
+zshconfig
+source .zshrc
+fzf
+flake
+nixrebuild
+cd .config fastfetch
+touch ibm_logo
+hxfzf
+hx ibm_logo
+hx ibm_logo_xl
+bat ibm_logo_xl
+fstfetch
+hx ibm_logo_utf
+bat ibm_logo
+touch ibm_small
+hx ibm_small
+bat config.jsonc
+cat config.jsonc
+mv config.jsonc config.jsonc.bak
+hx ibm_tiny
+cd .config/fastfetch
+hx ibm_skinny
+mv ibm_skinny ~/.config/fastfetch
+cd fastfetch
 ll
+hx config.jsonc
+clear
+fastfetch
 exit
-: 1747263198:0;hx app.ts
-: 1747263264:0;ags types
-: 1747263325:0;cd widgets
-: 1747263326:0;ll
-: 1747263332:0;cd widget
-: 1747263334:0;ll
-: 1747263339:0;bat Bar.tsx
-: 1747264000:0;nixconfig
-: 1747264029:0;nixrebuild
-: 1747264064:0;whatsie
-: 1747264109:0;nixconfig
-: 1747264191:0;nixrebuild
-: 1747264220:0;nixconfig
-: 1747264251:0;nixrebuild
-: 1747264290:0;nchat
-: 1747264307:0;nchat --help
-: 1747264335:0;nchat -s
-: 1747264370:0;zapzap
-: 1747264639:0;ags --help
-: 1747264672:0;ags run dotfiles/.config/ags/app.ts
-: 1747264770:0;hxfzf
-: 1747264816:0;ags run dotfiles/.config/ags/app.ts
-: 1747264842:0;hxfzf
-: 1747264853:0;hx
-: 1747264866:0;hxfzf
-: 1747265054:0;cd widget
-: 1747265059:0;bat Bar.tsx
-: 1747265085:0;cd ..
-: 1747265086:0;ll
-: 1747265092:0;cd @girs
-: 1747265094:0;Ã¶Ã¶
-: 1747265096:0;ll
-: 1747265099:0;cd..
-: 1747265101:0;cd ..
-: 1747265103:0;ll
-: 1747265191:0;bat package.json
-: 1747265205:0;ags --help
-: 1747265221:0;astal list
-: 1747265228:0;ags list
-: 1747265253:0;bat Bar.tsx
-: 1747265263:0;hx Bar.tsx
-: 1747265890:0;nixconfig
-: 1747266277:0;hyprconf
-: 1747266380:0;nixconfig
-: 1747266545:0;nixrebuild
-: 1747266581:0;hyprsysteminfo
-: 1747266611:0;waybar --help
-: 1747266627:0;waybar .l off
-: 1747266635:0;waybar -l off
-: 1747266893:0;hyprconf
-: 1747267738:0;reboot
-: 1747267997:0;cd dotfiles
-: 1747267998:0;ll
-: 1747268003:0;cd .config
-: 1747268004:0;ll
-: 1747268007:0;cd ags
-: 1747268009:0;ll
-: 1747268015:0;cd
-: 1747268017:0;cd dotfiles
-: 1747268019:0;ll
-: 1747268021:0;git status
-: 1747268067:0;git add .
-: 1747268090:0;git commit -m "commit 5"
-: 1747268098:0;git push -u origin main
-: 1747268434:0;clear
-: 1747268436:0;fastfetch
-: 1747268584:0;nixconfig
-: 1747269097:0;nix flake show templates
-: 1747269149:0;cd /etc/nixos
-: 1747269166:0;sudo nix flake init -t templates#full
-: 1747269175:0;ll
-: 1747269185:0;bat flake.nix
-: 1747269219:0;hx flake.nix
-: 1747269275:0;nix flake show templates
-: 1747269307:0;sudo nix flake init -t templates#trivial
-: 1747269318:0;sudo nix flake --help
-: 1747269387:0;man nix.conf
-: 1747269469:0;ll
-: 1747269476:0;sudo rm flake.nix
-: 1747269478:0;ll
-: 1747269486:0;sudo nix flake init -t templates#trivial
-: 1747269488:0;ll
-: 1747269494:0;bat flake.nix
-: 1747269534:0;hx flake.nix
-: 1747269825:0;sudo hx flake.nix
-: 1747270145:0;ll
-: 1747270151:0;rm flake.nix
-: 1747270160:0;ll
-: 1747270177:0;sudo rm flake.nix
-: 1747270182:0;ll
-: 1747270191:0;cd
-: 1747270202:0;cd dotfiles/.config/nix
-: 1747270204:0;ll
-: 1747270214:0;sudo nix flake init -t templates#trivial
-: 1747270237:0;hx flake.nix
-: 1747270449:0;ll
-: 1747270502:0;sudo chown jordi configuration.nix
-: 1747270504:0;ll
-: 1747270511:0;sudo chown jordi flake.nix
-: 1747270512:0;ll
-: 1747270521:0;cd /etc/nixos
-: 1747270522:0;ll
-: 1747270546:0;cd nix
-: 1747270549:0;ll
-: 1747270599:0;ln --help
-: 1747270628:0;create hard link
-: 1747270689:0;hx /etc/nixos/configuration.nix
-: 1747271061:0;sudo ln flake.nix /etc/nixos 
-: 1747271066:0;ll
-: 1747271076:0;ll /etc/nixos
-: 1747271085:0;cd /etc/nixos
-: 1747271088:0;yazi
-: 1747271101:0;cd
-: 1747271111:0;hxfzf
-: 1747271281:0;cd nix
-: 1747271285:0;bat flake.nix
-: 1747271292:0;cd /etc/nixos
-: 1747271294:0;bat flake.nix
-: 1747271298:0;cd
-: 1747271304:0;nixrebuild
-: 1747271362:0;nixconfig
-: 1747271443:0;nixrebuild
-: 1747271497:0;nixconfig
-: 1747271559:0;nixrebuild
-: 1747271586:0;nixconfig
-: 1747271802:0;nixrebuild
-: 1747271820:0;nixconfig
-: 1747271840:0;nixrebuild
-: 1747272026:0;sudo nixos-rebuild switch --show-trace
-: 1747272153:0;fastfetch
-: 1747272207:0;bat .config/nix/flake.nix
-: 1747272727:0;hxfzf
-: 1747272847:0;nixrebuild
-: 1747272878:0;hxfzf
-: 1747272934:0;nixrebuild
-: 1747272952:0;hxfzf
-: 1747272962:0;nixrebuild
-: 1747273156:0;hxfzf
-: 1747273772:0;nixrebuild
-: 1747274002:0;hxfzf
-: 1747274181:0;nixrebuild
-: 1747274190:0;hxfzf
-: 1747274227:0;nixrebuild
-: 1747274262:0;hxfzf
-: 1747274352:0;nixrebuild
-: 1747274380:0;hxfzf
-: 1747274472:0;bat .config/nix/flake.nix
-: 1747274620:0;hxfzf
-: 1747274636:0;nixrebuild
-: 1747274651:0;hxfzf
-: 1747274666:0;nixrebuild
-: 1747274722:0;hxfzf
-: 1747274733:0;nixrebuild
-: 1747274788:0;ll
-: 1747274794:0;cd ni
-: 1747274795:0;ll
-: 1747274806:0;rm flake.lock
-: 1747274818:0;sudo rm flake.lock
-: 1747274820:0;ll
-: 1747274827:0;nixrebuild
-: 1747274841:0;ll
-: 1747274848:0;nix --version
-: 1747274923:0;hxfzf
-: 1747274967:0;sudo rm flake.lock
-: 1747274973:0;nixrebuild
-: 1747275135:0;nix --version
-: 1747275166:0;nixconfig
-: 1747275225:0;nixrebuild
-: 1747275295:0;hxfzf
-: 1747275551:0;nixrebuild
-: 1747275645:0;hxfzf
-: 1747275738:0;nixrebuild
-: 1747275778:0;poweroff
-: 1747305321:0;hx ~/.config/nix/flake.nix
-: 1747305411:0;nixrebuild
-: 1747305442:0;nixconfig
-: 1747305571:0;hx ~/.config/nix/flake.nix
-: 1747305605:0;nixrebuild
-: 1747305709:0;hx ~/.config/nix/flake.nix
-: 1747305755:0;nixrebuild
-: 1747305768:0;hx ~/.config/nix/flake.nix
-: 1747305775:0;nixrebuild
-: 1747306048:0;hx ~/.config/nix/flake.nix
-: 1747306179:0;nixrebuild
-: 1747306191:0;hx ~/.config/nix/flake.nix
-: 1747306204:0;nixrebuild
-: 1747306233:0;nixconfig
-: 1747306421:0;hx ~/.config/nix/flake.nix
-: 1747306770:0;nixconfig
-: 1747306938:0;bat .config/nix/configuration.nix
-: 1747306976:0;bat .config/nix/flake.nix
-: 1747307060:0;hx ~/.config/nix/flake.nix
-: 1747307069:0;nixrebuild
-: 1747307152:0;nixconfig
-: 1747325574:0;cd dotfiles
-: 1747325589:0;ll
-: 1747325595:0;cd .config nix
-: 1747325598:0;ll
-: 1747325613:0;cd
-: 1747325615:0;cd dotfiles
-: 1747325619:0;git status
-: 1747325628:0;git add .
-: 1747325634:0;git commit -m "commit 6"
-: 1747325638:0;git push -u origin main
-: 1747325649:0;cd .config nix
-: 1747325672:0;cp configuration.nix configuration.nix.bak
-: 1747325673:0;ll
-: 1747325681:0;cd .. ..
-: 1747325684:0;cd ..
-: 1747325687:0;ll
-: 1747325695:0;git add .
+: 1747361576:0;nixupdate
+: 1747361611:0;cd dotfiles
+: 1747361614:0;git status
+: 1747361622:0;git add .

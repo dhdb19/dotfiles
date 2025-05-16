@@ -1,0 +1,6 @@
+2025-05-16 02:37:49.446 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.python' wants API proposal 'terminalShellType' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-05-16 02:37:49.447 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.vscode-python-envs' wants API proposal 'terminalShellType' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-05-16 02:37:49.447 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'github.copilot-chat' wants API proposal 'chatReadonlyPromptReference' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-05-16 02:37:49.710 [info] Started local extension host with pid 16811.
+2025-05-16 02:37:51.990 [error] An unknown error occurred. Please consult the log for more details.
+2025-05-16 02:37:52.533 [info] [perf] Render performance baseline is 17ms

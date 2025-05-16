@@ -28,7 +28,7 @@
                 "x": 0,
                 "y": 0,
                 "width": 860,
-                "height": 1382
+                "height": 1375
             }
         },
         "openedWindows": []
@@ -1680,7 +1680,7 @@
             "editorPartMinWidth": 220,
             "titleBarHeight": 35,
             "activityBarWidth": 48,
-            "sideBarWidth": 198,
+            "sideBarWidth": 0,
             "auxiliarySideBarWidth": 0,
             "statusBarHeight": 22,
             "windowBorder": false

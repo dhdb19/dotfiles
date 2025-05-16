@@ -2,15 +2,20 @@
 # your system. Help is available in the configuration.nix(5) man page, on
 # https://search.nixos.org/options and in the NixOS manual (`nixos-help`).
 
-{ config, lib, pkgs, ... }:
+{
+  config,
+  lib,
+  pkgs,
+  inputs,
+  ...
+}:
 
 {
-  imports =
-    [ # Include the results of the hardware scan.
-      ./hardware-configuration.nix
-      ./cachix.nix
-    ];
-
+  imports = [
+    # Include the results of the hardware scan.
+    ./hardware-configuration.nix
+    ./cachix.nix
+  ];
 
   # Use latest kernel
   boot.kernelPackages = pkgs.linuxPackages_latest;
@@ -22,7 +27,7 @@
   networking.hostName = "nixos"; # Define your hostname.
   # Pick only one of the below networking options.
   # networking.wireless.enable = true;  # Enables wireless support via wpa_supplicant.
-  networking.networkmanager.enable = true;  # Easiest to use and most distros use this by default.
+  networking.networkmanager.enable = true; # Easiest to use and most distros use this by default.
 
   # Set your time zone.
   time.timeZone = "Europe/Berlin";
@@ -39,16 +44,16 @@
     LC_TIME = "en_GB.UTF-8";
   };
   console = {
-  earlySetup = true;
-  #    font = "Lat2-Terminus16";
-  #  font = "latarcyrheb-sun32";
-  #  font = "sun12x22";
-  # font = "iso01-12x22";
-  font = "ter-i24b";
-  packages = with pkgs; [
+    earlySetup = true;
+    #    font = "Lat2-Terminus16";
+    #  font = "latarcyrheb-sun32";
+    #  font = "sun12x22";
+    # font = "iso01-12x22";
+    font = "ter-i24b";
+    packages = with pkgs; [
       terminus_font
     ];
- #    keyMap = "de";
+    #    keyMap = "de";
     useXkbConfig = true; # use xkb.options in tty.
   };
 
@@ -56,13 +61,13 @@
   # services.xserver.enable = true;
   services.xserver = {
     enable = false;
-    videoDrivers = ["nvidia"];
+    videoDrivers = [ "nvidia" ];
   };
 
   # enable qmk
   hardware.keyboard.qmk.enable = true;
   services.udev.packages = [ pkgs.via ];
-  
+
   # Enable OpenGl
   hardware.graphics = {
     enable = true;
@@ -85,7 +90,7 @@
     #enable nvidia settings
     nvidiaSettings = true;
     # choose driver package
-    package = config.boot.kernelPackages.nvidiaPackages.mkDriver{
+    package = config.boot.kernelPackages.nvidiaPackages.mkDriver {
       version = "575.51.02";
       sha256_64bit = "sha256-XZ0N8ISmoAC8p28DrGHk/YN1rJsInJ2dZNL8O+Tuaa0=";
       openSha256 = "sha256-NQg+QDm9Gt+5bapbUO96UFsPnz1hG1dtEwT/g/vKHkw=";
@@ -97,13 +102,13 @@
   # Configure keymap in X11
   services.xserver.xkb = {
     layout = "de";
-    extraLayouts.de-fkeys = {
-      description = "German layout with working F-keys for 60% layout keyboards";
-      languages = [ "deu" ];
-      symbolsFile = "${config.users.users.jordi.home}/dotfiles/.config/xkb/symbols/de-fkeys";
-    };
+    # extraLayouts.de-fkeys = {
+    #   description = "German layout with working F-keys for 60% layout keyboards";
+    #   languages = [ "deu" ];
+    #   symbolsFile = "${config.users.users.jordi.home}/dotfiles/.config/xkb/symbols/de-fkeys";
+    # };
   };
-  
+
   # services.xserver.xkb.options = "eurosign:e,caps:escape";
 
   # Enable CUPS to print documents.
@@ -114,13 +119,13 @@
   # OR
 
   security.rtkit.enable = true;
-  
+
   services.pipewire = {
-     enable = true;
-     alsa.enable = true;
-     alsa.support32Bit = true;
-     pulse.enable = true;
-   };
+    enable = true;
+    alsa.enable = true;
+    alsa.support32Bit = true;
+    pulse.enable = true;
+  };
 
   # Enable touchpad support (enabled default in most desktopManager).
   # services.libinput.enable = true;
@@ -128,13 +133,14 @@
   # Define a user account. Don't forget to set a password with ‘passwd’.
   users.users.jordi = {
     isNormalUser = true;
-    extraGroups = [ "wheel" "input" ]; # Enable ‘sudo’ for the user.
+    extraGroups = [
+      "wheel"
+      "input"
+    ]; # Enable ‘sudo’ for the user.
     packages = with pkgs; [
       tree
     ];
   };
-
-  
 
   # List packages installed in system profile. To search, run:
   # $ nix search wget
@@ -153,207 +159,209 @@
   #      inputs = {
   #        zen-browser.url = "github:youwen5/zen-browser-flake";
   #       zen-browser.inputs.nixpkgs.follows = "nixpkgs";
-        
+
   #     };
   #     };
   #   };
   # };
 
-
-  nix.settings.experimental-features = [ "nix-command" "flakes" ];  
-
-  environment.systemPackages = with pkgs; 
-  let
-    # inputs = {
-    #   zen-browser.url = "github:youwen5/zen-browser-flake";
-    #   zen-browser.inputs.nixpkgs.follows = "nixpkgs";
-    # };
-    swayConfig = pkgs.writeText "greetd-sway-config" ''
-    # -l activates layer-shell mode. Notice that swaymsg will run ater gtkgreet
-    exec "${pkgs.greetd.tuigreet}/bin/tuigreet -l; swaymsg exit"
-    bindsym Mod4+shift+e exec swaynag\
-      -t warning \
-      -m "What do you want to do?" \
-      -b 'Poweroff' 'systemctl poweroff' \
-      -b 'Reboot' 'systemctl reboot'
-    '';
-    R_custom = rWrapper.override{
-      packages = with unstable.rPackages; [
-        tidyverse
-        #duckdb
-        DBI
-        duckplyr
-        ggeffects
-        gh
-        gitcreds
-        glue
-        gt
-        gridExtra
-        haven
-        googledrive
-        httpgd
-        knitr
-        MASS
-        tikzDevice
-        tinytable
-        viridis
-        vroom
-        # parallel
-        rix    
-      ];
-    };
-  in 
-   [
-    R_custom
-    vim
-    wget
-    neovim
-    firefox
-    labwc
-    swayfx
-    swaybg
-    greetd.greetd
-    greetd.tuigreet
-    R
-    python314
-    yazi
-    wl-clipboard
-    mako
-    fastfetch
-    zoxide
-    stow
-    htop
-    btop
-    zenith
-    pciutils
-    unstable.waybar
-    wofi
-    zinit
-    git-credential-manager
-    pass-wayland
-    gnupg
-    pinentry-tty
-    fzf
-    helix
-    ffmpeg
-    jq
-    poppler
-    fd
-    resvg
-    ripgrep
-    imagemagick
-    # vscodium
-    zed-editor
-    keepassxc
-    unstable.onedrive
-    pydf
-    libgcc
-    libgccjit
-    # postgresql
-    cachix
-    unzip
-    syncthing
-    bat
-    eza
-    lsd
-    powertop
-    wlr-randr
-    dconf
-    kitty
-    egl-wayland
-    nvidia-vaapi-driver
-    via
-    starship
-    eza
-    lsd
-    git-credential-keepassxc
-    sioyek
-    xorg.xkbcomp
-    xorg.xev
-    wev
-    keyd
-    unstable.hyprpolkitagent
-    unstable.hyprpaper
-    unstable.hyprpicker
-    unstable.hypridle
-    unstable.hyprland-qt-support
-    unstable.hyprcursor
-    unstable.hyprlock
-    unstable.hyprsysteminfo
-    unstable.hyprgraphics
-    unstable.hyprutils
-    ghostty
-    unstable.tidal-hifi
-    unstable.high-tide
-    unstable.zed-editor
-    unstable.zed-editor-fhs
-    nvtopPackages.full
-    dysk
-    pavucontrol
-    pamixer
-    bluez
-    bluez-tools
-    alsa-utils
-    unstable.texliveFull
-    unstable.typst
-    unstable.typstyle
-    unstable.typstfmt
-    unstable.tinymist
-    libxml2
-    nix-init
-    unstable.go
-    unstable.superfile
-    # inputs.zen-browser.packages.${pkgs.system}.default
-    unstable.libpqxx
-    unstable.libpq
-    unstable.postgresql
-    unstable.g-ls
-    unstable.fontpreview
-    unstable.impression
-    unstable.typescript-language-server
-    unstable.nil
-    unstable.hyprls
-    unstable.nixfmt-rfc-style
-    unstable.ags
-    unstable.astal.io
-    unstable.astal.gjs
-    # unstable.astal.tray
-    unstable.astal.cava
-    unstable.astal.auth
-    unstable.astal.apps
-    unstable.astal.river
-    unstable.astal.mpris
-    unstable.astal.greet
-    unstable.astal.source
-    unstable.astal.notifd
-    unstable.astal.astal4
-    unstable.astal.astal3
-    unstable.astal.wireplumber
-    unstable.astal.powerprofiles
-    unstable.astal.network
-    unstable.astal.hyprland
-    unstable.astal.bluetooth
-    unstable.astal.battery
-    unstable.vscode-langservers-extracted
-    unstable.taplo
-    unstable.nodejs
-    unstable.whatsie
-    unstable.zapzap
-    unstable.nchat
-    (vscode-with-extensions.override {
-      vscode = vscodium;
-      vscodeExtensions = with vscode-extensions; [
-        myriad-dreamin.tinymist
-        reditorsupport.r
-      ];
-    })
+  nix.settings.experimental-features = [
+    "nix-command"
+    "flakes"
   ];
 
+  environment.systemPackages =
+    with pkgs;
+    let
+      # inputs = {
+      #   zen-browser.url = "github:youwen5/zen-browser-flake";
+      #   zen-browser.inputs.nixpkgs.follows = "nixpkgs";
+      # };
+      swayConfig = pkgs.writeText "greetd-sway-config" ''
+        # -l activates layer-shell mode. Notice that swaymsg will run ater gtkgreet
+        exec "${pkgs.greetd.tuigreet}/bin/tuigreet -l; swaymsg exit"
+        bindsym Mod4+shift+e exec swaynag\
+          -t warning \
+          -m "What do you want to do?" \
+          -b 'Poweroff' 'systemctl poweroff' \
+          -b 'Reboot' 'systemctl reboot'
+      '';
+      R_custom = rWrapper.override {
+        packages = with rPackages; [
+          tidyverse
+          #duckdb
+          DBI
+          duckplyr
+          ggeffects
+          gh
+          gitcreds
+          glue
+          gt
+          gridExtra
+          haven
+          googledrive
+          httpgd
+          knitr
+          MASS
+          tikzDevice
+          tinytable
+          viridis
+          vroom
+          # parallel
+          rix
+        ];
+      };
+    in
+    [
+      R_custom
+      vim
+      wget
+      neovim
+      firefox
+      labwc
+      swayfx
+      swaybg
+      greetd.greetd
+      greetd.tuigreet
+      R
+      python314
+      yazi
+      wl-clipboard
+      mako
+      fastfetch
+      zoxide
+      stow
+      htop
+      btop
+      zenith
+      pciutils
+      waybar
+      wofi
+      zinit
+      git-credential-manager
+      pass-wayland
+      gnupg
+      pinentry-tty
+      fzf
+      helix
+      ffmpeg
+      jq
+      poppler
+      fd
+      resvg
+      ripgrep
+      imagemagick
+      # vscodium
+      zed-editor
+      keepassxc
+      onedrive
+      pydf
+      libgcc
+      libgccjit
+      cachix
+      unzip
+      syncthing
+      bat
+      # eza
+      # lsd
+      powertop
+      wlr-randr
+      dconf
+      # kitty
+      egl-wayland
+      nvidia-vaapi-driver
+      via
+      starship
+      git-credential-keepassxc
+      sioyek
+      xorg.xkbcomp
+      xorg.xev
+      wev
+      keyd
+      hyprpolkitagent
+      hyprpaper
+      hyprpicker
+      hypridle
+      hyprland-qt-support
+      hyprcursor
+      hyprlock
+      hyprsysteminfo
+      hyprgraphics
+      hyprutils
+      ghostty
+      tidal-hifi
+      high-tide
+      zed-editor
+      zed-editor-fhs
+      nvtopPackages.full
+      dysk
+      pavucontrol
+      pamixer
+      bluez
+      bluez-tools
+      alsa-utils
+      # texliveFull
+      typst
+      typstyle
+      typstfmt
+      tinymist
+      libxml2
+      nix-init
+      go
+      superfile
+      inputs.zen-browser.packages.${pkgs.system}.default
+      libpqxx
+      libpq
+      postgresql
+      g-ls
+      fontpreview
+      impression
+      typescript-language-server
+      nil
+      alejandra
+      hyprls
+      nixfmt-rfc-style
+      ags
+      astal.io
+      astal.gjs
+      # astal.tray
+      astal.cava
+      astal.auth
+      astal.apps
+      astal.river
+      astal.mpris
+      astal.greet
+      astal.source
+      astal.notifd
+      astal.astal4
+      astal.astal3
+      astal.wireplumber
+      astal.powerprofiles
+      astal.network
+      astal.hyprland
+      astal.bluetooth
+      astal.battery
+      vscode-langservers-extracted
+      taplo
+      nodejs
+      whatsie
+      zapzap
+      nchat
+      ncdu
+      nix-tree
+      exiftool
+      (vscode-with-extensions.override {
+        vscode = vscodium;
+        vscodeExtensions = with vscode-extensions; [
+          myriad-dreamin.tinymist
+          reditorsupport.r
+        ];
+      })
+    ];
 
   environment.extraOutputsToInstall = [
     "dev"
   ];
-
 
   # programs.libxml2 = {
   #   enable = true;
@@ -369,43 +377,42 @@
   #   ];
   # };
 
-  environment.sessionVariables.NIXOS_OZONE_WL ="1";
+  environment.sessionVariables.NIXOS_OZONE_WL = "1";
 
   environment.variables = {
-    NIXOS_OZONE_WL="1";
-    MOZ_ENABLE_WAYLAND="1";
+    NIXOS_OZONE_WL = "1";
+    MOZ_ENABLE_WAYLAND = "1";
   };
 
   services.keyd = {
     enable = true;
   };
 
-    
   environment.etc."keyd/default.conf".text = ''
-  [ids]
-  *
+    [ids]
+    *
 
-  [main]
-  capslock = overload(control, esc)
-  # capsock = esc
+    [main]
+    capslock = overload(control, esc)
+    # capsock = esc
 
-  [control:C]
+    [control:C]
 
-  1 = f1
-  2 = f2
-  3 = f3
-  4 = f4
-  5 = f5
-  6 = f6
-  7 = f7
-  8 = f8
-  9 = f9
-  0 = f10
-  -  = f11
-  = = f12
-  
+    1 = f1
+    2 = f2
+    3 = f3
+    4 = f4
+    5 = f5
+    6 = f6
+    7 = f7
+    8 = f8
+    9 = f9
+    0 = f10
+    -  = f11
+    = = f12
+
   '';
- 
+
   users.defaultUserShell = pkgs.zsh;
 
   programs.tmux = {
@@ -423,17 +430,15 @@
     ];
   };
 
-
-
   environment.etc."greetd/environments".text = ''
-  labwc
-  sway
-  hyprland
+    labwc
+    sway
+    hyprland
   '';
-  
+
   programs.hyprland = {
     enable = true;
-    xwayland .enable = true;
+    xwayland.enable = true;
     withUWSM = true;
     portalPackage = pkgs.xdg-desktop-portal-hyprland;
   };
@@ -441,8 +446,7 @@
   programs.uwsm = {
     enable = true;
   };
-  
-   
+
   programs.gnupg.agent = {
     enable = true;
     enableSSHSupport = true;
@@ -490,22 +494,25 @@
   #Fonts
   fonts = {
     enableDefaultPackages = true;
-    packages = with pkgs; [
-      nerdfonts
-      geist-font
-      font-awesome
-      helvetica-neue-lt-std
-      liberation_ttf
-      inter
-      aileron
-      helvetica-neue-lt-std
-    ];
+    packages =
+      with pkgs;
+      [
+        # nerdfonts
+        geist-font
+        font-awesome
+        helvetica-neue-lt-std
+        liberation_ttf
+        inter
+        aileron
+        helvetica-neue-lt-std
+      ]
+      ++ builtins.filter lib.attrsets.isDerivation (builtins.attrValues pkgs.nerd-fonts);
 
     fontconfig = {
       defaultFonts = {
         serif = [ "Liberation Serif" ];
-      	sansSerif = [ "Geist" ];
-      	monospace = [ "JetBrainsMono" ];
+        sansSerif = [ "Geist" ];
+        monospace = [ "JetBrainsMono" ];
       };
     };
   };
@@ -519,11 +526,11 @@
 
   # List services that you want to enable:
 
-  services.flatpak= {
+  services.flatpak = {
     enable = true;
   };
 
-   systemd.services.flatpak-repo = {
+  systemd.services.flatpak-repo = {
     wantedBy = [ "multi-user.target" ];
     path = [ pkgs.flatpak ];
     script = ''
@@ -531,18 +538,15 @@
     '';
   };
 
-
   services.gnome.gnome-keyring.enable = true;
 
-  
   services.pcscd.enable = true;
 
   services.onedrive = {
     enable = true;
   };
 
-
-services.syncthing = {
+  services.syncthing = {
     enable = true;
     group = "users";
     user = "jordi";
@@ -553,14 +557,16 @@ services.syncthing = {
     openDefaultPorts = true;
     settings = {
       devices = {
-        "oneplus" = { id = "QNHUVLY-D5GTXSA-BBC3XTZ-CQTPY2Y-UK3HXWK-N62NOJC-4PJJTFH-WDE3DQ6"; };
+        "oneplus" = {
+          id = "QNHUVLY-D5GTXSA-BBC3XTZ-CQTPY2Y-UK3HXWK-N62NOJC-4PJJTFH-WDE3DQ6";
+        };
       };
       folders = {
-       "passkeys" = {
-        path = "/home/jordi/sync";
-        devices = [ "oneplus" ];
-         };
-       };
+        "passkeys" = {
+          path = "/home/jordi/sync";
+          devices = [ "oneplus" ];
+        };
+      };
     };
   };
 
@@ -571,19 +577,19 @@ services.syncthing = {
   security.polkit = {
     enable = true;
   };
-  
+
   services.greetd = {
     enable = true;
     settings = rec {
       initial_session = {
-      command = "${pkgs.greetd.tuigreet}/bin/tuigreet --time --greeting 'Hello there!'  --remember --width 60 --greet-align left --asterisks --cmd labwc";
-      user = "jordi";
+        command = "${pkgs.greetd.tuigreet}/bin/tuigreet --time --greeting 'Hello there!'  --remember --width 60 --greet-align left --asterisks --cmd labwc";
+        user = "jordi";
       };
       default_session = initial_session;
     };
   };
 
-    # Enable the OpenSSH daemon.
+  # Enable the OpenSSH daemon.
   # services.openssh.enable = true;
 
   # Open ports in the firewall.
@@ -617,4 +623,3 @@ services.syncthing = {
   system.stateVersion = "24.11"; # Did you read the comment?
 
 }
-

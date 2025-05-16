@@ -30,15 +30,12 @@ autoload -U add-zsh-hook
 # fi
 # tmux attach -t main
 # tmux attach
-fastfetch
-eval "$(fzf --zsh)"
-# eval "$(zoxide init --cmd cd zsh)"
-eval "$(starship init zsh)"
+
 
 #Aliases
 alias ls='ls --color'
 alias ll='g --table --table-style=unicode --icon --long -G -a --dereference'
-alias nixconfig='sudo hx -c /home/jordi/.config/helix/config.toml ~/.config/nix/configuration.nix'
+alias nixconfig='hx -c /home/jordi/.config/helix/config.toml ~/.config/nix/configuration.nix'
 alias nixrebuild='sudo nixos-rebuild switch'
 alias swayconfig='hx ~/.config/sway/config'
 alias labenv='hx ~/.config/labwc/environment'
@@ -47,10 +44,12 @@ alias labrc='hx ~/.config/labwc/rc.xml'
 alias waybarconfig='hx ~/.config/waybar/config.jsonc'
 alias waybarcss='hx ~/.config/waybar/style.css'
 alias zshconfig='hx ~/.zshrc'
-alias fzf='fzf -m --preview="bat --color=always {} "'
+alias fzf='fzf -m --height 40% --layout reverse --border --preview="bat --color=always {} "'
 alias hxfzf='hx $(fzf)'
 alias nixupdate='sudo nixos-rebuild switch --upgrade'
 alias hyprconf='hx ~/.config/hypr/hyprland.conf'
+alias flake='hx ~/.config/nix/flake.nix'
+alias flakebat='bat ~/.config/nix/flake.nix'
 
 # Load completions
 autoload -Uz compinit && compinit
@@ -95,3 +94,7 @@ source ~/.config/zsh/tmux/tmux.plugin.zsh
 if command -v tmux &>/dev/null && [ -z "$TMUX" ]; then
   tmux attach-session -t main || tmux new-session -s main
 fi
+fastfetch
+eval "$(fzf --zsh)"
+# eval "$(zoxide init --cmd cd zsh)"
+eval "$(starship init zsh)"
