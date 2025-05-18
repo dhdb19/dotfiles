@@ -21,9 +21,8 @@
     let
       system = "x86_64-linux";
       pkgs = nixpkgs.legacyPackages.${system};
-    in
-    {
-      packages.${system}.default = ags.lib.bundle rec {
+      iconTheme = pkgs.adwaita-icon-theme;
+      bundled = ags.lib.bundle rec {
         inherit pkgs;
         name = "my-shell";
         src = pkgs.lib.cleanSourceWith {
@@ -39,31 +38,52 @@
         #   pkgs.gobject-introspection
         # ];
 
-        extraPackages = with astal.packages.${system}; [
-          astal3
-          io
-          gjs
-          cava
-          auth
-          tray
-          apps
-          river
-          mpris
-          greet
-          notifd
-          astal4
-          wireplumber
-          powerprofiles
-          network
-          hyprland
-          bluetooth
-          battery
-          # any other package
-        ];
+        extraPackages =
+          with astal.packages.${system};
+          [
+            astal3
+            io
+            gjs
+            cava
+            auth
+            tray
+            apps
+            river
+            mpris
+            greet
+            notifd
+            astal4
+            wireplumber
+            powerprofiles
+            network
+            hyprland
+            bluetooth
+            battery
+            # any other package
+          ]
+          ++ [ iconTheme ];
+      };
 
+    in
+    {
+      packages.${system}.default = pkgs.symlinkJoin {
+        name = "my-shell-wrapped";
+        paths = [ bundled ];
+        buildInputs = [ pkgs.makeWrapper ];
+        postBuild = ''
+          wrapProgram $out/bin/my-shell \
+            --set GTK_ICON_THEME ${iconTheme.pname} \
+            --set XDG_DATA_DIRS "${iconTheme}/share:${pkgs.gtk4}/share"
+        '';
         # installPhase = ''
         #   mkdir -p $out/bin
         #   ags bundle app.ts $out/bin/${name}
+        # '';
+
+        # postInstall = ''
+        #   wrapPorgram $out/bin/${name} \
+        #     --set GTK_ICON_THEME ${iconTheme.pname}\
+        #     --set XDG_DATA_DIRS ${iconTheme}/share:${pkgs.gtk4}/share"
         # '';
       };
     };

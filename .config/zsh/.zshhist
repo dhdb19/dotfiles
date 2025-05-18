@@ -208,7 +208,6 @@ cd gtk-4.0
 bat README.md
 cp gtktheme_cheetah ~/.themes
 cp -r gtktheme_cheetah ~/.themes
-cd icons_cheetah
 cp -r icons_cheetah ~/.icons
 wayconfig
 waybar 
@@ -368,7 +367,6 @@ tar -xvjf Win98SE-main.tar.bz2 ~/.icons
 tar -xvjf Win98SE-main.tar.bz2 -C ~./icons
 tar -xvjf Win98SE-main.tar.bz2 -C  ~/.icons
 cd 
-cd .icons
 tar -xvjf Win98SE-main.tar.bz2
 cd Win98SE-main
 zsh install_icons.sh
@@ -596,13 +594,9 @@ mv default,nix default.nix
 cat flake,nix
 cat default.nix
 hx run-widget.nix
-cd dotfiles
-git add .
 git commit -m "commit 11"
-git push -u origin main
 rm flake.lock
 git clone https://github.com/Fabric-Development/fabric.git ~/.config/fabric
-nix develop
 bat setup.py
 cd test
 cd fabric
@@ -613,8 +607,6 @@ hx styles.css
 hx style.css
 bat style.css
 mv style.scss style.scss.bak
-hx app.ts
-hx widget/Bar.tsx
 cp style.scss widget/bar.scss
 mv bar.scss Bar.scss
 bat style.scss.bak
@@ -627,7 +619,6 @@ cd downloads
 cp NixOS.svg ~/.config/ags/assets/nix.svg
 cat Bar.tsx
 cat Bar.scss
-nixrebuild
 pkill waybar
 whereis sass
 whereis sassc
@@ -636,7 +627,6 @@ whereis ags
 flake
 cat ~/.config/nix/flake.nix
 nixc
-nixconfig
 cat ~/.config/nix/configuration.nix
 cat ~/.config/hypr/hyprland.conf
 ags --print-errors
@@ -649,9 +639,6 @@ nix eval .
 cd /nix/store/pkaxxmps0irh4fb0dmfbh5799vbfiskx-my-shell.dr
 cd /nix/store/pkaxxmps0irh4fb0dmfbh5799vbfiskx-my-shell.drv
 cd /nix/store/pkaxxmps0irh4fb0dmfbh5799vbfiskx-my-shell
-cd /
-fzf
-bat flake.nix
 nix log /nix/store/pkaxxmps0irh4fb0dmfbh5799vbfiskx-my-shell.drv
 nix build .
 nixupdate
@@ -659,15 +646,11 @@ nix run
 ls -l result
 /home/jordi/.config/ags/result/bin/my-shell
 sudo /home/jordi/.config/ags/result/bin/my-shell
-yazi
 cat flake.nix
 cp flake.nix flake.nix.bak
-cd bin
 bat my-shell
-my-shell
 cd .. ..
 cd .. 
-cd ..
 nix eval
 nix path-info
 /nix/store/9jrg8gddmf6hciqqp7wl2g17kkm4f8j1-my-shell
@@ -679,9 +662,7 @@ echo $DISPLAY
 WAYLAND_DISPLAY=wayland-1 /nix/store/9jrg8gddmf6hciqqp7wl2g17kkm4f8j1-my-shell/bin/my-shell
 hx
 hx --tutor
-hyprconf
 zshconfig
-pkill my-shell
 bat styls.css
 bat styls.scss
 bat style.scss
@@ -689,7 +670,6 @@ ybar
 waybar
 cd widget
 hx Bar.tsx
-cd
 cd widge
 hx Bar.scss
 ags run#
@@ -699,27 +679,56 @@ assets
 cd assets
 waybarconfig
 ags tun
-ags run
 poweroff
-reboot
 bat apps.ts
 bat app.ts
-hx widget/Bar.scss
 ags build
-hx flake.nix
-nix build
-nixdevelop
 ags bundle app.ts --debug
 ags bundle app.ts
 cd share
-cd ags
 ags bundle app.ts -d "DATADIR='./result/share'"
 hx style.scss
 ags bundle app.ts my-shell -d "DATADIR='./result/share'"
 cd ersult
+cd
+cd dotfiles
+git add .
+git commit -m "commit 12"
+git push -u origin main
+nix build
+find my-shell
+cd /
+bat .config/hypr/hyprland.conf
+zsh nix/store/pd0plr5z7q66amrmin4181vsmqrcixxn-my-shell/bin/my-shell
 cd result
+cd bin
+cd my-shell
+my-shell
+yazi
+cd nix/store/pd0plr5z7q66amrmin4181vsmqrcixxn-my-shell/bin/my-shell
+cd nix/store/pd0plr5z7q66amrmin4181vsmqrcixxn-my-shell/bin
+hyprconf
+hx app.ts
+hx widget/Bar.scss
+hx widget/Bar.tsx
+pkill my-shell
+ags run
+cd .icons
+cd icons_cheetah
+cd ..
+cd SE98
+fzf
+display status/96/audio-volume-low.png
+nixconfig
+nixrebuild
+reboot
+cd ags
+bat flake.nix
+nix develop
+nixdevelop
 ll
+cp flake.nix flake.nix.bak.bak
+hx flake.nix
 exit
-: 1747576062:0;cd
-: 1747576064:0;cd dotfiles
-: 1747576071:0;git add .
+: 1747580484:0;cd dotfiles
+: 1747580488:0;git add .

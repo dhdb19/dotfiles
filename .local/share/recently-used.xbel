@@ -275,4 +275,14 @@
       </metadata>
     </info>
   </bookmark>
+  <bookmark href="file:///home/jordi/dotfiles/.config/ags/widget/Bar.tsx" added="2025-05-18T14:13:28.571540Z" modified="2025-05-18T14:13:28.577922Z" visited="2025-05-18T14:13:28.571540Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-tiled-tsx"/>
+        <bookmark:applications>
+          <bookmark:application name="xdg-desktop-portal-gtk" exec="&apos;xdg-desktop-portal-gtk %u&apos;" modified="2025-05-18T14:13:28.577921Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
 </xbel>

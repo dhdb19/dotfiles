@@ -341,6 +341,9 @@
       astal.hyprland
       astal.bluetooth
       astal.battery
+      gtk3
+      gtk4
+      adwaita-icon-theme
       vscode-langservers-extracted
       taplo
       nodejs
