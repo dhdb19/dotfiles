@@ -1,0 +1,50 @@
+2025/05/18-02:34:47.349 a367 Reusing MANIFEST /home/jordi/.config/Ferdium/Partitions/service-6f7eee57-ab16-4181-abc5-d70518e3084c/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/05/18-02:34:47.349 a367 Recovering log #151
+2025/05/18-02:34:47.354 a367 Reusing old log /home/jordi/.config/Ferdium/Partitions/service-6f7eee57-ab16-4181-abc5-d70518e3084c/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/000151.log 
+2025/05/18-02:34:49.085 a377 Level-0 table #160: started
+2025/05/18-02:34:49.089 a377 Level-0 table #160: 154924 bytes OK
+2025/05/18-02:34:49.093 a377 Delete type=0 #151
+2025/05/18-02:34:49.094 a377 Manual compaction at level-0 from '\x00\x1c\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x1d\x00\x00\x00' @ 0 : 0; will stop at (end)
+2025/05/18-02:34:50.102 a367 Compacting 1@1 + 5@2 files
+2025/05/18-02:34:50.133 a367 Generated table #161@1: 36986 keys, 2207291 bytes
+2025/05/18-02:34:50.153 a367 Generated table #162@1: 3611 keys, 2158762 bytes
+2025/05/18-02:34:50.186 a367 Generated table #163@1: 30804 keys, 2238498 bytes
+2025/05/18-02:34:50.216 a367 Generated table #164@1: 54202 keys, 2191162 bytes
+2025/05/18-02:34:50.251 a367 Generated table #165@1: 83855 keys, 1872683 bytes
+2025/05/18-02:34:50.251 a367 Compacted 1@1 + 5@2 files => 10668396 bytes
+2025/05/18-02:34:50.252 a367 compacted to: files[ 0 0 5 0 0 0 0 ]
+2025/05/18-02:34:50.253 a367 Delete type=2 #160
+2025/05/18-02:34:50.253 a367 Delete type=2 #155
+2025/05/18-02:34:50.253 a367 Delete type=2 #156
+2025/05/18-02:34:50.253 a367 Delete type=2 #153
+2025/05/18-02:34:50.253 a367 Delete type=2 #157
+2025/05/18-02:34:50.253 a367 Delete type=2 #154
+2025/05/18-02:34:52.516 a367 Level-0 table #167: started
+2025/05/18-02:34:52.531 a367 Level-0 table #167: 1074985 bytes OK
+2025/05/18-02:34:52.533 a367 Delete type=0 #159
+2025/05/18-02:34:52.533 a367 Compacting 1@1 + 5@2 files
+2025/05/18-02:34:52.568 a367 Generated table #168@1: 48062 keys, 2217274 bytes
+2025/05/18-02:34:52.584 a367 Generated table #169@1: 3485 keys, 2156252 bytes
+2025/05/18-02:34:52.617 a367 Generated table #170@1: 28383 keys, 2226335 bytes
+2025/05/18-02:34:52.646 a367 Generated table #171@1: 42417 keys, 2189759 bytes
+2025/05/18-02:34:52.688 a367 Generated table #172@1: 99326 keys, 2218882 bytes
+2025/05/18-02:34:52.688 a367 Compacted 1@1 + 5@2 files => 11008502 bytes
+2025/05/18-02:34:52.690 a367 compacted to: files[ 0 0 5 0 0 0 0 ]
+2025/05/18-02:34:53.099 a367 Level-0 table #174: started
+2025/05/18-02:34:53.116 a367 Level-0 table #174: 1102734 bytes OK
+2025/05/18-02:34:53.118 a367 Delete type=2 #162
+2025/05/18-02:34:53.118 a367 Delete type=2 #167
+2025/05/18-02:34:53.118 a367 Delete type=0 #166
+2025/05/18-02:34:53.118 a367 Delete type=2 #165
+2025/05/18-02:34:53.118 a367 Delete type=2 #164
+2025/05/18-02:34:53.118 a367 Delete type=2 #161
+2025/05/18-02:34:53.118 a367 Delete type=2 #163
+2025/05/18-02:34:53.121 a367 Compacting 1@1 + 5@2 files
+2025/05/18-02:34:53.159 a367 Generated table #175@1: 51839 keys, 2218692 bytes
+2025/05/18-02:34:53.179 a367 Generated table #176@1: 6252 keys, 2159849 bytes
+2025/05/18-02:34:53.208 a367 Generated table #177@1: 19733 keys, 2214075 bytes
+2025/05/18-02:34:53.234 a367 Generated table #178@1: 28933 keys, 2182009 bytes
+2025/05/18-02:34:53.272 a367 Generated table #179@1: 100989 keys, 2252600 bytes
+2025/05/18-02:34:53.281 a367 Generated table #180@1: 21270 keys, 478535 bytes
+2025/05/18-02:34:53.281 a367 Compacted 1@1 + 5@2 files => 11505760 bytes
+2025/05/18-02:34:53.283 a367 compacted to: files[ 0 0 6 0 0 0 0 ]

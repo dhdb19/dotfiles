@@ -9,32 +9,30 @@
     utils.url = "github:numtide/flake-utils";
   };
 
-  outputs =
-    {
-      nixpkgs,
-      utils,
-      self,
-      ...
-    }:
+  outputs = {
+    nixpkgs,
+    utils,
+    ...
+  }:
     utils.lib.eachDefaultSystem (
-      system:
-      let
+      system: let
         overlay = final: prev: {
-          pythonPackagesExtensions = prev.pythonPackagesExtensions ++ [
-            (python-final: python-prev: {
-              python-fabric = prev.callPackage ./default.nix { };
-            })
-          ];
+          pythonPackagesExtensions =
+            prev.pythonPackagesExtensions
+            ++ [
+              (python-final: python-prev: {
+                python-fabric = prev.callPackage ./default.nix {};
+              })
+            ];
         };
 
         pkgs = nixpkgs.legacyPackages.${system}.extend overlay;
-      in
-      {
+      in {
         overlays.default = overlay;
         formatter = pkgs.nixfmt-rfc-style;
         packages = {
           default = pkgs.python3Packages.python-fabric;
-          run-widget = pkgs.callPackage ./run-widget.nix { };
+          run-widget = pkgs.callPackage ./run-widget.nix {};
         };
 
         devShells = {
@@ -51,18 +49,19 @@
               gnome-bluetooth
               cinnamon-desktop
               (python3.withPackages (
-                ps: with ps; [
-                  setuptools
-                  wheel
-                  build
-                  click
-                  pycairo
-                  pygobject3
-                  pygobject-stubs
-                  loguru
-                  psutil
-                  python-fabric
-                ]
+                ps:
+                  with ps; [
+                    setuptools
+                    wheel
+                    build
+                    click
+                    pycairo
+                    pygobject3
+                    pygobject-stubs
+                    loguru
+                    psutil
+                    python-fabric
+                  ]
               ))
             ];
           };

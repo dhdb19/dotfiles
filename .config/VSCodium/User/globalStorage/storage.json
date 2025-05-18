@@ -28,7 +28,7 @@
                 "x": 0,
                 "y": 0,
                 "width": 688,
-                "height": 1094
+                "height": 1099
             }
         },
         "openedWindows": []
@@ -1660,7 +1660,7 @@
     "theme": "hc-black",
     "themeBackground": "#000000",
     "windowSplash": {
-        "zoomLevel": 1.25,
+        "zoomLevel": 1,
         "baseTheme": "hc-black",
         "colorInfo": {
             "foreground": "#ffffff",
@@ -1686,5 +1686,5 @@
             "windowBorder": false
         }
     },
-    "windowControlHeight": 44
+    "windowControlHeight": 42
 }

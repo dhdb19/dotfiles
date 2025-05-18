@@ -1,0 +1,2 @@
+2025/05/17-01:43:35.287 5aeb Creating DB /home/jordi/.config/Ferdium/Partitions/service-6f7eee57-ab16-4181-abc5-d70518e3084c/shared_proto_db since it was missing.
+2025/05/17-01:43:35.291 5aeb Reusing MANIFEST /home/jordi/.config/Ferdium/Partitions/service-6f7eee57-ab16-4181-abc5-d70518e3084c/shared_proto_db/MANIFEST-000001

@@ -1,2 +1,3 @@
-2025/05/15-01:13:21.624 307e Creating DB /home/jordi/.local/share/ZapZap/QtWebEngine/storage-whats/Platform Notifications since it was missing.
-2025/05/15-01:13:21.628 307e Reusing MANIFEST /home/jordi/.local/share/ZapZap/QtWebEngine/storage-whats/Platform Notifications/MANIFEST-000001
+2025/05/17-00:28:25.165 2eb8 Reusing MANIFEST /home/jordi/.local/share/ZapZap/QtWebEngine/storage-whats/Platform Notifications/MANIFEST-000001
+2025/05/17-00:28:25.170 2eb8 Recovering log #3
+2025/05/17-00:28:25.170 2eb8 Reusing old log /home/jordi/.local/share/ZapZap/QtWebEngine/storage-whats/Platform Notifications/000003.log 

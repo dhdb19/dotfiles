@@ -1,3 +1,5 @@
-2025/05/15-01:15:27.807 31ff Reusing MANIFEST /home/jordi/.local/share/ZapZap/QtWebEngine/storage-whats/Local Storage/leveldb/MANIFEST-000001
-2025/05/15-01:15:27.810 31ff Recovering log #3
-2025/05/15-01:15:27.810 31ff Reusing old log /home/jordi/.local/share/ZapZap/QtWebEngine/storage-whats/Local Storage/leveldb/000003.log 
+2025/05/17-01:32:24.041 4cf0 Reusing MANIFEST /home/jordi/.local/share/ZapZap/QtWebEngine/storage-whats/Local Storage/leveldb/MANIFEST-000001
+2025/05/17-01:32:24.044 4cf0 Recovering log #3
+2025/05/17-01:32:24.044 4cf0 Level-0 table #3: started
+2025/05/17-01:32:24.047 4cf0 Level-0 table #3: 22124 bytes OK
+2025/05/17-01:32:24.052 4cf0 Delete type=0 #3

@@ -286,7 +286,6 @@ flatpak uninstall org.freedesktop.Platform.GL.nvidia-575-51-02
 flatpak uninstall org.freedesktop.Platform.GL.default
 flatpak uninstall org.freedesktop.Platform.ffmpeg-full
 flatpak list
-cd test
 sudo nix-build default.nix
 nix-build default.nix
 echo "$(pwd)"
@@ -383,13 +382,11 @@ fontpreview -i Aileron-Regular.otf -o preview.png
 pamixer --list-sinks
 pamixer
 amixer
-cd /
 cd usr
 hx -g health
 touch .config/waybar/power_menu.xml
 hx .config/waybar/power_menu.xml
 lspci
-cd downloads
 cp nixos-minimal-24.11.717837.a39ed32a651f-x86_64-linux.iso /dev/disk/by-id/usb-Intenso_Alu_Line_321BDA97-0:0
 sudo cp nixos-minimal-24.11.717837.a39ed32a651f-x86_64-linux.iso /dev/disk/by-id/usb-Intenso_Alu_Line_321BDA97-0:0
 lsblk
@@ -401,7 +398,6 @@ hx -g fetch
 hx -g build
 hx --health
 ags init
-hx app.ts
 ags types
 cd widgets
 whatsie
@@ -410,14 +406,11 @@ nchat --help
 nchat -s
 zapzap
 ags run dotfiles/.config/ags/app.ts
-hx
 cd @girs
 cd..
 bat package.json
 ags --help
 astal list
-ags list
-hx Bar.tsx
 hyprsysteminfo
 waybar --help
 waybar .l off
@@ -443,7 +436,6 @@ cd nix
 cd /etc/nixos
 sudo nixos-rebuild switch --show-trace
 cd ni
-rm flake.lock
 sudo rm flake.lock
 nix --version
 bat .config/nix/flake.nix
@@ -451,7 +443,6 @@ hx ~/.config/nix/flake.nix
 git commit -m "commit 6"
 cd .config nix
 cp configuration.nix configuration.nix.bak
-cd .. ..
 git commit -m "commit 7"
 sudo ncdu /nix/store
 cd zen
@@ -479,11 +470,9 @@ nix-store --gc
 ncdu /etc/store
 ncdu /nix/store
 nix-tree
-nixconfig
 bat .config/nix/configuration.nix
 cd .config/ags
 flakebat
-ags run
 dysk
 ncdu ~
 hx .config/superfile/config.toml
@@ -540,9 +529,6 @@ fzf --height -20
 fzf --tmux center
 fzf --tmux left 40%
 fzf --tmux left,40%
-fzf
-flake
-nixrebuild
 cd .config fastfetch
 touch ibm_logo
 hx ibm_logo
@@ -560,18 +546,12 @@ mv ibm_skinny ~/.config/fastfetch
 git commit -m "commit 8"
 hx .config/fastfetch/ibm
 hx .config/fastfetch/ibm_final
-poweroff
-nixupdate
 waybarconf
 cd .config waybar
 cp styles.css styles.css.bak
 cp style.css style.css.bak
 cp config.jsonc config.jsonc.bak
-waybarcss
-pkill waybar
-waybarconfig
 hyprctl devices
-hyprconf
 bat .config/fastfetch/ibm
 mv config.jsonc config.jsonc.bak
 mv config.jsonc config.jsonc.bak.bak
@@ -589,81 +569,157 @@ xlear
 hx ibm
 hx ibm_final
 hx config.jsonc
-waybar
-reboot
 superfile
 superfile --help
-cd .config
 mkdir fabric
 lear
 clear
 fastfetch
 nix flake init --template github:aylur/ags
-cd dotfiles
 git status
-git add .
 git commit -m "commit 9"
-git push -u origin main
 nix develop --command zsh -i\
 
-nix develop
-zshconfig
 source .zshrc
-cd
 hxfzf
-cd ags
-yazi
 ags init -d . -f
-cd widget
-ll
 bat Bar.tsc
-bat Bar.tsx
-cd ..
-hx flake.nix
 astal --list
 gjs
 which gjs
-bat flake.nix
-nixdevelop
 astal gjs
+cd .config
+cd dotfile
+git commit -m "commit 10"
+hx default,nix
+mv default,nix default.nix
+cat flake,nix
+cat default.nix
+hx run-widget.nix
+cd dotfiles
+git add .
+git commit -m "commit 11"
+git push -u origin main
+rm flake.lock
+git clone https://github.com/Fabric-Development/fabric.git ~/.config/fabric
+nix develop
+bat setup.py
+cd test
+cd fabric
+cd scripts
+python -m fabric list-all
+mv Bar.tsx Bar.tsx.bak
+hx styles.css
+hx style.css
+bat style.css
+mv style.scss style.scss.bak
+hx app.ts
+hx widget/Bar.tsx
+cp style.scss widget/bar.scss
+mv bar.scss Bar.scss
+bat style.scss.bak
+cp style.scss.bak widget/Bar.scss.bak
+rm style.scss.bak
+cd widget 
+bat Bar.tsx
+mkdir assets
+cd downloads
+cp NixOS.svg ~/.config/ags/assets/nix.svg
+cat Bar.tsx
+cat Bar.scss
+nixrebuild
+pkill waybar
+whereis sass
+whereis sassc
+whereis bun
+whereis ags
+flake
+cat ~/.config/nix/flake.nix
+nixc
+nixconfig
+cat ~/.config/nix/configuration.nix
+cat ~/.config/hypr/hyprland.conf
+ags --print-errors
+ags
+ags list
+astal --help
 astal
+nix run my-shell
+nix eval .
+cd /nix/store/pkaxxmps0irh4fb0dmfbh5799vbfiskx-my-shell.dr
+cd /nix/store/pkaxxmps0irh4fb0dmfbh5799vbfiskx-my-shell.drv
+cd /nix/store/pkaxxmps0irh4fb0dmfbh5799vbfiskx-my-shell
+cd /
+fzf
+bat flake.nix
+nix log /nix/store/pkaxxmps0irh4fb0dmfbh5799vbfiskx-my-shell.drv
+nix build .
+nixupdate
+nix run
+ls -l result
+/home/jordi/.config/ags/result/bin/my-shell
+sudo /home/jordi/.config/ags/result/bin/my-shell
+yazi
+cat flake.nix
+cp flake.nix flake.nix.bak
+cd bin
+bat my-shell
+my-shell
+cd .. ..
+cd .. 
+cd ..
+nix eval
+nix path-info
+/nix/store/9jrg8gddmf6hciqqp7wl2g17kkm4f8j1-my-shell
+sudo /nix/store/9jrg8gddmf6hciqqp7wl2g17kkm4f8j1-my-shell
+sudo /nix/store/9jrg8gddmf6hciqqp7wl2g17kkm4f8j1-my-shell/bin/my-shell
+sudo /nix/store/9jrg8gddmf6hciqqp7wl2g17kkm4f8j1-my-shell/bin/my-shell --config /home/jordi/.config/ags/tsconfig.json
+echo $WAYLAND_DISPLAY
+echo $DISPLAY
+WAYLAND_DISPLAY=wayland-1 /nix/store/9jrg8gddmf6hciqqp7wl2g17kkm4f8j1-my-shell/bin/my-shell
+hx
+hx --tutor
+hyprconf
+zshconfig
+pkill my-shell
+bat styls.css
+bat styls.scss
+bat style.scss
+ybar
+waybar
+cd widget
+hx Bar.tsx
+cd
+cd widge
+hx Bar.scss
+ags run#
+a gs run
+waybarcss
+assets
+cd assets
+waybarconfig
+ags tun
+ags run
+poweroff
+reboot
+bat apps.ts
 bat app.ts
+hx widget/Bar.scss
+ags build
+hx flake.nix
+nix build
+nixdevelop
+ags bundle app.ts --debug
+ags bundle app.ts
+cd share
+cd ags
+ags bundle app.ts -d "DATADIR='./result/share'"
+hx style.scss
+ags bundle app.ts my-shell -d "DATADIR='./result/share'"
+cd ersult
+cd result
+ll
 exit
-: 1747414704:0;cd
-: 1747414708:0;cd .config
-: 1747414708:0;ll
-: 1747414713:0;cd fabric
-: 1747414718:0;hx flake.nix
-: 1747414764:0;nixdevelop
-: 1747414775:0;cd dotfile
-: 1747414779:0;cd dotfiles
-: 1747414789:0;git add .
-: 1747414797:0;git commit -m "commit 10"
-: 1747414800:0;git push -u origin main
-: 1747414809:0;cd fabric
-: 1747414813:0;nixdevelop
-: 1747414880:0;hx default,nix
-: 1747414896:0;nixdevelop
-: 1747414912:0;ll
-: 1747414924:0;mv default,nix default.nix
-: 1747414927:0;ll
-: 1747414931:0;nixdevelop
-: 1747414953:0;ll
-: 1747415014:0;rm flake.lock
-: 1747415014:0;ll
-: 1747415017:0;nixdevelop
-: 1747415033:0;cat flake,nix
-: 1747415037:0;cat flake.nix
-: 1747415078:0;cat default.nix
-: 1747415173:0;ll
-: 1747415180:0;bat flake.nix
-: 1747415216:0;hx flake.nix
-: 1747415295:0;nixdevelop
-: 1747415395:0;hx flake.nix
-: 1747415494:0;hx run-widget.nix
-: 1747415508:0;nixdevelop
-: 1747415525:0;ll
-: 1747415584:0;nix develop
-: 1747415648:0;cd
-: 1747415651:0;cd dotfiles
-: 1747415655:0;git add .
+: 1747576062:0;cd
+: 1747576064:0;cd dotfiles
+: 1747576071:0;git add .

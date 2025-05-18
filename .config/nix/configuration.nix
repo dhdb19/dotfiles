@@ -350,6 +350,7 @@
       ncdu
       nix-tree
       exiftool
+      ferdium
       (vscode-with-extensions.override {
         vscode = vscodium;
         vscodeExtensions = with vscode-extensions; [

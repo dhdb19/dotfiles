@@ -3,13 +3,14 @@
       xmlns:bookmark="http://www.freedesktop.org/standards/desktop-bookmarks"
       xmlns:mime="http://www.freedesktop.org/standards/shared-mime-info"
 >
-  <bookmark href="file:///home/jordi/downloads" added="2025-04-24T13:48:38.044641Z" modified="2025-05-13T17:08:30.494025Z" visited="2025-04-24T13:48:38.044642Z">
+  <bookmark href="file:///home/jordi/downloads" added="2025-04-24T13:48:38.044641Z" modified="2025-05-16T23:38:59.179061Z" visited="2025-04-24T13:48:38.044642Z">
     <info>
       <metadata owner="http://freedesktop.org">
         <mime:mime-type type="inode/directory"/>
         <bookmark:applications>
           <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2025-04-24T13:48:38.044642Z" count="1"/>
           <bookmark:application name="Zen" exec="&apos;zen %u&apos;" modified="2025-05-13T17:08:30.494024Z" count="1"/>
+          <bookmark:application name="xdg-desktop-portal-gtk" exec="&apos;xdg-desktop-portal-gtk %u&apos;" modified="2025-05-16T23:38:59.179061Z" count="2"/>
         </bookmark:applications>
       </metadata>
     </info>

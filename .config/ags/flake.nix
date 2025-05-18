@@ -23,22 +23,29 @@
       pkgs = nixpkgs.legacyPackages.${system};
     in
     {
-      packages.${system}.default = pkgs.stdenvNoCC.mkDerivation rec {
+      packages.${system}.default = ags.lib.bundle rec {
+        inherit pkgs;
         name = "my-shell";
-        src = ./.;
+        src = pkgs.lib.cleanSourceWith {
+          src = ./.;
+          filter = path: type: true;
+        };
+        entry = "app.ts";
+        gtk4 = false;
 
-        nativeBuildInputs = [
-          ags.packages.${system}.default
-          pkgs.wrapGAppsHook
-          pkgs.gobject-introspection
-        ];
+        # nativeBuildInputs = [
+        #   ags.packages.${system}.default
+        #   pkgs.wrapGAppsHook
+        #   pkgs.gobject-introspection
+        # ];
 
-        buildInputs = with astal.packages.${system}; [
+        extraPackages = with astal.packages.${system}; [
           astal3
           io
           gjs
           cava
           auth
+          tray
           apps
           river
           mpris
@@ -54,10 +61,10 @@
           # any other package
         ];
 
-        installPhase = ''
-          mkdir -p $out/bin
-          ags bundle app.ts $out/bin/${name}
-        '';
+        # installPhase = ''
+        #   mkdir -p $out/bin
+        #   ags bundle app.ts $out/bin/${name}
+        # '';
       };
     };
 }
