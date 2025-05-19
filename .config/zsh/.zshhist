@@ -791,3 +791,12 @@ exit
 : 1747671905:0;ll
 : 1747671925:0;cd dotfiles
 : 1747671932:0;git add .
+: 1747671952:0;git commit -m "commit 14"
+: 1747671958:0;git push -u origin main
+: 1747672097:0;cd ags
+: 1747672105:0;ll
+: 1747672120:0;hx flake.nix
+: 1747672135:0;ll
+: 1747672140:0;nixdevelop
+: 1747672154:0;cd dotfiles
+: 1747672159:0;git add .
