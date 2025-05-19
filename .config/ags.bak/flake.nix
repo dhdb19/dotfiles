@@ -85,7 +85,10 @@
             # pkgs.gtk-layer-shell
             # any other package
           ]
-          ++ [ iconTheme ];
+          ++ [
+            iconTheme
+            pkgs.gtk4
+          ];
       };
 
       wrapped =

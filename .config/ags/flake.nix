@@ -25,41 +25,48 @@
     {
       packages.${system}.default = pkgs.stdenvNoCC.mkDerivation rec {
         name = "my-shell";
-        src = ./.;
-
+        src = pkgs.lib.cleanSourceWith {
+          src = ./.;
+          filter = path: type: true;
+        };
+        entry = "app.ts";
         nativeBuildInputs = [
           ags.packages.${system}.default
           pkgs.wrapGAppsHook
           pkgs.gobject-introspection
-          pkgs.gtk4-layer-shell
-          pkgs.glib
           pkgs.gtk4
+          pkgs.gtk4-layer-shell
         ];
 
-        buildInputs = with astal.packages.${system}; [
-          astal3
-          astal4
-          io
-          gjs
-          tray
-          cava
-          auth
-          apps
-          river
-          mpris
-          greet
-          notifd
-          wireplumber
-          powerprofiles
-          network
-          hyprland
-          bluetooth
-          battery
-          pkgs.gtk4
-          pkgs.gtk4-layer-shell
-          pkgs.hyprland
-          # any other package
-        ];
+        buildInputs =
+          with astal.packages.${system};
+          [
+            astal3
+            astal4
+            hyprland
+            io
+            gjs
+            tray
+            cava
+            auth
+            apps
+            river
+            mpris
+            greet
+            notifd
+            wireplumber
+            powerprofiles
+            network
+            bluetooth
+            battery
+            pkgs.gtk4
+            pkgs.gtk4-layer-shell
+            # any other package
+          ]
+          ++ [
+            pkgs.gtk4
+            pkgs.gtk4-layer-shell
+          ];
 
         installPhase = ''
           mkdir -p $out/bin

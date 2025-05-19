@@ -404,7 +404,6 @@ zapzap
 ags run dotfiles/.config/ags/app.ts
 cd @girs
 cd..
-ags --help
 astal list
 hyprsysteminfo
 waybar --help
@@ -573,7 +572,6 @@ git commit -m "commit 9"
 nix develop --command zsh -i\
 
 hxfzf
-astal --list
 which gjs
 astal gjs
 cd dotfile
@@ -613,7 +611,6 @@ nixc
 cat ~/.config/nix/configuration.nix
 cat ~/.config/hypr/hyprland.conf
 ags --print-errors
-astal
 nix run my-shell
 nix eval .
 cd /nix/store/pkaxxmps0irh4fb0dmfbh5799vbfiskx-my-shell.dr
@@ -658,7 +655,6 @@ ags bundle app.ts --debug
 ags bundle app.ts
 cd share
 ags bundle app.ts -d "DATADIR='./result/share'"
-hx style.scss
 ags bundle app.ts my-shell -d "DATADIR='./result/share'"
 cd
 git commit -m "commit 12"
@@ -681,11 +677,8 @@ nix-env --delete-generations 14d\
 find nix
 which nix
 nix-tree
-nix-store --gc
-dysk
 yayazi
 cd /
-hx widget/Bar.tsx
 hx widget/Bar.scss
 pkill .my-shell-wrapped
 nix develop
@@ -711,7 +704,6 @@ hx Bar.tsx.bak
 mv Bar.tsx Bar.tsx.bak.bak
 mv Bar.tsx.bak Bar.tsx
 bat Bar.scss
-bat style.scss
 bat tsconfig.json
 poweroff
 xprop
@@ -736,18 +728,10 @@ echo LD_LIBRARY_PATH
 GDK_BACKEND=wayland ags run
 nix log /nix/store/3gzjkz75wrl4jk0fqg3sr465b7a9f3f9-my-shell.drv
 waybar
-bat flake.nix
-cd .config
 mv ags ags.bak
-mkdir ags
-astal --help
-yazi
 ags init -d . -f
-cd dotfiles
 git commit -m "commit 14"
-git add .
 git commit -m "commit 15"
-git push -u origin main
 cd 
 cd results
 /nix/store/f76zx4v7dwd2zvn80nxb750i5ln79hja-my-shell/bin/my-shell
@@ -761,7 +745,6 @@ cd result
 cd bin
 ags my-shell
 ags run my-shell
-reboot
 pkill astal
 pkill ags
 pkill my-shell
@@ -769,11 +752,8 @@ ags
 ags list
 ags quit astal
 hx Bar.tsx
-hx app.ts
 bat package.json
 hx tsconfig.json
-ags run
-cat flake.nix
 cat app.tsx
 cat app.ts
 cat widget/Bar.tsx
@@ -781,51 +761,72 @@ pkg-config --modversion gtk4-layer-shell
 nix-shell -p pkg-config --modversion gtk4-layer-shell
 gjs
 nix-shell -p gjs
-nix build
 zshconfig
 source .zshrc
-bar
 hyprconf
-ll
-bat app.ts
-cd widget
-bat Bar.tsx
-cd ..
 hx test.ts
 nix flake update
-hx flake.nix
 GJS_DEBUG_TOPICS=JS_LOG ags run test.ts
-hyprctl dispatch exit
 ags run test.ts
 nixconfig
 ags run /nix/store/c2a7jkaip5hp9spkcfc53q89d3i02c2i-my-shell/bin/my-shell
-cd ags
-nixdevelop
-ags quit
 ags run result/bin/my-shell
+mv ags ags.bak.bak
+git clone https://github.com/ezerinz/epik-shell ~/.config/ags
+cp ~/.config/ags.bak.bak/flake.nix ~/.config/ags/
+cd dotfiler
+git commit -m "commit 16"
+cd dotfiles
+git add .
+git commit -m "commit 17"
+git push -u origin main
+git -C "/home/jordi/dotfiles/.config/ags" add "flake.nix"
+bat app.ts
+mv ags ags.bak.bak.bak
+mkdir ags
+ags init --gtk4
+ags init -d . -g 4
+ags init -d "." -g 4
+cd ..
+ags init -g 4
+hyprctl dispatch exit
+nix-store --gc
+dysk
+hx flake.niX
+ags --help
+ags run sdfgasdg
+cd .config
+cd widget
+bat Bar.tsx
+yazi
+hx widget/Bar.tsx
+hx app.ts
+astal
+astal --list
+astal --help
+astal --quit
+astal --instance
+astal -I
+astal -v
+reboot
+ags quit
+nixdevelop
+cd ags.bak.bak.bak
+bat style.scss
+bar flake.nix
+bar
+ags run --gtk4
+ags run
+ags run --help
+ll
+cd ags.bak
+bat flake.nix
+cd ags.bak.bak
+hx flake.nix
+cat flake.nix
+cd ags
+hx style.scss
+nix build
 exit
-: 1747676146:0;cd ..
-: 1747676157:0;mv ags ags.bak.bak
-: 1747676162:0;mkdir ags
-: 1747676186:0;git clone https://github.com/ezerinz/epik-shell ~/.config/ags
-: 1747676190:0;ll
-: 1747676193:0;cd ags
-: 1747676193:0;ll
-: 1747676306:0;cd ..
-: 1747676308:0;ll
-: 1747676313:0;cd ags.bak.bak
-: 1747676318:0;cd ..
-: 1747676349:0;cp ~/.config/ags.bak.bak/flake.nix ~/.config/ags/
-: 1747676351:0;cd ags
-: 1747676352:0;ll
-: 1747676358:0;nixdevelop
-: 1747676368:0;cd dotfiler
-: 1747676372:0;cd dotfiles
-: 1747676377:0;git add .
-: 1747676387:0;git commit -m "commit 16"
-: 1747676391:0;git push -u origin main
-: 1747676440:0;cd ags
-: 1747676442:0;nixdevelop
-: 1747676454:0;ll
-: 1747676493:0;cd dotfiles
-: 1747676499:0;git add .
+: 1747695512:0;cd dotfiles
+: 1747695516:0;git add .

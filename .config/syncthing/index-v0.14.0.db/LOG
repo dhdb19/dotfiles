@@ -1675,3 +1675,67 @@
 19:24:33.538133 db@janitor F·5 G·1
 19:24:33.538146 db@janitor removing table-350
 19:24:33.538173 db@open done T·8.159513ms
+19:48:30.690886 db@close closing
+19:48:30.690957 db@close done T·70.529µs
+=============== May 19, 2025 (CEST) ===============
+19:48:56.643433 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+19:48:56.643988 version@stat F·[1 1] S·8KiB[277B 7KiB] Sc·[0.25 0.00]
+19:48:56.644003 db@open opening
+19:48:56.644189 journal@recovery F·1
+19:48:56.644319 journal@recovery recovering @355
+19:48:56.651114 memdb@flush created L0@357 N·1 S·146B "\x04pa..can,v1321":"\x04pa..can,v1321"
+19:48:56.651230 version@stat F·[2 1] S·8KiB[423B 7KiB] Sc·[0.50 0.00]
+19:48:56.672245 db@janitor F·5 G·0
+19:48:56.672257 db@open done T·28.250098ms
+20:13:02.379006 table@compaction L0·2 -> L1·1 S·8KiB Q·1323
+20:13:02.386850 table@build created L1@360 N·127 S·7KiB "\x00\x00\x00..dbx,v1228":"\x0e\x00\x00..dbx,v656"
+20:13:02.386876 version@stat F·[0 1] S·7KiB[0B 7KiB] Sc·[0.00 0.00]
+20:13:02.390572 table@compaction committed F-2 S-424B Ke·0 D·5 T·11.521917ms
+20:13:02.390656 table@remove removed @354
+20:13:02.390690 table@remove removed @353
+22:04:14.817819 db@close closing
+22:04:14.817887 db@close done T·67.319µs
+=============== May 19, 2025 (CEST) ===============
+22:04:36.531664 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+22:04:36.532806 version@stat F·[0 1] S·7KiB[0B 7KiB] Sc·[0.00 0.00]
+22:04:36.532863 db@open opening
+22:04:36.533315 journal@recovery F·1
+22:04:36.533447 journal@recovery recovering @358
+22:04:36.537882 memdb@flush created L0@361 N·3 S·171B "\x04pa..can,v1325":"\x04pa..can,v1323"
+22:04:36.538013 version@stat F·[1 1] S·8KiB[171B 7KiB] Sc·[0.25 0.00]
+22:04:36.551155 db@janitor F·5 G·1
+22:04:36.551168 db@janitor removing table-357
+22:04:36.551199 db@open done T·18.328405ms
+22:23:20.430785 db@close closing
+22:23:20.430859 db@close done T·72.906µs
+=============== May 19, 2025 (CEST) ===============
+22:23:49.577835 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+22:23:49.578482 version@stat F·[1 1] S·8KiB[171B 7KiB] Sc·[0.25 0.00]
+22:23:49.578495 db@open opening
+22:23:49.578670 journal@recovery F·1
+22:23:49.578834 journal@recovery recovering @362
+=============== May 19, 2025 (CEST) ===============
+22:23:50.097389 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+22:23:50.097760 version@stat F·[1 1] S·8KiB[171B 7KiB] Sc·[0.25 0.00]
+22:23:50.097773 db@open opening
+22:23:50.097804 journal@recovery F·1
+22:23:50.097918 journal@recovery recovering @362
+=============== May 19, 2025 (CEST) ===============
+22:23:50.503914 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+22:23:50.504046 version@stat F·[1 1] S·8KiB[171B 7KiB] Sc·[0.25 0.00]
+22:23:50.504063 db@open opening
+22:23:50.504104 journal@recovery F·1
+22:23:50.504236 journal@recovery recovering @362
+=============== May 19, 2025 (CEST) ===============
+22:23:50.911504 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+22:23:50.911634 version@stat F·[1 1] S·8KiB[171B 7KiB] Sc·[0.25 0.00]
+22:23:50.911649 db@open op=============== May 20, 2025 (CEST) ===============
+00:35:27.530021 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+00:35:27.530477 version@stat F·[1 1] S·8KiB[171B 7KiB] Sc·[0.25 0.00]
+00:35:27.530491 db@open opening
+00:35:27.530661 journal@recovery F·1
+00:35:27.530768 journal@recovery recovering @362
+00:35:27.532570 memdb@flush created L0@364 N·1 S·146B "\x04pa..can,v1327":"\x04pa..can,v1327"
+00:35:27.532672 version@stat F·[2 1] S·8KiB[317B 7KiB] Sc·[0.50 0.00]
+00:35:27.538647 db@janitor F·5 G·0
+00:35:27.538659 db@open done T·8.164706ms
