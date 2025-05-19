@@ -52,7 +52,7 @@ alias flake='hx ~/.config/nix/flake.nix'
 alias flakebat='bat ~/.config/nix/flake.nix'
 alias nixdevelop='nix develop --command zsh -i'
 alias myshell='WAYLAND_DISPLAY=wayland-1 /nix/store/9jrg8gddmf6hciqqp7wl2g17kkm4f8j1-my-shell/bin/my-shell'
-
+alias bar='ags run /nix/store/f76zx4v7dwd2zvn80nxb750i5ln79hja-my-shell/bin/my-shell'
 # Load completions
 autoload -Uz compinit && compinit
 # zinit cdreplay -q

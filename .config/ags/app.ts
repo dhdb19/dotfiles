@@ -1,10 +1,17 @@
-import { App } from "astal/gtk3"
-import style from "./style.scss"
-import Bar from "./widget/Bar"
+import { App } from "astal/gtk4";
+import windows from "./windows";
+import request from "./request";
+import initStyles from "./utils/styles";
+import initHyprland from "./utils/hyprland";
+
+initStyles();
 
 App.start({
-    css: style,
-    main() {
-        App.get_monitors().map(Bar)
-    },
-})
+  requestHandler(req, res) {
+    request(req, res);
+  },
+  main() {
+    windows.map((win) => App.get_monitors().map(win));
+    initHyprland();
+  },
+});
