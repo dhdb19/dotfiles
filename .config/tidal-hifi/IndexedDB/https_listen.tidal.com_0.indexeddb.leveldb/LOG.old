@@ -1,3 +1,9 @@
-2025/05/14-15:41:59.786 278d Reusing MANIFEST /home/jordi/.config/tidal-hifi/IndexedDB/https_listen.tidal.com_0.indexeddb.leveldb/MANIFEST-000001
-2025/05/14-15:41:59.786 278d Recovering log #3
-2025/05/14-15:41:59.794 278d Reusing old log /home/jordi/.config/tidal-hifi/IndexedDB/https_listen.tidal.com_0.indexeddb.leveldb/000003.log 
+2025/05/19-18:05:25.167 a86 Reusing MANIFEST /home/jordi/.config/tidal-hifi/IndexedDB/https_listen.tidal.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/05/19-18:05:25.167 a86 Recovering log #7
+2025/05/19-18:05:25.167 a86 Reusing old log /home/jordi/.config/tidal-hifi/IndexedDB/https_listen.tidal.com_0.indexeddb.leveldb/000007.log 
+2025/05/19-18:05:26.489 a75 Compacting 1@1 + 1@2 files
+2025/05/19-18:05:26.497 a75 Generated table #10@1: 155 keys, 16167 bytes
+2025/05/19-18:05:26.498 a75 Compacted 1@1 + 1@2 files => 16167 bytes
+2025/05/19-18:05:26.500 a75 compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/05/19-18:05:26.500 a75 Delete type=2 #8
+2025/05/19-18:05:26.500 a75 Delete type=2 #5

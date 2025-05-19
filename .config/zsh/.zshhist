@@ -406,7 +406,6 @@ zapzap
 ags run dotfiles/.config/ags/app.ts
 cd @girs
 cd..
-bat package.json
 ags --help
 astal list
 hyprsysteminfo
@@ -464,14 +463,11 @@ fd trash
 fd Trash
 fd .trash
 ncdu .local/share/Trash
-nix-store --gc
 ncdu /etc/store
 ncdu /nix/store
-nix-tree
 bat .config/nix/configuration.nix
 cd .config/ags
 flakebat
-dysk
 ncdu ~
 hx .config/superfile/config.toml
 awk 'BEGIN{\
@@ -581,7 +577,6 @@ nix develop --command zsh -i\
 source .zshrc
 hxfzf
 ags init -d . -f
-bat Bar.tsc
 astal --list
 gjs
 which gjs
@@ -597,12 +592,8 @@ hx run-widget.nix
 git commit -m "commit 11"
 rm flake.lock
 git clone https://github.com/Fabric-Development/fabric.git ~/.config/fabric
-bat setup.py
 cd test
-cd fabric
 cd scripts
-python -m fabric list-all
-mv Bar.tsx Bar.tsx.bak
 hx styles.css
 hx style.css
 bat style.css
@@ -613,11 +604,9 @@ bat style.scss.bak
 cp style.scss.bak widget/Bar.scss.bak
 rm style.scss.bak
 cd widget 
-bat Bar.tsx
 mkdir assets
 cd downloads
 cp NixOS.svg ~/.config/ags/assets/nix.svg
-cat Bar.tsx
 cat Bar.scss
 pkill waybar
 whereis sass
@@ -641,12 +630,10 @@ cd /nix/store/pkaxxmps0irh4fb0dmfbh5799vbfiskx-my-shell.drv
 cd /nix/store/pkaxxmps0irh4fb0dmfbh5799vbfiskx-my-shell
 nix log /nix/store/pkaxxmps0irh4fb0dmfbh5799vbfiskx-my-shell.drv
 nix build .
-nixupdate
 nix run
 ls -l result
 /home/jordi/.config/ags/result/bin/my-shell
 sudo /home/jordi/.config/ags/result/bin/my-shell
-cat flake.nix
 cp flake.nix flake.nix.bak
 bat my-shell
 cd .. ..
@@ -665,11 +652,7 @@ hx --tutor
 zshconfig
 bat styls.css
 bat styls.scss
-bat style.scss
 ybar
-waybar
-cd widget
-hx Bar.tsx
 cd widge
 hx Bar.scss
 ags run#
@@ -679,9 +662,7 @@ assets
 cd assets
 waybarconfig
 ags tun
-poweroff
 bat apps.ts
-bat app.ts
 ags build
 ags bundle app.ts --debug
 ags bundle app.ts
@@ -691,44 +672,122 @@ hx style.scss
 ags bundle app.ts my-shell -d "DATADIR='./result/share'"
 cd ersult
 cd
-cd dotfiles
-git add .
 git commit -m "commit 12"
-git push -u origin main
-nix build
 find my-shell
-cd /
 bat .config/hypr/hyprland.conf
 zsh nix/store/pd0plr5z7q66amrmin4181vsmqrcixxn-my-shell/bin/my-shell
-cd result
-cd bin
 cd my-shell
 my-shell
-yazi
 cd nix/store/pd0plr5z7q66amrmin4181vsmqrcixxn-my-shell/bin/my-shell
 cd nix/store/pd0plr5z7q66amrmin4181vsmqrcixxn-my-shell/bin
-hyprconf
-hx app.ts
-hx widget/Bar.scss
-hx widget/Bar.tsx
 pkill my-shell
-ags run
 cd .icons
 cd icons_cheetah
-cd ..
 cd SE98
-fzf
 display status/96/audio-volume-low.png
-nixconfig
 nixrebuild
+cp flake.nix flake.nix.bak.bak
+cd dotfiles
+git add .
+git commit -m "commit 13"
+git push -u origin main
+nix-env --delete-generations 14d\
+
+find nix
+which nix
+nix-tree
+nix-store --gc
+dysk
+yayazi
+cd /
+cd /nix/store
+fzf
+cd bin
+hyprconf
+hx widget/Bar.tsx
+hx widget/Bar.scss
+pkill .my-shell-wrapped
+nix develop
+bat setup,py
+setup.py
+bat setup.py
+python -m fabric list-all
+bat run-widget.nix
+cd result
+cd lib
+cd nix-support
+cd fabric
+cd examples
+cd bar
+bat config.py
+flatpak 
+flatpak install flathub re.sonny.Workbench
+flatpak run re.sonny.Workbench
+ags un
+hx tsconfig.json
+lll
+bat Bar.tsx.bak
+bat Bar.tsc
+hx Bar.tsx.bak
+mv Bar.tsx Bar.tsx.bak.bak
+mv Bar.tsx.bak Bar.tsx
+bat Bar.scss
+bat style.scss
+bat package.json
+bat tsconfig.json
+bat app.ts
+poweroff
+xprop
+echo $WAYLAND_DISPLAY\
+
+mv Bar.tsx Bar.tsx.bak
+env | grep -E 'WAYLAND|DISPLAY'
+WAYLAND_DISPLAY=wayland-0 ags run
+bat flake.nix
+nixconfig
+nixupdate
+pkill -f  .my-shell-wrapped
+hx Bar_grok.tsx
+cat flake.nix
+cat Bar.tsx
+echo $XDG_SESSION_TYPE
+hyprctl version
+GTK_BACKEND=wayland ags run
+hx aps.ts
+hx Bar.tsx
+nix flake update --recreate-lock-file
+cd awidget
+tsx Bat.tsx.bak.bak
+bat  Bar.tsx.bak.bak
+cd ..
+echo LD_LIBRARY_PATH
+hx app.ts
+GDK_BACKEND=wayland ags run
+nixdevelop
+ags run
+nix log /nix/store/3gzjkz75wrl4jk0fqg3sr465b7a9f3f9-my-shell.drv
+ll
+yazi
+hx flake.nix
+nix build
+waybar
 reboot
 cd ags
-bat flake.nix
-nix develop
-nixdevelop
-ll
-cp flake.nix flake.nix.bak.bak
-hx flake.nix
+cd widget
+bat Bar.tsx
 exit
-: 1747580484:0;cd dotfiles
-: 1747580488:0;git add .
+: 1747671457:0;cd ags
+: 1747671462:0;bat flake.nix
+: 1747671707:0;cd .config
+: 1747671720:0;mv ags ags.bak
+: 1747671722:0;ll
+: 1747671734:0;mkdir ags
+: 1747671794:0;astal --help
+: 1747671808:0;ags init -d . -f
+: 1747671827:0;ll
+: 1747671837:0;yazi
+: 1747671894:0;cd ags
+: 1747671898:0;ags init -d . -f
+: 1747671905:0;ll
+: 1747671925:0;cd dotfiles
+: 1747671932:0;git add .

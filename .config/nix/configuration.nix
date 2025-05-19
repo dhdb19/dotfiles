@@ -343,6 +343,8 @@
       astal.battery
       gtk3
       gtk4
+      gtk4-layer-shell
+      gtk-layer-shell
       adwaita-icon-theme
       vscode-langservers-extracted
       taplo
