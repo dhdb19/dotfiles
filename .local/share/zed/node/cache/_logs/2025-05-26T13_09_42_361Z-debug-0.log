@@ -1,0 +1,16 @@
+0 verbose cli /nix/store/50lhzpd68v47x6jy0b8b3p91n2zv3lv4-nodejs-22.14.0/bin/node /run/current-system/sw/bin/npm
+1 info using npm@10.9.2
+2 info using node@v22.14.0
+3 silly config load:file:/nix/store/50lhzpd68v47x6jy0b8b3p91n2zv3lv4-nodejs-22.14.0/lib/node_modules/npm/npmrc
+4 silly config load:file:/home/jordi/.npmrc
+5 silly config load:file:/nix/store/50lhzpd68v47x6jy0b8b3p91n2zv3lv4-nodejs-22.14.0/etc/npmrc
+6 verbose title npm root
+7 verbose argv "root" "--cache" "/home/jordi/.local/share/zed/node/cache" "--global"
+8 verbose logfile logs-max:10 dir:/home/jordi/.local/share/zed/node/cache/_logs/2025-05-26T13_09_42_361Z-
+9 verbose logfile /home/jordi/.local/share/zed/node/cache/_logs/2025-05-26T13_09_42_361Z-debug-0.log
+10 verbose cwd /home/jordi
+11 verbose os Linux 6.14.6
+12 verbose node v22.14.0
+13 verbose npm  v10.9.2
+14 verbose exit 0
+15 info ok

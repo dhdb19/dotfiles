@@ -1,0 +1,25 @@
+{
+  "windows": [
+    {
+      "size": {
+        "width": 2732.0,
+        "height": 1142.4
+      },
+      "pos": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "maximised": false,
+      "tabs": {
+        "active_tab": 0,
+        "workspaces": [
+          {
+            "kind": "Local",
+            "path": "/home/jordi/onedrive/master/m41_dms",
+            "last_open": 1748264305
+          }
+        ]
+      }
+    }
+  ]
+}

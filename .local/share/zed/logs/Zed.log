@@ -152,3 +152,867 @@
 2025-05-09T17:53:14.694874886+02:00 [INFO] new;
 2025-05-09T17:53:52.353971734+02:00 [ERROR] window not found
 2025-05-09T17:53:52.354054564+02:00 [ERROR] window not found
+2025-05-26T15:08:56+02:00 INFO  [zed] ========== starting zed ==========
+2025-05-26T15:08:56+02:00 INFO  [blade_graphics::hal::init] Presentation support: "VK_KHR_wayland_surface"
+2025-05-26T15:08:56+02:00 INFO  [blade_graphics::hal::init] Presentation support: "VK_KHR_xcb_surface"
+2025-05-26T15:08:56+02:00 INFO  [blade_graphics::hal::init] Presentation support: "VK_KHR_xlib_surface"
+2025-05-26T15:08:56+02:00 INFO  [blade_graphics::hal::init] Enabling Vulkan Portability
+2025-05-26T15:08:56+02:00 INFO  [blade_graphics::hal::init] Enabling color space support
+2025-05-26T15:08:56+02:00 INFO  [blade_graphics::hal::init] Adapter: "NVIDIA GeForce GTX 1080"
+2025-05-26T15:08:56+02:00 INFO  [blade_graphics::hal::init] No ray tracing extensions are supported
+2025-05-26T15:08:56+02:00 INFO  [*unknown*] perform;
+2025-05-26T15:08:56+02:00 INFO  [*unknown*] authenticate;
+2025-05-26T15:08:56+02:00 INFO  [*unknown*] write_command; command=Auth(Some(External), Some([49, 48, 48, 48]))
+2025-05-26T15:08:56+02:00 INFO  [*unknown*] write_commands; commands=[Auth(Some(External), Some([49, 48, 48, 48]))] extra_bytes=None
+2025-05-26T15:08:56+02:00 INFO  [*unknown*] read_command;
+2025-05-26T15:08:56+02:00 INFO  [*unknown*] read_commands; n_commands=1
+2025-05-26T15:08:56+02:00 INFO  [*unknown*] send_secondary_commands;
+2025-05-26T15:08:56+02:00 INFO  [*unknown*] write_commands; commands=[NegotiateUnixFD, Begin] extra_bytes=Some([108, 1, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 109, 0, 0, 0, 1, 1, 111, 0, 21, 0, 0, 0, 47, 111, 114, 103, 47, 102, 114, 101, 101, 100, 101, 115, 107, 116, 111, 112, 47, 68, 66, 117, 115, 0, 0, 0, 2, 1, 115, 0, 20, 0, 0, 0, 111, 114, 103, 46, 102, 114, 101, 101, 100, 101, 115, 107, 116, 111, 112, 46, 68, 66, 117, 115, 0, 0, 0, 0, 3, 1, 115, 0, 5, 0, 0, 0, 72, 101, 108, 108, 111, 0, 0, 0, 6, 1, 115, 0, 20, 0, 0, 0, 111, 114, 103, 46, 102, 114, 101, 101, 100, 101, 115, 107, 116, 111, 112, 46, 68, 66, 117, 115, 0, 0, 0, 0])
+2025-05-26T15:08:56+02:00 INFO  [*unknown*] receive_secondary_responses; expected_n_responses=1
+2025-05-26T15:08:56+02:00 INFO  [*unknown*] read_commands; n_commands=1
+2025-05-26T15:08:56+02:00 INFO  [*unknown*] socket reader;
+2025-05-26T15:08:56+02:00 INFO  [*unknown*] read_socket;
+2025-05-26T15:08:56+02:00 INFO  [*unknown*] read_socket;
+2025-05-26T15:08:56+02:00 INFO  [*unknown*] new;
+2025-05-26T15:08:56+02:00 INFO  [*unknown*] {}; task_name="org.freedesktop.portal.Settings proxy caching"
+2025-05-26T15:08:56+02:00 INFO  [*unknown*] read_socket;
+2025-05-26T15:08:56+02:00 INFO  [*unknown*] read_socket;
+2025-05-26T15:08:56+02:00 INFO  [*unknown*] read_socket;
+2025-05-26T15:08:56+02:00 INFO  [*unknown*] read_socket;
+2025-05-26T15:08:56+02:00 INFO  [*unknown*] keep_updated;
+2025-05-26T15:08:56+02:00 INFO  [*unknown*] read_socket;
+2025-05-26T15:08:56+02:00 INFO  [*unknown*] read_socket;
+2025-05-26T15:08:56+02:00 INFO  [*unknown*] read_socket;
+2025-05-26T15:08:56+02:00 INFO  [*unknown*] read_socket;
+2025-05-26T15:08:56+02:00 INFO  [*unknown*] read_socket;
+2025-05-26T15:08:56+02:00 INFO  [*unknown*] read_socket;
+2025-05-26T15:08:56+02:00 INFO  [*unknown*] read_socket;
+2025-05-26T15:08:56+02:00 INFO  [*unknown*] read_socket;
+2025-05-26T15:08:56+02:00 INFO  [*unknown*] read_socket;
+2025-05-26T15:08:56+02:00 INFO  [db] Opening main db
+2025-05-26T15:08:56+02:00 INFO  [db] Opening main db
+2025-05-26T15:08:56+02:00 INFO  [zed] Using git binary path: None
+2025-05-26T15:08:56+02:00 INFO  [prompt_store::prompts] No prompt template overrides directory found at /home/jordi/.local/share/zed/prompt_overrides. Using built-in prompts.
+2025-05-26T15:08:56+02:00 ERROR [*unknown*] Error("missing field `hidden`", line: 61, column: 5)
+2025-05-26T15:08:56+02:00 INFO  [gpui::platform::linux::platform] activate is not implemented on Linux, ignoring the call
+2025-05-26T15:08:56+02:00 INFO  [db] Opening main db
+2025-05-26T15:08:56+02:00 INFO  [*unknown*] perform;
+2025-05-26T15:08:56+02:00 INFO  [*unknown*] authenticate;
+2025-05-26T15:08:56+02:00 INFO  [*unknown*] write_command; command=Auth(Some(External), Some([49, 48, 48, 48]))
+2025-05-26T15:08:56+02:00 INFO  [*unknown*] write_commands; commands=[Auth(Some(External), Some([49, 48, 48, 48]))] extra_bytes=None
+2025-05-26T15:08:56+02:00 INFO  [*unknown*] read_command;
+2025-05-26T15:08:56+02:00 INFO  [*unknown*] read_commands; n_commands=1
+2025-05-26T15:08:56+02:00 INFO  [*unknown*] send_secondary_commands;
+2025-05-26T15:08:56+02:00 INFO  [*unknown*] write_commands; commands=[NegotiateUnixFD, Begin] extra_bytes=Some([108, 1, 0, 1, 0, 0, 0, 0, 15, 0, 0, 0, 109, 0, 0, 0, 1, 1, 111, 0, 21, 0, 0, 0, 47, 111, 114, 103, 47, 102, 114, 101, 101, 100, 101, 115, 107, 116, 111, 112, 47, 68, 66, 117, 115, 0, 0, 0, 2, 1, 115, 0, 20, 0, 0, 0, 111, 114, 103, 46, 102, 114, 101, 101, 100, 101, 115, 107, 116, 111, 112, 46, 68, 66, 117, 115, 0, 0, 0, 0, 3, 1, 115, 0, 5, 0, 0, 0, 72, 101, 108, 108, 111, 0, 0, 0, 6, 1, 115, 0, 20, 0, 0, 0, 111, 114, 103, 46, 102, 114, 101, 101, 100, 101, 115, 107, 116, 111, 112, 46, 68, 66, 117, 115, 0, 0, 0, 0])
+2025-05-26T15:08:56+02:00 INFO  [*unknown*] receive_secondary_responses; expected_n_responses=1
+2025-05-26T15:08:56+02:00 INFO  [*unknown*] read_commands; n_commands=1
+2025-05-26T15:08:56+02:00 INFO  [*unknown*] socket reader;
+2025-05-26T15:08:56+02:00 INFO  [*unknown*] read_socket;
+2025-05-26T15:08:56+02:00 INFO  [*unknown*] read_socket;
+2025-05-26T15:08:57+02:00 INFO  [blade_graphics::hal::surface] Using surface present mode MAILBOX
+2025-05-26T15:08:57+02:00 INFO  [blade_graphics::hal::descriptor] Creating a descriptor pool for at most 16 sets
+2025-05-26T15:08:57+02:00 INFO  [blade_graphics::hal::descriptor] Creating a descriptor pool for at most 16 sets
+2025-05-26T15:08:57+02:00 INFO  [gpui::platform::blade::blade_renderer] Initializing Blade pipelines for surface SurfaceInfo { format: Bgra8UnormSrgb, alpha: PreMultiplied }
+2025-05-26T15:08:57+02:00 INFO  [naga::back::spv::writer] Skip function Some("to_tile_position")
+2025-05-26T15:08:57+02:00 INFO  [naga::back::spv::writer] Skip function Some("to_tile_position")
+2025-05-26T15:08:57+02:00 INFO  [*unknown*] read_socket;
+2025-05-26T15:08:57+02:00 INFO  [*unknown*] read_socket;
+2025-05-26T15:08:57+02:00 INFO  [*unknown*] read_socket;
+2025-05-26T15:08:57+02:00 INFO  [*unknown*] read_socket;
+2025-05-26T15:08:57+02:00 INFO  [*unknown*] read_socket;
+2025-05-26T15:08:57+02:00 INFO  [*unknown*] read_socket;
+2025-05-26T15:08:57+02:00 INFO  [*unknown*] read_socket;
+2025-05-26T15:08:57+02:00 INFO  [naga::back::spv::writer] Skip function Some("to_tile_position")
+2025-05-26T15:08:57+02:00 INFO  [naga::back::spv::writer] Skip function Some("to_tile_position")
+2025-05-26T15:08:57+02:00 INFO  [naga::back::spv::writer] Skip function Some("to_tile_position")
+2025-05-26T15:08:57+02:00 INFO  [naga::back::spv::writer] Skip function Some("to_device_position_impl")
+2025-05-26T15:08:57+02:00 INFO  [naga::back::spv::writer] Skip function Some("to_device_position")
+2025-05-26T15:08:57+02:00 INFO  [naga::back::spv::writer] Skip function Some("to_device_position_transformed")
+2025-05-26T15:08:57+02:00 INFO  [naga::back::spv::writer] Skip function Some("to_tile_position")
+2025-05-26T15:08:57+02:00 INFO  [naga::back::spv::writer] Skip function Some("blend_color")
+2025-05-26T15:08:57+02:00 INFO  [naga::back::spv::writer] Skip function Some("to_tile_position")
+2025-05-26T15:08:57+02:00 INFO  [naga::back::spv::writer] Skip function Some("to_tile_position")
+2025-05-26T15:08:57+02:00 INFO  [naga::back::spv::writer] Skip function Some("to_tile_position")
+2025-05-26T15:08:57+02:00 INFO  [naga::back::spv::writer] Skip function Some("to_tile_position")
+2025-05-26T15:08:57+02:00 INFO  [naga::back::spv::writer] Skip function Some("to_tile_position")
+2025-05-26T15:08:57+02:00 INFO  [naga::back::spv::writer] Skip function Some("to_tile_position")
+2025-05-26T15:08:57+02:00 INFO  [naga::back::spv::writer] Skip function Some("to_device_position_impl")
+2025-05-26T15:08:57+02:00 INFO  [naga::back::spv::writer] Skip function Some("to_device_position")
+2025-05-26T15:08:57+02:00 INFO  [naga::back::spv::writer] Skip function Some("to_device_position_transformed")
+2025-05-26T15:08:57+02:00 INFO  [naga::back::spv::writer] Skip function Some("to_tile_position")
+2025-05-26T15:08:57+02:00 INFO  [naga::back::spv::writer] Skip function Some("blend_color")
+2025-05-26T15:08:57+02:00 INFO  [util] set environment variables from shell:/run/current-system/sw/bin/zsh, path:/run/wrappers/bin:/home/jordi/.local/share/flatpak/exports/bin:/var/lib/flatpak/exports/bin:/home/jordi/.nix-profile/bin:/nix/profile/bin:/home/jordi/.local/state/nix/profile/bin:/etc/profiles/per-user/jordi/bin:/nix/var/nix/profiles/default/bin:/run/current-system/sw/bin:/nix/store/583p5x4ywdkkfz4s94ddyixz7v77msya-util-linux-2.41-bin/bin:/nix/store/dbpnwnqqz25a7hhcjhs4d6yzasw282zw-newt-0.52.24/bin:/nix/store/g5h4kh5jy4648fwqyd43fmp2j90c0k08-libnotify-0.8.4/bin:/nix/store/41pi0jiyvlhxgpfhxzvb44w1skc8yp4z-bash-interactive-5.2p37/bin:/nix/store/6rrvwz3dpqpbd1f9z40wzahfcmxnx9gh-systemd-257.5/bin:/nix/store/kc2rx8xxqa5735y621cyw3nqqgbs66v8-python3-3.12.10-env/bin:/nix/store/dhhyjclgmh9yki4xhls4vfc3ysgwyi10-dmenu-5.3/bin:/nix/store/583p5x4ywdkkfz4s94ddyixz7v77msya-util-linux-2.41-bin/bin:/nix/store/dbpnwnqqz25a7hhcjhs4d6yzasw282zw-newt-0.52.24/bin:/nix/store/g5h4kh5jy4648fwqyd43fmp2j90c0k08-libnotify-0.8.4/bin:/nix/store/41pi0jiyvlhxgpfhxzvb44w1skc8yp4z-bash-interactive-5.2p37/bin:/nix/store/6rrvwz3dpqpbd1f9z40wzahfcmxnx9gh-systemd-257.5/bin:/nix/store/kc2rx8xxqa5735y621cyw3nqqgbs66v8-python3-3.12.10-env/bin:/nix/store/dhhyjclgmh9yki4xhls4vfc3ysgwyi10-dmenu-5.3/bin:/nix/store/2zx2a8g7bkl2lkrql10hnjjpzz4wq09c-binutils-wrapper-2.44/bin:/nix/store/1xsb8cdydxciwjkfnysa0knsxx1djfz4-hyprland-qtutils-0.1.4/bin:/nix/store/vn9pridbsjvqcqjjyyp1c66nxrpcg9zp-pciutils-3.13.0/bin:/nix/store/wml83snzb3qvyx5dazdlh1wyfilyl7pn-pkgconf-wrapper-2.4.3/bin:/nix/store/50lhzpd68v47x6jy0b8b3p91n2zv3lv4-nodejs-22.14.0/bin
+2025-05-26T15:08:57+02:00 INFO  [zed::zed] Using GPU: GpuSpecs { is_software_emulated: false, device_name: "NVIDIA GeForce GTX 1080", driver_name: "NVIDIA", driver_info: "575.51.02" }
+2025-05-26T15:08:57+02:00 INFO  [blade_graphics::hal::surface] Using surface present mode MAILBOX
+2025-05-26T15:08:57+02:00 INFO  [blade_graphics::hal::surface] Retaining current format: Bgra8UnormSrgb
+2025-05-26T15:08:57+02:00 INFO  [gpui::platform::blade::blade_renderer] Initializing Blade pipelines for surface SurfaceInfo { format: Bgra8UnormSrgb, alpha: Ignored }
+2025-05-26T15:08:57+02:00 INFO  [naga::back::spv::writer] Skip function Some("to_tile_position")
+2025-05-26T15:08:57+02:00 INFO  [naga::back::spv::writer] Skip function Some("to_tile_position")
+2025-05-26T15:08:57+02:00 INFO  [naga::back::spv::writer] Skip function Some("to_tile_position")
+2025-05-26T15:08:57+02:00 INFO  [naga::back::spv::writer] Skip function Some("to_tile_position")
+2025-05-26T15:08:57+02:00 INFO  [naga::back::spv::writer] Skip function Some("to_tile_position")
+2025-05-26T15:08:57+02:00 INFO  [naga::back::spv::writer] Skip function Some("to_device_position_impl")
+2025-05-26T15:08:57+02:00 INFO  [naga::back::spv::writer] Skip function Some("to_device_position")
+2025-05-26T15:08:57+02:00 INFO  [naga::back::spv::writer] Skip function Some("to_device_position_transformed")
+2025-05-26T15:08:57+02:00 INFO  [naga::back::spv::writer] Skip function Some("to_tile_position")
+2025-05-26T15:08:57+02:00 INFO  [naga::back::spv::writer] Skip function Some("blend_color")
+2025-05-26T15:08:57+02:00 INFO  [naga::back::spv::writer] Skip function Some("to_tile_position")
+2025-05-26T15:08:57+02:00 INFO  [naga::back::spv::writer] Skip function Some("to_tile_position")
+2025-05-26T15:08:57+02:00 INFO  [naga::back::spv::writer] Skip function Some("to_tile_position")
+2025-05-26T15:08:57+02:00 INFO  [naga::back::spv::writer] Skip function Some("to_tile_position")
+2025-05-26T15:08:57+02:00 INFO  [naga::back::spv::writer] Skip function Some("to_tile_position")
+2025-05-26T15:08:57+02:00 INFO  [naga::back::spv::writer] Skip function Some("to_tile_position")
+2025-05-26T15:08:57+02:00 INFO  [naga::back::spv::writer] Skip function Some("to_device_position_impl")
+2025-05-26T15:08:57+02:00 INFO  [naga::back::spv::writer] Skip function Some("to_device_position")
+2025-05-26T15:08:57+02:00 INFO  [naga::back::spv::writer] Skip function Some("to_device_position_transformed")
+2025-05-26T15:08:57+02:00 INFO  [naga::back::spv::writer] Skip function Some("to_tile_position")
+2025-05-26T15:08:57+02:00 INFO  [naga::back::spv::writer] Skip function Some("blend_color")
+2025-05-26T15:08:57+02:00 INFO  [blade_graphics::hal::resource] Creating texture 0x55f843539c80 of size 1024x1024x1 and format R8Unorm, name 'atlas', handle 0
+2025-05-26T15:08:57+02:00 INFO  [blade_graphics::hal::resource] Creating buffer 0x55f8435b8460 of size 65536, name 'chunk-0', handle 1
+2025-05-26T15:08:57+02:00 INFO  [blade_graphics::hal::resource] Creating buffer 0x55f8437a7220 of size 4096, name 'chunk-0', handle 2
+2025-05-26T15:08:57+02:00 INFO  [blade_graphics::hal::resource] Creating buffer 0x55f842987cd0 of size 8400, name 'chunk-1', handle 3
+2025-05-26T15:08:57+02:00 INFO  [db] Opening main db
+2025-05-26T15:08:57+02:00 INFO  [extension_host] rebuilt extension index in 2.242288ms
+2025-05-26T15:08:57+02:00 INFO  [blade_graphics::hal::surface] Using surface present mode MAILBOX
+2025-05-26T15:08:57+02:00 INFO  [blade_graphics::hal::surface] Retaining current format: Bgra8UnormSrgb
+2025-05-26T15:08:57+02:00 INFO  [blade_graphics::hal::surface] Using surface present mode MAILBOX
+2025-05-26T15:08:57+02:00 INFO  [blade_graphics::hal::surface] Retaining current format: Bgra8UnormSrgb
+2025-05-26T15:08:57+02:00 INFO  [extension_host] extensions updated. loading 1, reloading 0, unloading 0
+2025-05-26T15:08:57+02:00 INFO  [db] Opening main db
+2025-05-26T15:08:57+02:00 INFO  [db] Opening main db
+2025-05-26T15:08:57+02:00 INFO  [blade_graphics::hal::resource] Creating buffer 0x55f843587640 of size 7504, name 'chunk-2', handle 4
+2025-05-26T15:09:00+02:00 INFO  [*unknown*] read_socket;
+2025-05-26T15:09:00+02:00 ERROR [*unknown*] DBus error Prompt was dismissed
+2025-05-26T15:09:00+02:00 INFO  [*unknown*] read_socket;
+2025-05-26T15:09:00+02:00 INFO  [*unknown*] read_socket;
+2025-05-26T15:09:02+02:00 INFO  [*unknown*] perform;
+2025-05-26T15:09:02+02:00 INFO  [*unknown*] authenticate;
+2025-05-26T15:09:02+02:00 INFO  [*unknown*] write_command; command=Auth(Some(External), Some([49, 48, 48, 48]))
+2025-05-26T15:09:02+02:00 INFO  [*unknown*] write_commands; commands=[Auth(Some(External), Some([49, 48, 48, 48]))] extra_bytes=None
+2025-05-26T15:09:02+02:00 INFO  [*unknown*] perform;
+2025-05-26T15:09:02+02:00 INFO  [*unknown*] authenticate;
+2025-05-26T15:09:02+02:00 INFO  [*unknown*] write_command; command=Auth(Some(External), Some([49, 48, 48, 48]))
+2025-05-26T15:09:02+02:00 INFO  [*unknown*] write_commands; commands=[Auth(Some(External), Some([49, 48, 48, 48]))] extra_bytes=None
+2025-05-26T15:09:02+02:00 INFO  [*unknown*] perform;
+2025-05-26T15:09:02+02:00 INFO  [*unknown*] authenticate;
+2025-05-26T15:09:02+02:00 INFO  [*unknown*] write_command; command=Auth(Some(External), Some([49, 48, 48, 48]))
+2025-05-26T15:09:02+02:00 INFO  [*unknown*] write_commands; commands=[Auth(Some(External), Some([49, 48, 48, 48]))] extra_bytes=None
+2025-05-26T15:09:02+02:00 INFO  [*unknown*] perform;
+2025-05-26T15:09:02+02:00 INFO  [*unknown*] authenticate;
+2025-05-26T15:09:02+02:00 INFO  [*unknown*] write_command; command=Auth(Some(External), Some([49, 48, 48, 48]))
+2025-05-26T15:09:02+02:00 INFO  [*unknown*] write_commands; commands=[Auth(Some(External), Some([49, 48, 48, 48]))] extra_bytes=None
+2025-05-26T15:09:02+02:00 INFO  [*unknown*] perform;
+2025-05-26T15:09:02+02:00 INFO  [*unknown*] authenticate;
+2025-05-26T15:09:02+02:00 INFO  [*unknown*] write_command; command=Auth(Some(External), Some([49, 48, 48, 48]))
+2025-05-26T15:09:02+02:00 INFO  [*unknown*] write_commands; commands=[Auth(Some(External), Some([49, 48, 48, 48]))] extra_bytes=None
+2025-05-26T15:09:02+02:00 INFO  [*unknown*] perform;
+2025-05-26T15:09:02+02:00 INFO  [*unknown*] authenticate;
+2025-05-26T15:09:02+02:00 INFO  [*unknown*] write_command; command=Auth(Some(External), Some([49, 48, 48, 48]))
+2025-05-26T15:09:02+02:00 INFO  [*unknown*] write_commands; commands=[Auth(Some(External), Some([49, 48, 48, 48]))] extra_bytes=None
+2025-05-26T15:09:02+02:00 INFO  [*unknown*] read_command;
+2025-05-26T15:09:02+02:00 INFO  [*unknown*] read_commands; n_commands=1
+2025-05-26T15:09:02+02:00 INFO  [*unknown*] read_command;
+2025-05-26T15:09:02+02:00 INFO  [*unknown*] read_commands; n_commands=1
+2025-05-26T15:09:02+02:00 INFO  [*unknown*] read_command;
+2025-05-26T15:09:02+02:00 INFO  [*unknown*] read_commands; n_commands=1
+2025-05-26T15:09:02+02:00 INFO  [*unknown*] read_command;
+2025-05-26T15:09:02+02:00 INFO  [*unknown*] read_commands; n_commands=1
+2025-05-26T15:09:02+02:00 INFO  [*unknown*] read_command;
+2025-05-26T15:09:02+02:00 INFO  [*unknown*] read_commands; n_commands=1
+2025-05-26T15:09:02+02:00 INFO  [*unknown*] read_command;
+2025-05-26T15:09:02+02:00 INFO  [*unknown*] read_commands; n_commands=1
+2025-05-26T15:09:02+02:00 INFO  [*unknown*] send_secondary_commands;
+2025-05-26T15:09:02+02:00 INFO  [*unknown*] send_secondary_commands;
+2025-05-26T15:09:02+02:00 INFO  [*unknown*] write_commands; commands=[NegotiateUnixFD, Begin] extra_bytes=Some([108, 1, 0, 1, 0, 0, 0, 0, 25, 0, 0, 0, 109, 0, 0, 0, 1, 1, 111, 0, 21, 0, 0, 0, 47, 111, 114, 103, 47, 102, 114, 101, 101, 100, 101, 115, 107, 116, 111, 112, 47, 68, 66, 117, 115, 0, 0, 0, 2, 1, 115, 0, 20, 0, 0, 0, 111, 114, 103, 46, 102, 114, 101, 101, 100, 101, 115, 107, 116, 111, 112, 46, 68, 66, 117, 115, 0, 0, 0, 0, 3, 1, 115, 0, 5, 0, 0, 0, 72, 101, 108, 108, 111, 0, 0, 0, 6, 1, 115, 0, 20, 0, 0, 0, 111, 114, 103, 46, 102, 114, 101, 101, 100, 101, 115, 107, 116, 111, 112, 46, 68, 66, 117, 115, 0, 0, 0, 0])
+2025-05-26T15:09:02+02:00 INFO  [*unknown*] send_secondary_commands;
+2025-05-26T15:09:02+02:00 INFO  [*unknown*] send_secondary_commands;
+2025-05-26T15:09:02+02:00 INFO  [*unknown*] write_commands; commands=[NegotiateUnixFD, Begin] extra_bytes=Some([108, 1, 0, 1, 0, 0, 0, 0, 28, 0, 0, 0, 109, 0, 0, 0, 1, 1, 111, 0, 21, 0, 0, 0, 47, 111, 114, 103, 47, 102, 114, 101, 101, 100, 101, 115, 107, 116, 111, 112, 47, 68, 66, 117, 115, 0, 0, 0, 2, 1, 115, 0, 20, 0, 0, 0, 111, 114, 103, 46, 102, 114, 101, 101, 100, 101, 115, 107, 116, 111, 112, 46, 68, 66, 117, 115, 0, 0, 0, 0, 3, 1, 115, 0, 5, 0, 0, 0, 72, 101, 108, 108, 111, 0, 0, 0, 6, 1, 115, 0, 20, 0, 0, 0, 111, 114, 103, 46, 102, 114, 101, 101, 100, 101, 115, 107, 116, 111, 112, 46, 68, 66, 117, 115, 0, 0, 0, 0])
+2025-05-26T15:09:02+02:00 INFO  [*unknown*] send_secondary_commands;
+2025-05-26T15:09:02+02:00 INFO  [*unknown*] write_commands; commands=[NegotiateUnixFD, Begin] extra_bytes=Some([108, 1, 0, 1, 0, 0, 0, 0, 26, 0, 0, 0, 109, 0, 0, 0, 1, 1, 111, 0, 21, 0, 0, 0, 47, 111, 114, 103, 47, 102, 114, 101, 101, 100, 101, 115, 107, 116, 111, 112, 47, 68, 66, 117, 115, 0, 0, 0, 2, 1, 115, 0, 20, 0, 0, 0, 111, 114, 103, 46, 102, 114, 101, 101, 100, 101, 115, 107, 116, 111, 112, 46, 68, 66, 117, 115, 0, 0, 0, 0, 3, 1, 115, 0, 5, 0, 0, 0, 72, 101, 108, 108, 111, 0, 0, 0, 6, 1, 115, 0, 20, 0, 0, 0, 111, 114, 103, 46, 102, 114, 101, 101, 100, 101, 115, 107, 116, 111, 112, 46, 68, 66, 117, 115, 0, 0, 0, 0])
+2025-05-26T15:09:02+02:00 INFO  [*unknown*] receive_secondary_responses; expected_n_responses=1
+2025-05-26T15:09:02+02:00 INFO  [*unknown*] read_commands; n_commands=1
+2025-05-26T15:09:02+02:00 INFO  [*unknown*] send_secondary_commands;
+2025-05-26T15:09:02+02:00 INFO  [*unknown*] receive_secondary_responses; expected_n_responses=1
+2025-05-26T15:09:02+02:00 INFO  [*unknown*] read_commands; n_commands=1
+2025-05-26T15:09:02+02:00 INFO  [*unknown*] receive_secondary_responses; expected_n_responses=1
+2025-05-26T15:09:02+02:00 INFO  [*unknown*] read_commands; n_commands=1
+2025-05-26T15:09:02+02:00 INFO  [*unknown*] write_commands; commands=[NegotiateUnixFD, Begin] extra_bytes=Some([108, 1, 0, 1, 0, 0, 0, 0, 30, 0, 0, 0, 109, 0, 0, 0, 1, 1, 111, 0, 21, 0, 0, 0, 47, 111, 114, 103, 47, 102, 114, 101, 101, 100, 101, 115, 107, 116, 111, 112, 47, 68, 66, 117, 115, 0, 0, 0, 2, 1, 115, 0, 20, 0, 0, 0, 111, 114, 103, 46, 102, 114, 101, 101, 100, 101, 115, 107, 116, 111, 112, 46, 68, 66, 117, 115, 0, 0, 0, 0, 3, 1, 115, 0, 5, 0, 0, 0, 72, 101, 108, 108, 111, 0, 0, 0, 6, 1, 115, 0, 20, 0, 0, 0, 111, 114, 103, 46, 102, 114, 101, 101, 100, 101, 115, 107, 116, 111, 112, 46, 68, 66, 117, 115, 0, 0, 0, 0])
+2025-05-26T15:09:02+02:00 INFO  [*unknown*] write_commands; commands=[NegotiateUnixFD, Begin] extra_bytes=Some([108, 1, 0, 1, 0, 0, 0, 0, 29, 0, 0, 0, 109, 0, 0, 0, 1, 1, 111, 0, 21, 0, 0, 0, 47, 111, 114, 103, 47, 102, 114, 101, 101, 100, 101, 115, 107, 116, 111, 112, 47, 68, 66, 117, 115, 0, 0, 0, 2, 1, 115, 0, 20, 0, 0, 0, 111, 114, 103, 46, 102, 114, 101, 101, 100, 101, 115, 107, 116, 111, 112, 46, 68, 66, 117, 115, 0, 0, 0, 0, 3, 1, 115, 0, 5, 0, 0, 0, 72, 101, 108, 108, 111, 0, 0, 0, 6, 1, 115, 0, 20, 0, 0, 0, 111, 114, 103, 46, 102, 114, 101, 101, 100, 101, 115, 107, 116, 111, 112, 46, 68, 66, 117, 115, 0, 0, 0, 0])
+2025-05-26T15:09:02+02:00 INFO  [*unknown*] write_commands; commands=[NegotiateUnixFD, Begin] extra_bytes=Some([108, 1, 0, 1, 0, 0, 0, 0, 27, 0, 0, 0, 109, 0, 0, 0, 1, 1, 111, 0, 21, 0, 0, 0, 47, 111, 114, 103, 47, 102, 114, 101, 101, 100, 101, 115, 107, 116, 111, 112, 47, 68, 66, 117, 115, 0, 0, 0, 2, 1, 115, 0, 20, 0, 0, 0, 111, 114, 103, 46, 102, 114, 101, 101, 100, 101, 115, 107, 116, 111, 112, 46, 68, 66, 117, 115, 0, 0, 0, 0, 3, 1, 115, 0, 5, 0, 0, 0, 72, 101, 108, 108, 111, 0, 0, 0, 6, 1, 115, 0, 20, 0, 0, 0, 111, 114, 103, 46, 102, 114, 101, 101, 100, 101, 115, 107, 116, 111, 112, 46, 68, 66, 117, 115, 0, 0, 0, 0])
+2025-05-26T15:09:02+02:00 INFO  [*unknown*] socket reader;
+2025-05-26T15:09:02+02:00 INFO  [*unknown*] read_socket;
+2025-05-26T15:09:02+02:00 INFO  [*unknown*] socket reader;
+2025-05-26T15:09:02+02:00 INFO  [*unknown*] read_socket;
+2025-05-26T15:09:02+02:00 INFO  [*unknown*] receive_secondary_responses; expected_n_responses=1
+2025-05-26T15:09:02+02:00 INFO  [*unknown*] read_commands; n_commands=1
+2025-05-26T15:09:02+02:00 INFO  [*unknown*] socket reader;
+2025-05-26T15:09:02+02:00 INFO  [*unknown*] read_socket;
+2025-05-26T15:09:02+02:00 INFO  [*unknown*] receive_secondary_responses; expected_n_responses=1
+2025-05-26T15:09:02+02:00 INFO  [*unknown*] read_commands; n_commands=1
+2025-05-26T15:09:02+02:00 INFO  [*unknown*] receive_secondary_responses; expected_n_responses=1
+2025-05-26T15:09:02+02:00 INFO  [*unknown*] read_commands; n_commands=1
+2025-05-26T15:09:02+02:00 INFO  [*unknown*] read_socket;
+2025-05-26T15:09:02+02:00 INFO  [*unknown*] read_socket;
+2025-05-26T15:09:02+02:00 INFO  [*unknown*] socket reader;
+2025-05-26T15:09:02+02:00 INFO  [*unknown*] read_socket;
+2025-05-26T15:09:02+02:00 INFO  [*unknown*] read_socket;
+2025-05-26T15:09:02+02:00 INFO  [*unknown*] socket reader;
+2025-05-26T15:09:02+02:00 INFO  [*unknown*] read_socket;
+2025-05-26T15:09:02+02:00 INFO  [*unknown*] socket reader;
+2025-05-26T15:09:02+02:00 INFO  [*unknown*] read_socket;
+2025-05-26T15:09:02+02:00 INFO  [*unknown*] read_socket;
+2025-05-26T15:09:02+02:00 INFO  [*unknown*] read_socket;
+2025-05-26T15:09:02+02:00 INFO  [*unknown*] read_socket;
+2025-05-26T15:09:02+02:00 INFO  [*unknown*] read_socket;
+2025-05-26T15:09:02+02:00 INFO  [*unknown*] read_socket;
+2025-05-26T15:09:02+02:00 INFO  [*unknown*] read_socket;
+2025-05-26T15:09:02+02:00 INFO  [*unknown*] read_socket;
+2025-05-26T15:09:02+02:00 INFO  [*unknown*] read_socket;
+2025-05-26T15:09:02+02:00 INFO  [*unknown*] read_socket;
+2025-05-26T15:09:02+02:00 INFO  [*unknown*] read_socket;
+2025-05-26T15:09:02+02:00 INFO  [*unknown*] read_socket;
+2025-05-26T15:09:02+02:00 INFO  [*unknown*] read_socket;
+2025-05-26T15:09:02+02:00 INFO  [*unknown*] read_socket;
+2025-05-26T15:09:02+02:00 INFO  [*unknown*] read_socket;
+2025-05-26T15:09:02+02:00 INFO  [*unknown*] read_socket;
+2025-05-26T15:09:02+02:00 INFO  [*unknown*] read_socket;
+2025-05-26T15:09:02+02:00 INFO  [*unknown*] read_socket;
+2025-05-26T15:09:02+02:00 INFO  [*unknown*] read_socket;
+2025-05-26T15:09:02+02:00 INFO  [*unknown*] read_socket;
+2025-05-26T15:09:02+02:00 INFO  [*unknown*] read_socket;
+2025-05-26T15:09:02+02:00 INFO  [*unknown*] read_socket;
+2025-05-26T15:09:02+02:00 INFO  [*unknown*] read_socket;
+2025-05-26T15:09:02+02:00 INFO  [*unknown*] read_socket;
+2025-05-26T15:09:02+02:00 INFO  [*unknown*] read_socket;
+2025-05-26T15:09:02+02:00 INFO  [*unknown*] read_socket;
+2025-05-26T15:09:02+02:00 INFO  [*unknown*] read_socket;
+2025-05-26T15:09:02+02:00 INFO  [*unknown*] read_socket;
+2025-05-26T15:09:02+02:00 INFO  [*unknown*] read_socket;
+2025-05-26T15:09:02+02:00 INFO  [*unknown*] read_socket;
+2025-05-26T15:09:02+02:00 INFO  [*unknown*] read_socket;
+2025-05-26T15:09:02+02:00 INFO  [*unknown*] read_socket;
+2025-05-26T15:09:02+02:00 INFO  [*unknown*] read_socket;
+2025-05-26T15:09:02+02:00 INFO  [*unknown*] read_socket;
+2025-05-26T15:09:02+02:00 INFO  [*unknown*] read_socket;
+2025-05-26T15:09:02+02:00 INFO  [*unknown*] read_socket;
+2025-05-26T15:09:02+02:00 INFO  [*unknown*] read_socket;
+2025-05-26T15:09:02+02:00 INFO  [*unknown*] read_socket;
+2025-05-26T15:09:02+02:00 INFO  [*unknown*] read_socket;
+2025-05-26T15:09:02+02:00 INFO  [*unknown*] read_socket;
+2025-05-26T15:09:02+02:00 INFO  [*unknown*] read_socket;
+2025-05-26T15:09:02+02:00 INFO  [*unknown*] read_socket;
+2025-05-26T15:09:02+02:00 INFO  [*unknown*] read_socket;
+2025-05-26T15:09:02+02:00 INFO  [*unknown*] read_socket;
+2025-05-26T15:09:02+02:00 INFO  [*unknown*] read_socket;
+2025-05-26T15:09:02+02:00 INFO  [*unknown*] read_socket;
+2025-05-26T15:09:31+02:00 INFO  [*unknown*] read_socket;
+2025-05-26T15:09:31+02:00 INFO  [*unknown*] read_socket;
+2025-05-26T15:09:31+02:00 INFO  [*unknown*] read_socket;
+2025-05-26T15:09:31+02:00 INFO  [*unknown*] read_socket;
+2025-05-26T15:09:31+02:00 INFO  [*unknown*] read_socket;
+2025-05-26T15:09:31+02:00 INFO  [*unknown*] read_socket;
+2025-05-26T15:09:31+02:00 INFO  [*unknown*] read_socket;
+2025-05-26T15:09:31+02:00 INFO  [*unknown*] read_socket;
+2025-05-26T15:09:31+02:00 INFO  [*unknown*] read_socket;
+2025-05-26T15:09:31+02:00 INFO  [*unknown*] read_socket;
+2025-05-26T15:09:31+02:00 INFO  [*unknown*] read_socket;
+2025-05-26T15:09:31+02:00 INFO  [*unknown*] read_socket;
+2025-05-26T15:09:31+02:00 INFO  [*unknown*] read_socket;
+2025-05-26T15:09:31+02:00 INFO  [*unknown*] read_socket;
+2025-05-26T15:09:31+02:00 INFO  [*unknown*] read_socket;
+2025-05-26T15:09:31+02:00 INFO  [*unknown*] read_socket;
+2025-05-26T15:09:31+02:00 INFO  [*unknown*] read_socket;
+2025-05-26T15:09:31+02:00 INFO  [*unknown*] read_socket;
+2025-05-26T15:09:31+02:00 INFO  [*unknown*] read_socket;
+2025-05-26T15:09:31+02:00 INFO  [*unknown*] read_socket;
+2025-05-26T15:09:31+02:00 INFO  [*unknown*] read_socket;
+2025-05-26T15:09:31+02:00 INFO  [*unknown*] read_socket;
+2025-05-26T15:09:31+02:00 INFO  [*unknown*] read_socket;
+2025-05-26T15:09:31+02:00 INFO  [*unknown*] read_socket;
+2025-05-26T15:09:35+02:00 INFO  [blade_graphics::hal::resource] Creating buffer 0x55f843c55590 of size 7616, name 'chunk-3', handle 5
+2025-05-26T15:09:36+02:00 INFO  [blade_graphics::hal::resource] Creating buffer 0x55f8438cb220 of size 8960, name 'chunk-4', handle 6
+2025-05-26T15:09:36+02:00 INFO  [blade_graphics::hal::resource] Creating buffer 0x55f8430bf520 of size 22064, name 'chunk-5', handle 7
+2025-05-26T15:09:36+02:00 INFO  [blade_graphics::hal::resource] Creating buffer 0x55f8438440b0 of size 22064, name 'chunk-6', handle 8
+2025-05-26T15:09:39+02:00 INFO  [blade_graphics::hal::resource] Creating buffer 0x55f8438d80c0 of size 22512, name 'chunk-7', handle 9
+2025-05-26T15:09:39+02:00 INFO  [blade_graphics::hal::resource] Creating buffer 0x55f843b9aca0 of size 25648, name 'chunk-8', handle 10
+2025-05-26T15:09:39+02:00 INFO  [blade_graphics::hal::resource] Creating buffer 0x55f843c31f90 of size 33488, name 'chunk-9', handle 11
+2025-05-26T15:09:42+02:00 INFO  [workspace] open paths ["/home/jordi/.config/zed/settings.json"]
+2025-05-26T15:09:42+02:00 INFO  [worktree] containing git repository: None
+2025-05-26T15:09:42+02:00 INFO  [worktree] containing git repository: None
+2025-05-26T15:09:42+02:00 INFO  [project::lsp_store] attempting to start language server "json-language-server", path: "/home/jordi/.config/zed/settings.json", id: 1
+2025-05-26T15:09:42+02:00 INFO  [project::prettier_store] Initializing default prettier with plugins {}
+2025-05-26T15:09:42+02:00 INFO  [blade_graphics::hal::resource] Creating buffer 0x55f843b82d30 of size 43232, name 'chunk-10', handle 12
+2025-05-26T15:09:42+02:00 ERROR [editor::git::blame] failed to get git blame data: failed to find a git repository for buffer
+2025-05-26T15:09:42+02:00 INFO  [project::environment] using project environment variables shell launched in "/home/jordi/.config/zed". PATH="/run/wrappers/bin:/home/jordi/.local/share/flatpak/exports/bin:/var/lib/flatpak/exports/bin:/home/jordi/.nix-profile/bin:/nix/profile/bin:/home/jordi/.local/state/nix/profile/bin:/etc/profiles/per-user/jordi/bin:/nix/var/nix/profiles/default/bin:/run/current-system/sw/bin:/nix/store/583p5x4ywdkkfz4s94ddyixz7v77msya-util-linux-2.41-bin/bin:/nix/store/dbpnwnqqz25a7hhcjhs4d6yzasw282zw-newt-0.52.24/bin:/nix/store/g5h4kh5jy4648fwqyd43fmp2j90c0k08-libnotify-0.8.4/bin:/nix/store/41pi0jiyvlhxgpfhxzvb44w1skc8yp4z-bash-interactive-5.2p37/bin:/nix/store/6rrvwz3dpqpbd1f9z40wzahfcmxnx9gh-systemd-257.5/bin:/nix/store/kc2rx8xxqa5735y621cyw3nqqgbs66v8-python3-3.12.10-env/bin:/nix/store/dhhyjclgmh9yki4xhls4vfc3ysgwyi10-dmenu-5.3/bin:/nix/store/583p5x4ywdkkfz4s94ddyixz7v77msya-util-linux-2.41-bin/bin:/nix/store/dbpnwnqqz25a7hhcjhs4d6yzasw282zw-newt-0.52.24/bin:/nix/store/g5h4kh5jy4648fwqyd43fmp2j90c0k08-libnotify-0.8.4/bin:/nix/store/41pi0jiyvlhxgpfhxzvb44w1skc8yp4z-bash-interactive-5.2p37/bin:/nix/store/6rrvwz3dpqpbd1f9z40wzahfcmxnx9gh-systemd-257.5/bin:/nix/store/kc2rx8xxqa5735y621cyw3nqqgbs66v8-python3-3.12.10-env/bin:/nix/store/dhhyjclgmh9yki4xhls4vfc3ysgwyi10-dmenu-5.3/bin:/nix/store/2zx2a8g7bkl2lkrql10hnjjpzz4wq09c-binutils-wrapper-2.44/bin:/nix/store/1xsb8cdydxciwjkfnysa0knsxx1djfz4-hyprland-qtutils-0.1.4/bin:/nix/store/vn9pridbsjvqcqjjyyp1c66nxrpcg9zp-pciutils-3.13.0/bin:/nix/store/wml83snzb3qvyx5dazdlh1wyfilyl7pn-pkgconf-wrapper-2.4.3/bin:/nix/store/50lhzpd68v47x6jy0b8b3p91n2zv3lv4-nodejs-22.14.0/bin"
+2025-05-26T15:09:42+02:00 INFO  [language] found user-installed language server for json-language-server. path: "/run/current-system/sw/bin/vscode-json-language-server", arguments: ["--stdio"]
+2025-05-26T15:09:42+02:00 INFO  [lsp] starting language server process. binary path: "/run/current-system/sw/bin/vscode-json-language-server", working directory: "/home/jordi/.config/zed", args: ["--stdio"]
+2025-05-26T15:09:42+02:00 INFO  [project::prettier_store] Installing default prettier and plugins: [("prettier", "3.5.3")]
+2025-05-26T15:09:43+02:00 INFO  [project::prettier_store] Initialized prettier with plugins: {}
+2025-05-26T15:09:44+02:00 INFO  [blade_graphics::hal::resource] Creating texture 0x55f844e8ca20 of size 1024x1024x1 and format R16Float, name 'msaa path texture', handle 13
+2025-05-26T15:09:44+02:00 INFO  [blade_graphics::hal::resource] Creating texture 0x55f843fa2da0 of size 1024x1024x1 and format R16Float, name 'atlas', handle 14
+2025-05-26T15:09:47+02:00 INFO  [project::prettier_store] Starting prettier at path "/home/jordi/.local/share/zed/prettier"
+2025-05-26T15:09:47+02:00 INFO  [lsp] starting language server process. binary path: "/run/current-system/sw/bin/node", working directory: "/home/jordi/.local/share/zed/prettier", args: ["/home/jordi/.local/share/zed/prettier/prettier_server.js", "/home/jordi/.local/share/zed/prettier"]
+2025-05-26T15:09:47+02:00 INFO  [project::prettier_store] Started default prettier in "/home/jordi/.local/share/zed/prettier"
+2025-05-26T15:09:47+02:00 ERROR [editor::git::blame] failed to get git blame data: failed to find a git repository for buffer
+2025-05-26T15:09:47+02:00 ERROR [worktree] ignoring event SanitizedPath("/home/jordi/.config/zed/settings.json") outside of root path SanitizedPath("/home/jordi/dotfiles/.config/zed/settings.json")
+2025-05-26T15:09:48+02:00 ERROR [editor::git::blame] failed to get git blame data: failed to find a git repository for buffer
+2025-05-26T15:09:50+02:00 INFO  [blade_graphics::hal::descriptor] Creating a descriptor pool for at most 16 sets
+2025-05-26T15:09:50+02:00 INFO  [blade_graphics::hal::descriptor] Creating a descriptor pool for at most 16 sets
+2025-05-26T15:09:50+02:00 INFO  [blade_graphics::hal::descriptor] Creating a descriptor pool for at most 256 sets
+2025-05-26T15:09:50+02:00 INFO  [blade_graphics::hal::descriptor] Creating a descriptor pool for at most 256 sets
+2025-05-26T15:10:13+02:00 INFO  [blade_graphics::hal::surface] Using surface present mode MAILBOX
+2025-05-26T15:10:13+02:00 INFO  [blade_graphics::hal::surface] Retaining current format: Bgra8UnormSrgb
+2025-05-26T15:10:57+02:00 INFO  [blade_graphics::hal::resource] Creating buffer 0x55f843b82520 of size 43456, name 'chunk-11', handle 15
+2025-05-26T15:10:57+02:00 INFO  [blade_graphics::hal::resource] Creating buffer 0x55f8434d8650 of size 43568, name 'chunk-12', handle 16
+2025-05-26T15:10:57+02:00 INFO  [blade_graphics::hal::resource] Creating buffer 0x55f845719f10 of size 43680, name 'chunk-13', handle 17
+2025-05-26T15:10:57+02:00 INFO  [blade_graphics::hal::resource] Creating buffer 0x7f272000e0d0 of size 43792, name 'chunk-14', handle 18
+2025-05-26T15:10:58+02:00 INFO  [blade_graphics::hal::resource] Creating buffer 0x7f271800f0b0 of size 43904, name 'chunk-15', handle 19
+2025-05-26T15:10:58+02:00 INFO  [blade_graphics::hal::resource] Creating buffer 0x7f2738016f40 of size 44016, name 'chunk-16', handle 20
+2025-05-26T15:10:58+02:00 INFO  [blade_graphics::hal::resource] Creating buffer 0x7f2708026ca0 of size 44128, name 'chunk-17', handle 21
+2025-05-26T15:10:58+02:00 INFO  [blade_graphics::hal::resource] Creating buffer 0x7f273404e990 of size 44240, name 'chunk-18', handle 22
+2025-05-26T15:11:00+02:00 INFO  [blade_graphics::hal::resource] Creating buffer 0x7f2708025e10 of size 44352, name 'chunk-19', handle 23
+2025-05-26T15:11:00+02:00 INFO  [blade_graphics::hal::resource] Creating buffer 0x55f844f31590 of size 44464, name 'chunk-20', handle 24
+2025-05-26T15:11:00+02:00 INFO  [blade_graphics::hal::resource] Creating buffer 0x7f27103205f0 of size 44576, name 'chunk-21', handle 25
+2025-05-26T15:11:01+02:00 INFO  [blade_graphics::hal::resource] Creating buffer 0x55f8455b1590 of size 44688, name 'chunk-22', handle 26
+2025-05-26T15:11:01+02:00 INFO  [blade_graphics::hal::resource] Creating buffer 0x7f271031f510 of size 44800, name 'chunk-23', handle 27
+2025-05-26T15:11:01+02:00 INFO  [blade_graphics::hal::resource] Creating buffer 0x7f270802ad90 of size 44912, name 'chunk-24', handle 28
+2025-05-26T15:11:01+02:00 INFO  [blade_graphics::hal::resource] Creating buffer 0x7f272000e950 of size 45024, name 'chunk-25', handle 29
+2025-05-26T15:11:01+02:00 INFO  [blade_graphics::hal::resource] Creating buffer 0x7f271c0b3b40 of size 45136, name 'chunk-26', handle 30
+2025-05-26T15:11:02+02:00 INFO  [blade_graphics::hal::resource] Creating buffer 0x7f27300275f0 of size 45248, name 'chunk-27', handle 31
+2025-05-26T15:11:02+02:00 INFO  [blade_graphics::hal::resource] Creating buffer 0x7f271800f340 of size 45360, name 'chunk-28', handle 32
+2025-05-26T15:11:02+02:00 INFO  [blade_graphics::hal::resource] Creating buffer 0x7f272c018640 of size 45472, name 'chunk-29', handle 33
+2025-05-26T15:11:04+02:00 ERROR [editor::git::blame] failed to get git blame data: failed to find a git repository for buffer
+2025-05-26T15:11:04+02:00 INFO  [blade_graphics::hal::resource] Creating buffer 0x7f272c0379a0 of size 45584, name 'chunk-30', handle 34
+2025-05-26T15:11:07+02:00 INFO  [blade_graphics::hal::resource] Creating buffer 0x55f844e95e40 of size 45808, name 'chunk-31', handle 35
+2025-05-26T15:11:07+02:00 INFO  [blade_graphics::hal::resource] Creating buffer 0x7f2738045bd0 of size 45920, name 'chunk-32', handle 36
+2025-05-26T15:11:07+02:00 INFO  [blade_graphics::hal::resource] Creating buffer 0x55f843c5c6f0 of size 46032, name 'chunk-33', handle 37
+2025-05-26T15:11:07+02:00 INFO  [blade_graphics::hal::resource] Creating buffer 0x55f843c3feb0 of size 46144, name 'chunk-34', handle 38
+2025-05-26T15:11:08+02:00 INFO  [blade_graphics::hal::resource] Creating buffer 0x55f844eb2ac0 of size 46256, name 'chunk-35', handle 39
+2025-05-26T15:11:08+02:00 INFO  [blade_graphics::hal::resource] Creating buffer 0x55f844eb1750 of size 46368, name 'chunk-36', handle 40
+2025-05-26T15:11:08+02:00 INFO  [blade_graphics::hal::resource] Creating buffer 0x55f843be7fa0 of size 46480, name 'chunk-37', handle 41
+2025-05-26T15:11:09+02:00 INFO  [blade_graphics::hal::resource] Creating buffer 0x55f843844370 of size 46592, name 'chunk-38', handle 42
+2025-05-26T15:11:09+02:00 INFO  [blade_graphics::hal::resource] Creating buffer 0x55f843f9dd30 of size 46704, name 'chunk-39', handle 43
+2025-05-26T15:11:09+02:00 INFO  [blade_graphics::hal::resource] Creating buffer 0x55f8455a7bd0 of size 46816, name 'chunk-40', handle 44
+2025-05-26T15:11:09+02:00 INFO  [blade_graphics::hal::resource] Creating buffer 0x55f843baa210 of size 46928, name 'chunk-41', handle 45
+2025-05-26T15:11:09+02:00 INFO  [blade_graphics::hal::resource] Creating buffer 0x55f845719d90 of size 47040, name 'chunk-42', handle 46
+2025-05-26T15:11:09+02:00 INFO  [blade_graphics::hal::resource] Creating buffer 0x55f84573e250 of size 47152, name 'chunk-43', handle 47
+2025-05-26T15:11:10+02:00 INFO  [blade_graphics::hal::resource] Creating buffer 0x55f84369b6c0 of size 47264, name 'chunk-44', handle 48
+2025-05-26T15:11:12+02:00 ERROR [editor::git::blame] failed to get git blame data: failed to find a git repository for buffer
+2025-05-26T15:11:20+02:00 ERROR [editor::git::blame] failed to get git blame data: failed to find a git repository for buffer
+2025-05-26T15:11:22+02:00 INFO  [blade_graphics::hal::resource] Creating buffer 0x55f844ea7fc0 of size 47376, name 'chunk-45', handle 49
+2025-05-26T15:11:22+02:00 INFO  [blade_graphics::hal::resource] Creating buffer 0x55f844ea07f0 of size 47488, name 'chunk-46', handle 50
+2025-05-26T15:11:34+02:00 ERROR [editor::git::blame] failed to get git blame data: failed to find a git repository for buffer
+2025-05-26T15:11:35+02:00 INFO  [blade_graphics::hal::resource] Creating buffer 0x55f843fa6600 of size 47600, name 'chunk-47', handle 51
+2025-05-26T15:11:35+02:00 INFO  [blade_graphics::hal::resource] Creating buffer 0x55f843fdb8f0 of size 47712, name 'chunk-48', handle 52
+2025-05-26T15:11:36+02:00 INFO  [blade_graphics::hal::resource] Creating buffer 0x7f2734044de0 of size 47824, name 'chunk-49', handle 53
+2025-05-26T15:11:37+02:00 INFO  [blade_graphics::hal::resource] Creating texture 0x55f845053c60 of size 1024x1024x1 and format R8Unorm, name 'atlas', handle 54
+2025-05-26T15:11:37+02:00 INFO  [blade_graphics::hal::resource] Creating buffer 0x7f2730018a00 of size 47936, name 'chunk-50', handle 55
+2025-05-26T15:11:37+02:00 INFO  [blade_graphics::hal::resource] Creating buffer 0x7f2708028800 of size 48048, name 'chunk-51', handle 56
+2025-05-26T15:11:39+02:00 INFO  [blade_graphics::hal::resource] Creating buffer 0x7f274002ae90 of size 48160, name 'chunk-52', handle 57
+2025-05-26T15:11:40+02:00 INFO  [blade_graphics::hal::resource] Creating buffer 0x7f274002e430 of size 48272, name 'chunk-53', handle 58
+2025-05-26T15:11:40+02:00 INFO  [blade_graphics::hal::resource] Creating buffer 0x55f843c808d0 of size 48384, name 'chunk-54', handle 59
+2025-05-26T15:11:40+02:00 INFO  [blade_graphics::hal::resource] Creating buffer 0x7f27403411d0 of size 48496, name 'chunk-55', handle 60
+2025-05-26T15:11:41+02:00 INFO  [blade_graphics::hal::resource] Creating buffer 0x7f271c0af240 of size 48608, name 'chunk-56', handle 61
+2025-05-26T15:11:41+02:00 INFO  [blade_graphics::hal::resource] Creating buffer 0x55f8451a6b20 of size 48720, name 'chunk-57', handle 62
+2025-05-26T15:11:41+02:00 INFO  [blade_graphics::hal::resource] Creating buffer 0x7f2730030900 of size 48832, name 'chunk-58', handle 63
+2025-05-26T15:11:41+02:00 INFO  [blade_graphics::hal::resource] Creating buffer 0x7f2710323170 of size 48944, name 'chunk-59', handle 64
+2025-05-26T15:11:43+02:00 ERROR [editor::git::blame] failed to get git blame data: failed to find a git repository for buffer
+2025-05-26T15:11:45+02:00 INFO  [blade_graphics::hal::resource] Creating buffer 0x7f27403384a0 of size 49056, name 'chunk-60', handle 65
+2025-05-26T15:11:47+02:00 INFO  [blade_graphics::hal::resource] Creating buffer 0x7f272c0389c0 of size 49280, name 'chunk-61', handle 66
+2025-05-26T15:11:58+02:00 ERROR [editor::git::blame] failed to get git blame data: failed to find a git repository for buffer
+2025-05-26T15:15:15+02:00 ERROR [editor::git::blame] failed to get git blame data: failed to find a git repository for buffer
+2025-05-26T15:16:17+02:00 ERROR [editor::git::blame] failed to get git blame data: failed to find a git repository for buffer
+2025-05-26T15:16:21+02:00 ERROR [editor::git::blame] failed to get git blame data: failed to find a git repository for buffer
+2025-05-26T15:16:21+02:00 ERROR [worktree] ignoring event SanitizedPath("/home/jordi/.config/zed/settings.json") outside of root path SanitizedPath("/home/jordi/dotfiles/.config/zed/settings.json")
+2025-05-26T15:16:23+02:00 ERROR [*unknown*] oneshot canceled
+2025-05-26T15:16:28+02:00 INFO  [blade_graphics::hal::resource] Destroying texture 0x55f843539c80, handle 0
+2025-05-26T15:16:28+02:00 INFO  [blade_graphics::hal::resource] Destroying texture 0x55f845053c60, handle 54
+2025-05-26T15:16:28+02:00 INFO  [blade_graphics::hal::resource] Destroying texture 0x55f843fa2da0, handle 14
+2025-05-26T15:16:28+02:00 INFO  [blade_graphics::hal::resource] Destroying texture 0x55f844e8ca20, handle 13
+2025-05-26T15:16:28+02:00 INFO  [blade_graphics::hal::resource] Destroying buffer 0x55f8435b8460, handle 1
+2025-05-26T15:16:28+02:00 INFO  [blade_graphics::hal::resource] Destroying buffer 0x55f8438440b0, handle 8
+2025-05-26T15:16:28+02:00 INFO  [blade_graphics::hal::resource] Destroying buffer 0x55f843587640, handle 4
+2025-05-26T15:16:28+02:00 INFO  [blade_graphics::hal::resource] Destroying buffer 0x7f271c0af240, handle 61
+2025-05-26T15:16:28+02:00 INFO  [blade_graphics::hal::resource] Destroying buffer 0x55f843c5c6f0, handle 37
+2025-05-26T15:16:28+02:00 INFO  [blade_graphics::hal::resource] Destroying buffer 0x55f843844370, handle 42
+2025-05-26T15:16:28+02:00 INFO  [blade_graphics::hal::resource] Destroying buffer 0x7f274002e430, handle 58
+2025-05-26T15:16:28+02:00 INFO  [blade_graphics::hal::resource] Destroying buffer 0x7f271800f340, handle 32
+2025-05-26T15:16:28+02:00 INFO  [blade_graphics::hal::resource] Destroying buffer 0x55f843c3feb0, handle 38
+2025-05-26T15:16:28+02:00 INFO  [blade_graphics::hal::resource] Destroying buffer 0x55f8437a7220, handle 2
+2025-05-26T15:16:28+02:00 INFO  [blade_graphics::hal::resource] Destroying buffer 0x7f2738016f40, handle 20
+2025-05-26T15:16:28+02:00 INFO  [blade_graphics::hal::resource] Destroying buffer 0x7f272c018640, handle 33
+2025-05-26T15:16:28+02:00 INFO  [blade_graphics::hal::resource] Destroying buffer 0x55f8451a6b20, handle 62
+2025-05-26T15:16:28+02:00 INFO  [blade_graphics::hal::resource] Destroying buffer 0x7f271800f0b0, handle 19
+2025-05-26T15:16:28+02:00 INFO  [blade_graphics::hal::resource] Destroying buffer 0x7f2708028800, handle 56
+2025-05-26T15:16:28+02:00 INFO  [blade_graphics::hal::resource] Destroying buffer 0x7f272000e950, handle 29
+2025-05-26T15:16:28+02:00 INFO  [blade_graphics::hal::resource] Destroying buffer 0x55f8430bf520, handle 7
+2025-05-26T15:16:28+02:00 INFO  [blade_graphics::hal::resource] Destroying buffer 0x55f842987cd0, handle 3
+2025-05-26T15:16:28+02:00 INFO  [blade_graphics::hal::resource] Destroying buffer 0x55f843b82d30, handle 12
+2025-05-26T15:16:28+02:00 INFO  [blade_graphics::hal::resource] Destroying buffer 0x55f843baa210, handle 45
+2025-05-26T15:16:28+02:00 INFO  [blade_graphics::hal::resource] Destroying buffer 0x55f844e95e40, handle 35
+2025-05-26T15:16:28+02:00 INFO  [blade_graphics::hal::resource] Destroying buffer 0x7f272c0389c0, handle 66
+2025-05-26T15:16:28+02:00 INFO  [blade_graphics::hal::resource] Destroying buffer 0x55f843c31f90, handle 11
+2025-05-26T15:16:28+02:00 INFO  [blade_graphics::hal::resource] Destroying buffer 0x55f844eb1750, handle 40
+2025-05-26T15:16:28+02:00 INFO  [blade_graphics::hal::resource] Destroying buffer 0x7f2730030900, handle 63
+2025-05-26T15:16:28+02:00 INFO  [blade_graphics::hal::resource] Destroying buffer 0x55f845719f10, handle 17
+2025-05-26T15:16:28+02:00 INFO  [blade_graphics::hal::resource] Destroying buffer 0x55f8438d80c0, handle 9
+2025-05-26T15:16:28+02:00 INFO  [blade_graphics::hal::resource] Destroying buffer 0x7f27300275f0, handle 31
+2025-05-26T15:16:28+02:00 INFO  [blade_graphics::hal::resource] Destroying buffer 0x7f271031f510, handle 27
+2025-05-26T15:16:28+02:00 INFO  [blade_graphics::hal::resource] Destroying buffer 0x55f8455b1590, handle 26
+2025-05-26T15:16:28+02:00 INFO  [blade_graphics::hal::resource] Destroying buffer 0x7f2710323170, handle 64
+2025-05-26T15:16:28+02:00 INFO  [blade_graphics::hal::resource] Destroying buffer 0x55f843c55590, handle 5
+2025-05-26T15:16:28+02:00 INFO  [blade_graphics::hal::resource] Destroying buffer 0x55f843b82520, handle 15
+2025-05-26T15:16:28+02:00 INFO  [blade_graphics::hal::resource] Destroying buffer 0x55f844ea7fc0, handle 49
+2025-05-26T15:16:28+02:00 INFO  [blade_graphics::hal::resource] Destroying buffer 0x55f845719d90, handle 46
+2025-05-26T15:16:28+02:00 INFO  [blade_graphics::hal::resource] Destroying buffer 0x55f843fdb8f0, handle 52
+2025-05-26T15:16:28+02:00 INFO  [blade_graphics::hal::resource] Destroying buffer 0x55f843b9aca0, handle 10
+2025-05-26T15:16:28+02:00 INFO  [blade_graphics::hal::resource] Destroying buffer 0x7f2708025e10, handle 23
+2025-05-26T15:16:28+02:00 INFO  [blade_graphics::hal::resource] Destroying buffer 0x55f844ea07f0, handle 50
+2025-05-26T15:16:28+02:00 INFO  [blade_graphics::hal::resource] Destroying buffer 0x55f844f31590, handle 24
+2025-05-26T15:16:28+02:00 INFO  [blade_graphics::hal::resource] Destroying buffer 0x7f2730018a00, handle 55
+2025-05-26T15:16:28+02:00 INFO  [blade_graphics::hal::resource] Destroying buffer 0x55f8438cb220, handle 6
+2025-05-26T15:16:28+02:00 INFO  [blade_graphics::hal::resource] Destroying buffer 0x55f843fa6600, handle 51
+2025-05-26T15:16:28+02:00 INFO  [blade_graphics::hal::resource] Destroying buffer 0x7f2708026ca0, handle 21
+2025-05-26T15:16:28+02:00 INFO  [blade_graphics::hal::resource] Destroying buffer 0x7f2734044de0, handle 53
+2025-05-26T15:16:28+02:00 INFO  [blade_graphics::hal::resource] Destroying buffer 0x55f843c808d0, handle 59
+2025-05-26T15:16:28+02:00 INFO  [blade_graphics::hal::resource] Destroying buffer 0x7f274002ae90, handle 57
+2025-05-26T15:16:28+02:00 INFO  [blade_graphics::hal::resource] Destroying buffer 0x7f2738045bd0, handle 36
+2025-05-26T15:16:28+02:00 INFO  [blade_graphics::hal::resource] Destroying buffer 0x55f844eb2ac0, handle 39
+2025-05-26T15:16:28+02:00 INFO  [blade_graphics::hal::resource] Destroying buffer 0x7f272000e0d0, handle 18
+2025-05-26T15:16:28+02:00 INFO  [blade_graphics::hal::resource] Destroying buffer 0x55f84573e250, handle 47
+2025-05-26T15:16:28+02:00 INFO  [blade_graphics::hal::resource] Destroying buffer 0x55f843f9dd30, handle 43
+2025-05-26T15:16:28+02:00 INFO  [blade_graphics::hal::resource] Destroying buffer 0x55f8434d8650, handle 16
+2025-05-26T15:16:28+02:00 INFO  [blade_graphics::hal::resource] Destroying buffer 0x7f27103205f0, handle 25
+2025-05-26T15:16:28+02:00 INFO  [blade_graphics::hal::resource] Destroying buffer 0x7f272c0379a0, handle 34
+2025-05-26T15:16:28+02:00 INFO  [blade_graphics::hal::resource] Destroying buffer 0x7f270802ad90, handle 28
+2025-05-26T15:16:28+02:00 INFO  [blade_graphics::hal::resource] Destroying buffer 0x55f843be7fa0, handle 41
+2025-05-26T15:16:28+02:00 INFO  [blade_graphics::hal::resource] Destroying buffer 0x7f27403411d0, handle 60
+2025-05-26T15:16:28+02:00 INFO  [blade_graphics::hal::resource] Destroying buffer 0x55f84369b6c0, handle 48
+2025-05-26T15:16:28+02:00 INFO  [blade_graphics::hal::resource] Destroying buffer 0x7f271c0b3b40, handle 30
+2025-05-26T15:16:28+02:00 INFO  [blade_graphics::hal::resource] Destroying buffer 0x7f27403384a0, handle 65
+2025-05-26T15:16:28+02:00 INFO  [blade_graphics::hal::resource] Destroying buffer 0x7f273404e990, handle 22
+2025-05-26T15:16:28+02:00 INFO  [blade_graphics::hal::resource] Destroying buffer 0x55f8455a7bd0, handle 44
+2025-05-26T15:16:28+02:00 ERROR [*unknown*] window not found
+2025-05-26T15:16:28+02:00 ERROR [*unknown*] window not found
+2025-05-26T15:16:28+02:00 ERROR [*unknown*] window not found
+2025-05-26T15:16:28+02:00 ERROR [*unknown*] oneshot canceled
+2025-05-26T15:20:30+02:00 INFO  [zed] ========== starting zed ==========
+2025-05-26T15:20:30+02:00 INFO  [blade_graphics::hal::init] Presentation support: "VK_KHR_wayland_surface"
+2025-05-26T15:20:30+02:00 INFO  [blade_graphics::hal::init] Presentation support: "VK_KHR_xcb_surface"
+2025-05-26T15:20:30+02:00 INFO  [blade_graphics::hal::init] Presentation support: "VK_KHR_xlib_surface"
+2025-05-26T15:20:30+02:00 INFO  [blade_graphics::hal::init] Enabling Vulkan Portability
+2025-05-26T15:20:30+02:00 INFO  [blade_graphics::hal::init] Enabling color space support
+2025-05-26T15:20:30+02:00 INFO  [blade_graphics::hal::init] Adapter: "NVIDIA GeForce GTX 1080"
+2025-05-26T15:20:30+02:00 INFO  [blade_graphics::hal::init] No ray tracing extensions are supported
+2025-05-26T15:20:30+02:00 INFO  [*unknown*] perform;
+2025-05-26T15:20:30+02:00 INFO  [*unknown*] authenticate;
+2025-05-26T15:20:30+02:00 INFO  [*unknown*] write_command; command=Auth(Some(External), Some([49, 48, 48, 48]))
+2025-05-26T15:20:30+02:00 INFO  [*unknown*] write_commands; commands=[Auth(Some(External), Some([49, 48, 48, 48]))] extra_bytes=None
+2025-05-26T15:20:30+02:00 INFO  [db] Opening main db
+2025-05-26T15:20:30+02:00 INFO  [*unknown*] read_command;
+2025-05-26T15:20:30+02:00 INFO  [*unknown*] read_commands; n_commands=1
+2025-05-26T15:20:30+02:00 INFO  [*unknown*] send_secondary_commands;
+2025-05-26T15:20:30+02:00 INFO  [*unknown*] write_commands; commands=[NegotiateUnixFD, Begin] extra_bytes=Some([108, 1, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 109, 0, 0, 0, 1, 1, 111, 0, 21, 0, 0, 0, 47, 111, 114, 103, 47, 102, 114, 101, 101, 100, 101, 115, 107, 116, 111, 112, 47, 68, 66, 117, 115, 0, 0, 0, 2, 1, 115, 0, 20, 0, 0, 0, 111, 114, 103, 46, 102, 114, 101, 101, 100, 101, 115, 107, 116, 111, 112, 46, 68, 66, 117, 115, 0, 0, 0, 0, 3, 1, 115, 0, 5, 0, 0, 0, 72, 101, 108, 108, 111, 0, 0, 0, 6, 1, 115, 0, 20, 0, 0, 0, 111, 114, 103, 46, 102, 114, 101, 101, 100, 101, 115, 107, 116, 111, 112, 46, 68, 66, 117, 115, 0, 0, 0, 0])
+2025-05-26T15:20:30+02:00 INFO  [*unknown*] receive_secondary_responses; expected_n_responses=1
+2025-05-26T15:20:30+02:00 INFO  [*unknown*] read_commands; n_commands=1
+2025-05-26T15:20:30+02:00 INFO  [*unknown*] new;
+2025-05-26T15:20:30+02:00 INFO  [*unknown*] {}; task_name="org.freedesktop.portal.Settings proxy caching"
+2025-05-26T15:20:30+02:00 INFO  [*unknown*] socket reader;
+2025-05-26T15:20:30+02:00 INFO  [*unknown*] read_socket;
+2025-05-26T15:20:30+02:00 INFO  [*unknown*] read_socket;
+2025-05-26T15:20:30+02:00 INFO  [db] Opening main db
+2025-05-26T15:20:30+02:00 INFO  [*unknown*] read_socket;
+2025-05-26T15:20:30+02:00 INFO  [*unknown*] read_socket;
+2025-05-26T15:20:30+02:00 INFO  [*unknown*] read_socket;
+2025-05-26T15:20:30+02:00 INFO  [*unknown*] read_socket;
+2025-05-26T15:20:30+02:00 INFO  [*unknown*] keep_updated;
+2025-05-26T15:20:30+02:00 INFO  [*unknown*] read_socket;
+2025-05-26T15:20:30+02:00 INFO  [*unknown*] read_socket;
+2025-05-26T15:20:30+02:00 INFO  [zed] Using git binary path: None
+2025-05-26T15:20:30+02:00 INFO  [*unknown*] read_socket;
+2025-05-26T15:20:30+02:00 INFO  [*unknown*] read_socket;
+2025-05-26T15:20:30+02:00 INFO  [*unknown*] read_socket;
+2025-05-26T15:20:30+02:00 INFO  [*unknown*] read_socket;
+2025-05-26T15:20:30+02:00 INFO  [*unknown*] read_socket;
+2025-05-26T15:20:30+02:00 INFO  [*unknown*] read_socket;
+2025-05-26T15:20:30+02:00 INFO  [*unknown*] read_socket;
+2025-05-26T15:20:30+02:00 INFO  [prompt_store::prompts] No prompt template overrides directory found at /home/jordi/.local/share/zed/prompt_overrides. Using built-in prompts.
+2025-05-26T15:20:30+02:00 INFO  [extension_host] extensions updated. loading 1, reloading 0, unloading 0
+2025-05-26T15:20:30+02:00 INFO  [gpui::platform::linux::platform] activate is not implemented on Linux, ignoring the call
+2025-05-26T15:20:30+02:00 INFO  [db] Opening main db
+2025-05-26T15:20:30+02:00 INFO  [*unknown*] perform;
+2025-05-26T15:20:30+02:00 INFO  [*unknown*] authenticate;
+2025-05-26T15:20:30+02:00 INFO  [*unknown*] write_command; command=Auth(Some(External), Some([49, 48, 48, 48]))
+2025-05-26T15:20:30+02:00 INFO  [*unknown*] write_commands; commands=[Auth(Some(External), Some([49, 48, 48, 48]))] extra_bytes=None
+2025-05-26T15:20:30+02:00 INFO  [*unknown*] read_command;
+2025-05-26T15:20:30+02:00 INFO  [*unknown*] read_commands; n_commands=1
+2025-05-26T15:20:30+02:00 INFO  [*unknown*] send_secondary_commands;
+2025-05-26T15:20:30+02:00 INFO  [*unknown*] write_commands; commands=[NegotiateUnixFD, Begin] extra_bytes=Some([108, 1, 0, 1, 0, 0, 0, 0, 15, 0, 0, 0, 109, 0, 0, 0, 1, 1, 111, 0, 21, 0, 0, 0, 47, 111, 114, 103, 47, 102, 114, 101, 101, 100, 101, 115, 107, 116, 111, 112, 47, 68, 66, 117, 115, 0, 0, 0, 2, 1, 115, 0, 20, 0, 0, 0, 111, 114, 103, 46, 102, 114, 101, 101, 100, 101, 115, 107, 116, 111, 112, 46, 68, 66, 117, 115, 0, 0, 0, 0, 3, 1, 115, 0, 5, 0, 0, 0, 72, 101, 108, 108, 111, 0, 0, 0, 6, 1, 115, 0, 20, 0, 0, 0, 111, 114, 103, 46, 102, 114, 101, 101, 100, 101, 115, 107, 116, 111, 112, 46, 68, 66, 117, 115, 0, 0, 0, 0])
+2025-05-26T15:20:30+02:00 INFO  [*unknown*] receive_secondary_responses; expected_n_responses=1
+2025-05-26T15:20:30+02:00 INFO  [*unknown*] read_commands; n_commands=1
+2025-05-26T15:20:30+02:00 INFO  [*unknown*] socket reader;
+2025-05-26T15:20:30+02:00 INFO  [*unknown*] read_socket;
+2025-05-26T15:20:30+02:00 INFO  [*unknown*] read_socket;
+2025-05-26T15:20:30+02:00 INFO  [*unknown*] read_socket;
+2025-05-26T15:20:30+02:00 INFO  [blade_graphics::hal::surface] Using surface present mode MAILBOX
+2025-05-26T15:20:30+02:00 INFO  [*unknown*] read_socket;
+2025-05-26T15:20:30+02:00 INFO  [*unknown*] read_socket;
+2025-05-26T15:20:30+02:00 INFO  [*unknown*] read_socket;
+2025-05-26T15:20:30+02:00 INFO  [blade_graphics::hal::descriptor] Creating a descriptor pool for at most 16 sets
+2025-05-26T15:20:30+02:00 INFO  [blade_graphics::hal::descriptor] Creating a descriptor pool for at most 16 sets
+2025-05-26T15:20:30+02:00 INFO  [gpui::platform::blade::blade_renderer] Initializing Blade pipelines for surface SurfaceInfo { format: Bgra8UnormSrgb, alpha: PreMultiplied }
+2025-05-26T15:20:30+02:00 INFO  [naga::back::spv::writer] Skip function Some("to_tile_position")
+2025-05-26T15:20:30+02:00 INFO  [naga::back::spv::writer] Skip function Some("to_tile_position")
+2025-05-26T15:20:30+02:00 INFO  [naga::back::spv::writer] Skip function Some("to_tile_position")
+2025-05-26T15:20:30+02:00 INFO  [naga::back::spv::writer] Skip function Some("to_tile_position")
+2025-05-26T15:20:30+02:00 INFO  [naga::back::spv::writer] Skip function Some("to_tile_position")
+2025-05-26T15:20:30+02:00 INFO  [naga::back::spv::writer] Skip function Some("to_device_position_impl")
+2025-05-26T15:20:30+02:00 INFO  [naga::back::spv::writer] Skip function Some("to_device_position")
+2025-05-26T15:20:30+02:00 INFO  [naga::back::spv::writer] Skip function Some("to_device_position_transformed")
+2025-05-26T15:20:30+02:00 INFO  [naga::back::spv::writer] Skip function Some("to_tile_position")
+2025-05-26T15:20:30+02:00 INFO  [naga::back::spv::writer] Skip function Some("blend_color")
+2025-05-26T15:20:30+02:00 INFO  [naga::back::spv::writer] Skip function Some("to_tile_position")
+2025-05-26T15:20:30+02:00 INFO  [naga::back::spv::writer] Skip function Some("to_tile_position")
+2025-05-26T15:20:30+02:00 INFO  [naga::back::spv::writer] Skip function Some("to_tile_position")
+2025-05-26T15:20:30+02:00 INFO  [naga::back::spv::writer] Skip function Some("to_tile_position")
+2025-05-26T15:20:30+02:00 INFO  [naga::back::spv::writer] Skip function Some("to_tile_position")
+2025-05-26T15:20:30+02:00 INFO  [naga::back::spv::writer] Skip function Some("to_tile_position")
+2025-05-26T15:20:30+02:00 INFO  [naga::back::spv::writer] Skip function Some("to_device_position_impl")
+2025-05-26T15:20:30+02:00 INFO  [naga::back::spv::writer] Skip function Some("to_device_position")
+2025-05-26T15:20:30+02:00 INFO  [naga::back::spv::writer] Skip function Some("to_device_position_transformed")
+2025-05-26T15:20:30+02:00 INFO  [naga::back::spv::writer] Skip function Some("to_tile_position")
+2025-05-26T15:20:30+02:00 INFO  [naga::back::spv::writer] Skip function Some("blend_color")
+2025-05-26T15:20:30+02:00 INFO  [zed::zed] Using GPU: GpuSpecs { is_software_emulated: false, device_name: "NVIDIA GeForce GTX 1080", driver_name: "NVIDIA", driver_info: "575.51.02" }
+2025-05-26T15:20:30+02:00 INFO  [blade_graphics::hal::surface] Using surface present mode MAILBOX
+2025-05-26T15:20:30+02:00 INFO  [blade_graphics::hal::surface] Retaining current format: Bgra8UnormSrgb
+2025-05-26T15:20:30+02:00 INFO  [gpui::platform::blade::blade_renderer] Initializing Blade pipelines for surface SurfaceInfo { format: Bgra8UnormSrgb, alpha: Ignored }
+2025-05-26T15:20:30+02:00 INFO  [naga::back::spv::writer] Skip function Some("to_tile_position")
+2025-05-26T15:20:30+02:00 INFO  [naga::back::spv::writer] Skip function Some("to_tile_position")
+2025-05-26T15:20:30+02:00 INFO  [naga::back::spv::writer] Skip function Some("to_tile_position")
+2025-05-26T15:20:30+02:00 INFO  [naga::back::spv::writer] Skip function Some("to_tile_position")
+2025-05-26T15:20:30+02:00 INFO  [naga::back::spv::writer] Skip function Some("to_tile_position")
+2025-05-26T15:20:30+02:00 INFO  [naga::back::spv::writer] Skip function Some("to_device_position_impl")
+2025-05-26T15:20:30+02:00 INFO  [naga::back::spv::writer] Skip function Some("to_device_position")
+2025-05-26T15:20:30+02:00 INFO  [naga::back::spv::writer] Skip function Some("to_device_position_transformed")
+2025-05-26T15:20:30+02:00 INFO  [naga::back::spv::writer] Skip function Some("to_tile_position")
+2025-05-26T15:20:30+02:00 INFO  [naga::back::spv::writer] Skip function Some("blend_color")
+2025-05-26T15:20:30+02:00 INFO  [naga::back::spv::writer] Skip function Some("to_tile_position")
+2025-05-26T15:20:30+02:00 INFO  [naga::back::spv::writer] Skip function Some("to_tile_position")
+2025-05-26T15:20:30+02:00 INFO  [naga::back::spv::writer] Skip function Some("to_tile_position")
+2025-05-26T15:20:30+02:00 INFO  [naga::back::spv::writer] Skip function Some("to_tile_position")
+2025-05-26T15:20:30+02:00 INFO  [naga::back::spv::writer] Skip function Some("to_tile_position")
+2025-05-26T15:20:30+02:00 INFO  [naga::back::spv::writer] Skip function Some("to_tile_position")
+2025-05-26T15:20:30+02:00 INFO  [naga::back::spv::writer] Skip function Some("to_device_position_impl")
+2025-05-26T15:20:30+02:00 INFO  [naga::back::spv::writer] Skip function Some("to_device_position")
+2025-05-26T15:20:30+02:00 INFO  [naga::back::spv::writer] Skip function Some("to_device_position_transformed")
+2025-05-26T15:20:30+02:00 INFO  [naga::back::spv::writer] Skip function Some("to_tile_position")
+2025-05-26T15:20:30+02:00 INFO  [naga::back::spv::writer] Skip function Some("blend_color")
+2025-05-26T15:20:30+02:00 INFO  [blade_graphics::hal::surface] Using surface present mode MAILBOX
+2025-05-26T15:20:30+02:00 INFO  [blade_graphics::hal::surface] Retaining current format: Bgra8UnormSrgb
+2025-05-26T15:20:30+02:00 INFO  [blade_graphics::hal::resource] Creating texture 0x55cc8e9a9840 of size 1024x1024x1 and format R8Unorm, name 'atlas', handle 0
+2025-05-26T15:20:30+02:00 INFO  [blade_graphics::hal::resource] Creating buffer 0x55cc8e9472d0 of size 65536, name 'chunk-0', handle 1
+2025-05-26T15:20:30+02:00 INFO  [blade_graphics::hal::resource] Creating buffer 0x55cc8eac38f0 of size 4096, name 'chunk-0', handle 2
+2025-05-26T15:20:30+02:00 INFO  [blade_graphics::hal::resource] Creating buffer 0x55cc8ea8d2f0 of size 8400, name 'chunk-1', handle 3
+2025-05-26T15:20:30+02:00 INFO  [db] Opening main db
+2025-05-26T15:20:30+02:00 INFO  [db] Opening main db
+2025-05-26T15:20:30+02:00 INFO  [blade_graphics::hal::resource] Creating buffer 0x55cc8e5fdf60 of size 7504, name 'chunk-2', handle 4
+2025-05-26T15:20:30+02:00 INFO  [blade_graphics::hal::surface] Using surface present mode MAILBOX
+2025-05-26T15:20:30+02:00 INFO  [blade_graphics::hal::surface] Retaining current format: Bgra8UnormSrgb
+2025-05-26T15:20:30+02:00 INFO  [blade_graphics::hal::surface] Using surface present mode MAILBOX
+2025-05-26T15:20:30+02:00 INFO  [blade_graphics::hal::surface] Retaining current format: Bgra8UnormSrgb
+2025-05-26T15:20:30+02:00 INFO  [db] Opening main db
+2025-05-26T15:20:31+02:00 INFO  [util] set environment variables from shell:/run/current-system/sw/bin/zsh, path:/run/wrappers/bin:/home/jordi/.local/share/flatpak/exports/bin:/var/lib/flatpak/exports/bin:/home/jordi/.nix-profile/bin:/nix/profile/bin:/home/jordi/.local/state/nix/profile/bin:/etc/profiles/per-user/jordi/bin:/nix/var/nix/profiles/default/bin:/run/current-system/sw/bin:/nix/store/583p5x4ywdkkfz4s94ddyixz7v77msya-util-linux-2.41-bin/bin:/nix/store/dbpnwnqqz25a7hhcjhs4d6yzasw282zw-newt-0.52.24/bin:/nix/store/g5h4kh5jy4648fwqyd43fmp2j90c0k08-libnotify-0.8.4/bin:/nix/store/41pi0jiyvlhxgpfhxzvb44w1skc8yp4z-bash-interactive-5.2p37/bin:/nix/store/6rrvwz3dpqpbd1f9z40wzahfcmxnx9gh-systemd-257.5/bin:/nix/store/kc2rx8xxqa5735y621cyw3nqqgbs66v8-python3-3.12.10-env/bin:/nix/store/dhhyjclgmh9yki4xhls4vfc3ysgwyi10-dmenu-5.3/bin:/nix/store/583p5x4ywdkkfz4s94ddyixz7v77msya-util-linux-2.41-bin/bin:/nix/store/dbpnwnqqz25a7hhcjhs4d6yzasw282zw-newt-0.52.24/bin:/nix/store/g5h4kh5jy4648fwqyd43fmp2j90c0k08-libnotify-0.8.4/bin:/nix/store/41pi0jiyvlhxgpfhxzvb44w1skc8yp4z-bash-interactive-5.2p37/bin:/nix/store/6rrvwz3dpqpbd1f9z40wzahfcmxnx9gh-systemd-257.5/bin:/nix/store/kc2rx8xxqa5735y621cyw3nqqgbs66v8-python3-3.12.10-env/bin:/nix/store/dhhyjclgmh9yki4xhls4vfc3ysgwyi10-dmenu-5.3/bin:/nix/store/2zx2a8g7bkl2lkrql10hnjjpzz4wq09c-binutils-wrapper-2.44/bin:/nix/store/1xsb8cdydxciwjkfnysa0knsxx1djfz4-hyprland-qtutils-0.1.4/bin:/nix/store/vn9pridbsjvqcqjjyyp1c66nxrpcg9zp-pciutils-3.13.0/bin:/nix/store/wml83snzb3qvyx5dazdlh1wyfilyl7pn-pkgconf-wrapper-2.4.3/bin:/nix/store/vgh97jcwawq0fr23nlp8i6phx4v2l3ik-ghostty-1.1.3/bin:/nix/store/50lhzpd68v47x6jy0b8b3p91n2zv3lv4-nodejs-22.14.0/bin
+2025-05-26T15:20:32+02:00 INFO  [blade_graphics::hal::resource] Creating buffer 0x55cc8ea27120 of size 7616, name 'chunk-3', handle 5
+2025-05-26T15:20:32+02:00 INFO  [blade_graphics::hal::resource] Creating buffer 0x55cc8ee997b0 of size 8960, name 'chunk-4', handle 6
+2025-05-26T15:20:32+02:00 INFO  [blade_graphics::hal::resource] Creating buffer 0x55cc8ebac760 of size 16352, name 'chunk-5', handle 7
+2025-05-26T15:20:33+02:00 INFO  [blade_graphics::hal::resource] Creating buffer 0x55cc8e9beee0 of size 16352, name 'chunk-6', handle 8
+2025-05-26T15:20:35+02:00 INFO  [*unknown*] perform;
+2025-05-26T15:20:35+02:00 INFO  [*unknown*] authenticate;
+2025-05-26T15:20:35+02:00 INFO  [*unknown*] write_command; command=Auth(Some(External), Some([49, 48, 48, 48]))
+2025-05-26T15:20:35+02:00 INFO  [*unknown*] write_commands; commands=[Auth(Some(External), Some([49, 48, 48, 48]))] extra_bytes=None
+2025-05-26T15:20:35+02:00 INFO  [*unknown*] perform;
+2025-05-26T15:20:35+02:00 INFO  [*unknown*] authenticate;
+2025-05-26T15:20:35+02:00 INFO  [*unknown*] write_command; command=Auth(Some(External), Some([49, 48, 48, 48]))
+2025-05-26T15:20:35+02:00 INFO  [*unknown*] write_commands; commands=[Auth(Some(External), Some([49, 48, 48, 48]))] extra_bytes=None
+2025-05-26T15:20:35+02:00 INFO  [*unknown*] perform;
+2025-05-26T15:20:35+02:00 INFO  [*unknown*] authenticate;
+2025-05-26T15:20:35+02:00 INFO  [*unknown*] write_command; command=Auth(Some(External), Some([49, 48, 48, 48]))
+2025-05-26T15:20:35+02:00 INFO  [*unknown*] write_commands; commands=[Auth(Some(External), Some([49, 48, 48, 48]))] extra_bytes=None
+2025-05-26T15:20:35+02:00 INFO  [*unknown*] perform;
+2025-05-26T15:20:35+02:00 INFO  [*unknown*] authenticate;
+2025-05-26T15:20:35+02:00 INFO  [*unknown*] write_command; command=Auth(Some(External), Some([49, 48, 48, 48]))
+2025-05-26T15:20:35+02:00 INFO  [*unknown*] write_commands; commands=[Auth(Some(External), Some([49, 48, 48, 48]))] extra_bytes=None
+2025-05-26T15:20:35+02:00 INFO  [*unknown*] perform;
+2025-05-26T15:20:35+02:00 INFO  [*unknown*] authenticate;
+2025-05-26T15:20:35+02:00 INFO  [*unknown*] write_command; command=Auth(Some(External), Some([49, 48, 48, 48]))
+2025-05-26T15:20:35+02:00 INFO  [*unknown*] write_commands; commands=[Auth(Some(External), Some([49, 48, 48, 48]))] extra_bytes=None
+2025-05-26T15:20:35+02:00 INFO  [*unknown*] read_command;
+2025-05-26T15:20:35+02:00 INFO  [*unknown*] read_commands; n_commands=1
+2025-05-26T15:20:35+02:00 INFO  [*unknown*] read_command;
+2025-05-26T15:20:35+02:00 INFO  [*unknown*] send_secondary_commands;
+2025-05-26T15:20:35+02:00 INFO  [*unknown*] read_command;
+2025-05-26T15:20:35+02:00 INFO  [*unknown*] read_commands; n_commands=1
+2025-05-26T15:20:35+02:00 INFO  [*unknown*] send_secondary_commands;
+2025-05-26T15:20:35+02:00 INFO  [*unknown*] write_commands; commands=[NegotiateUnixFD, Begin] extra_bytes=Some([108, 1, 0, 1, 0, 0, 0, 0, 21, 0, 0, 0, 109, 0, 0, 0, 1, 1, 111, 0, 21, 0, 0, 0, 47, 111, 114, 103, 47, 102, 114, 101, 101, 100, 101, 115, 107, 116, 111, 112, 47, 68, 66, 117, 115, 0, 0, 0, 2, 1, 115, 0, 20, 0, 0, 0, 111, 114, 103, 46, 102, 114, 101, 101, 100, 101, 115, 107, 116, 111, 112, 46, 68, 66, 117, 115, 0, 0, 0, 0, 3, 1, 115, 0, 5, 0, 0, 0, 72, 101, 108, 108, 111, 0, 0, 0, 6, 1, 115, 0, 20, 0, 0, 0, 111, 114, 103, 46, 102, 114, 101, 101, 100, 101, 115, 107, 116, 111, 112, 46, 68, 66, 117, 115, 0, 0, 0, 0])
+2025-05-26T15:20:35+02:00 INFO  [*unknown*] read_command;
+2025-05-26T15:20:35+02:00 INFO  [*unknown*] read_commands; n_commands=1
+2025-05-26T15:20:35+02:00 INFO  [*unknown*] send_secondary_commands;
+2025-05-26T15:20:35+02:00 INFO  [*unknown*] read_commands; n_commands=1
+2025-05-26T15:20:35+02:00 INFO  [*unknown*] read_command;
+2025-05-26T15:20:35+02:00 INFO  [*unknown*] read_commands; n_commands=1
+2025-05-26T15:20:35+02:00 INFO  [*unknown*] send_secondary_commands;
+2025-05-26T15:20:35+02:00 INFO  [*unknown*] write_commands; commands=[NegotiateUnixFD, Begin] extra_bytes=Some([108, 1, 0, 1, 0, 0, 0, 0, 23, 0, 0, 0, 109, 0, 0, 0, 1, 1, 111, 0, 21, 0, 0, 0, 47, 111, 114, 103, 47, 102, 114, 101, 101, 100, 101, 115, 107, 116, 111, 112, 47, 68, 66, 117, 115, 0, 0, 0, 2, 1, 115, 0, 20, 0, 0, 0, 111, 114, 103, 46, 102, 114, 101, 101, 100, 101, 115, 107, 116, 111, 112, 46, 68, 66, 117, 115, 0, 0, 0, 0, 3, 1, 115, 0, 5, 0, 0, 0, 72, 101, 108, 108, 111, 0, 0, 0, 6, 1, 115, 0, 20, 0, 0, 0, 111, 114, 103, 46, 102, 114, 101, 101, 100, 101, 115, 107, 116, 111, 112, 46, 68, 66, 117, 115, 0, 0, 0, 0])
+2025-05-26T15:20:35+02:00 INFO  [*unknown*] receive_secondary_responses; expected_n_responses=1
+2025-05-26T15:20:35+02:00 INFO  [*unknown*] read_commands; n_commands=1
+2025-05-26T15:20:35+02:00 INFO  [*unknown*] write_commands; commands=[NegotiateUnixFD, Begin] extra_bytes=Some([108, 1, 0, 1, 0, 0, 0, 0, 20, 0, 0, 0, 109, 0, 0, 0, 1, 1, 111, 0, 21, 0, 0, 0, 47, 111, 114, 103, 47, 102, 114, 101, 101, 100, 101, 115, 107, 116, 111, 112, 47, 68, 66, 117, 115, 0, 0, 0, 2, 1, 115, 0, 20, 0, 0, 0, 111, 114, 103, 46, 102, 114, 101, 101, 100, 101, 115, 107, 116, 111, 112, 46, 68, 66, 117, 115, 0, 0, 0, 0, 3, 1, 115, 0, 5, 0, 0, 0, 72, 101, 108, 108, 111, 0, 0, 0, 6, 1, 115, 0, 20, 0, 0, 0, 111, 114, 103, 46, 102, 114, 101, 101, 100, 101, 115, 107, 116, 111, 112, 46, 68, 66, 117, 115, 0, 0, 0, 0])
+2025-05-26T15:20:35+02:00 INFO  [*unknown*] receive_secondary_responses; expected_n_responses=1
+2025-05-26T15:20:35+02:00 INFO  [*unknown*] read_commands; n_commands=1
+2025-05-26T15:20:35+02:00 INFO  [*unknown*] perform;
+2025-05-26T15:20:35+02:00 INFO  [*unknown*] authenticate;
+2025-05-26T15:20:35+02:00 INFO  [*unknown*] write_command; command=Auth(Some(External), Some([49, 48, 48, 48]))
+2025-05-26T15:20:35+02:00 INFO  [*unknown*] write_commands; commands=[Auth(Some(External), Some([49, 48, 48, 48]))] extra_bytes=None
+2025-05-26T15:20:35+02:00 INFO  [*unknown*] read_command;
+2025-05-26T15:20:35+02:00 INFO  [*unknown*] read_commands; n_commands=1
+2025-05-26T15:20:35+02:00 INFO  [*unknown*] send_secondary_commands;
+2025-05-26T15:20:35+02:00 INFO  [*unknown*] write_commands; commands=[NegotiateUnixFD, Begin] extra_bytes=Some([108, 1, 0, 1, 0, 0, 0, 0, 24, 0, 0, 0, 109, 0, 0, 0, 1, 1, 111, 0, 21, 0, 0, 0, 47, 111, 114, 103, 47, 102, 114, 101, 101, 100, 101, 115, 107, 116, 111, 112, 47, 68, 66, 117, 115, 0, 0, 0, 2, 1, 115, 0, 20, 0, 0, 0, 111, 114, 103, 46, 102, 114, 101, 101, 100, 101, 115, 107, 116, 111, 112, 46, 68, 66, 117, 115, 0, 0, 0, 0, 3, 1, 115, 0, 5, 0, 0, 0, 72, 101, 108, 108, 111, 0, 0, 0, 6, 1, 115, 0, 20, 0, 0, 0, 111, 114, 103, 46, 102, 114, 101, 101, 100, 101, 115, 107, 116, 111, 112, 46, 68, 66, 117, 115, 0, 0, 0, 0])
+2025-05-26T15:20:35+02:00 INFO  [*unknown*] receive_secondary_responses; expected_n_responses=1
+2025-05-26T15:20:35+02:00 INFO  [*unknown*] read_commands; n_commands=1
+2025-05-26T15:20:35+02:00 INFO  [*unknown*] write_commands; commands=[NegotiateUnixFD, Begin] extra_bytes=Some([108, 1, 0, 1, 0, 0, 0, 0, 22, 0, 0, 0, 109, 0, 0, 0, 1, 1, 111, 0, 21, 0, 0, 0, 47, 111, 114, 103, 47, 102, 114, 101, 101, 100, 101, 115, 107, 116, 111, 112, 47, 68, 66, 117, 115, 0, 0, 0, 2, 1, 115, 0, 20, 0, 0, 0, 111, 114, 103, 46, 102, 114, 101, 101, 100, 101, 115, 107, 116, 111, 112, 46, 68, 66, 117, 115, 0, 0, 0, 0, 3, 1, 115, 0, 5, 0, 0, 0, 72, 101, 108, 108, 111, 0, 0, 0, 6, 1, 115, 0, 20, 0, 0, 0, 111, 114, 103, 46, 102, 114, 101, 101, 100, 101, 115, 107, 116, 111, 112, 46, 68, 66, 117, 115, 0, 0, 0, 0])
+2025-05-26T15:20:35+02:00 INFO  [*unknown*] send_secondary_commands;
+2025-05-26T15:20:35+02:00 INFO  [*unknown*] socket reader;
+2025-05-26T15:20:35+02:00 INFO  [*unknown*] read_socket;
+2025-05-26T15:20:35+02:00 INFO  [*unknown*] receive_secondary_responses; expected_n_responses=1
+2025-05-26T15:20:35+02:00 INFO  [*unknown*] read_commands; n_commands=1
+2025-05-26T15:20:35+02:00 INFO  [*unknown*] receive_secondary_responses; expected_n_responses=1
+2025-05-26T15:20:35+02:00 INFO  [*unknown*] read_commands; n_commands=1
+2025-05-26T15:20:35+02:00 INFO  [*unknown*] socket reader;
+2025-05-26T15:20:35+02:00 INFO  [*unknown*] read_socket;
+2025-05-26T15:20:35+02:00 INFO  [*unknown*] socket reader;
+2025-05-26T15:20:35+02:00 INFO  [*unknown*] read_socket;
+2025-05-26T15:20:35+02:00 INFO  [*unknown*] read_socket;
+2025-05-26T15:20:35+02:00 INFO  [*unknown*] socket reader;
+2025-05-26T15:20:35+02:00 INFO  [*unknown*] read_socket;
+2025-05-26T15:20:35+02:00 INFO  [*unknown*] read_socket;
+2025-05-26T15:20:35+02:00 INFO  [*unknown*] write_commands; commands=[NegotiateUnixFD, Begin] extra_bytes=Some([108, 1, 0, 1, 0, 0, 0, 0, 26, 0, 0, 0, 109, 0, 0, 0, 1, 1, 111, 0, 21, 0, 0, 0, 47, 111, 114, 103, 47, 102, 114, 101, 101, 100, 101, 115, 107, 116, 111, 112, 47, 68, 66, 117, 115, 0, 0, 0, 2, 1, 115, 0, 20, 0, 0, 0, 111, 114, 103, 46, 102, 114, 101, 101, 100, 101, 115, 107, 116, 111, 112, 46, 68, 66, 117, 115, 0, 0, 0, 0, 3, 1, 115, 0, 5, 0, 0, 0, 72, 101, 108, 108, 111, 0, 0, 0, 6, 1, 115, 0, 20, 0, 0, 0, 111, 114, 103, 46, 102, 114, 101, 101, 100, 101, 115, 107, 116, 111, 112, 46, 68, 66, 117, 115, 0, 0, 0, 0])
+2025-05-26T15:20:35+02:00 INFO  [*unknown*] read_socket;
+2025-05-26T15:20:35+02:00 INFO  [*unknown*] read_socket;
+2025-05-26T15:20:35+02:00 INFO  [*unknown*] socket reader;
+2025-05-26T15:20:35+02:00 INFO  [*unknown*] read_socket;
+2025-05-26T15:20:35+02:00 INFO  [*unknown*] receive_secondary_responses; expected_n_responses=1
+2025-05-26T15:20:35+02:00 INFO  [*unknown*] read_commands; n_commands=1
+2025-05-26T15:20:35+02:00 INFO  [*unknown*] read_socket;
+2025-05-26T15:20:35+02:00 INFO  [*unknown*] socket reader;
+2025-05-26T15:20:35+02:00 INFO  [*unknown*] read_socket;
+2025-05-26T15:20:35+02:00 INFO  [*unknown*] read_socket;
+2025-05-26T15:20:35+02:00 INFO  [*unknown*] read_socket;
+2025-05-26T15:20:35+02:00 INFO  [*unknown*] read_socket;
+2025-05-26T15:20:35+02:00 INFO  [*unknown*] read_socket;
+2025-05-26T15:20:35+02:00 INFO  [*unknown*] read_socket;
+2025-05-26T15:20:35+02:00 INFO  [*unknown*] read_socket;
+2025-05-26T15:20:35+02:00 INFO  [*unknown*] read_socket;
+2025-05-26T15:20:35+02:00 INFO  [*unknown*] read_socket;
+2025-05-26T15:20:35+02:00 INFO  [*unknown*] read_socket;
+2025-05-26T15:20:35+02:00 INFO  [*unknown*] read_socket;
+2025-05-26T15:20:35+02:00 INFO  [*unknown*] read_socket;
+2025-05-26T15:20:35+02:00 INFO  [*unknown*] read_socket;
+2025-05-26T15:20:35+02:00 INFO  [*unknown*] read_socket;
+2025-05-26T15:20:35+02:00 INFO  [*unknown*] read_socket;
+2025-05-26T15:20:35+02:00 INFO  [*unknown*] read_socket;
+2025-05-26T15:20:35+02:00 INFO  [*unknown*] read_socket;
+2025-05-26T15:20:35+02:00 INFO  [*unknown*] read_socket;
+2025-05-26T15:20:35+02:00 INFO  [*unknown*] read_socket;
+2025-05-26T15:20:35+02:00 INFO  [*unknown*] read_socket;
+2025-05-26T15:20:35+02:00 INFO  [*unknown*] read_socket;
+2025-05-26T15:20:35+02:00 INFO  [*unknown*] read_socket;
+2025-05-26T15:20:35+02:00 INFO  [*unknown*] read_socket;
+2025-05-26T15:20:35+02:00 INFO  [*unknown*] read_socket;
+2025-05-26T15:20:35+02:00 INFO  [*unknown*] read_socket;
+2025-05-26T15:20:35+02:00 INFO  [*unknown*] read_socket;
+2025-05-26T15:20:38+02:00 INFO  [blade_graphics::hal::resource] Creating buffer 0x55cc8ed8c7b0 of size 19600, name 'chunk-7', handle 9
+2025-05-26T15:20:39+02:00 INFO  [*unknown*] new;
+2025-05-26T15:20:39+02:00 INFO  [*unknown*] {}; task_name="org.freedesktop.portal.FileChooser proxy caching"
+2025-05-26T15:20:39+02:00 INFO  [*unknown*] read_socket;
+2025-05-26T15:20:39+02:00 INFO  [*unknown*] read_socket;
+2025-05-26T15:20:39+02:00 INFO  [*unknown*] keep_updated;
+2025-05-26T15:20:39+02:00 INFO  [*unknown*] new;
+2025-05-26T15:20:39+02:00 INFO  [*unknown*] {}; task_name="org.freedesktop.portal.Request proxy caching"
+2025-05-26T15:20:39+02:00 INFO  [*unknown*] read_socket;
+2025-05-26T15:20:39+02:00 INFO  [*unknown*] read_socket;
+2025-05-26T15:20:39+02:00 INFO  [*unknown*] read_socket;
+2025-05-26T15:20:39+02:00 INFO  [*unknown*] read_socket;
+2025-05-26T15:20:39+02:00 INFO  [*unknown*] read_socket;
+2025-05-26T15:20:39+02:00 INFO  [*unknown*] read_socket;
+2025-05-26T15:20:39+02:00 INFO  [*unknown*] read_socket;
+2025-05-26T15:20:39+02:00 INFO  [blade_graphics::hal::surface] Using surface present mode MAILBOX
+2025-05-26T15:20:39+02:00 INFO  [blade_graphics::hal::surface] Retaining current format: Bgra8UnormSrgb
+2025-05-26T15:20:55+02:00 INFO  [*unknown*] read_socket;
+2025-05-26T15:20:55+02:00 INFO  [*unknown*] read_socket;
+2025-05-26T15:20:55+02:00 INFO  [worktree] containing git repository: None
+2025-05-26T15:20:55+02:00 INFO  [zed::zed] Using GPU: GpuSpecs { is_software_emulated: false, device_name: "NVIDIA GeForce GTX 1080", driver_name: "NVIDIA", driver_info: "575.51.02" }
+2025-05-26T15:20:55+02:00 INFO  [blade_graphics::hal::surface] Using surface present mode MAILBOX
+2025-05-26T15:20:55+02:00 INFO  [blade_graphics::hal::surface] Retaining current format: Bgra8UnormSrgb
+2025-05-26T15:20:55+02:00 INFO  [blade_graphics::hal::resource] Creating buffer 0x55cc8e635620 of size 29568, name 'chunk-8', handle 10
+2025-05-26T15:21:00+02:00 INFO  [*unknown*] perform;
+2025-05-26T15:21:00+02:00 INFO  [*unknown*] perform;
+2025-05-26T15:21:00+02:00 INFO  [*unknown*] authenticate;
+2025-05-26T15:21:00+02:00 INFO  [*unknown*] write_command; command=Auth(Some(External), Some([49, 48, 48, 48]))
+2025-05-26T15:21:00+02:00 INFO  [*unknown*] write_commands; commands=[Auth(Some(External), Some([49, 48, 48, 48]))] extra_bytes=None
+2025-05-26T15:21:00+02:00 INFO  [*unknown*] authenticate;
+2025-05-26T15:21:00+02:00 INFO  [*unknown*] perform;
+2025-05-26T15:21:00+02:00 INFO  [*unknown*] authenticate;
+2025-05-26T15:21:00+02:00 INFO  [*unknown*] write_command; command=Auth(Some(External), Some([49, 48, 48, 48]))
+2025-05-26T15:21:00+02:00 INFO  [*unknown*] write_commands; commands=[Auth(Some(External), Some([49, 48, 48, 48]))] extra_bytes=None
+2025-05-26T15:21:00+02:00 INFO  [*unknown*] read_command;
+2025-05-26T15:21:00+02:00 INFO  [*unknown*] read_commands; n_commands=1
+2025-05-26T15:21:00+02:00 INFO  [*unknown*] perform;
+2025-05-26T15:21:00+02:00 INFO  [*unknown*] authenticate;
+2025-05-26T15:21:00+02:00 INFO  [*unknown*] write_command; command=Auth(Some(External), Some([49, 48, 48, 48]))
+2025-05-26T15:21:00+02:00 INFO  [*unknown*] write_commands; commands=[Auth(Some(External), Some([49, 48, 48, 48]))] extra_bytes=None
+2025-05-26T15:21:00+02:00 INFO  [*unknown*] write_command; command=Auth(Some(External), Some([49, 48, 48, 48]))
+2025-05-26T15:21:00+02:00 INFO  [*unknown*] write_commands; commands=[Auth(Some(External), Some([49, 48, 48, 48]))] extra_bytes=None
+2025-05-26T15:21:00+02:00 INFO  [*unknown*] perform;
+2025-05-26T15:21:00+02:00 INFO  [*unknown*] authenticate;
+2025-05-26T15:21:00+02:00 INFO  [*unknown*] write_command; command=Auth(Some(External), Some([49, 48, 48, 48]))
+2025-05-26T15:21:00+02:00 INFO  [*unknown*] write_commands; commands=[Auth(Some(External), Some([49, 48, 48, 48]))] extra_bytes=None
+2025-05-26T15:21:00+02:00 INFO  [*unknown*] send_secondary_commands;
+2025-05-26T15:21:00+02:00 INFO  [*unknown*] read_command;
+2025-05-26T15:21:00+02:00 INFO  [*unknown*] read_commands; n_commands=1
+2025-05-26T15:21:00+02:00 INFO  [*unknown*] read_command;
+2025-05-26T15:21:00+02:00 INFO  [*unknown*] read_commands; n_commands=1
+2025-05-26T15:21:00+02:00 INFO  [*unknown*] send_secondary_commands;
+2025-05-26T15:21:00+02:00 INFO  [*unknown*] send_secondary_commands;
+2025-05-26T15:21:00+02:00 INFO  [*unknown*] write_commands; commands=[NegotiateUnixFD, Begin] extra_bytes=Some([108, 1, 0, 1, 0, 0, 0, 0, 61, 0, 0, 0, 109, 0, 0, 0, 1, 1, 111, 0, 21, 0, 0, 0, 47, 111, 114, 103, 47, 102, 114, 101, 101, 100, 101, 115, 107, 116, 111, 112, 47, 68, 66, 117, 115, 0, 0, 0, 2, 1, 115, 0, 20, 0, 0, 0, 111, 114, 103, 46, 102, 114, 101, 101, 100, 101, 115, 107, 116, 111, 112, 46, 68, 66, 117, 115, 0, 0, 0, 0, 3, 1, 115, 0, 5, 0, 0, 0, 72, 101, 108, 108, 111, 0, 0, 0, 6, 1, 115, 0, 20, 0, 0, 0, 111, 114, 103, 46, 102, 114, 101, 101, 100, 101, 115, 107, 116, 111, 112, 46, 68, 66, 117, 115, 0, 0, 0, 0])
+2025-05-26T15:21:00+02:00 INFO  [*unknown*] read_command;
+2025-05-26T15:21:00+02:00 INFO  [*unknown*] read_commands; n_commands=1
+2025-05-26T15:21:00+02:00 INFO  [*unknown*] perform;
+2025-05-26T15:21:00+02:00 INFO  [*unknown*] authenticate;
+2025-05-26T15:21:00+02:00 INFO  [*unknown*] write_command; command=Auth(Some(External), Some([49, 48, 48, 48]))
+2025-05-26T15:21:00+02:00 INFO  [*unknown*] write_commands; commands=[Auth(Some(External), Some([49, 48, 48, 48]))] extra_bytes=None
+2025-05-26T15:21:00+02:00 INFO  [*unknown*] read_command;
+2025-05-26T15:21:00+02:00 INFO  [*unknown*] read_commands; n_commands=1
+2025-05-26T15:21:00+02:00 INFO  [*unknown*] write_commands; commands=[NegotiateUnixFD, Begin] extra_bytes=Some([108, 1, 0, 1, 0, 0, 0, 0, 60, 0, 0, 0, 109, 0, 0, 0, 1, 1, 111, 0, 21, 0, 0, 0, 47, 111, 114, 103, 47, 102, 114, 101, 101, 100, 101, 115, 107, 116, 111, 112, 47, 68, 66, 117, 115, 0, 0, 0, 2, 1, 115, 0, 20, 0, 0, 0, 111, 114, 103, 46, 102, 114, 101, 101, 100, 101, 115, 107, 116, 111, 112, 46, 68, 66, 117, 115, 0, 0, 0, 0, 3, 1, 115, 0, 5, 0, 0, 0, 72, 101, 108, 108, 111, 0, 0, 0, 6, 1, 115, 0, 20, 0, 0, 0, 111, 114, 103, 46, 102, 114, 101, 101, 100, 101, 115, 107, 116, 111, 112, 46, 68, 66, 117, 115, 0, 0, 0, 0])
+2025-05-26T15:21:00+02:00 INFO  [*unknown*] write_commands; commands=[NegotiateUnixFD, Begin] extra_bytes=Some([108, 1, 0, 1, 0, 0, 0, 0, 62, 0, 0, 0, 109, 0, 0, 0, 1, 1, 111, 0, 21, 0, 0, 0, 47, 111, 114, 103, 47, 102, 114, 101, 101, 100, 101, 115, 107, 116, 111, 112, 47, 68, 66, 117, 115, 0, 0, 0, 2, 1, 115, 0, 20, 0, 0, 0, 111, 114, 103, 46, 102, 114, 101, 101, 100, 101, 115, 107, 116, 111, 112, 46, 68, 66, 117, 115, 0, 0, 0, 0, 3, 1, 115, 0, 5, 0, 0, 0, 72, 101, 108, 108, 111, 0, 0, 0, 6, 1, 115, 0, 20, 0, 0, 0, 111, 114, 103, 46, 102, 114, 101, 101, 100, 101, 115, 107, 116, 111, 112, 46, 68, 66, 117, 115, 0, 0, 0, 0])
+2025-05-26T15:21:00+02:00 INFO  [*unknown*] receive_secondary_responses; expected_n_responses=1
+2025-05-26T15:21:00+02:00 INFO  [*unknown*] read_commands; n_commands=1
+2025-05-26T15:21:00+02:00 INFO  [*unknown*] send_secondary_commands;
+2025-05-26T15:21:00+02:00 INFO  [*unknown*] send_secondary_commands;
+2025-05-26T15:21:00+02:00 INFO  [*unknown*] write_commands; commands=[NegotiateUnixFD, Begin] extra_bytes=Some([108, 1, 0, 1, 0, 0, 0, 0, 63, 0, 0, 0, 109, 0, 0, 0, 1, 1, 111, 0, 21, 0, 0, 0, 47, 111, 114, 103, 47, 102, 114, 101, 101, 100, 101, 115, 107, 116, 111, 112, 47, 68, 66, 117, 115, 0, 0, 0, 2, 1, 115, 0, 20, 0, 0, 0, 111, 114, 103, 46, 102, 114, 101, 101, 100, 101, 115, 107, 116, 111, 112, 46, 68, 66, 117, 115, 0, 0, 0, 0, 3, 1, 115, 0, 5, 0, 0, 0, 72, 101, 108, 108, 111, 0, 0, 0, 6, 1, 115, 0, 20, 0, 0, 0, 111, 114, 103, 46, 102, 114, 101, 101, 100, 101, 115, 107, 116, 111, 112, 46, 68, 66, 117, 115, 0, 0, 0, 0])
+2025-05-26T15:21:00+02:00 INFO  [*unknown*] receive_secondary_responses; expected_n_responses=1
+2025-05-26T15:21:00+02:00 INFO  [*unknown*] read_commands; n_commands=1
+2025-05-26T15:21:00+02:00 INFO  [*unknown*] write_commands; commands=[NegotiateUnixFD, Begin] extra_bytes=Some([108, 1, 0, 1, 0, 0, 0, 0, 64, 0, 0, 0, 109, 0, 0, 0, 1, 1, 111, 0, 21, 0, 0, 0, 47, 111, 114, 103, 47, 102, 114, 101, 101, 100, 101, 115, 107, 116, 111, 112, 47, 68, 66, 117, 115, 0, 0, 0, 2, 1, 115, 0, 20, 0, 0, 0, 111, 114, 103, 46, 102, 114, 101, 101, 100, 101, 115, 107, 116, 111, 112, 46, 68, 66, 117, 115, 0, 0, 0, 0, 3, 1, 115, 0, 5, 0, 0, 0, 72, 101, 108, 108, 111, 0, 0, 0, 6, 1, 115, 0, 20, 0, 0, 0, 111, 114, 103, 46, 102, 114, 101, 101, 100, 101, 115, 107, 116, 111, 112, 46, 68, 66, 117, 115, 0, 0, 0, 0])
+2025-05-26T15:21:00+02:00 INFO  [*unknown*] receive_secondary_responses; expected_n_responses=1
+2025-05-26T15:21:00+02:00 INFO  [*unknown*] read_commands; n_commands=1
+2025-05-26T15:21:00+02:00 INFO  [*unknown*] receive_secondary_responses; expected_n_responses=1
+2025-05-26T15:21:00+02:00 INFO  [*unknown*] read_commands; n_commands=1
+2025-05-26T15:21:00+02:00 INFO  [*unknown*] socket reader;
+2025-05-26T15:21:00+02:00 INFO  [*unknown*] read_socket;
+2025-05-26T15:21:00+02:00 INFO  [*unknown*] socket reader;
+2025-05-26T15:21:00+02:00 INFO  [*unknown*] read_socket;
+2025-05-26T15:21:00+02:00 INFO  [*unknown*] receive_secondary_responses; expected_n_responses=1
+2025-05-26T15:21:00+02:00 INFO  [*unknown*] read_commands; n_commands=1
+2025-05-26T15:21:00+02:00 INFO  [*unknown*] read_socket;
+2025-05-26T15:21:00+02:00 INFO  [*unknown*] socket reader;
+2025-05-26T15:21:00+02:00 INFO  [*unknown*] read_socket;
+2025-05-26T15:21:00+02:00 INFO  [*unknown*] socket reader;
+2025-05-26T15:21:00+02:00 INFO  [*unknown*] read_socket;
+2025-05-26T15:21:00+02:00 INFO  [*unknown*] read_command;
+2025-05-26T15:21:00+02:00 INFO  [*unknown*] read_commands; n_commands=1
+2025-05-26T15:21:00+02:00 INFO  [*unknown*] read_socket;
+2025-05-26T15:21:00+02:00 INFO  [*unknown*] socket reader;
+2025-05-26T15:21:00+02:00 INFO  [*unknown*] read_socket;
+2025-05-26T15:21:00+02:00 INFO  [*unknown*] read_socket;
+2025-05-26T15:21:00+02:00 INFO  [*unknown*] send_secondary_commands;
+2025-05-26T15:21:00+02:00 INFO  [*unknown*] read_socket;
+2025-05-26T15:21:00+02:00 INFO  [*unknown*] read_socket;
+2025-05-26T15:21:00+02:00 INFO  [*unknown*] write_commands; commands=[NegotiateUnixFD, Begin] extra_bytes=Some([108, 1, 0, 1, 0, 0, 0, 0, 67, 0, 0, 0, 109, 0, 0, 0, 1, 1, 111, 0, 21, 0, 0, 0, 47, 111, 114, 103, 47, 102, 114, 101, 101, 100, 101, 115, 107, 116, 111, 112, 47, 68, 66, 117, 115, 0, 0, 0, 2, 1, 115, 0, 20, 0, 0, 0, 111, 114, 103, 46, 102, 114, 101, 101, 100, 101, 115, 107, 116, 111, 112, 46, 68, 66, 117, 115, 0, 0, 0, 0, 3, 1, 115, 0, 5, 0, 0, 0, 72, 101, 108, 108, 111, 0, 0, 0, 6, 1, 115, 0, 20, 0, 0, 0, 111, 114, 103, 46, 102, 114, 101, 101, 100, 101, 115, 107, 116, 111, 112, 46, 68, 66, 117, 115, 0, 0, 0, 0])
+2025-05-26T15:21:00+02:00 INFO  [*unknown*] receive_secondary_responses; expected_n_responses=1
+2025-05-26T15:21:00+02:00 INFO  [*unknown*] read_commands; n_commands=1
+2025-05-26T15:21:00+02:00 INFO  [*unknown*] socket reader;
+2025-05-26T15:21:00+02:00 INFO  [*unknown*] read_socket;
+2025-05-26T15:21:00+02:00 INFO  [*unknown*] read_socket;
+2025-05-26T15:21:00+02:00 INFO  [*unknown*] read_socket;
+2025-05-26T15:21:00+02:00 INFO  [*unknown*] read_socket;
+2025-05-26T15:21:00+02:00 INFO  [*unknown*] read_socket;
+2025-05-26T15:21:00+02:00 INFO  [*unknown*] read_socket;
+2025-05-26T15:21:00+02:00 INFO  [*unknown*] read_socket;
+2025-05-26T15:21:00+02:00 INFO  [*unknown*] read_socket;
+2025-05-26T15:21:00+02:00 INFO  [*unknown*] read_socket;
+2025-05-26T15:21:00+02:00 INFO  [*unknown*] read_socket;
+2025-05-26T15:21:00+02:00 INFO  [*unknown*] read_socket;
+2025-05-26T15:21:00+02:00 INFO  [*unknown*] read_socket;
+2025-05-26T15:21:00+02:00 INFO  [*unknown*] read_socket;
+2025-05-26T15:21:00+02:00 INFO  [*unknown*] read_socket;
+2025-05-26T15:21:00+02:00 INFO  [*unknown*] read_socket;
+2025-05-26T15:21:00+02:00 INFO  [*unknown*] read_socket;
+2025-05-26T15:21:00+02:00 INFO  [*unknown*] read_socket;
+2025-05-26T15:21:00+02:00 INFO  [*unknown*] read_socket;
+2025-05-26T15:21:00+02:00 INFO  [*unknown*] read_socket;
+2025-05-26T15:21:00+02:00 INFO  [*unknown*] read_socket;
+2025-05-26T15:21:00+02:00 INFO  [*unknown*] read_socket;
+2025-05-26T15:21:00+02:00 INFO  [*unknown*] read_socket;
+2025-05-26T15:21:00+02:00 INFO  [*unknown*] read_socket;
+2025-05-26T15:21:00+02:00 INFO  [*unknown*] read_socket;
+2025-05-26T15:21:00+02:00 INFO  [*unknown*] read_socket;
+2025-05-26T15:21:00+02:00 INFO  [*unknown*] read_socket;
+2025-05-26T15:21:01+02:00 INFO  [project::environment] using project environment variables shell launched in "/home/jordi/onedrive/master/m41_dss". PATH="/run/wrappers/bin:/home/jordi/.local/share/flatpak/exports/bin:/var/lib/flatpak/exports/bin:/home/jordi/.nix-profile/bin:/nix/profile/bin:/home/jordi/.local/state/nix/profile/bin:/etc/profiles/per-user/jordi/bin:/nix/var/nix/profiles/default/bin:/run/current-system/sw/bin:/nix/store/583p5x4ywdkkfz4s94ddyixz7v77msya-util-linux-2.41-bin/bin:/nix/store/dbpnwnqqz25a7hhcjhs4d6yzasw282zw-newt-0.52.24/bin:/nix/store/g5h4kh5jy4648fwqyd43fmp2j90c0k08-libnotify-0.8.4/bin:/nix/store/41pi0jiyvlhxgpfhxzvb44w1skc8yp4z-bash-interactive-5.2p37/bin:/nix/store/6rrvwz3dpqpbd1f9z40wzahfcmxnx9gh-systemd-257.5/bin:/nix/store/kc2rx8xxqa5735y621cyw3nqqgbs66v8-python3-3.12.10-env/bin:/nix/store/dhhyjclgmh9yki4xhls4vfc3ysgwyi10-dmenu-5.3/bin:/nix/store/583p5x4ywdkkfz4s94ddyixz7v77msya-util-linux-2.41-bin/bin:/nix/store/dbpnwnqqz25a7hhcjhs4d6yzasw282zw-newt-0.52.24/bin:/nix/store/g5h4kh5jy4648fwqyd43fmp2j90c0k08-libnotify-0.8.4/bin:/nix/store/41pi0jiyvlhxgpfhxzvb44w1skc8yp4z-bash-interactive-5.2p37/bin:/nix/store/6rrvwz3dpqpbd1f9z40wzahfcmxnx9gh-systemd-257.5/bin:/nix/store/kc2rx8xxqa5735y621cyw3nqqgbs66v8-python3-3.12.10-env/bin:/nix/store/dhhyjclgmh9yki4xhls4vfc3ysgwyi10-dmenu-5.3/bin:/nix/store/2zx2a8g7bkl2lkrql10hnjjpzz4wq09c-binutils-wrapper-2.44/bin:/nix/store/1xsb8cdydxciwjkfnysa0knsxx1djfz4-hyprland-qtutils-0.1.4/bin:/nix/store/vn9pridbsjvqcqjjyyp1c66nxrpcg9zp-pciutils-3.13.0/bin:/nix/store/wml83snzb3qvyx5dazdlh1wyfilyl7pn-pkgconf-wrapper-2.4.3/bin:/nix/store/vgh97jcwawq0fr23nlp8i6phx4v2l3ik-ghostty-1.1.3/bin:/nix/store/50lhzpd68v47x6jy0b8b3p91n2zv3lv4-nodejs-22.14.0/bin"
+2025-05-26T15:21:01+02:00 INFO  [blade_graphics::hal::resource] Creating buffer 0x55cc8ee9c130 of size 36512, name 'chunk-9', handle 11
+2025-05-26T15:21:03+02:00 INFO  [blade_graphics::hal::resource] Creating buffer 0x55cc8f37e270 of size 51632, name 'chunk-10', handle 12
+2025-05-26T15:21:03+02:00 ERROR [editor::git::blame] failed to get git blame data: failed to find a git repository for buffer
+2025-05-26T15:21:04+02:00 INFO  [blade_graphics::hal::resource] Creating buffer 0x55cc8ee317e0 of size 51632, name 'chunk-11', handle 13
+2025-05-26T15:21:05+02:00 INFO  [blade_graphics::hal::resource] Creating buffer 0x55cc8f310230 of size 53200, name 'chunk-12', handle 14
+2025-05-26T15:21:05+02:00 INFO  [blade_graphics::hal::descriptor] Creating a descriptor pool for at most 16 sets
+2025-05-26T15:21:05+02:00 INFO  [blade_graphics::hal::descriptor] Creating a descriptor pool for at most 16 sets
+2025-05-26T15:21:05+02:00 INFO  [blade_graphics::hal::descriptor] Creating a descriptor pool for at most 256 sets
+2025-05-26T15:21:05+02:00 INFO  [blade_graphics::hal::descriptor] Creating a descriptor pool for at most 256 sets
+2025-05-26T15:21:08+02:00 ERROR [editor::git::blame] failed to get git blame data: failed to find a git repository for buffer
+2025-05-26T15:21:13+02:00 INFO  [blade_graphics::hal::surface] Using surface present mode MAILBOX
+2025-05-26T15:21:13+02:00 INFO  [blade_graphics::hal::surface] Retaining current format: Bgra8UnormSrgb
+2025-05-26T15:21:16+02:00 INFO  [extension_host] installing extension r latest version
+2025-05-26T15:21:18+02:00 INFO  [extension_host] rebuilt extension index in 1.202697ms
+2025-05-26T15:21:18+02:00 INFO  [extension_host] extensions updated. loading 1, reloading 0, unloading 0
+2025-05-26T15:21:18+02:00 INFO  [project::lsp_store] attempting to start language server "r_language_server", path: "/home/jordi/onedrive/master/m41_dss", id: 1
+2025-05-26T15:21:18+02:00 INFO  [lsp] starting language server process. binary path: "/run/current-system/sw/bin/R", working directory: "/home/jordi/onedrive/master/m41_dss", args: ["--slave", "-e", "languageserver::run()"]
+2025-05-26T15:21:24+02:00 INFO  [blade_graphics::hal::resource] Creating buffer 0x55cc8f2a3e10 of size 53648, name 'chunk-13', handle 15
+2025-05-26T15:21:24+02:00 INFO  [blade_graphics::hal::resource] Creating buffer 0x55cc8ef65690 of size 58016, name 'chunk-14', handle 16
+2025-05-26T15:21:24+02:00 INFO  [blade_graphics::hal::resource] Creating buffer 0x55cc8f76ef10 of size 63616, name 'chunk-15', handle 17
+2025-05-26T15:21:24+02:00 INFO  [blade_graphics::hal::resource] Creating buffer 0x55cc8ea23cb0 of size 65184, name 'chunk-16', handle 18
+2025-05-26T15:21:26+02:00 ERROR [*unknown*] cannot read LSP message headers
+2025-05-26T15:21:26+02:00 ERROR [*unknown*] server shut down
+2025-05-26T15:21:26+02:00 ERROR [project::lsp_store] Failed to start language server "r_language_server": oneshot canceled
+2025-05-26T15:21:26+02:00 ERROR [project::lsp_store] server stderr: "Error in loadNamespace(x) : there is no package called ‘languageserver’\nCalls: loadNamespace -> withRestarts -> withOneRestart -> doWithOneRestart\nExecution halted\n"
+2025-05-26T15:21:26+02:00 ERROR [*unknown*] Broken pipe (os error 32)
+2025-05-26T15:21:33+02:00 INFO  [blade_graphics::hal::resource] Creating texture 0x55cc8edc4700 of size 1024x1024x1 and format R16Float, name 'msaa path texture', handle 19
+2025-05-26T15:21:33+02:00 INFO  [blade_graphics::hal::resource] Creating texture 0x55cc8ebe5220 of size 1024x1024x1 and format R16Float, name 'atlas', handle 20
+2025-05-26T15:21:45+02:00 INFO  [blade_graphics::hal::resource] Creating buffer 0x55cc8eda7360 of size 66080, name 'chunk-17', handle 21
+2025-05-26T15:21:46+02:00 INFO  [blade_graphics::hal::resource] Creating buffer 0x55cc8eda5b40 of size 66864, name 'chunk-18', handle 22
+2025-05-26T15:21:47+02:00 INFO  [blade_graphics::hal::resource] Creating buffer 0x55cc8f3910c0 of size 69328, name 'chunk-19', handle 23
+2025-05-26T15:21:50+02:00 INFO  [blade_graphics::hal::resource] Creating buffer 0x55cc8edacb40 of size 113344, name 'chunk-20', handle 24
+2025-05-26T15:21:51+02:00 INFO  [blade_graphics::hal::resource] Creating buffer 0x55cc8f7c7f40 of size 113456, name 'chunk-21', handle 25
+2025-05-26T15:31:32+02:00 INFO  [*unknown*] read_socket;
+2025-05-26T15:31:42+02:00 ERROR [*unknown*] OtherError(IoError(Os { code: 32, kind: BrokenPipe, message: "Broken pipe" }))
+2025-05-26T15:31:42+02:00 INFO  [blade_graphics::hal::resource] Destroying texture 0x55cc8e9a9840, handle 0
+2025-05-26T15:31:42+02:00 INFO  [blade_graphics::hal::resource] Destroying texture 0x55cc8ebe5220, handle 20
+2025-05-26T15:31:42+02:00 INFO  [blade_graphics::hal::resource] Destroying texture 0x55cc8edc4700, handle 19
+2025-05-26T15:31:42+02:00 INFO  [blade_graphics::hal::resource] Destroying buffer 0x55cc8e9472d0, handle 1
+2025-05-26T15:31:42+02:00 INFO  [blade_graphics::hal::resource] Destroying buffer 0x55cc8ea27120, handle 5
+2025-05-26T15:31:42+02:00 INFO  [blade_graphics::hal::resource] Destroying buffer 0x55cc8f2a3e10, handle 15
+2025-05-26T15:31:42+02:00 INFO  [blade_graphics::hal::resource] Destroying buffer 0x55cc8ea23cb0, handle 18
+2025-05-26T15:31:42+02:00 INFO  [blade_graphics::hal::resource] Destroying buffer 0x55cc8ee9c130, handle 11
+2025-05-26T15:31:42+02:00 INFO  [blade_graphics::hal::resource] Destroying buffer 0x55cc8e635620, handle 10
+2025-05-26T15:31:42+02:00 INFO  [blade_graphics::hal::resource] Destroying buffer 0x55cc8f37e270, handle 12
+2025-05-26T15:31:42+02:00 INFO  [blade_graphics::hal::resource] Destroying buffer 0x55cc8f3910c0, handle 23
+2025-05-26T15:31:42+02:00 INFO  [blade_graphics::hal::resource] Destroying buffer 0x55cc8eac38f0, handle 2
+2025-05-26T15:31:42+02:00 INFO  [blade_graphics::hal::resource] Destroying buffer 0x55cc8e5fdf60, handle 4
+2025-05-26T15:31:42+02:00 INFO  [blade_graphics::hal::resource] Destroying buffer 0x55cc8f310230, handle 14
+2025-05-26T15:31:42+02:00 INFO  [blade_graphics::hal::resource] Destroying buffer 0x55cc8ee317e0, handle 13
+2025-05-26T15:31:42+02:00 INFO  [blade_graphics::hal::resource] Destroying buffer 0x55cc8edacb40, handle 24
+2025-05-26T15:31:42+02:00 INFO  [blade_graphics::hal::resource] Destroying buffer 0x55cc8ee997b0, handle 6
+2025-05-26T15:31:42+02:00 INFO  [blade_graphics::hal::resource] Destroying buffer 0x55cc8e9beee0, handle 8
+2025-05-26T15:31:42+02:00 INFO  [blade_graphics::hal::resource] Destroying buffer 0x55cc8ef65690, handle 16
+2025-05-26T15:31:42+02:00 INFO  [blade_graphics::hal::resource] Destroying buffer 0x55cc8eda7360, handle 21
+2025-05-26T15:31:42+02:00 INFO  [blade_graphics::hal::resource] Destroying buffer 0x55cc8f7c7f40, handle 25
+2025-05-26T15:31:42+02:00 INFO  [blade_graphics::hal::resource] Destroying buffer 0x55cc8ea8d2f0, handle 3
+2025-05-26T15:31:42+02:00 INFO  [blade_graphics::hal::resource] Destroying buffer 0x55cc8ebac760, handle 7
+2025-05-26T15:31:42+02:00 INFO  [blade_graphics::hal::resource] Destroying buffer 0x55cc8ed8c7b0, handle 9
+2025-05-26T15:31:42+02:00 INFO  [blade_graphics::hal::resource] Destroying buffer 0x55cc8f76ef10, handle 17
+2025-05-26T15:31:42+02:00 INFO  [blade_graphics::hal::resource] Destroying buffer 0x55cc8eda5b40, handle 22

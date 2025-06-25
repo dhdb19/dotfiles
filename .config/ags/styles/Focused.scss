@@ -1,0 +1,26 @@
+.Focused {
+  all: unset;
+  background-image: none;
+  background-color: blue;
+  min-height: 5em;
+  margin: 5em 5em 5em 5em;
+
+  label {
+    min-height: 5em;
+    background-color: blue;
+    margin: 5em 5em 5em 5em;
+  }
+
+  box {
+    min-height: 5em;
+    margin: 5em 5em 5em 5em;
+    /* width: 6em; */
+    background-color: blue;
+
+    label {
+      min-height: 5em;
+      margin: 5em 5em 5em 5em;
+      background-color: blue;
+    }
+  }
+}

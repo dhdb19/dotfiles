@@ -1,0 +1,237 @@
+import { Variable, GLib, bind } from "astal"
+import { App, Astal, Gtk, Gdk } from "astal/gtk4"
+import Hyprland from "gi://AstalHyprland"
+import Mpris from "gi://AstalMpris"
+import Wp from "gi://AstalWp"
+import Gio from "gi://Gio";
+
+export function AudioMenu() {
+
+  const barButton = new Gtk.MenuButton({})
+
+  const buttonImage = new Gtk.Image({
+    // icon_name : "audio-volume-high-symbolic",
+    icon_name : Wp.get_default().audio.default_speaker.icon ,
+    pixel_size: "20"
+  })
+
+  barButton.set_child(buttonImage)
+
+  const wp = Wp.get_default()
+  print("AudioMenu wp:", wp)
+
+  const audio = wp.audio
+  console.log("AudioMenu audio:", audio)
+
+  print("+++++++++++++++++++", audio.default_speaker.icon)
+
+  GLib.timeout_add(GLib.PRIORITY_DEFAULT, 1000, () => {
+    print("Wp.get_default():", Wp.get_default());
+    print("Delayed check:");
+    print("audio", audio);
+    print("defaultSpeaker:", audio?.defaultSpeaker);
+    print("speakers:", audio?.speakers);
+    audio.speakers.forEach((s, i) => {
+      print(`Speaker ${i} type:`, s.constructor?.name ?? typeof s);
+      print(`GType:`, s.$gtype);
+      print("Description", s.description)
+  });
+    return GLib.SOURCE_REMOVE;
+  })
+
+
+  const popover = new Gtk.Popover()
+  popover.set_has_arrow(false)
+  popover.set_position(Gtk.PositionType.BOTTOM)
+  // popover.set_parent(barButton)
+  
+  const selectedIndex = Variable<number>(0);
+
+  const item_type = audio.speakers?.[0]?.$gtype ?? Wp.Endpoint.$gtype;
+  print("ITEM_TYPE:", Wp.Endpoint.$gtype)
+  
+  const dropdown = new Gtk.DropDown({
+    model: new Gio.ListStore({item_type: Wp.Endpoint.$gtype}),
+    selected: selectedIndex,
+    factory: new Gtk.SignalListItemFactory(),
+    halign: Gtk.Align.FILL
+  })
+
+  dropdown.factory.connect("setup", (_factory, item) => {
+    const label = new Gtk.Label({ label: "Placeholder"})
+    item.set_child(label);
+    print("%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%DIAGNOSTIC_LABEL:", label)
+  })
+
+  dropdown.factory.connect("bind", (_factory, item) => {
+    const device = item.get_item() as Wp.Endpoint;
+    const label = item.get_child() as Gtk.Label;
+    print("\nBinding item:", device);
+    print("Output device:", device?.description);
+    print("Selected", dropdown.get_selected_item());
+    print("===========isDefault?", device?.is_default)
+    device.set_is_default(true);
+    print(device?.is_default)
+    print(audio.default_speaker)
+    label.label = device?.description|| "Unknown Device"
+    print("++++++++++", device.volume)
+  })
+
+  dropdown.get_model().connect('items-changed', (_list, position, removed, added) => {
+    console.log(`${removed} items were removed, and ${added} added at ${position}`);
+  });    
+
+  // function UpdateDevices() {
+  //   const speakers = audio.speakers
+  //   if (!speakers) {
+  //     return;
+  //   }
+
+  //   const model = dropdown.get_model() as Gio.ListStore<Wp.Device>;
+  //   model.remove_all?.()
+  //   speakers.forEach((device, i) => {
+  //     console.log(` Device ${i}:`, device?.description);
+  //     model.append(device)});
+  //   const index = speakers.indexOf(audio.speaker)
+  //   selectedIndex.value = index >= 0 ? index: 0;
+  // }
+  //
+//   function UpdateDevices() {
+//     const speakers = audio.speakers;
+//     print("Updating Devices:", speakers);
+
+//     if (!speakers || speakers.length === 0) {
+//         print("No speakers available");
+//         return;
+//     }
+
+//     const model = dropdown.get_model() as Gio.ListStore<Wp.Endpoint>;
+//     model.remove_all?.();
+
+//     speakers.forEach((device, index) => {
+//         print(`Speaker ${index}:`, device.description);
+//         model.append(device);
+//     });
+
+//     const index = speakers.indexOf(audio.speaker);
+//     selectedIndex.value = index >= 0 ? index : 0;
+// }
+//
+
+  function UpdateDevices() {
+      GLib.timeout_add(GLib.PRIORITY_DEFAULT, 300, () => {
+        audio.speakers.forEach((s, i) => {
+          print(`Speaker ${i} type:`, s.constructor?.name ?? typeof s);
+          print(`GType:`, s.$gtype);
+          print("Description", s.description)
+        });
+        const speakers = audio.speakers
+        const model = dropdown.get_model() as Gio.ListStore<Wp.Endpoint>;
+        print("%%%%%%%%%%%%%APPEND")
+        speakers.forEach((device, idx) => {
+          print(`Adding speaker ${idx}:`, device?.description ?? "No description");
+          model.append(device);
+        });
+        print("???????????mode:", model.item_type, model.n_items)
+        const index = speakers.indexOf(audio.speaker);
+        print("%%%%%%%%%%%%%%%INDEX", index)
+        selectedIndex.value = index >= 0 ? index : 0;
+        print("%%%%%%%%%%%%%SELECTED_INDEX", selectedIndex)
+        // const index = speakers.indexOf(audio.speaker);
+        // selectedIndex.value = index >= 0 ? index : 0;
+        // bind(dropdown, "selected_item")
+        dropdown.set_selected(1)
+        print("§§§§§§§§InsideLoop:", dropdown.get_selected_item())
+        // audio.default_speaker = dropdown.get_selected_item()
+      return GLib.SOURCE_REMOVE;
+      })
+
+    // const speakers = audio.speakers;
+    // print("Updating Devices");
+
+    // if (!speakers?.length) {
+    //     print("No speakers available");
+    //     return;
+    // }
+
+    // print(`Appending ${speakers.length} speakers to dropdown...`);
+
+    // model.remove_all?.();
+
+
+}
+
+  // bind(audio, "speakers").as(() => {
+  //   GLib.timeout_add(GLib.PRIORITY_DEFAULT, 100, () => {
+  //     UpdateDevices();
+  //     return GLib.SOURCE_REMOVE;
+  //   })
+  //   // print("audio.speakers:", audio.speakers);
+  //   // UpdateDevices();
+  // });
+
+  UpdateDevices();
+
+  
+  function VolumeSlider() {
+    // const volumeVar = bind(stream, "volume")
+    const speaker = Wp.get_default().audio.get_default_speaker()
+    print("=?=???==?=?=??=?=", speaker, speaker.volume)
+    const slider = new Gtk.Scale({
+      adjustment: new Gtk.Adjustment({
+        lower: 0,
+        upper: 100,
+        value:   () => {
+          GLib.timeout_add(GLib.PRIORITY_DEFAULT, 500, () => {
+            print("=?=???==?=?=??=?=", speaker, speaker.volume)
+            bind(speaker, "volume")
+          return GLib.SOURCE_REMOVE;
+          })
+        }
+      }),
+
+  })
+    //   slider.connect("value-changed", () => {
+    //     stream.volume = slider.get_value()
+    // })
+
+    return slider
+  }
+
+
+  const someButton = new Gtk.Button()
+  someButton.set_label("Hey")
+  
+  
+  function MenuBox() {
+
+  const menubox = new Gtk.Box({
+    orientation: Gtk.Orientation.VERTICAL
+  })
+
+  menubox.append(dropdown)
+  menubox.append(VolumeSlider())
+  menubox.append(someButton)
+  
+  return menubox
+  
+  }
+
+  // const audioMenuBox = new Gtk.Box({
+  //   orientation: Gtk.Orientation.VERTICAL
+  // })
+  // dropdownBox.append(dropdown)
+  // dropdownBox.append(slider)
+
+  popover.set_child(MenuBox())
+
+  // popover.set_child(sliderBox)
+
+  barButton.set_popover(popover)
+
+  // print(audio.speakers)
+  // console.log(dropdown.get_model())
+  
+  return barButton
+
+}

@@ -235,12 +235,13 @@
       </metadata>
     </info>
   </bookmark>
-  <bookmark href="file:///home/jordi/onedrive/master/m41_dss" added="2025-05-10T13:47:46.064310Z" modified="2025-05-10T13:47:46.064312Z" visited="2025-05-10T13:47:46.064310Z">
+  <bookmark href="file:///home/jordi/onedrive/master/m41_dss" added="2025-05-10T13:47:46.064310Z" modified="2025-05-26T13:20:55.750562Z" visited="2025-05-10T13:47:46.064310Z">
     <info>
       <metadata owner="http://freedesktop.org">
         <mime:mime-type type="inode/directory"/>
         <bookmark:applications>
           <bookmark:application name="codium" exec="&apos;codium %u&apos;" modified="2025-05-10T13:47:46.064311Z" count="1"/>
+          <bookmark:application name="xdg-desktop-portal-gtk" exec="&apos;xdg-desktop-portal-gtk %u&apos;" modified="2025-05-26T13:20:55.750561Z" count="2"/>
         </bookmark:applications>
       </metadata>
     </info>
@@ -255,12 +256,13 @@
       </metadata>
     </info>
   </bookmark>
-  <bookmark href="file:///home/jordi/onedrive/master/m41_dms" added="2025-05-13T18:10:56.419124Z" modified="2025-05-13T18:10:56.419127Z" visited="2025-05-13T18:10:56.419125Z">
+  <bookmark href="file:///home/jordi/onedrive/master/m41_dms" added="2025-05-13T18:10:56.419124Z" modified="2025-05-26T12:58:25.923774Z" visited="2025-05-13T18:10:56.419125Z">
     <info>
       <metadata owner="http://freedesktop.org">
         <mime:mime-type type="inode/directory"/>
         <bookmark:applications>
           <bookmark:application name="codium" exec="&apos;codium %u&apos;" modified="2025-05-13T18:10:56.419125Z" count="1"/>
+          <bookmark:application name="xdg-desktop-portal-gtk" exec="&apos;xdg-desktop-portal-gtk %u&apos;" modified="2025-05-26T12:58:25.923773Z" count="2"/>
         </bookmark:applications>
       </metadata>
     </info>
@@ -281,6 +283,466 @@
         <mime:mime-type type="application/x-tiled-tsx"/>
         <bookmark:applications>
           <bookmark:application name="xdg-desktop-portal-gtk" exec="&apos;xdg-desktop-portal-gtk %u&apos;" modified="2025-05-18T14:13:28.577921Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/jordi/downloads/s-l960.jpg" added="2025-05-21T11:52:49.645553Z" modified="2025-05-21T11:52:49.645556Z" visited="2025-05-21T11:52:49.645553Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="Zen" exec="&apos;zen %u&apos;" modified="2025-05-21T11:52:49.645555Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/jordi/downloads/3151_95_Refdisk_Logo.jpg" added="2025-05-21T11:55:16.201448Z" modified="2025-05-21T11:55:16.201453Z" visited="2025-05-21T11:55:16.201449Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="Zen" exec="&apos;zen %u&apos;" modified="2025-05-21T11:55:16.201451Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/jordi/downloads/ibm-terminal-3486-info-window-ii-retro-slika-183857420.jpg" added="2025-05-21T11:55:48.386186Z" modified="2025-05-21T11:55:48.386190Z" visited="2025-05-21T11:55:48.386187Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="Zen" exec="&apos;zen %u&apos;" modified="2025-05-21T11:55:48.386188Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/jordi/downloads/8S9XUT9.jpeg" added="2025-05-21T12:09:53.470167Z" modified="2025-05-21T12:09:53.470171Z" visited="2025-05-21T12:09:53.470168Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="Zen" exec="&apos;zen %u&apos;" modified="2025-05-21T12:09:53.470170Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/jordi/downloads/lfiycRN.jpeg" added="2025-05-21T12:11:30.212053Z" modified="2025-05-21T12:11:30.212058Z" visited="2025-05-21T12:11:30.212054Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="Zen" exec="&apos;zen %u&apos;" modified="2025-05-21T12:11:30.212055Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/jordi/downloads/Informatics_General_programmer_at_terminal.jpg" added="2025-05-21T12:13:28.882003Z" modified="2025-05-21T12:13:28.882008Z" visited="2025-05-21T12:13:28.882004Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="Zen" exec="&apos;zen %u&apos;" modified="2025-05-21T12:13:28.882006Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/jordi/downloads/Emblem_of_the_Holy_See_usual.svg" added="2025-05-24T11:39:59.237168Z" modified="2025-05-24T11:39:59.237171Z" visited="2025-05-24T11:39:59.237168Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/svg+xml"/>
+        <bookmark:applications>
+          <bookmark:application name="Zen" exec="&apos;zen %u&apos;" modified="2025-05-24T11:39:59.237169Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/jordi/onedrive/personal/pub_quiz/mitra.svg" added="2025-05-24T11:47:45.214592Z" modified="2025-05-24T11:47:45.214595Z" visited="2025-05-24T11:47:45.214592Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/svg+xml"/>
+        <bookmark:applications>
+          <bookmark:application name="Zen" exec="&apos;zen %u&apos;" modified="2025-05-24T11:47:45.214593Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/jordi/onedrive/personal/pub_quiz/fish.svg" added="2025-05-24T11:48:53.267507Z" modified="2025-05-24T11:48:53.267512Z" visited="2025-05-24T11:48:53.267508Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/svg+xml"/>
+        <bookmark:applications>
+          <bookmark:application name="Zen" exec="&apos;zen %u&apos;" modified="2025-05-24T11:48:53.267510Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/jordi/onedrive/personal/pub_quiz/crown.svg" added="2025-05-24T11:51:39.219394Z" modified="2025-05-24T11:51:39.219398Z" visited="2025-05-24T11:51:39.219395Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/svg+xml"/>
+        <bookmark:applications>
+          <bookmark:application name="Zen" exec="&apos;zen %u&apos;" modified="2025-05-24T11:51:39.219396Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/jordi/onedrive/personal/pub_quiz/germany.svg" added="2025-05-25T20:23:46.465934Z" modified="2025-05-25T20:30:18.615561Z" visited="2025-05-25T20:23:46.465935Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/svg+xml"/>
+        <bookmark:applications>
+          <bookmark:application name="Zen" exec="&apos;zen %u&apos;" modified="2025-05-25T20:30:18.615559Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/jordi/onedrive/personal/pub_quiz/germany_state.svg" added="2025-05-25T20:23:57.809041Z" modified="2025-05-25T20:23:57.809047Z" visited="2025-05-25T20:23:57.809042Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/svg+xml"/>
+        <bookmark:applications>
+          <bookmark:application name="Zen" exec="&apos;zen %u&apos;" modified="2025-05-25T20:23:57.809045Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/jordi/onedrive/personal/pub_quiz/germany_unofficial.svg" added="2025-05-25T20:24:17.285822Z" modified="2025-05-25T20:24:17.285826Z" visited="2025-05-25T20:24:17.285823Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/svg+xml"/>
+        <bookmark:applications>
+          <bookmark:application name="Zen" exec="&apos;zen %u&apos;" modified="2025-05-25T20:24:17.285824Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/jordi/onedrive/personal/pub_quiz/germany_std.svg" added="2025-05-25T20:26:00.299713Z" modified="2025-05-25T20:26:00.299717Z" visited="2025-05-25T20:26:00.299714Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/svg+xml"/>
+        <bookmark:applications>
+          <bookmark:application name="Zen" exec="&apos;zen %u&apos;" modified="2025-05-25T20:26:00.299715Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/jordi/onedrive/personal/pub_quiz/germany.png" added="2025-05-25T20:38:17.557066Z" modified="2025-05-25T20:38:17.557079Z" visited="2025-05-25T20:38:17.557067Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="Zen" exec="&apos;zen %u&apos;" modified="2025-05-25T20:38:17.557076Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/jordi/onedrive/personal/pub_quiz/germany_state.png" added="2025-05-25T20:39:26.143095Z" modified="2025-05-25T20:39:26.143100Z" visited="2025-05-25T20:39:26.143096Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="Zen" exec="&apos;zen %u&apos;" modified="2025-05-25T20:39:26.143098Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/jordi/onedrive/personal/pub_quiz/germany_std.png" added="2025-05-25T20:40:07.187674Z" modified="2025-05-25T20:40:07.187678Z" visited="2025-05-25T20:40:07.187675Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="Zen" exec="&apos;zen %u&apos;" modified="2025-05-25T20:40:07.187676Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/jordi/onedrive/personal/pub_quiz/germany_unofficial.png" added="2025-05-25T20:40:39.610368Z" modified="2025-05-25T20:40:39.610372Z" visited="2025-05-25T20:40:39.610369Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="Zen" exec="&apos;zen %u&apos;" modified="2025-05-25T20:40:39.610370Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/jordi/onedrive/personal/pub_quiz/texas.png" added="2025-05-25T20:47:26.525787Z" modified="2025-05-25T20:50:58.395321Z" visited="2025-05-25T20:47:26.525788Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="Zen" exec="&apos;zen %u&apos;" modified="2025-05-25T20:50:58.395320Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/jordi/onedrive/personal/pub_quiz/chile.png" added="2025-05-25T20:47:39.869317Z" modified="2025-05-25T20:50:58.395306Z" visited="2025-05-25T20:47:39.869318Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="Zen" exec="&apos;zen %u&apos;" modified="2025-05-25T20:50:58.395305Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/jordi/onedrive/personal/pub_quiz/liberia.png" added="2025-05-25T20:47:58.169867Z" modified="2025-05-25T20:50:58.395287Z" visited="2025-05-25T20:47:58.169867Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="Zen" exec="&apos;zen %u&apos;" modified="2025-05-25T20:50:58.395285Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/jordi/onedrive/personal/pub_quiz/panama.png" added="2025-05-25T20:49:53.458931Z" modified="2025-05-25T20:50:58.395301Z" visited="2025-05-25T20:49:53.458932Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="Zen" exec="&apos;zen %u&apos;" modified="2025-05-25T20:50:58.395300Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/jordi/onedrive/personal/pub_quiz/malta.png" added="2025-05-25T20:57:18.321821Z" modified="2025-05-25T21:03:19.269407Z" visited="2025-05-25T20:57:18.321821Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="Zen" exec="&apos;zen %u&apos;" modified="2025-05-25T21:03:19.269405Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/jordi/onedrive/personal/pub_quiz/china.png" added="2025-05-25T20:57:38.241091Z" modified="2025-05-25T21:03:04.808109Z" visited="2025-05-25T20:57:38.241092Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="Zen" exec="&apos;zen %u&apos;" modified="2025-05-25T21:03:04.808107Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/jordi/onedrive/personal/pub_quiz/greece.png" added="2025-05-25T21:04:20.620618Z" modified="2025-05-25T21:09:44.485057Z" visited="2025-05-25T21:04:20.620618Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="Zen" exec="&apos;zen %u&apos;" modified="2025-05-25T21:09:44.485055Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/jordi/onedrive/personal/pub_quiz/venice.png" added="2025-05-25T21:12:58.750799Z" modified="2025-05-25T21:13:38.510887Z" visited="2025-05-25T21:12:58.750800Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="Zen" exec="&apos;zen %u&apos;" modified="2025-05-25T21:13:38.510885Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/jordi/onedrive/personal/pub_quiz/spain_rep.png" added="2025-05-25T23:38:06.581281Z" modified="2025-05-25T23:38:17.861067Z" visited="2025-05-25T23:38:06.581281Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="Zen" exec="&apos;zen %u&apos;" modified="2025-05-25T23:38:17.861066Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/jordi/onedrive/personal/pub_quiz/hungary_rev.png" added="2025-05-26T00:09:32.671886Z" modified="2025-05-26T00:13:19.090804Z" visited="2025-05-26T00:09:32.671887Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="Zen" exec="&apos;zen %u&apos;" modified="2025-05-26T00:13:19.090802Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/jordi/onedrive/personal/pub_quiz/romania_rev.png" added="2025-05-26T00:10:22.053211Z" modified="2025-05-26T00:13:44.906406Z" visited="2025-05-26T00:10:22.053212Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="Zen" exec="&apos;zen %u&apos;" modified="2025-05-26T00:13:44.906403Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/jordi/onedrive/personal/pub_quiz/philippines.png" added="2025-05-26T00:19:43.178092Z" modified="2025-05-26T00:19:50.942698Z" visited="2025-05-26T00:19:43.178094Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="Zen" exec="&apos;zen %u&apos;" modified="2025-05-26T00:19:50.942696Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/jordi/onedrive/personal/pub_quiz/spongebob1.jpeg" added="2025-05-26T00:29:07.829298Z" modified="2025-05-26T00:29:07.829302Z" visited="2025-05-26T00:29:07.829299Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="Zen" exec="&apos;zen %u&apos;" modified="2025-05-26T00:29:07.829300Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/jordi/downloads/rkward.png" added="2025-05-26T13:22:35.102213Z" modified="2025-05-26T13:22:35.102217Z" visited="2025-05-26T13:22:35.102214Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2025-05-26T13:22:35.102215Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/jordi/onedrive/personal/pub_quiz/russia_nobg.png" added="2025-05-26T14:31:49.304649Z" modified="2025-05-26T14:39:16.305842Z" visited="2025-05-26T14:31:49.304650Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2025-05-26T14:39:16.305841Z" count="3"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/jordi/onedrive/personal/pub_quiz/russia_coa.png" added="2025-05-26T14:32:04.496890Z" modified="2025-05-26T14:32:04.779024Z" visited="2025-05-26T14:32:04.496891Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2025-05-26T14:32:04.779021Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/jordi/onedrive/personal/pub_quiz/serbia.png" added="2025-05-26T14:33:25.768344Z" modified="2025-05-26T14:39:16.305846Z" visited="2025-05-26T14:33:25.768345Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2025-05-26T14:39:16.305845Z" count="3"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/jordi/onedrive/personal/pub_quiz/albania.png" added="2025-05-26T14:33:51.670124Z" modified="2025-05-26T14:39:16.305814Z" visited="2025-05-26T14:33:51.670125Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2025-05-26T14:39:16.305812Z" count="3"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/jordi/onedrive/personal/pub_quiz/austria_hungary.png" added="2025-05-26T14:34:41.845649Z" modified="2025-05-26T14:39:16.305822Z" visited="2025-05-26T14:34:41.845649Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2025-05-26T14:39:16.305821Z" count="3"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/jordi/onedrive/personal/pub_quiz/constaninople.png" added="2025-05-26T14:38:35.547810Z" modified="2025-05-26T14:39:16.305838Z" visited="2025-05-26T14:38:35.547810Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2025-05-26T14:39:16.305837Z" count="3"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/jordi/onedrive/personal/pub_quiz/pope_coa.png" added="2025-05-27T17:05:24.479152Z" modified="2025-05-27T17:05:58.697141Z" visited="2025-05-27T17:05:24.479153Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2025-05-27T17:05:58.697139Z" count="3"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/jordi/onedrive/personal/pub_quiz/madrid.png" added="2025-05-27T18:40:25.711987Z" modified="2025-05-27T18:43:30.544829Z" visited="2025-05-27T18:40:25.711988Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2025-05-27T18:43:30.544820Z" count="3"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/jordi/onedrive/personal/pub_quiz/berlin.png" added="2025-05-27T18:40:54.628303Z" modified="2025-05-27T18:43:30.544799Z" visited="2025-05-27T18:40:54.628306Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2025-05-27T18:43:30.544797Z" count="3"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/jordi/onedrive/personal/pub_quiz/bern.png" added="2025-05-27T18:41:04.764061Z" modified="2025-05-27T18:43:30.544816Z" visited="2025-05-27T18:41:04.764061Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2025-05-27T18:43:30.544815Z" count="3"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/jordi/onedrive/personal/pub_quiz/sachsen_anhalt.png" added="2025-05-27T18:41:53.644716Z" modified="2025-05-27T18:41:53.925625Z" visited="2025-05-27T18:41:53.644717Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2025-05-27T18:41:53.925623Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/jordi/onedrive/personal/pub_quiz/philippines_peace.png" added="2025-05-27T19:10:21.353364Z" modified="2025-05-27T19:11:37.852806Z" visited="2025-05-27T19:10:21.353367Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2025-05-27T19:11:37.852803Z" count="3"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/jordi/onedrive/personal/pub_quiz/sedis_vacante.png" added="2025-05-27T19:18:56.875991Z" modified="2025-05-27T19:19:15.056498Z" visited="2025-05-27T19:18:56.875992Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2025-05-27T19:19:15.056496Z" count="3"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/jordi/downloads/Unbenanntes%20Dokument.pdf" added="2025-05-27T19:53:21.265592Z" modified="2025-05-27T19:53:21.265597Z" visited="2025-05-27T19:53:21.265593Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/pdf"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2025-05-27T19:53:21.265594Z" count="1"/>
         </bookmark:applications>
       </metadata>
     </info>

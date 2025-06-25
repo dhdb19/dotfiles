@@ -1,3 +1,0 @@
-2025-05-16 04:53:49.194 [info] update#setState disabled
-2025-05-16 04:53:49.194 [info] update#ctor - updates are disabled as there is no update URL
-2025-05-16 05:07:55.116 [error] [UtilityProcess type: shared-process, pid: 42742]: crashed with code 15 and reason 'killed'

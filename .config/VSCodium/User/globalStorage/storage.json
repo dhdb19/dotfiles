@@ -9,7 +9,11 @@
                 "folderUri": "file:///home/jordi/onedrive/master/m41_dms"
             }
         ],
-        "emptyWindows": []
+        "emptyWindows": [
+            {
+                "backupFolder": "1747832981130"
+            }
+        ]
     },
     "profileAssociations": {
         "workspaces": {
@@ -17,12 +21,13 @@
             "file:///home/jordi/onedrive/master/m41_dss": "__default__profile__",
             "file:///home/jordi/onedrive/master/m41_dss/m41.code-workspace": "__default__profile__"
         },
-        "emptyWindows": {}
+        "emptyWindows": {
+            "1747832981130": "__default__profile__"
+        }
     },
     "windowsState": {
         "lastActiveWindow": {
-            "folder": "file:///home/jordi/onedrive/master/m41_dms",
-            "backupPath": "/home/jordi/.config/VSCodium/Backups/c0088ecca0484284bea3c1f921259b00",
+            "backupPath": "/home/jordi/.config/VSCodium/Backups/1747832981130",
             "uiState": {
                 "mode": 0,
                 "x": 0,

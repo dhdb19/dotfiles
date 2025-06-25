@@ -1,0 +1,60 @@
+"$schema" = 'https://starship.rs/config-shema.json'
+
+command_timeout = 10000
+
+add_newline = false
+
+format = """
+***** >
+***** \
+$username\
+\
+$hostname\
+\
+$directory\
+$fill\
+[  ](bg:#000000)\
+$rlang\
+$typst\
+$python\
+$nix_shell
+***** $character"""
+
+[character]
+# success_symbol = '[→](bold green)'
+success_symbol = '[>](green)'
+error_symbol = '[>](red)'
+
+[directory]
+style = "fg:#000000 bg:#45EB45"
+format = "[ ***** > DIRECTORY](fg:#45EB45) [ $path ]($style)"
+truncation_length = 4
+truncation_symbol = ".../"
+
+[fill]
+symbol = " ***** "
+style = "fg:#000000 bg:#000000"
+
+[username]
+style_user = "bg:#000000 fg:#45EB45"
+style_root = "bg:#000000 fg:#45EB45"
+format = "[> USER](fg:#45EB45) [ $user ](bg:#45EB45 fg:#000000)"
+aliases = { "jordi" = "JORDI"}
+show_always = true
+
+[hostname]
+# format = "[$hostname ]($style)"
+format = "[ ***** > HOST](fg:#45EB45) [ $hostname ](bg:#45EB45 fg:#000000)"
+style = "fg:#45EB45 bg:#000000"
+ssh_only = false
+aliases = { "nixos" = "NIXOS"}
+
+[nix_shell]
+disabled = false
+impure_msg = ""
+symbol = ""
+format = "[ ***** >NIXSHELL](fg:#45EB45) [ $symbol  ](bg:#45Eb45 fg:#000000)"
+
+[shlvl]
+disabled = false
+symbol = "λ "

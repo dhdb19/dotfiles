@@ -1,0 +1,16 @@
+[core]
+custom-titlebar = true
+
+[ui]
+font-family = """
+Geist
+"""
+font-size = 14
+
+[editor]
+font-family = "monospace"
+
+[terminal]
+font-family = """
+monospace
+"""

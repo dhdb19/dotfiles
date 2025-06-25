@@ -8,7 +8,177 @@ import Wp from "gi://AstalWp"
 import Network from "gi://AstalNetwork"
 import Tray from "gi://AstalTray"
 import Gio from "gi://Gio";
+import { AudioMenu }from "./AudioMenu"
+import { SomethingElse } from "./AudioChat"
+import { AudioMenu2 } from "./AudioChat2"
+import { NetworkMenu } from "./NetworkMenu"
+import { FocusedClient } from "./FocusedClient"
 
+
+export function AudioOutputSelector(): Gtk.Button {
+    // Create the button shown in the bar
+    const outputButton = new Gtk.Button();
+
+    // Icon for the button
+    const icon = new Gtk.Image({
+        icon_name: 'audio-speakers-symbolic',
+        pixel_size: 20,
+    });
+    outputButton.set_child(icon);
+    outputButton.set_tooltip_text('Select audio output device');
+
+    // Create a popover for device selection
+    const popover = new Gtk.Popover();
+    popover.set_has_arrow(true);
+    popover.set_position(Gtk.PositionType.BOTTOM);
+    popover.set_parent(outputButton);
+
+    // Dropdown to hold device options
+    const dropdown = new Gtk.DropDown();
+    dropdown.hexpand = true;
+
+    // Add the dropdown to a container
+    const box = new Gtk.Box({
+        orientation: Gtk.Orientation.VERTICAL,
+        spacing: 6,
+        margin_top: 10,
+        margin_bottom: 10,
+        margin_start: 10,
+        margin_end: 10,
+    });
+    box.append(dropdown);
+    popover.set_child(box);
+
+    // Refresh the list of output devices
+    async function refreshDevices() {
+        const devices = await Wp.audio_get_devices(); // Assumes Wp provides this
+        console.log(devices)
+        // const names = devices.map(d => d.description || d.name);
+
+        // const store = Gtk.StringList.new(names);
+        // dropdown.set_model(store);
+
+        // const currentIndex = devices.findIndex(d => d.default);
+        // dropdown.set_selected(currentIndex >= 0 ? currentIndex : 0);
+
+        // dropdown.connect('notify::selected', async () => {
+        //     const selected = devices[dropdown.get_selected()];
+        //     if (selected)
+        //         await Wp.setDefaultSink(selected.id); // Assumes Wp provides this
+        // });
+    }
+
+    refreshDevices()
+    // Show the popover on click and refresh device list
+    outputButton.connect('clicked', () => {
+        refreshDevices();
+        popover.set_pointing_to(outputButton.get_allocation());
+        popover.popup();
+    });
+
+    return outputButton;
+}
+
+
+
+export function SomethingElse() {
+    const audio = Wp.get_default()?.audio;
+
+    const volumeVar = bind(stream, "volume")
+    const mutedVar = bind(stream, "isMuted")
+
+    const barIcon = bind(stream, "volume", "isMuted").as(() =>
+        new Gio.ThemedIcon({ name: volumeIcon(stream.volume, stream.isMuted) })
+    )
+
+    const muteButtonIcon = bind(stream, "volume", "isMuted").as(() =>
+        new Gio.ThemedIcon({ name: volumeIcon(stream.volume, stream.isMuted) })
+    )
+
+    const selectedIndex = Variable(0)
+
+    const dropdown = new Gtk.DropDown({
+        model: new Gio.ListStore({ item_type: Wp.Device.$gtype }),
+        selected: selectedIndex.bind(),
+        factory: new Gtk.SignalListItemFactory(),
+        halign: Gtk.Align.FILL,
+    })
+
+    dropdown.factory.connect("setup", (_f, item) => {
+        item.set_child(new Gtk.Label())
+    })
+    dropdown.factory.connect("bind", (_f, item) => {
+        const device = item.get_item()
+        const label = item.get_child()
+        label.label = device?.description || "Unknown Device"
+    })
+
+    const updateDevices = () => {
+        const speakers = wp.speakers
+        if (!speakers) {
+        // speakers not loaded yet
+            return
+      }
+      const model = dropdown.get_model()
+      model.remove_all?.()
+      speakers.forEach(d => model.append(d))
+      const index = speakers.indexOf(wp.speaker)
+      selectedIndex.value = index >= 0 ? index : 0
+    }
+
+    bind(wp, "speakers").as(updateDevices)
+
+    updateDevices()
+
+    selectedIndex.subscribe(idx => {
+        const model = dropdown.get_model()
+        const device = model.get_object?.(idx)
+        if (device) wp.speaker = device
+    })
+
+    const muteBtn = new Gtk.Button({
+        child: new Gtk.Image({ gicon: muteButtonIcon, pixelSize: 16 }),
+        tooltip_text: "Mute / Unmute",
+    })
+    muteBtn.connect("clicked", () => {
+        stream.isMuted = !stream.isMuted
+    })
+
+    const slider = new Gtk.Scale({
+        orientation: Gtk.Orientation.HORIZONTAL,
+        drawValue: false,
+        min: 0,
+        max: 1,
+        step: 0.01,
+        hexpand: true,
+        value: volumeVar.bind(),
+    })
+    slider.connect("value-changed", () => {
+        stream.volume = slider.get_value()
+    })
+
+    return (
+        <menubutton usePopover cssClasses={["AudioButton"]}>
+            <image gicon={barIcon} pixelSize={16} />
+            <popover>
+                <box
+                    orientation={Gtk.Orientation.VERTICAL}
+                    spacing={8}
+                    marginTop={8}
+                    marginBottom={8}
+                    marginStart={12}
+                    marginEnd={12}
+                >
+                    {dropdown}
+                    <box spacing={8} hexpand>
+                        {muteBtn}
+                        {slider}
+                    </box>
+                </box>
+            </popover>
+        </menubutton>
+    )
+}
 
 function LauncherButton() {
     const menu = new Gio.Menu()
@@ -26,12 +196,12 @@ function LauncherButton() {
 
     return (
         <menubutton
-            className="LauncherButton"
-            usePopover={false}
+            cssClasses={["LauncherButton"]}
+            usePopover={true}
             menuModel={menu}
             actionGroup={actions}
         >
-            <image gicon={fileIcon} />
+            <image cssClasses={["Logo"]} gicon={fileIcon} pixelSize={30} />
         </menubutton>
     )
 }
@@ -47,14 +217,14 @@ function SysTray() {
         return null
     }
 
-    return <box className="SysTray">
+    return <box cssClasses={["SysTray"]}>
         {bind(tray, "items").as(items => items.map(item => (
             <menubutton
                 tooltipMarkup={bind(item, "tooltipMarkup")}
                 usePopover={false}
                 actionGroup={bind(item, "actionGroup").as(ag => ["dbusmenu", ag])}
                 menuModel={bind(item, "menuModel")}>
-                <image gicon={bind(item, "gicon").as(getIconName)} />
+                <image pixelSize={22} gicon={bind(item, "gicon")} />
             </menubutton>
         )))}
     </box>
@@ -130,7 +300,7 @@ function Workspaces() {
     const hypr = Hyprland.get_default()
     const wsNames = ["Files", "Options", "Edit", "View", "Go"]
 
-    return <box className="Workspaces">
+    return <box cssClasses={["Workspaces"]}>
     {bind(hypr, "workspaces").as(wss => {
       // Filter out special workspaces as before
       const filteredWss = wss.filter(ws => !(ws.id >= -99 && ws.id <= -2))
@@ -169,20 +339,61 @@ function prettifyClass(cls: string): string {
     return last.charAt(0).toUpperCase() + last.slice(1);
 }
 
-function FocusedClient() {
+function FocusedClient_() {
     const hypr = Hyprland.get_default()
     const focused = bind(hypr, "focusedClient")
 
     return <box
         className="Focused"
-        visible={focused.as(Boolean)}>
+        visible={true}>
         {focused.as(client => (
             client && <label label={bind(client, "class").as(prettifyClass)} />
         ))}
     </box>
 }
 
-function Time({ format = "%a %d %b %H:%M" }) {
+
+function FocusedClientbla() {
+    const hypr = Hyprland.get_default()
+    const focused = bind(hypr, "focusedClient")
+
+    return <box
+        className="Focused"
+        visible={focused.as(Boolean)}>
+    </box>
+}
+
+
+function FocusedClientno() {
+    const hypr = Hyprland.get_default()
+    const focused = bind(hypr, "focusedClient")
+
+    const focusedBox = new Gtk.Box()
+
+    const focusedName = new Gtk.Label({label:"Programme"})
+
+    
+    focusedBox.append(focusedName)
+    focusedBox.set_visible(false)
+
+    const unfocusedBox = new Gtk.Box({
+        visible:true,
+    })
+
+    unfocusedBox.append(new Gtk.Label({label:"No Programme"}))
+
+    function thingy() {
+        if (focused.as(Boolean)) {
+            focusedBox
+        } else {
+            unfocusedBox
+        }
+    }
+
+    return thingy()
+}
+
+function Time({ format = "%a %d. %b %H:%M" }) {
     const time = Variable<string>("").poll(1000, () =>
         GLib.DateTime.new_now_local().format(format)!)
 
@@ -341,10 +552,12 @@ export default function Bar(monitor: Gdk.Monitor) {
 
     return <window
         // className="Bar"
+        visible
         gdkmonitor={monitor}
         exclusivity={Astal.Exclusivity.EXCLUSIVE}
-        anchor={TOP | LEFT | RIGHT}>
-        <centerbox className="Bar">
+        anchor={TOP | LEFT | RIGHT}
+        application={App}>
+        <centerbox cssClasses={["Bar"]}>
             <box hexpand halign={Gtk.Align.START}>
                 <LauncherButton />
                 <FocusedClient />
@@ -356,7 +569,8 @@ export default function Bar(monitor: Gdk.Monitor) {
             <box hexpand halign={Gtk.Align.END} >
                 <SysTray />
                 <Wifi />
-                <AudioSlider />
+                <AudioMenu />
+                <NetworkMenu />
                 <BatteryLevel />
                 <Time />
             </box>

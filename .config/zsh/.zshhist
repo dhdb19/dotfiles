@@ -13,7 +13,6 @@ eza --long --tree
 eza --long --grid
 lsd
 lsd -la
-hx .config/starship.toml
 kitten theme
 cd onedrive/master
 cd /usr/share/foot
@@ -62,7 +61,6 @@ hx  /home/jordi/.config/xkb/symbols/de-fkeys
 nix-shell -p xorg.xkbcomp
 xenv
 wenv
-wev
 bat layout.xkb
 hx layout.xkb
 tmux -h
@@ -76,7 +74,6 @@ rebooz
 which keyd
 keyd
 sudo keyd reaload
-keyd monitor
 sudo keyd monitor
 sudo keyd reload
 fastfetch --list-logos
@@ -99,8 +96,6 @@ rm -rf plasmatheme_cheetah.zip
 rm -rf apple1.svg
 hx .zsh
 tmux attach -t
-tmux --help
-tmux
 hx .zshrc
 hxfyf
 Hyprland exit
@@ -135,7 +130,6 @@ fastfetch -h disk-format
 fastfetch -h localip-format
 fastfetch -h battery-format
 fastfetch -h poweradapter-format
-t
 hx /home/jordi/.config/fastfetch/config.jsonc
 fastfetch -h packages-format
 labenv
@@ -169,7 +163,6 @@ cd ~/.local/sahre/themes
 git clone https://github.com/addy-dclxvi/openbox-theme-collections ~/.local/share/themes
 which zed
 which zed-editor
-zeditor
 nvtop --help
 nvtop -i
 logout
@@ -302,8 +295,6 @@ nix profile install github:youwen5/zen-browser-flake
 cd onedrve master
 cd ondedrive master
 cd onedrive/master/m41_d
-cd onedrive
-cd master
 cd onedrive master dms_41
 zoxide
 zoxide onedrive
@@ -323,7 +314,6 @@ cd onedrive/master/m41_dms
 cd onedrive master
 echo $TERM
 echo $TMUX
-cd .config/zsh
 cd tmux
 bat tmux.only.conf
 bat tmux.plugin.zsh
@@ -392,10 +382,8 @@ codium
 hx power_menu.xml
 hx -g fetch
 hx -g build
-hx --health
 ags init
 ags types
-cd widgets
 whatsie
 nchat
 nchat --help
@@ -479,27 +467,25 @@ awk 'BEGIN{\
     }\
     printf "\n";\
 }'
-cd .config/ghostty
 Ã¶Ã¶
 bat config
-hyprpicker
 ibm logo ascii art
 \
 \
-echo  "*****************************************************" && echo  "*****************************************************" && echo  "*****************************************************" && echo  "âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨  âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨      âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨      âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨" && echo  "âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨  âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨   âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨    âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨" && echo  "   âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨        âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨   âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨     âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨  âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨" && echo  "   âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨        âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨      âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨  âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨ âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨ âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨" &&echo  "   âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨        âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨      âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨  âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨ âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨" && echo  "   âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨        âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨   âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨     âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨   âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨  âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨" && echo  "âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨  âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨   âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨    âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨   âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨" && echo  "âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨  âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨      âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨     âƒ¶ƒ¨    âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨" && echo  "*****************************************************" && echo  "*  This system is for the use of authorized users   *" && echo  "*  only. Usage of  this system may be monitored     *" && echo  "*  and recorded                                     *" && echo  "*****************************************************"
-${c1}âƒ¶€âƒ¶€âƒ¶€âƒ¶€âƒ¶€âƒ¶€âƒ¶€ ${c2}âƒ¶€âƒ¶€âƒ¶€âƒ¶€âƒ¶€âƒ¶€âƒ¶€âƒ¶€âƒ¶€âƒ¶€   ${c3}âƒ¶€âƒ¶€âƒ¶€âƒ¶€âƒ¶€       âƒ¶€âƒ¶€âƒ¶€âƒ¶€âƒ¶€\
-${c1}âƒ¶€âƒ¶€âƒ¶€âƒ¶€âƒ¶€âƒ¶€âƒ¶€ ${c2}âƒ¶€âƒ¶€âƒ¶€âƒ¶€âƒ¶€âƒ¶€âƒ¶€âƒ¶€âƒ¶€âƒ¶€âƒ¶€âƒ¶€ ${c3}âƒ¶€âƒ¶€âƒ¶€âƒ¶€âƒ¶€âƒ¶€     âƒ¶€âƒ¶€âƒ¶€âƒ¶€âƒ¶€âƒ¶€\
-${c1}  âƒ¶€âƒ¶€âƒ¶€   ${c2}  âƒ¶€âƒ¶€âƒ¶€    âƒ¶€âƒ¶€âƒ¶€ ${c3}  âƒ¶€âƒ¶€âƒ¶€âƒ¶€âƒ¶€   âƒ¶€âƒ¶€âƒ¶€âƒ¶€âƒ¶€\
-${c1}  âƒ¶€âƒ¶€âƒ¶€   ${c2}  âƒ¶€âƒ¶€âƒ¶€âƒ¶€âƒ¶€âƒ¶€âƒ¶€âƒ¶€   ${c3}  âƒ¶€âƒ¶€âƒ¶€âƒ¶€âƒ¶€âƒ¶€ âƒ¶€âƒ¶€âƒ¶€âƒ¶€âƒ¶€âƒ¶€\
-${c1}  âƒ¶€âƒ¶€âƒ¶€   ${c2}  âƒ¶€âƒ¶€âƒ¶€âƒ¶€âƒ¶€âƒ¶€âƒ¶€âƒ¶€   ${c3}  âƒ¶€âƒ¶€âƒ¶€ âƒ¶€âƒ¶€âƒ¶€âƒ¶€âƒ¶€ âƒ¶€âƒ¶€âƒ¶€\
-${c1}  âƒ¶€âƒ¶€âƒ¶€   ${c2}  âƒ¶€âƒ¶€âƒ¶€    âƒ¶€âƒ¶€âƒ¶€ ${c3}  âƒ¶€âƒ¶€âƒ¶€  âƒ¶€âƒ¶€âƒ¶€  âƒ¶€âƒ¶€âƒ¶€\
-${c1}âƒ¶€âƒ¶€âƒ¶€âƒ¶€âƒ¶€âƒ¶€âƒ¶€ ${c2}âƒ¶€âƒ¶€âƒ¶€âƒ¶€âƒ¶€âƒ¶€âƒ¶€âƒ¶€âƒ¶€âƒ¶€âƒ¶€âƒ¶€ ${c3}âƒ¶€âƒ¶€âƒ¶€âƒ¶€âƒ¶€   âƒ¶€   âƒ¶€âƒ¶€âƒ¶€âƒ¶€âƒ¶€\
-${c1}âƒ¶€âƒ¶€âƒ¶€âƒ¶€âƒ¶€âƒ¶€âƒ¶€ ${c2}âƒ¶€âƒ¶€âƒ¶€âƒ¶€âƒ¶€âƒ¶€âƒ¶€âƒ¶€âƒ¶€âƒ¶€   ${c3}âƒ¶€âƒ¶€âƒ¶€âƒ¶€âƒ¶€       âƒ¶€âƒ¶€âƒ¶€âƒ¶€âƒ¶€\
-${c4}               âƒ¶ƒ¤âƒ¶ƒ¤âƒ¶ƒ¤ âƒ¶ƒ¤   âƒ¶ƒ¤     âƒ¶ƒ¤   âƒ¶ƒ¤âƒ¶ƒ¤       âƒ¶ƒ¤\
-${c4}                âƒ¶ƒ¨  âƒ¶ƒ¨âƒ¶ƒ¤  âƒ¶ƒ¤  âƒ¶ƒ¤  âƒ¶ƒ¨ âƒ¶ƒ¤ âƒ¶ƒ¨ âƒ¶ƒ¨ âƒ¶ƒ¤   âƒ¶ƒ¤âƒ¶ƒ¨\
-${c4}                âƒ¶ƒ¨  âƒ¶ƒ¨ âƒ¶ƒ¨ âƒ¶ƒ¨ âƒ¶ƒ¨ âƒ¶ƒ¨ âƒ¶ƒ¨âƒ¶ƒ¤âƒ¶€ âƒ¶ƒ¨âƒ¶€  âƒ¶ƒ¤âƒ¶ƒ¨ âƒ¶ƒ¨ âƒ¶ƒ¨\
-${c4}                âƒ¶ƒ¨  âƒ¶ƒ¨ âƒ¶ƒ¨ âƒ¶ƒ¨ âƒ¶ƒ¨ âƒ¶ƒ¨ âƒ¶ƒ¨ âƒ¶ƒ¨ âƒ¶ƒ¨  âƒ¶€âƒ¶ƒ¤âƒ¶ƒ¨ âƒ¶€âƒ¶ƒ¤âƒ¶ƒ¨
-echo  "*****************************************************" && echo  "*****************************************************" && echo  "*****************************************************" && echo  "âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨  âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨      âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨      âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨" && echo  "âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨  âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨   âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨    âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨" && echo  "   âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨        âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨   âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨     âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨  âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨" && echo  "   âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨        âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨      âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨  âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨ âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨ âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨" && echo  "   âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨        âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨     âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨  âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨ âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨" && echo  "   âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨        âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨   âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨     âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨   âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨  âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨" && echo  "âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨  âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨    âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨    âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨   âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨" && echo  "âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨  âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨      âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨     âƒ¶ƒ¨    âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨âƒ¶ƒ¨" && echo  "*****************************************************" && echo  "*  This system is for the use of authorized users   *" && echo  "*  only. Usage of  this system may be monitored     *" && echo  "*  and recorded                                     *" && echo  "*****************************************************"
+echo  "*****************************************************" && echo  "*****************************************************" && echo  "*****************************************************" && echo  "âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½  âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½      âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½      âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½" && echo  "âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½  âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½   âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½    âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½" && echo  "   âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½        âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½   âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½     âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½  âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½" && echo  "   âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½        âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½      âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½  âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½ âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½ âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½" &&echo  "   âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½        âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½      âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½  âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½ âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½" && echo  "   âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½        âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½   âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½     âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½   âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½  âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½" && echo  "âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½  âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½   âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½    âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½   âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½" && echo  "âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½  âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½      âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½     âƒ¶ï¿½ï¿½    âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½" && echo  "*****************************************************" && echo  "*  This system is for the use of authorized users   *" && echo  "*  only. Usage of  this system may be monitored     *" && echo  "*  and recorded                                     *" && echo  "*****************************************************"
+${c1}âƒ¶ï¿½âƒ¶ï¿½âƒ¶ï¿½âƒ¶ï¿½âƒ¶ï¿½âƒ¶ï¿½âƒ¶ï¿½ ${c2}âƒ¶ï¿½âƒ¶ï¿½âƒ¶ï¿½âƒ¶ï¿½âƒ¶ï¿½âƒ¶ï¿½âƒ¶ï¿½âƒ¶ï¿½âƒ¶ï¿½âƒ¶ï¿½   ${c3}âƒ¶ï¿½âƒ¶ï¿½âƒ¶ï¿½âƒ¶ï¿½âƒ¶ï¿½       âƒ¶ï¿½âƒ¶ï¿½âƒ¶ï¿½âƒ¶ï¿½âƒ¶ï¿½\
+${c1}âƒ¶ï¿½âƒ¶ï¿½âƒ¶ï¿½âƒ¶ï¿½âƒ¶ï¿½âƒ¶ï¿½âƒ¶ï¿½ ${c2}âƒ¶ï¿½âƒ¶ï¿½âƒ¶ï¿½âƒ¶ï¿½âƒ¶ï¿½âƒ¶ï¿½âƒ¶ï¿½âƒ¶ï¿½âƒ¶ï¿½âƒ¶ï¿½âƒ¶ï¿½âƒ¶ï¿½ ${c3}âƒ¶ï¿½âƒ¶ï¿½âƒ¶ï¿½âƒ¶ï¿½âƒ¶ï¿½âƒ¶ï¿½     âƒ¶ï¿½âƒ¶ï¿½âƒ¶ï¿½âƒ¶ï¿½âƒ¶ï¿½âƒ¶ï¿½\
+${c1}  âƒ¶ï¿½âƒ¶ï¿½âƒ¶ï¿½   ${c2}  âƒ¶ï¿½âƒ¶ï¿½âƒ¶ï¿½    âƒ¶ï¿½âƒ¶ï¿½âƒ¶ï¿½ ${c3}  âƒ¶ï¿½âƒ¶ï¿½âƒ¶ï¿½âƒ¶ï¿½âƒ¶ï¿½   âƒ¶ï¿½âƒ¶ï¿½âƒ¶ï¿½âƒ¶ï¿½âƒ¶ï¿½\
+${c1}  âƒ¶ï¿½âƒ¶ï¿½âƒ¶ï¿½   ${c2}  âƒ¶ï¿½âƒ¶ï¿½âƒ¶ï¿½âƒ¶ï¿½âƒ¶ï¿½âƒ¶ï¿½âƒ¶ï¿½âƒ¶ï¿½   ${c3}  âƒ¶ï¿½âƒ¶ï¿½âƒ¶ï¿½âƒ¶ï¿½âƒ¶ï¿½âƒ¶ï¿½ âƒ¶ï¿½âƒ¶ï¿½âƒ¶ï¿½âƒ¶ï¿½âƒ¶ï¿½âƒ¶ï¿½\
+${c1}  âƒ¶ï¿½âƒ¶ï¿½âƒ¶ï¿½   ${c2}  âƒ¶ï¿½âƒ¶ï¿½âƒ¶ï¿½âƒ¶ï¿½âƒ¶ï¿½âƒ¶ï¿½âƒ¶ï¿½âƒ¶ï¿½   ${c3}  âƒ¶ï¿½âƒ¶ï¿½âƒ¶ï¿½ âƒ¶ï¿½âƒ¶ï¿½âƒ¶ï¿½âƒ¶ï¿½âƒ¶ï¿½ âƒ¶ï¿½âƒ¶ï¿½âƒ¶ï¿½\
+${c1}  âƒ¶ï¿½âƒ¶ï¿½âƒ¶ï¿½   ${c2}  âƒ¶ï¿½âƒ¶ï¿½âƒ¶ï¿½    âƒ¶ï¿½âƒ¶ï¿½âƒ¶ï¿½ ${c3}  âƒ¶ï¿½âƒ¶ï¿½âƒ¶ï¿½  âƒ¶ï¿½âƒ¶ï¿½âƒ¶ï¿½  âƒ¶ï¿½âƒ¶ï¿½âƒ¶ï¿½\
+${c1}âƒ¶ï¿½âƒ¶ï¿½âƒ¶ï¿½âƒ¶ï¿½âƒ¶ï¿½âƒ¶ï¿½âƒ¶ï¿½ ${c2}âƒ¶ï¿½âƒ¶ï¿½âƒ¶ï¿½âƒ¶ï¿½âƒ¶ï¿½âƒ¶ï¿½âƒ¶ï¿½âƒ¶ï¿½âƒ¶ï¿½âƒ¶ï¿½âƒ¶ï¿½âƒ¶ï¿½ ${c3}âƒ¶ï¿½âƒ¶ï¿½âƒ¶ï¿½âƒ¶ï¿½âƒ¶ï¿½   âƒ¶ï¿½   âƒ¶ï¿½âƒ¶ï¿½âƒ¶ï¿½âƒ¶ï¿½âƒ¶ï¿½\
+${c1}âƒ¶ï¿½âƒ¶ï¿½âƒ¶ï¿½âƒ¶ï¿½âƒ¶ï¿½âƒ¶ï¿½âƒ¶ï¿½ ${c2}âƒ¶ï¿½âƒ¶ï¿½âƒ¶ï¿½âƒ¶ï¿½âƒ¶ï¿½âƒ¶ï¿½âƒ¶ï¿½âƒ¶ï¿½âƒ¶ï¿½âƒ¶ï¿½   ${c3}âƒ¶ï¿½âƒ¶ï¿½âƒ¶ï¿½âƒ¶ï¿½âƒ¶ï¿½       âƒ¶ï¿½âƒ¶ï¿½âƒ¶ï¿½âƒ¶ï¿½âƒ¶ï¿½\
+${c4}               âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½ âƒ¶ï¿½ï¿½   âƒ¶ï¿½ï¿½     âƒ¶ï¿½ï¿½   âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½       âƒ¶ï¿½ï¿½\
+${c4}                âƒ¶ï¿½ï¿½  âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½  âƒ¶ï¿½ï¿½  âƒ¶ï¿½ï¿½  âƒ¶ï¿½ï¿½ âƒ¶ï¿½ï¿½ âƒ¶ï¿½ï¿½ âƒ¶ï¿½ï¿½ âƒ¶ï¿½ï¿½   âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½\
+${c4}                âƒ¶ï¿½ï¿½  âƒ¶ï¿½ï¿½ âƒ¶ï¿½ï¿½ âƒ¶ï¿½ï¿½ âƒ¶ï¿½ï¿½ âƒ¶ï¿½ï¿½ âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ âƒ¶ï¿½ï¿½âƒ¶ï¿½  âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½ âƒ¶ï¿½ï¿½ âƒ¶ï¿½ï¿½\
+${c4}                âƒ¶ï¿½ï¿½  âƒ¶ï¿½ï¿½ âƒ¶ï¿½ï¿½ âƒ¶ï¿½ï¿½ âƒ¶ï¿½ï¿½ âƒ¶ï¿½ï¿½ âƒ¶ï¿½ï¿½ âƒ¶ï¿½ï¿½ âƒ¶ï¿½ï¿½  âƒ¶ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½ âƒ¶ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½
+echo  "*****************************************************" && echo  "*****************************************************" && echo  "*****************************************************" && echo  "âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½  âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½      âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½      âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½" && echo  "âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½  âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½   âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½    âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½" && echo  "   âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½        âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½   âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½     âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½  âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½" && echo  "   âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½        âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½      âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½  âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½ âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½ âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½" && echo  "   âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½        âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½     âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½  âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½ âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½" && echo  "   âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½        âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½   âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½     âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½   âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½  âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½" && echo  "âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½  âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½    âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½    âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½   âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½" && echo  "âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½  âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½      âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½     âƒ¶ï¿½ï¿½    âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½âƒ¶ï¿½ï¿½" && echo  "*****************************************************" && echo  "*  This system is for the use of authorized users   *" && echo  "*  only. Usage of  this system may be monitored     *" && echo  "*  and recorded                                     *" && echo  "*****************************************************"
 bash
 bat .zsh_history
 cd .config zsh
@@ -524,10 +510,8 @@ cd .config fastfetch
 touch ibm_logo
 hx ibm_logo
 hx ibm_logo_xl
-bat ibm_logo_xl
 fstfetch
 hx ibm_logo_utf
-bat ibm_logo
 touch ibm_small
 hx ibm_small
 hx ibm_tiny
@@ -541,7 +525,6 @@ waybarconf
 cd .config waybar
 cp styles.css styles.css.bak
 cp style.css style.css.bak
-cp config.jsonc config.jsonc.bak
 hyprctl devices
 bat .config/fastfetch/ibm
 mv config.jsonc config.jsonc.bak
@@ -552,26 +535,21 @@ bat config.jsonc
 bat config.jsonc.bak.bak
 bat --help
 cat .config/fastfetch/ibm
-cd fastfetch
 cat con
 cat config.jsonc
 hx .config/fastfetch/config.jsonc
 xlear
 hx ibm
 hx ibm_final
-hx config.jsonc
 superfile
 superfile --help
 mkdir fabric
 lear
-clear
-fastfetch
 nix flake init --template github:aylur/ags
 git status
 git commit -m "commit 9"
 nix develop --command zsh -i\
 
-hxfzf
 which gjs
 astal gjs
 cd dotfile
@@ -596,8 +574,6 @@ bat style.scss.bak
 cp style.scss.bak widget/Bar.scss.bak
 rm style.scss.bak
 cd widget 
-mkdir assets
-cd downloads
 cp NixOS.svg ~/.config/ags/assets/nix.svg
 cat Bar.scss
 pkill waybar
@@ -646,7 +622,6 @@ ags run#
 a gs run
 waybarcss
 assets
-cd assets
 waybarconfig
 ags tun
 bat apps.ts
@@ -656,7 +631,6 @@ ags bundle app.ts
 cd share
 ags bundle app.ts -d "DATADIR='./result/share'"
 ags bundle app.ts my-shell -d "DATADIR='./result/share'"
-cd
 git commit -m "commit 12"
 find my-shell
 bat .config/hypr/hyprland.conf
@@ -669,7 +643,6 @@ cd .icons
 cd icons_cheetah
 cd SE98
 display status/96/audio-volume-low.png
-nixrebuild
 cp flake.nix flake.nix.bak.bak
 git commit -m "commit 13"
 nix-env --delete-generations 14d\
@@ -679,7 +652,6 @@ which nix
 nix-tree
 yayazi
 cd /
-hx widget/Bar.scss
 pkill .my-shell-wrapped
 nix develop
 bat setup,py
@@ -701,29 +673,22 @@ lll
 bat Bar.tsx.bak
 bat Bar.tsc
 hx Bar.tsx.bak
-mv Bar.tsx Bar.tsx.bak.bak
-mv Bar.tsx.bak Bar.tsx
 bat Bar.scss
 bat tsconfig.json
-poweroff
 xprop
 echo $WAYLAND_DISPLAY\
 
-mv Bar.tsx Bar.tsx.bak
 env | grep -E 'WAYLAND|DISPLAY'
 WAYLAND_DISPLAY=wayland-0 ags run
-nixupdate
 pkill -f  .my-shell-wrapped
 hx Bar_grok.tsx
 cat Bar.tsx
-echo $XDG_SESSION_TYPE
 hyprctl version
 GTK_BACKEND=wayland ags run
 hx aps.ts
 nix flake update --recreate-lock-file
 cd awidget
 tsx Bat.tsx.bak.bak
-bat  Bar.tsx.bak.bak
 echo LD_LIBRARY_PATH
 GDK_BACKEND=wayland ags run
 nix log /nix/store/3gzjkz75wrl4jk0fqg3sr465b7a9f3f9-my-shell.drv
@@ -741,8 +706,6 @@ sudo zsh nix/store/f76zx4v7dwd2zvn80nxb750i5ln79hja-my-shell/bin/my-shell
 cd /nix/store
 fzf
 cd ersult
-cd result
-cd bin
 ags my-shell
 ags run my-shell
 pkill astal
@@ -751,24 +714,19 @@ pkill my-shell
 ags
 ags list
 ags quit astal
-hx Bar.tsx
 bat package.json
 hx tsconfig.json
 cat app.tsx
-cat app.ts
-cat widget/Bar.tsx
 pkg-config --modversion gtk4-layer-shell
 nix-shell -p pkg-config --modversion gtk4-layer-shell
 gjs
 nix-shell -p gjs
 zshconfig
 source .zshrc
-hyprconf
 hx test.ts
 nix flake update
 GJS_DEBUG_TOPICS=JS_LOG ags run test.ts
 ags run test.ts
-nixconfig
 ags run /nix/store/c2a7jkaip5hp9spkcfc53q89d3i02c2i-my-shell/bin/my-shell
 ags run result/bin/my-shell
 mv ags ags.bak.bak
@@ -776,18 +734,13 @@ git clone https://github.com/ezerinz/epik-shell ~/.config/ags
 cp ~/.config/ags.bak.bak/flake.nix ~/.config/ags/
 cd dotfiler
 git commit -m "commit 16"
-cd dotfiles
-git add .
 git commit -m "commit 17"
-git push -u origin main
 git -C "/home/jordi/dotfiles/.config/ags" add "flake.nix"
-bat app.ts
 mv ags ags.bak.bak.bak
 mkdir ags
 ags init --gtk4
 ags init -d . -g 4
 ags init -d "." -g 4
-cd ..
 ags init -g 4
 hyprctl dispatch exit
 nix-store --gc
@@ -796,11 +749,6 @@ hx flake.niX
 ags --help
 ags run sdfgasdg
 cd .config
-cd widget
-bat Bar.tsx
-yazi
-hx widget/Bar.tsx
-hx app.ts
 astal
 astal --list
 astal --help
@@ -808,25 +756,239 @@ astal --quit
 astal --instance
 astal -I
 astal -v
-reboot
-ags quit
-nixdevelop
-cd ags.bak.bak.bak
-bat style.scss
 bar flake.nix
 bar
-ags run --gtk4
-ags run
 ags run --help
-ll
-cd ags.bak
-bat flake.nix
-cd ags.bak.bak
 hx flake.nix
+cd dotfiles
+git add .
+git commit -m "commit 18"
+git push -u origin main
+nix build
+cd result
+cd bin
+cd result/bin
+ags run --gtk4 my-shell
+cat widget/Bar.tsx
+cat app.ts
 cat flake.nix
+hx app.ts
+GDK_BACKEND=wayland ags run --gtk4
+echo $XDG_SESSION_TYPE
+ags run --gtk4 --verbose
+G_MESSAGES_DEBUG=all ags run --gtk4
+cd .config/zsh
+cat .zshhist
+WAYLAND_DISPLAY=wayland-1 ags run --gtk4
+cat Bar.tsx.bak
+mv Bar.tsx Bar.tsx.bak.bak
+mv Bar.tsx.bak Bar.tsx
+bat Bar.tsx.bak.bak
+hx Bar.tsx.bak.bak
+cat Bar.tsx.bak.bak
+mv Bar.tsx Bar.tsx.bak
+mv Bar.tsx.bak.bak Bar.tsx
+hx Bar.tsx
+mkdir assets
+cd assets
+bat widget/Bar.scss
+hx widget/Bar.sc
+ags -r
+GDK_DEBUG=interactive ags run --gtk4
+bat ibm
+bat ibm_tiny
+bar ibm_logo_xl
+bat ibm_logo_xl
+bat ibm_skinny
+bat ibm_final
+bat ibm_logo
+bat ibm_logo_utf
+cp ibm_final ibm_fat
+codium ibm_fat
+codium config.jsonc
+tmux
+cd .config/ghostty
+codium .config/tmux/tmux.conf
+codium .config/starship.toml
+cd ghostty
+hx .config/starship.toml
+bat app.ts
+hx widget/Bar.scss
+hx widget/Audio.tsx
+mv Audio.tsx AudioMenu.tsx
+cd ags\
+
+wpctl status -h
+wpctl status -k
+wpctl status -n
+wpctl inspect
+wpctl inspect 60
+wpctl inspect 48
+hx widget/AudioChat2.tsx
+G_MESSAGES_DEBUG=all RUST_LOG=astal=debug ags run --gtk4
+pkill tidal-higi
+pkill tidal-hifi
+cd ags.bak
+bat Bar.tsx
+cd ags.bak.bak
+cd ags.bak.bak.bak+
+cd widgets
+c d
+cd ags.bak.bak.bak
+ags run
+ags run apps.ts --gtk4
+pkill mako
+sudo pkill mako
+hx widget/AudioChat.tsx
+pavucontrol
+ags run app.ts --gtk4
+wpctl status
+wpctl --help
+wpctl move-stream
+pavucontrol --help
+pavucontrol --help-gapplication
+pavucontrol --gapplication-srevices
+pavucontrol --gapplication-service
+pavucontrol --help-all
+cp AudioMenu.tsx AudioMenu.tsx.bak
+hx AudioMenu.tsx
+t
+hx config
+cp config.jsonc config.jsonc.bak
+hx config.jsonc
+fastfetch --help
+fastfetch --list-presets
+fastfetch --kernel-format
+fastfetch -h kernel-format
+fastfetch -h shell-format
+cd fastfetch
+hx ibm_fat
+5le
+tmux --help
+Äƒ§exit
+hx widget/Bar.
+hx widget/Network.tsx
+hxfzf
+cd onedrive/personal/pub_quiz
+imagemick
+convert --density 600 crown.svg crown.png 
+magick convert --density 600 crown.svg crown.png
+magick --help
+magick crown.svg crown.png
+magick crown.png
+magick display crown.png
+for file in *.svg; do magick "$file" "${file%.svg}.png"; done
+cd onedrive/template
+cd onedrive
+cd template
+cd cv
+cd 1600_cv
+cd t1600_cv
+cd cv_typst
+sioyek pantzartzis_cv.pdf
+sioyek
+zathura pantzartzis_cv.pdf
+hyprp
+hyprpicker
+nmcli
+GTK_DEBUG=interactive ags run --gtk4
+wpctl
+334fgrrgg
+gg
+keyd monitor
+wev
+clear
+bat flake.nix
+hx --health
+lapce
+fc-list | grep JetBrains
+cd master
+cd m41_dss
+zeditor
+hyprconf
+cd pub_quiz
+cd downloads
+man --help
+man --update
+locale --help
+locale -a
+echo $MANPATH
+locale
+man locale
+man 5 locale
+yazi
+glibc 2.40
+nixrebuild
+reboot
+hx widget/NetworkMenu.tsx
+poweroff
+nixconfig
+nixupdate
+fastfetch
+nixdevelop
+ags run --gtk4 &
+ags quit
+hx widget/FocusedClient.tsx
+hx widget/Bar.tsx
+cda gs
+hx widget/AudioMenu.tsx
+cd
+mkdir styles
+bat style.scss
+mv widget/Bar.scss styles/
+cd styles
+cd widget
+ll
+cd ..
+bat styles/Bar.scss
+hx styles/Focused.scss
 cd ags
 hx style.scss
-nix build
+hx styles/Bar.scss
+ags run --gtk4
 exit
-: 1747695512:0;cd dotfiles
-: 1747695516:0;git add .
+: 1748570754:0;poweroff
+: 1750454632:0;ags quit
+: 1750454634:0;cd ags
+: 1750454641:0;ags run --gtk4
+: 1750454679:0;nixdevelop
+: 1750454718:0;ags run --gtk4
+: 1750468103:0;poweroff
+: 1750690893:0;ags quit
+: 1750690896:0;cd ags
+: 1750690899:0;nixdevelop
+: 1750690922:0;ags run --gtk4
+: 1750692115:0;nixupdate
+: 1750692155:0;fastfetch
+: 1750715685:0;weroff
+: 1750715687:0;poweroff
+: 1750854734:0;ags quit
+: 1750854737:0;cd ags
+: 1750854741:0;nixdevelop
+: 1750854764:0;ags run --gtk4
+: 1750854780:0;cd ags
+: 1750854782:0;ll
+: 1750854807:0;cd widget
+: 1750854808:0;ll
+: 1750854813:0;cd ..
+: 1750854820:0;bat app.ts
+: 1750854828:0;cd widget
+: 1750854832:0;bat Bar.tsx
+: 1750854968:0;cd ..
+: 1750854976:0;hx widget/NetworkMenu.tsx
+: 1750855255:0;cd ags
+: 1750855260:0;hx widget/AudioMenu.tsx
+: 1750893069:0;cd 
+: 1750893071:0;ll
+: 1750893077:0;cd .config
+: 1750893078:0;ll
+: 1750893093:0;mkdir quickshell
+: 1750893097:0;cd quickshell
+: 1750893119:0;touch flake.nix
+: 1750893123:0;hx flake.nix
+: 1750893201:0;nixdevelop
+: 1750893214:0;cd dot
+: 1750893218:0;cd dotf
+: 1750893224:0;cd dotfiles
+: 1750893228:0;ll
+: 1750893239:0;git add .

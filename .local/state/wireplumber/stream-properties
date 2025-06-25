@@ -1,9 +1,10 @@
 [stream-properties]
 Audio/Sink:node.name:auto_null={"channelVolumes":[1.000000, 1.000000], "channelMap":["FL", "FR"], "mute":false, "volume":1.000000}
-Input/Audio:application.id:org.PulseAudio.pavucontrol={"mute":false, "channelVolumes":[1.000000], "channelMap":["MONO"], "volume":1.000000}
-Output/Audio:application.name:Chromium={"target":"alsa_output.pci-0000_2d_00.4.analog-stereo", "volume":1.000000, "channelVolumes":[1.000000, 1.000000], "mute":false, "channelMap":["FL", "FR"]}
+Input/Audio:application.id:org.PulseAudio.pavucontrol={"channelVolumes":[1.000000], "channelMap":["MONO"], "volume":1.000000, "mute":false}
+Output/Audio:application.name:Chromium={"target":"alsa_output.pci-0000_2d_00.4.analog-stereo", "channelMap":["FL", "FR"], "volume":1.000000, "channelVolumes":[1.000000, 1.000000], "mute":false}
 Output/Audio:application.name:Firefox={"channelVolumes":[1.000000, 1.000000], "target":"alsa_output.pci-0000_2d_00.4.analog-stereo", "channelMap":["FL", "FR"], "volume":1.000000, "mute":false}
-Output/Audio:application.name:Zen={"channelVolumes":[1.000000, 1.000000], "channelMap":["FL", "FR"], "mute":false, "volume":1.000000}
-Output/Audio:application.name:eSpeak={"volume":1.000000, "channelMap":["MONO"], "channelVolumes":[1.000000], "mute":false}
-Output/Audio:application.name:libao\osd_dummy\c={"volume":1.000000, "channelMap":["FL", "FR"], "channelVolumes":[1.000000, 1.000000], "mute":false}
-Output/Audio:media.role:Notification={"volume":1.000000, "channelMap":["FL", "FR"], "channelVolumes":[1.000000, 1.000000], "mute":false}
+Output/Audio:application.name:PipeWire\sALSA\s\o.ferdium-wrapped\c={"channelMap":["FL", "FR"], "channelVolumes":[1.000000, 1.000000], "mute":false, "volume":1.000000}
+Output/Audio:application.name:Zen={"volume":1.000000, "channelMap":["FL", "FR"], "target":"alsa_output.pci-0000_2d_00.4.analog-stereo", "mute":false, "channelVolumes":[1.000000, 1.000000]}
+Output/Audio:application.name:eSpeak={"volume":1.000000, "channelVolumes":[1.000000], "mute":false, "channelMap":["MONO"]}
+Output/Audio:application.name:libao\osd_dummy\c={"volume":1.000000, "channelVolumes":[1.000000, 1.000000], "mute":false, "channelMap":["FL", "FR"]}
+Output/Audio:media.role:Notification={"channelMap":["MONO"], "channelVolumes":[1.000000], "volume":1.000000, "mute":false}

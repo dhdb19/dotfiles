@@ -41,7 +41,7 @@
   i18n.extraLocaleSettings = {
     LC_ADDRESS = "de_DE.UTF-8";
     LC_PAPER = "en_GB.UTF-8";
-    LC_TIME = "en_GB.UTF-8";
+    LC_TIME = "en_DK.UTF-8";
   };
   console = {
     earlySetup = true;
@@ -101,7 +101,7 @@
 
   # Configure keymap in X11
   services.xserver.xkb = {
-    layout = "de";
+    layout = "de(nodeadkeys)";
     # extraLayouts.de-fkeys = {
     #   description = "German layout with working F-keys for 60% layout keyboards";
     #   languages = [ "deu" ];
@@ -356,6 +356,16 @@
       nix-tree
       exiftool
       ferdium
+      zathura
+      mupdf
+      lapce
+      nautilus
+      tangram
+      xfce.thunar
+      locale
+      man-pages
+      man-pages-posix
+      kdePackages.okular
       (vscode-with-extensions.override {
         vscode = vscodium;
         vscodeExtensions = with vscode-extensions; [
@@ -399,6 +409,8 @@
     *
 
     [main]
+    esc = =
+    pageup = delete
     capslock = overload(control, esc)
     # capsock = esc
 
@@ -518,7 +530,7 @@
       defaultFonts = {
         serif = [ "Liberation Serif" ];
         sansSerif = [ "Geist" ];
-        monospace = [ "JetBrainsMono" ];
+        monospace = [ "JetBrainsMonoNL" ];
       };
     };
   };

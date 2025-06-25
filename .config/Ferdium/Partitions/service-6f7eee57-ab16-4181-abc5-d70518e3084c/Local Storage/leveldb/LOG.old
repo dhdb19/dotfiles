@@ -1,3 +1,6 @@
-2025/05/18-02:34:46.951 a366 Reusing MANIFEST /home/jordi/.config/Ferdium/Partitions/service-6f7eee57-ab16-4181-abc5-d70518e3084c/Local Storage/leveldb/MANIFEST-000001
-2025/05/18-02:34:46.951 a366 Recovering log #3
-2025/05/18-02:34:46.952 a366 Reusing old log /home/jordi/.config/Ferdium/Partitions/service-6f7eee57-ab16-4181-abc5-d70518e3084c/Local Storage/leveldb/000003.log 
+2025/05/22-17:10:27.901 265e Reusing MANIFEST /home/jordi/.config/Ferdium/Partitions/service-6f7eee57-ab16-4181-abc5-d70518e3084c/Local Storage/leveldb/MANIFEST-000001
+2025/05/22-17:10:27.901 265e Recovering log #7
+2025/05/22-17:10:27.901 265e Reusing old log /home/jordi/.config/Ferdium/Partitions/service-6f7eee57-ab16-4181-abc5-d70518e3084c/Local Storage/leveldb/000007.log 
+2025/05/22-23:04:51.136 265f Level-0 table #11: started
+2025/05/22-23:04:51.140 265f Level-0 table #11: 15412 bytes OK
+2025/05/22-23:04:51.142 265f Delete type=0 #7

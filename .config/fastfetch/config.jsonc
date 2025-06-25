@@ -17,7 +17,7 @@
   },
   "logo": {
     "type": "auto",
-    "source": "~/.config/fastfetch/ibm_final",
+    "source": "~/.config/fastfetch/ibm_fat",
     "color": {
       "1": "green",
       "2": "green"
@@ -29,77 +29,99 @@
     //   "format": ">USER {user-name-colored} >HOST {host-name-colored}"
     // },
     // "separator",
+    // {
+    //   "type": "custom",
+    //   "format": "╭────────┬─────────────────────────────╮"
+    // },
     {
       "type": "custom",
-      "format": "╭────────┬─────────────────────────────╮"
-    },
-    {
-      "type": "os",
-      "key": "│ >OPSYS │{$1}",
-      "format": "{name}"
+      "format": "╭──────────────────────────────────────╮"
     },
     // {
     //   "type": "custom",
-    //   "format": "├────────┼─────────────────────────────┤"
+    //   "format": "│                                      │"
+    // },
+    // {
+    //   "type": "custom",
+    //   "format": "│           I B M   U N I X            │"
+    // },
+    // {
+    //   "type": "custom",
+    //   "format": "│                                      │"
+    // },
+    // {
+    //   "type": "custom",
+    //   "format": "├──────────────────────────────────────┤"
+    // },
+    {
+      "type": "os",
+      "key": "│ > OPSYS {$1}",
+      "format": "> {name}"
+    },
+    // {
+    //   "type": "custom",
+    //   "format": "├──────────────────────────────────────┤"
     // },
     // "host",
     {
       "type": "kernel",
-      "key": "│ >KERNL │{$1}"
+      "key": "│ > KERNL {$1}",
+      "format": "> {release}"
     },
     {
       "type": "custom",
-      "format": "├────────┼─────────────────────────────┤"
+      "format": "├──────────────────────────────────────┤"
     },
     //     {   "type": "uptime",
     //     "key": "│ >UPTIM │{$1}"
     // },
     //     {
     //       "type": "custom",
-    //       "format": "├────────┼─────────────────────────────┤"
+    //       "format": "├──────────────────────────────────────┤"
     //     },
     {
       "type": "packages",
-      "key": "│ >PCKGS │{$1}",
-      "format": "{all}"
+      "key": "│ > PCKGS {$1}",
+      "format": "> {all}"
     },
     // {
     //   "type": "custom",
-    //   "format": "├────────┼─────────────────────────────┤"
+    //   "format": "├──────────────────────────────────────┤"
     // },
     {
       "type": "shell",
-      "key": "│ >SHELL │{$1}"
+      "key": "│ > SHELL {$1}",
+      "format": "> {exe-name} {version}"
     },
     {
       "type": "custom",
-      "format": "├────────┼─────────────────────────────┤"
+      "format": "├──────────────────────────────────────┤"
     },
     {
       "type": "display",
-      "key": "│ >DSPLY │{$1}",
-      "format": "{width}x{height}@{refresh-rate}"
+      "key": "│ > DSPLY {$1}",
+      "format": "> {width}x{height}@{refresh-rate}"
     },
     // {
     //   "type": "custom",
-    //   "format": "├────────┼─────────────────────────────┤"
+    //   "format": "├──────────────────────────────────────┤"
     // },
     //     {    "type": "de",
-    //       "key": "│ >DSKTP │{$1}",
-    //       "format": "{pretty-name}"
+    //       "key": "│ > DSKTP {$1}",
+    //       "format": "> {pretty-name}"
     // },
     //     {
     //       "type": "custom",
-    //       "format": "├────────┼─────────────────────────────┤"
+    //       "format": "├──────────────────────────────────────┤"
     //     },
     {
       "type": "wm",
-      "key": "│ >WMNGR │{$1}",
-      "format": "{pretty-name}@{protocol-name}"
+      "key": "│ > WMNGR {$1}",
+      "format": "> {pretty-name}@{protocol-name}"
     },
     {
       "type": "custom",
-      "format": "├────────┼─────────────────────────────┤"
+      "format": "├──────────────────────────────────────┤"
     },
     // "wmtheme",
     // "theme",
@@ -108,93 +130,93 @@
     // "cursor",
     // {
     //   "type": "custom",
-    //   "format": "├─────────┼─────────────────────────────┤"
+    //   "format": "├───────────────────────────────────────┤"
     // },
     // {   "type": "terminal",
-    //     "key" : "│ >TRMNL │{$1}"
+    //     "key" : "│ > TRMNL {$1}"
     // },
     //     {
     //       "type": "custom",
-    //       "format": "├────────┼─────────────────────────────┤"
+    //       "format": "├──────────────────────────────────────┤"
     //     },
     // "terminalfont",
     // {
     //   "type": "custom",
-    //   "format": "├────────┼─────────────────────────────┤"
+    //   "format": "├──────────────────────────────────────┤"
     // },
     {
       "type": "cpu",
-      "key": "│ >PROCS │{$1}",
-      "format": "{name}"
+      "key": "│ > PROCS {$1}",
+      "format": "> {name}"
     },
     // {
     //   "type": "custom",
-    //   "format": "├────────┼─────────────────────────────┤"
+    //   "format": "├──────────────────────────────────────┤"
     // },
     {
       "type": "gpu",
-      "key": "│ >GRPHX │{$1}",
-      "format": "{vendor} {name}"
+      "key": "│ > GRPHX {$1}",
+      "format": "> {vendor} {name}"
     },
     // {
     //   "type": "custom",
-    //   "format": "├────────┼─────────────────────────────┤"
+    //   "format": "├──────────────────────────────────────┤"
     // },
     {
       "type": "memory",
-      "key": "│ >MEMRY │{$1}",
-      "format": "{total}"
+      "key": "│ > MEMRY {$1}",
+      "format": "> {total}"
     },
     // {
     //   "type": "custom",
-    //   "format": "├────────┼─────────────────────────────┤"
+    //   "format": "├──────────────────────────────────────┤"
     // },
     // "swap",
     // {
     //   "type": "custom",
-    //   "format": "├────────┼─────────────────────────────┤"
+    //   "format": "├──────────────────────────────────────┤"
     // },
     {
       "type": "disk",
-      "key": "│ >DSKDR │{$1}",
-      "format": "{size-total}"
+      "key": "│ > DSKDR {$1}",
+      "format": "> {size-total}"
     },
     {
       "type": "custom",
-      "format": "╰────────┴─────────────────────────────╯"
+      "format": "╰──────────────────────────────────────╯"
     },
     //     {    "type": "localip",
-    //       "key": "│ >LOCIP │{$1}",
-    //       "format": "{ipv4}"
+    //       "key": "│ > LOCIP {$1}",
+    //       "format": "> {ipv4}"
     // },
     //     {
     //       "type": "custom",
-    //       "format": "├────────┼─────────────────────────────┤"
+    //       "format": "├──────────────────────────────────────┤"
     //     },
     {
       "type": "battery",
-      "key": "│ >BTTRY │{$1}",
-      "format": "{capacity} ({status})"
+      "key": "│ > BTTRY {$1}",
+      "format": "> {capacity} ({status})"
     },
     // {
     //   "type": "custom",
-    //   "format": "├────────┼─────────────────────────────┤"
+    //   "format": "├──────────────────────────────────────┤"
     // },
     {
       "type": "poweradapter",
-      "key": "│ >PWRAD │{$1}",
-      "format": "{watts}"
+      "key": "│ > PWRAD {$1}",
+      "format": "> {watts}"
     }
     // {
     //    "type": "custom",
-    //    "format": "├────────┼─────────────────────────────┤"
+    //    "format": "├──────────────────────────────────────┤"
     //  },
     // "locale",
     // "break",
     // "colors"
     // {
     //   "type": "custom",
-    //   "format": "├────────┼─────────────────────────────┤"
+    //   "format": "├──────────────────────────────────────┤"
     // },
   ]
 }

@@ -1,0 +1,105 @@
+{
+  "split": {
+    "children": [
+      {
+        "EditorTab": {
+          "active": 0,
+          "is_focus": true,
+          "children": [
+            "Settings",
+            {
+              "Editor": {
+                "content": {
+                  "File": {
+                    "path": "/home/jordi/onedrive/master/m41_dms/renv.r",
+                    "read_only": false
+                  }
+                },
+                "unsaved": null,
+                "offset": 43,
+                "scroll_offset": [
+                  0.0,
+                  0.0
+                ]
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "direction": "Horizontal"
+  },
+  "panel": {
+    "panels": {
+      "LeftTop": [
+        "FileExplorer",
+        "Plugin",
+        "SourceControl",
+        "Debug"
+      ],
+      "RightTop": [
+        "DocumentSymbol"
+      ],
+      "BottomLeft": [
+        "Terminal",
+        "Search",
+        "Problem",
+        "CallHierarchy"
+      ]
+    },
+    "styles": {
+      "BottomRight": {
+        "active": 0,
+        "shown": false,
+        "maximized": false
+      },
+      "LeftTop": {
+        "active": 0,
+        "shown": true,
+        "maximized": false
+      },
+      "RightTop": {
+        "active": 0,
+        "shown": false,
+        "maximized": false
+      },
+      "LeftBottom": {
+        "active": 0,
+        "shown": false,
+        "maximized": false
+      },
+      "BottomLeft": {
+        "active": 0,
+        "shown": true,
+        "maximized": false
+      },
+      "RightBottom": {
+        "active": 0,
+        "shown": false,
+        "maximized": false
+      }
+    },
+    "size": {
+      "left": 250.0,
+      "left_split": 0.5,
+      "bottom": 300.0,
+      "bottom_split": 0.5,
+      "right": 250.0,
+      "right_split": 0.5
+    },
+    "sections": {
+      "Warn": true,
+      "Error": true,
+      "Breakpoint": true,
+      "Installed": true,
+      "OpenEditor": true,
+      "Process": true,
+      "Variable": true,
+      "Changes": true,
+      "FileExplorer": true,
+      "Available": true,
+      "StackFrame": true
+    }
+  },
+  "breakpoints": {}
+}
