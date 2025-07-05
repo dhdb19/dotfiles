@@ -363,6 +363,8 @@
       baobab
       qdirstat
       tangram
+      trashy
+      conceal
       xfce.thunar
       inputs.quickshell.packages.${pkgs.system}.default
       locale

@@ -1025,3 +1025,31 @@ poweroff
 : 1751728021:0;ll
 : 1751728029:0;cd dotfiles
 : 1751728031:0;git add .
+: 1751728044:0;git commit -m "commit 20"
+: 1751728058:0;git push upstream main
+: 1751728593:0;git config http.postBuffer 524288000
+: 1751728597:0;git push upstream main
+: 1751729103:0;git remote add laptop git@github.com:dhdb19/dotfiles_laptop.git
+: 1751729130:0;git push laptop main
+: 1751729184:0;git gc --aggressive
+: 1751729314:0;git push upstream main
+: 1751729706:0;git config http.postBuffer 2147483648
+: 1751729709:0;git push upstream main
+: 1751729848:0;nixconfig
+: 1751730087:0;nixrebuild
+: 1751730161:0;conceal clean
+: 1751730277:0;cd dotfiles
+: 1751730278:0;ll
+: 1751730280:0;cd
+: 1751730281:0;ll
+: 1751730426:0;cd dotfiles
+: 1751730435:0;git gc --aggressive
+: 1751730595:0;git push upstream main
+: 1751731020:0;git config http.lowSpeedTime 600
+: 1751731026:0;git config --global pack.window 1
+: 1751731033:0;git config --global core.compression 0
+: 1751731038:0;git push upstream main
+: 1751731666:0;ll
+: 1751731674:0;bat .gitconfig
+: 1751731697:0;hx .gitignore
+: 1751732058:0;git add .

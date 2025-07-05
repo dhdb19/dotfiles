@@ -4,3 +4,7 @@
 [credential]
 	helper = store
 	credentialStore = gpg
+[pack]
+	window = 1
+[core]
+	compression = 0

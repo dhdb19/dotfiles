@@ -1,6 +1,0 @@
-{
-  "category": "tools",
-  "description": "Learn how to use Workbench",
-  "panels": ["ui", "preview"],
-  "autorun": false
-}
