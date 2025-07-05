@@ -403,7 +403,6 @@ nix flake show templates
 sudo nix flake --help
 man nix.conf
 sudo hx flake.nix
-rm flake.nix
 sudo rm flake.nix
 cd dotfiles/.config/nix
 sudo nix flake init -t templates#trivial
@@ -414,7 +413,6 @@ create hard link
 hx /etc/nixos/configuration.nix
 sudo ln flake.nix /etc/nixos 
 ll /etc/nixos
-cd nix
 cd /etc/nixos
 sudo nixos-rebuild switch --show-trace
 cd ni
@@ -663,7 +661,6 @@ cd lib
 cd nix-support
 cd fabric
 cd examples
-cd bar
 bat config.py
 flatpak 
 flatpak install flathub re.sonny.Workbench
@@ -697,7 +694,6 @@ mv ags ags.bak
 ags init -d . -f
 git commit -m "commit 14"
 git commit -m "commit 15"
-cd 
 cd results
 /nix/store/f76zx4v7dwd2zvn80nxb750i5ln79hja-my-shell/bin/my-shell
 sudo /nix/store/f76zx4v7dwd2zvn80nxb750i5ln79hja-my-shell/bin/my-shell
@@ -748,7 +744,6 @@ dysk
 hx flake.niX
 ags --help
 ags run sdfgasdg
-cd .config
 astal
 astal --list
 astal --help
@@ -759,11 +754,7 @@ astal -v
 bar flake.nix
 bar
 ags run --help
-hx flake.nix
-cd dotfiles
-git add .
 git commit -m "commit 18"
-git push -u origin main
 nix build
 cd result
 cd bin
@@ -812,7 +803,6 @@ codium .config/tmux/tmux.conf
 codium .config/starship.toml
 cd ghostty
 hx .config/starship.toml
-bat app.ts
 hx widget/Bar.scss
 hx widget/Audio.tsx
 mv Audio.tsx AudioMenu.tsx
@@ -829,7 +819,6 @@ G_MESSAGES_DEBUG=all RUST_LOG=astal=debug ags run --gtk4
 pkill tidal-higi
 pkill tidal-hifi
 cd ags.bak
-bat Bar.tsx
 cd ags.bak.bak
 cd ags.bak.bak.bak+
 cd widgets
@@ -898,7 +887,6 @@ gg
 keyd monitor
 wev
 clear
-bat flake.nix
 hx --health
 lapce
 fc-list | grep JetBrains
@@ -916,79 +904,124 @@ echo $MANPATH
 locale
 man locale
 man 5 locale
-yazi
 glibc 2.40
-nixrebuild
 reboot
-hx widget/NetworkMenu.tsx
-poweroff
-nixconfig
-nixupdate
-fastfetch
-nixdevelop
 ags run --gtk4 &
-ags quit
 hx widget/FocusedClient.tsx
 hx widget/Bar.tsx
 cda gs
-hx widget/AudioMenu.tsx
 cd
 mkdir styles
 bat style.scss
 mv widget/Bar.scss styles/
 cd styles
-cd widget
-ll
-cd ..
 bat styles/Bar.scss
 hx styles/Focused.scss
-cd ags
 hx style.scss
 hx styles/Bar.scss
+fastfetch
+weroff
+ags quit
 ags run --gtk4
+bat app.ts
+cd widget
+bat Bar.tsx
+hx widget/NetworkMenu.tsx
+cd ags
+hx widget/AudioMenu.tsx
+cd 
+mkdir quickshell
+touch flake.nix
+cd dot
+cd dotf
+cd dotfiles
+git add .
+git commit -m "commit 19"
+git push -u origin main
+yazi
+nixdevelop
+bat flake.nix
+cd nix
+hx flake.nix
+nixrebuild
+nixconfig
+nixupdate
+cd .config
+rm flake.nix
+mkdir bar
+touch bar.qml
+cd helix
+hx languages.toml
+cd quickshel
+hx bar.qml
+cd bar.qml
+bat bar,.qml
+bar bar.qml
+bat bar.qml
+mv bar.qml bar/
+cd bar
+mv shell.qml delete
+mv bar.qml shell.qml
+bat shell.qml
+rm delete
+cp shell.qml ../shell.qml
+cd ..
+ll
+quickshell
+cd quickshell
+hx shell.qml
 exit
-: 1748570754:0;poweroff
-: 1750454632:0;ags quit
-: 1750454634:0;cd ags
-: 1750454641:0;ags run --gtk4
-: 1750454679:0;nixdevelop
-: 1750454718:0;ags run --gtk4
-: 1750468103:0;poweroff
-: 1750690893:0;ags quit
-: 1750690896:0;cd ags
-: 1750690899:0;nixdevelop
-: 1750690922:0;ags run --gtk4
-: 1750692115:0;nixupdate
-: 1750692155:0;fastfetch
-: 1750715685:0;weroff
-: 1750715687:0;poweroff
-: 1750854734:0;ags quit
-: 1750854737:0;cd ags
-: 1750854741:0;nixdevelop
-: 1750854764:0;ags run --gtk4
-: 1750854780:0;cd ags
-: 1750854782:0;ll
-: 1750854807:0;cd widget
-: 1750854808:0;ll
-: 1750854813:0;cd ..
-: 1750854820:0;bat app.ts
-: 1750854828:0;cd widget
-: 1750854832:0;bat Bar.tsx
-: 1750854968:0;cd ..
-: 1750854976:0;hx widget/NetworkMenu.tsx
-: 1750855255:0;cd ags
-: 1750855260:0;hx widget/AudioMenu.tsx
-: 1750893069:0;cd 
-: 1750893071:0;ll
-: 1750893077:0;cd .config
-: 1750893078:0;ll
-: 1750893093:0;mkdir quickshell
-: 1750893097:0;cd quickshell
-: 1750893119:0;touch flake.nix
-: 1750893123:0;hx flake.nix
-: 1750893201:0;nixdevelop
-: 1750893214:0;cd dot
-: 1750893218:0;cd dotf
-: 1750893224:0;cd dotfiles
-: 1750893228:0;ll
-: 1750893239:0;git add .
+poweroff
+: 1751024038:0;ags quit
+: 1751024042:0;quickshell
+: 1751024059:0;cd quickshell
+: 1751026141:0;hx shell.qml
+: 1751026330:0;quickshell
+: 1751034459:0;poweroff
+: 1751063609:0;yazi
+: 1751063885:0;poweroff
+: 1751404377:0;nixupdate
+: 1751404414:0;fastfetch
+: 1751418605:0;poweroff
+: 1751568074:0;ags quit
+: 1751568078:0;cd quickshell
+: 1751568082:0;quickshell
+: 1751569094:0;reboot
+: 1751676675:0;cd /etc/nixos
+: 1751676676:0;ll
+: 1751676682:0;bat cahix.nix
+: 1751676687:0;bat cachix.nix
+: 1751678454:0;poweroff
+: 1751721229:0;cd /etc/nixos
+: 1751721232:0;bat cachix.nix
+: 1751724047:0;nvtop
+: 1751725515:0;cd
+: 1751725523:0;cd sync
+: 1751725524:0;ll
+: 1751725933:0;#
+: 1751725935:0;ll
+: 1751726158:0;cd dotfiles
+: 1751726220:0;git remote add upstream https://github.com/dhdb19/dotfiles_laptop.git
+: 1751726235:0;git push upstream main
+: 1751727022:0;l
+: 1751727027:0;cd .local
+: 1751727029:0;ll
+: 1751727033:0;cd share
+: 1751727034:0;ll
+: 1751727051:0;cd ..
+: 1751727053:0;ll
+: 1751727056:0;cd state
+: 1751727057:0;ll
+: 1751727062:0;cd ..
+: 1751727372:0;nixconfig
+: 1751727436:0;nixupdate
+: 1751727960:0;cd ..
+: 1751727962:0;ll
+: 1751727970:0;cd .config/tidal-hifi
+: 1751727979:0;ll
+: 1751727999:0;cd ..
+: 1751728002:0;ll
+: 1751728018:0;rm -rf tidal-hifi
+: 1751728021:0;ll
+: 1751728029:0;cd dotfiles
+: 1751728031:0;git add .

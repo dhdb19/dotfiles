@@ -360,8 +360,11 @@
       mupdf
       lapce
       nautilus
+      baobab
+      qdirstat
       tangram
       xfce.thunar
+      inputs.quickshell.packages.${pkgs.system}.default
       locale
       man-pages
       man-pages-posix

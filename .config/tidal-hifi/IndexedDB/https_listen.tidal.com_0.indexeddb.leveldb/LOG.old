@@ -1,6 +1,0 @@
-2025/05/28-15:34:35.990 25f2 Reusing MANIFEST /home/jordi/.config/tidal-hifi/IndexedDB/https_listen.tidal.com_0.indexeddb.leveldb/MANIFEST-000001
-2025/05/28-15:34:35.990 25f2 Recovering log #38
-2025/05/28-15:34:36.002 25f2 Reusing old log /home/jordi/.config/tidal-hifi/IndexedDB/https_listen.tidal.com_0.indexeddb.leveldb/000038.log 
-2025/05/28-15:34:38.197 25f0 Level-0 table #43: started
-2025/05/28-15:34:38.211 25f0 Level-0 table #43: 973233 bytes OK
-2025/05/28-15:34:38.215 25f0 Delete type=0 #38
