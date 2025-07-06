@@ -1,0 +1,22 @@
+2025-07-06 22:49:21.363 [info] Extension host with pid 96385 started
+2025-07-06 22:49:21.363 [info] Skipping acquiring lock for /home/jordi/.config/VSCodium/User/workspaceStorage/e723760bd62d6c90507ab1e039c5355f.
+2025-07-06 22:49:21.480 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-07-06 22:49:21.497 [info] ExtensionService#_doActivateExtension REditorSupport.r, startup: false, activationEvent: 'onLanguage:rmd'
+2025-07-06 22:49:21.780 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-07-06 22:49:21.806 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-07-06 22:49:21.848 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-07-06 22:49:21.890 [info] Eager extensions activated
+2025-07-06 22:49:21.908 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-07-06 22:49:21.910 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-07-06 22:49:22.049 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-07-06 22:49:22.055 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-07-06 22:49:22.095 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-07-06 22:49:22.850 [error] Error: Client is not running and can't be stopped. It's current state is: starting
+	at v.shutdown (/nix/store/x77i4vl2ny33h7719z90m1awf283mmiy-vscode-extension-reditorsupport-r-2.8.5/share/vscode/extensions/reditorsupport.r/dist/extension.js:2:538273)
+	at v.stop (/nix/store/x77i4vl2ny33h7719z90m1awf283mmiy-vscode-extension-reditorsupport-r-2.8.5/share/vscode/extensions/reditorsupport.r/dist/extension.js:2:537854)
+	at v.stop (/nix/store/x77i4vl2ny33h7719z90m1awf283mmiy-vscode-extension-reditorsupport-r-2.8.5/share/vscode/extensions/reditorsupport.r/dist/extension.js:2:704241)
+	at ChildProcess.<anonymous> (/nix/store/x77i4vl2ny33h7719z90m1awf283mmiy-vscode-extension-reditorsupport-r-2.8.5/share/vscode/extensions/reditorsupport.r/dist/extension.js:2:345288)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-07-06 22:51:36.121 [info] Extension host terminating: renderer closed the MessagePort
+2025-07-06 22:51:36.128 [info] Extension host with pid 96385 exiting with code 0

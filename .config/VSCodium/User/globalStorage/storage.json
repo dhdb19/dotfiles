@@ -9,11 +9,7 @@
                 "folderUri": "file:///home/jordi/onedrive/master/m41_dms"
             }
         ],
-        "emptyWindows": [
-            {
-                "backupFolder": "1747832981130"
-            }
-        ]
+        "emptyWindows": []
     },
     "profileAssociations": {
         "workspaces": {
@@ -21,19 +17,18 @@
             "file:///home/jordi/onedrive/master/m41_dss": "__default__profile__",
             "file:///home/jordi/onedrive/master/m41_dss/m41.code-workspace": "__default__profile__"
         },
-        "emptyWindows": {
-            "1747832981130": "__default__profile__"
-        }
+        "emptyWindows": {}
     },
     "windowsState": {
         "lastActiveWindow": {
-            "backupPath": "/home/jordi/.config/VSCodium/Backups/1747832981130",
+            "folder": "file:///home/jordi/onedrive/master/m41_dms",
+            "backupPath": "/home/jordi/.config/VSCodium/Backups/c0088ecca0484284bea3c1f921259b00",
             "uiState": {
                 "mode": 0,
                 "x": 0,
                 "y": 0,
-                "width": 2752,
-                "height": 1152
+                "width": 688,
+                "height": 1098
             }
         },
         "openedWindows": []
@@ -1685,7 +1680,7 @@
             "editorPartMinWidth": 220,
             "titleBarHeight": 35,
             "activityBarWidth": 48,
-            "sideBarWidth": 0,
+            "sideBarWidth": 170,
             "auxiliarySideBarWidth": 0,
             "statusBarHeight": 22,
             "windowBorder": false

@@ -1,0 +1,63 @@
+```{r}
+library("RPostgres")
+library("DBI")
+library("sf")
+library("readr")
+
+db <- dbConnect(Postgres(), user = "postgres", dbname = "dmbook", password = "dmbook", )
+
+dbExecute(db, "CREATE EXTENSION postgis")
+
+pko <- readr::read_rds(file.path("ch11", "GeoPKO.rds"))
+gadm <- st_read(file.path("ch11", "gadm", "gadm.shp"), crs = 4326)
+dbWriteTable(db, "pko", pko, overwrite = TRUE)
+dbExecute(db, "ALTER TABLE pko ADD COLUMN geometry geometry(point, 4326)")
+dbExecute(db,"UPDATE pko SET geometry = st_setSRID(st_point(longitude, latitude), 4326)")
+st_write(gadm, dsn = db, layer = "gadm")
+
+joined <- st_join(pko, gadm)
+
+```
+
+## Task 1
+
+Get the number of PKO per country
+
+Add
+
+```{r}
+
+dbGetQuery(db,"SELECT gadm.c_id, count(*) as num_events FROM gadm JOIN pko ON st_contains(gadm.geometry, pko.geometry) GROUP BY gadm.c_id LIMIT 3")
+
+dbExecute(db, "ALTER TABLE gadm ADD COLUMN n_pko integer")
+
+```
+
+
+## Task 2
+
+```{r}
+
+dbExecute(db, "WITH npko AS ( SELECT gadm.c_id, count(*) as n_pko FROM gadm JOIN pko ON st_contains(gadm.geometry, pko.geometry) GROUP BY gadm.c_id) UPDATE gadm SET n_pko = npko.n_pko FROM npko WHERE gadm.c_id = npko.c_id")
+
+dbGetQuery(db, "SELECT n_pko FROM gadm")
+
+```
+
+
+## Task 3
+
+```{r}
+
+gadm_2 <- st_read(dsn = db, layer = "gadm", geometry_column = "geometry")
+
+```
+
+
+## Task 4
+
+```{r}
+
+plot1<- plot(st_geometry(gadm_2), col = gadm_2$n_pko)
+
+```

@@ -1053,3 +1053,88 @@ poweroff
 : 1751731674:0;bat .gitconfig
 : 1751731697:0;hx .gitignore
 : 1751732058:0;git add .
+: 1751732071:0;git commit -m "commit 21"
+: 1751732080:0;git push upstream main
+: 1751732456:0;cd ..
+: 1751732465:0;cp dotfiles dotfiles_laptop
+: 1751732469:0;ll
+: 1751732479:0;cp -r dotfiles dotfiles_laptop
+: 1751732495:0;ll
+: 1751732502:0;cd dotfiles_laptop
+: 1751732503:0;ll
+: 1751732508:0;cd .git
+: 1751732509:0;ll
+: 1751732510:0;cd ..
+: 1751732515:0;rm -rf .git
+: 1751732559:0;ll
+: 1751732571:0;rm -rf .local
+: 1751732575:0;cd .config
+: 1751732576:0;ll
+: 1751732603:0;rm -rf syncthing
+: 1751732623:0;cd ..
+: 1751732625:0;ll
+: 1751732662:0;cd .config
+: 1751732664:0;ll
+: 1751732666:0;cd helix
+: 1751732666:0;ll
+: 1751732672:0;rm -rf runtime
+: 1751732677:0;cd ..
+: 1751732679:0;ll
+: 1751732697:0;git init
+: 1751732716:0;git add .
+: 1751732747:0;git commit -m "laptop commit 1"
+: 1751732782:0;git remote add origin https://github.com/dhdb19/dotfiles_laptop.git
+: 1751732815:0;git push origin master
+: 1751768194:0;poweroff
+: 1751810408:0;cd master
+: 1751810415:0;cd m41_dms
+: 1751810419:0;nix-shell
+: 1751810668:0;cd ags
+: 1751810672:0;ags quit
+: 1751810675:0;nixdevelop
+: 1751810693:0;ags run --gtk4
+: 1751810980:0;postgres
+: 1751810999:0;postgres --help
+: 1751811068:0;cd .config
+: 1751811069:0;ll
+: 1751811109:0;postgres
+: 1751811173:0;psql
+: 1751811184:0;nixconfig
+: 1751811345:0;cd m41_dms/ch11
+: 1751811349:0;cd m41_dms
+: 1751811352:0;cd ch11
+: 1751811359:0;hx ch11.Rmd
+: 1751811364:0;ll
+: 1751811377:0;bat ch11.rmd
+: 1751811505:0;nixrebuild
+: 1751811548:0;psql
+: 1751811557:0;postgres
+: 1751811571:0;sudo -u postgres psql
+: 1751811670:0;nixconfig
+: 1751811895:0;cd ..
+: 1751811896:0;ll
+: 1751811903:0;bat dbpw.txt
+: 1751812145:0;nixrebuild
+: 1751812170:0;postgres psql
+: 1751812190:0;sudo postgres psql
+: 1751812199:0;sudo -u postgres psql
+: 1751812301:0;nix-shell
+: 1751812339:0;nixconfig
+: 1751812477:0;nixrebuild
+: 1751812515:0;nix-shell
+: 1751812672:0;nixconfig
+: 1751812737:0;nixrebuild
+: 1751812794:0;nix-shell
+: 1751812829:0;nixconfig
+: 1751812861:0;reboot
+: 1751813033:0;sudo -u postgres psql
+: 1751813052:0;nixconfig
+: 1751813076:0;cd m41_dms
+: 1751813079:0;nix-shell
+: 1751834824:0;onedrive --display-sync-status
+: 1751834839:0;nixupdate
+: 1751834868:0;onedrive --display-sync-status
+: 1751835100:0;cd
+: 1751835112:0;cd dotfiles
+: 1751835118:0;git add
+: 1751835124:0;git add .

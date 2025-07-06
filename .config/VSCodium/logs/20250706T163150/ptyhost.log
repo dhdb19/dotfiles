@@ -1,0 +1,12 @@
+2025-07-06 16:31:52.437 [info] Revived process, old id e723760bd62d6c90507ab1e039c5355f-1 -> new id 1
+2025-07-06 16:31:52.437 [info] Revived process, old id e723760bd62d6c90507ab1e039c5355f-3 -> new id 2
+2025-07-06 16:31:52.463 [info] Expanding terminal instance, old id e723760bd62d6c90507ab1e039c5355f-1 -> new id 1
+2025-07-06 16:31:52.463 [info] Expanding terminal instance, old id e723760bd62d6c90507ab1e039c5355f-3 -> new id 2
+2025-07-06 16:31:52.617 [warning] Persistent process "1": Process had no disconnect runners but was an orphan
+2025-07-06 16:31:52.617 [info] Persistent process reconnection "1"
+2025-07-06 16:31:52.617 [warning] Persistent process "2": Process had no disconnect runners but was an orphan
+2025-07-06 16:31:52.617 [info] Persistent process reconnection "2"
+2025-07-06 16:31:52.620 [warning] Shell integration cannot be enabled for executable "/nix/store/4y65jjxgz304q035n5xw78fviwwj84z0-python3.11-radian-0.6.13/bin/radian" and args ["--no-save","--no-restore"]
+2025-07-06 16:31:52.626 [error] Failed to set sticky bit on /tmp/nix-shell-37052-0/jordi-codium-zsh: Error: ENOENT: no such file or directory, chmod '/tmp/nix-shell-37052-0/jordi-codium-zsh'
+2025-07-06 16:31:52.643 [info] Persistent process "2": Replaying 164 chars and 1 size events
+2025-07-06 16:31:52.644 [info] Persistent process "1": Replaying 1982 chars and 1 size events

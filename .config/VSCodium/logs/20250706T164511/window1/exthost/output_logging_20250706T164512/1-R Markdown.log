@@ -1,0 +1,165 @@
+[VSC-R] ch11.rmd process started
+==> rmarkdown::render('/home/jordi/onedrive/master/m41_dms/ch11/ch11.rmd')
+
+
+processing file: ch11.rmd
+
+1/9 [unnamed-chunk-1]
+
+Error:
+! Failed to fetch row : ERROR:  extension "postgis" already exists
+Backtrace:
+     ▆
+  1. ├─DBI::dbExecute(db, "CREATE EXTENSION postgis")
+  2. └─DBI::dbExecute(db, "CREATE EXTENSION postgis")
+  3.   ├─DBI::dbSendStatement(conn, statement, ...)
+  4.   └─DBI::dbSendStatement(conn, statement, ...)
+  5.     ├─DBI::dbSendQuery(conn, statement, ...)
+  6.     └─RPostgres::dbSendQuery(conn, statement, ...)
+  7.       └─RPostgres (local) .local(conn, statement, ...)
+  8.         ├─methods::new(...)
+  9.         │ ├─methods::initialize(value, ...)
+ 10.         │ └─methods::initialize(value, ...)
+ 11.         └─RPostgres:::result_create(conn@ptr, statement, immediate)
+
+
+Quitting from lines 2-20 [unnamed-chunk-1] (ch11.rmd)
+
+Execution halted
+
+[VSC-R] ch11.rmd process exited with exit code 1
+[VSC-R] terminating R process
+[VSC-R] ch11.rmd process started
+==> rmarkdown::render('/home/jordi/onedrive/master/m41_dms/ch11/ch11.rmd')
+
+
+processing file: ch11.rmd
+
+1/9 [unnamed-chunk-1]
+
+Error in `readRDS()`:
+! cannot open the connection
+Backtrace:
+    ▆
+ 1. └─readr::read_rds(file.path("ch11", "GeoPKO.rds"))
+ 2.   └─base::readRDS(con, refhook = refhook)
+
+
+Quitting from lines 2-20 [unnamed-chunk-1] (ch11.rmd)
+
+Execution halted
+
+[VSC-R] ch11.rmd process exited with exit code 1
+[VSC-R] terminating R process
+[VSC-R] ch11.rmd process started
+==> rmarkdown::render('/home/jordi/onedrive/master/m41_dms/ch11/ch11.rmd')
+
+
+processing file: ch11.rmd
+
+1/9 [unnamed-chunk-1]
+
+Error in `readRDS()`:
+! cannot open the connection
+Backtrace:
+    ▆
+ 1. └─readr::read_rds(file.path("ch11", "GeoPKO.rds"))
+ 2.   └─base::readRDS(con, refhook = refhook)
+
+
+Quitting from lines 2-20 [unnamed-chunk-1] (ch11.rmd)
+
+Execution halted
+
+[VSC-R] ch11.rmd process exited with exit code 1
+[VSC-R] terminating R process
+[VSC-R] ch11.rmd process started
+==> rmarkdown::render('/home/jordi/onedrive/master/m41_dms/ch11/ch11.rmd')
+
+
+processing file: ch11.rmd
+
+1/9 [unnamed-chunk-1]
+
+Error in `readRDS()`:
+! cannot open the connection
+Backtrace:
+    ▆
+ 1. └─readr::read_rds(file.path("ch11", "GeoPKO.rds"))
+ 2.   └─base::readRDS(con, refhook = refhook)
+
+
+Quitting from lines 2-21 [unnamed-chunk-1] (ch11.rmd)
+
+Execution halted
+
+[VSC-R] ch11.rmd process exited with exit code 1
+[VSC-R] terminating R process
+[VSC-R] ch11.rmd process started
+==> rmarkdown::render('/home/jordi/onedrive/master/m41_dms/ch11/ch11.rmd')
+
+
+processing file: ch11.rmd
+
+1/9 [unnamed-chunk-1]
+
+Error in `UseMethod()`:
+! no applicable method for 'st_join' applied to an object of class "c('tbl_df', 'tbl', 'data.frame')"
+Backtrace:
+    ▆
+ 1. └─sf::st_join(pko, gadm)
+
+
+Quitting from lines 2-21 [unnamed-chunk-1] (ch11.rmd)
+
+Execution halted
+
+[VSC-R] ch11.rmd process exited with exit code 1
+[VSC-R] terminating R process
+[VSC-R] ch11.rmd process started
+==> rmarkdown::render('/home/jordi/onedrive/master/m41_dms/ch11/ch11.rmd')
+
+
+processing file: ch11.rmd
+
+1/9 [unnamed-chunk-1]
+
+2/9                  
+
+3/9 [unnamed-chunk-2]
+
+4/9                  
+
+5/9 [unnamed-chunk-3]
+
+6/9                  
+
+7/9 [unnamed-chunk-4]
+
+8/9                  
+
+9/9 [unnamed-chunk-5]
+
+output file: ch11.knit.md
+
+
+/nix/store/vhp131fgd91r9bq43sk72lgp8x8yaxiz-pandoc-cli-3.1.11.1/bin/pandoc +RTS -K512m -RTS ch11.knit.md --to html4 --from markdown+autolink_bare_uris+tex_math_single_backslash --output ch11.html --lua-filter /nix/store/b4lcpsn2677vifkgfq36slywrz65laxz-r-rmarkdown-2.29/library/rmarkdown/rmarkdown/lua/pagebreak.lua --lua-filter /nix/store/b4lcpsn2677vifkgfq36slywrz65laxz-r-rmarkdown-2.29/library/rmarkdown/rmarkdown/lua/latex-div.lua --embed-resources --standalone --variable bs3=TRUE --section-divs --template /nix/store/b4lcpsn2677vifkgfq36slywrz65laxz-r-rmarkdown-2.29/library/rmarkdown/rmd/h/default.html --no-highlight --variable highlightjs=1 --variable theme=bootstrap --mathjax --variable 'mathjax-url=https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML' --include-in-header /tmp/nix-shell-2475-0/RtmpgHh5ng/rmarkdown-str1af321e7cbe2.html 
+
+[WARNING] 
+This document format requires a nonempty <title> element.
+  Defaulting
+ to 'ch11.knit' as the 
+title.
+  To specify a title, use 'title' in metadata or --metadata title="...".
+
+
+Output created: ch11.html
+
+<<<vsc>>>/home/jordi/onedrive/master/m41_dms/ch11/ch11.html<<<vsc>>>
+[VSC-R] ch11.rmd process exited with exit code null
+[VSC-R] terminating R process
+[VSC-R] terminating R process
+[VSC-R] terminating R process
+[VSC-R] terminating R process
+[VSC-R] terminating R process
+[VSC-R] terminating R process

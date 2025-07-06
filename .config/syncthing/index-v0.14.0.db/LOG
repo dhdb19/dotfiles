@@ -2575,3 +2575,40 @@
 16:18:24.444399 table@compaction committed F-2 S-353B Ke·0 D·4 T·9.737647ms
 16:18:24.444462 table@remove removed @547
 16:18:24.444495 table@remove removed @546
+=============== Jul 6, 2025 (CEST) ===============
+04:16:35.722921 db@close closing
+04:16:35.723004 db@close done T·83.51µs
+=============== Jul 6, 2025 (CEST) ===============
+15:58:01.491080 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+15:58:01.491910 version@stat F·[0 1] S·9KiB[0B 9KiB] Sc·[0.00 0.00]
+15:58:01.491925 db@open opening
+15:58:01.492148 journal@recovery F·1
+15:58:01.492268 journal@recovery recovering @551
+15:58:01.506756 memdb@flush created L0@554 N·9171 S·163KiB "\x03QN..ion,v9809":"\nla..ime,v1834"
+15:58:01.506940 version@stat F·[1 1] S·172KiB[163KiB 9KiB] Sc·[0.25 0.00]
+15:58:01.531495 db@janitor F·5 G·1
+15:58:01.531503 db@janitor removing table-550
+15:58:01.531534 db@open done T·39.605059ms
+16:09:23.013550 table@compaction L0·1 -> L1·1 S·172KiB Q·11005
+16:09:23.018362 table@build created L1@557 N·142 S·9KiB "\x00\x00\x00..dbx,v1712":"\x0e\x00\x00..dbx,v1807"
+16:09:23.018393 version@stat F·[0 1] S·9KiB[0B 9KiB] Sc·[0.00 0.00]
+16:09:23.019519 table@compaction committed F-1 S-163KiB Ke·0 D·9171 T·5.941535ms
+16:09:23.019592 table@remove removed @553
+16:41:01.239532 db@close closing
+16:41:01.239608 db@close done T·76.319µs
+=============== Jul 6, 2025 (CEST) ===============
+16:42:58.824847 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+16:42:58.826860 version@stat F·[0 1] S·9KiB[0B 9KiB] Sc·[0.00 0.00]
+16:42:58.826876 db@open opening
+16:42:58.827270 journal@recovery F·1
+16:42:58.827380 journal@recovery recovering @555
+16:42:58.832964 memdb@flush created L0@558 N·2 S·177B "\x04pa..can,v11004":"\nla..ime,v11005"
+16:42:58.833105 version@stat F·[1 1] S·9KiB[177B 9KiB] Sc·[0.25 0.00]
+16:42:58.844262 db@janitor F·5 G·1
+16:42:58.844276 db@janitor removing table-554
+16:42:58.844312 db@open done T·17.431152ms
+18:40:47.551893 table@compaction L0·1 -> L1·1 S·9KiB Q·11008
+18:40:47.557908 table@build created L1@561 N·142 S·9KiB "\x00\x00\x00..dbx,v1712":"\x0e\x00\x00..dbx,v1807"
+18:40:47.557958 version@stat F·[0 1] S·9KiB[0B 9KiB] Sc·[0.00 0.00]
+18:40:47.559521 table@compaction committed F-1 S-178B Ke·0 D·2 T·7.593168ms
+18:40:47.559608 table@remove removed @557

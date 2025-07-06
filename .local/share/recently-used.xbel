@@ -747,4 +747,14 @@
       </metadata>
     </info>
   </bookmark>
+  <bookmark href="file:///home/jordi/onedrive/master/m41_dms/ch11/ch11.html" added="2025-07-06T14:55:16.169234Z" modified="2025-07-06T14:55:22.269212Z" visited="2025-07-06T14:55:16.169235Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/html"/>
+        <bookmark:applications>
+          <bookmark:application name="Thunar" exec="&apos;thunar %u&apos;" modified="2025-07-06T14:55:22.269211Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
 </xbel>

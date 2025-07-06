@@ -1,0 +1,25 @@
+[VSC-R] ch11.rmd process started
+==> rmarkdown::render('/home/jordi/onedrive/master/m41_dms/ch11/ch11.rmd')
+
+
+processing file: ch11.rmd
+
+1/9 [unnamed-chunk-1]
+
+Error:
+! connection to server on socket "/run/postgresql/.s.PGSQL.5432" failed: FATAL:  database "dbintro" does not exist
+Backtrace:
+    ▆
+ 1. ├─DBI::dbConnect(...)
+ 2. └─RPostgres::dbConnect(...)
+ 3.   └─RPostgres (local) .local(drv, ...)
+ 4.     └─RPostgres:::connection_create(names(opts), as.vector(opts), check_interrupts)
+
+
+Quitting from lines 2-24 [unnamed-chunk-1] (ch11.rmd)
+
+Execution halted
+
+[VSC-R] ch11.rmd process exited with exit code 1
+[VSC-R] terminating R process
+[VSC-R] terminating R process
