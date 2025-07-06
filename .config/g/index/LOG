@@ -3202,3 +3202,15 @@
 16:24:56.071174 db@open done T·9.975558ms
 16:24:56.071191 table@move L0@705 -> L1
 16:24:56.071223 version@stat F·[7 59] S·9KiB[995B 8KiB] Sc·[1.75 0.00]
+=============== Jul 6, 2025 (CEST) ===============
+22:52:36.493906 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+22:52:36.494117 version@stat F·[7 59] S·9KiB[995B 8KiB] Sc·[1.75 0.00]
+22:52:36.494132 db@open opening
+22:52:36.494221 journal@recovery F·1
+22:52:36.495415 journal@recovery recovering @706
+22:52:36.506806 memdb@flush created L0@708 N·1 S·151B "/ho..dms,v133":"/ho..dms,v133"
+22:52:36.506879 version@stat F·[8 59] S·9KiB[1KiB 8KiB] Sc·[2.00 0.00]
+22:52:36.527634 db@janitor F·69 G·0
+22:52:36.527647 db@open done T·33.508622ms
+22:52:36.527678 table@move L0@708 -> L1
+22:52:36.527715 version@stat F·[7 60] S·9KiB[995B 8KiB] Sc·[1.75 0.00]
